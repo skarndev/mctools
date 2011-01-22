@@ -1,0 +1,81 @@
+Loading archive 'D:\World of Warcraft\Data\lichking.MPQ'
+Archive 'D:\World of Warcraft\Data\lichking.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\expansion.MPQ'
+Archive 'D:\World of Warcraft\Data\expansion.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\patch-2.MPQ'
+Archive 'D:\World of Warcraft\Data\patch-2.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\patch.MPQ'
+Archive 'D:\World of Warcraft\Data\patch.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\common-2.MPQ'
+Archive 'D:\World of Warcraft\Data\common-2.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\common.MPQ'
+Archive 'D:\World of Warcraft\Data\common.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\deDE\locale-deDE.MPQ'
+Archive 'D:\World of Warcraft\Data\deDE\locale-deDE.MPQ' loaded!
+Loading archive 'D:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Could not load 'D:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Loading archive 'D:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Could not load 'D:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Loading archive 'D:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Could not load 'D:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Loading 'World\Maps\Northrend\Northrend_24_27.adt'...
+Loading MCIN with size 4096...
+Loading MTEX with size 295...
+Loading MMDX with size 1061...
+Loading MWMO with size 0...
+Loading MDDF with size 43056...
+Loading MODF with size 0...
+Loading archive 'C:\World of Warcraft\Data\lichking.MPQ'
+Archive 'C:\World of Warcraft\Data\lichking.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\expansion.MPQ'
+Archive 'C:\World of Warcraft\Data\expansion.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\patch-2.MPQ'
+Archive 'C:\World of Warcraft\Data\patch-2.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\patch.MPQ'
+Archive 'C:\World of Warcraft\Data\patch.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\common-2.MPQ'
+Archive 'C:\World of Warcraft\Data\common-2.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\common.MPQ'
+Archive 'C:\World of Warcraft\Data\common.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\deDE\locale-deDE.MPQ'
+Archive 'C:\World of Warcraft\Data\deDE\locale-deDE.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Could not load 'C:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Loading archive 'C:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Could not load 'C:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Loading archive 'C:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Could not load 'C:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Loading 'World\Maps\Northrend\Northrend_17_31.adt'...
+Loading MCIN with size 4096...
+Loading MTEX with size 240...
+Loading MMDX with size 0...
+Loading MWMO with size 0...
+Loading MDDF with size 0...
+Loading MODF with size 0...
+Loading archive 'C:\World of Warcraft\Data\lichking.MPQ'
+Archive 'C:\World of Warcraft\Data\lichking.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\expansion.MPQ'
+Archive 'C:\World of Warcraft\Data\expansion.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\patch-2.MPQ'
+Archive 'C:\World of Warcraft\Data\patch-2.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\patch.MPQ'
+Archive 'C:\World of Warcraft\Data\patch.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\common-2.MPQ'
+Archive 'C:\World of Warcraft\Data\common-2.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\common.MPQ'
+Archive 'C:\World of Warcraft\Data\common.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\deDE\locale-deDE.MPQ'
+Archive 'C:\World of Warcraft\Data\deDE\locale-deDE.MPQ' loaded!
+Loading archive 'C:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Could not load 'C:\World of Warcraft\Data\enGB\locale-enGB.MPQ'
+Loading archive 'C:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Could not load 'C:\World of Warcraft\Data\enUS\locale-enUS.MPQ'
+Loading archive 'C:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Could not load 'C:\World of Warcraft\Data\ruRU\locale-ruRU.MPQ'
+Loading 'World\Maps\Kalimdor\Kalimdor_1_0.adt'...
+Loading MCIN with size 4096...
+Loading MTEX with size 36...
+Loading MMDX with size 0...
+Loading MWMO with size 0...
+Loading MDDF with size 0...
+Loading MODF with size 0...

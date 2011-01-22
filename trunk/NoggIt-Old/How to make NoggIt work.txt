@@ -1,0 +1,5 @@
+You need WoW 1.12
+Get some old WoW CDs, install them, upgrade to WoW 1.12
+Open WoW 1.12 then close it, then open NoggIt. Your done.
+To save an edited ADT, hit K. Then look for the folderpath/file in your WoW 1.12 folder.
+Pack these edited files in an MPQ, and load them up in the current version of WoW.

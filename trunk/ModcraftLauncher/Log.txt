@@ -1,0 +1,780 @@
+[16:33:12]: Session started at 2010-01-18.
+[16:33:12]: CFindPattern initialized: dwStart( 401000 ) dwLen( 52BFFE )
+[16:33:12]: 0x007CB790 -> LUAProtection
+[16:33:12]: 0x0122DBB0 -> RenderFlags
+[16:33:12]: 0x0077BB0D -> SignatureCheck
+[16:33:12]: 0x0077BB1C -> SignatureCheck2
+[16:33:12]: 0x00603B30 -> CheckExecutableSignature
+[16:33:12]: 0x00519FDC -> Commentator_enable
+[16:33:13]: 0x01175118 -> Commentator_structure
+[16:33:13]: 0x00444140 -> RenderScreen
+[16:33:13]: 0x007CC7C5 -> GlueXML_AdditionalScan
+[16:33:13]: 0x006A52C0 -> UpdateGameTime2
+[16:33:13]: 0x010A6890 -> CursorItemInfo
+[16:33:13]: 0x00635FB0 -> EquipCursorItem
+[16:33:13]: 0x007CC2E0 -> AdditionalCheck2
+[16:33:13]: 0x0077D0F0 -> GetLuaState
+[16:33:13]: 0x00404FA0 -> AdditionalCheck1
+[16:33:13]: 0x0117A00C -> RepairMode
+[16:33:13]: 0x00546170 -> RepairItem
+[16:33:13]: 0x00471050 -> DefaultServerLogin
+[16:33:13]: 0x00689A70 -> BroadcastCombatLogEvent
+[16:33:13]: 0x007116B0 -> TraceLine
+[16:33:13]: 0x007D1250 -> LoadWardenModule
+[16:33:13]: 0x004AD440 -> CloseLoot
+[16:33:13]: 0x00587D40 -> GetNetStats
+[16:33:13]: 0x011CB324 -> NetClass
+[16:33:13]: 0x004704E0 -> CreateCurMgr
+[16:33:13]: 0x01177E60 -> ContainerGUIDBase
+[16:33:13]: 0x0062A430 -> SellItem
+[16:33:13]: 0x00768010 -> GetSpellManaCostByID
+[16:33:13]: 0x004D1E40 -> IsValidSpell
+[16:33:13]: 0x004DFAD0 -> LootSlot
+[16:33:13]: 0x004DEB50 -> GetNumLootItems
+[16:33:13]: 0x004AEBF0 -> SelectUnit
+[16:33:13]: 0x010A68B4 -> RealZoneText
+[16:33:13]: 0x01178A44 -> CInputControl
+[16:33:13]: 0x00558390 -> CInputControl::SetFlags
+[16:33:13]: 0x006A975B -> ModelEdit
+[16:33:13]: 0x0067091F -> NameplatePatch
+[16:33:14]: 0xFFFFFFDB -> CanAttack
+[16:33:14]: 0x0066BD40 -> GetUnitRelation
+[16:33:14]: 0x006A53B0 -> UpdateGameTime
+[16:33:14]: 0x006A54F9 -> TimeSetPatch
+[16:33:14]: 0x006A3E17 -> TimeSetPatch2
+[16:33:14]: 0x008D8E00 -> SetFacing
+[16:33:14]: 0x00666A00 -> GetUnitType
+[16:33:14]: 0x0047278F -> GlueXML_SignaturePatch
+[16:33:14]: 0x004B3EB6 -> FrameXML_SignaturePatch
+[16:33:14]: 0x004D1A20 -> GetSpellIdByName
+[16:33:14]: 0x0046DB20 -> GetObjectByGUID
+[16:33:14]: 0x00566230 -> GetGUIDByKeyword
+[16:33:14]: 0x00496469 -> TranslatePatch
+[16:33:14]: 0x00551BFF -> GlueXML_RenamePatch
+[16:33:14]: 0x00651660 -> GetItemIDByName
+[16:33:14]: 0x00650550 -> UseItem
+[16:33:14]: 0x00602460 -> Checksum
+[16:33:14]: 0x0076F1F0 -> GetSpellCooldown
+[16:33:14]: 0x011AF1C8 -> Base_DBCache
+[16:33:14]: 0x005CBBE0 -> DBCache::GetInfoBlockByID
+[16:33:14]: 0x0076F220 -> GetItemCooldown
+[16:33:14]: 0x0077F9D0 -> BroadcastEvent
+[16:33:14]: 0x012E9944 -> EventBase
+[16:33:14]: 0x00972F8B -> MountainClimbPatch
+[16:33:14]: 0x00633470 -> ObjectTracking
+[16:33:15]: 0x006333E0 -> UnitTracking
+[16:33:15]: 0x00773860 -> CastSpellById
+[16:33:15]: 0x012DBE20 -> TimePtr
+[16:33:15]: 0x0062A050 -> Repop
+[16:33:15]: 0x005A84F0 -> RegisterBase_ClientDB
+[16:33:15]: 0x0047DCD0 -> GetRow_ClientDB
+[16:33:15]: 0x00499007 -> Language_Restriction
+[16:33:15]: 0x0062A4D0 -> BuyItem
+[16:33:15]: 0x010B88E8 -> MerchantItemBase
+[16:33:15]: 0x010B9BA8 -> InteractMerchantInfo
+[16:33:15]: 0x0054CF4A -> AFK jump
+[16:33:15]: 0x007C8FA0 -> InputEvent
+[16:33:15]: 0x004B4CD0 -> GetCamera
+[16:33:15]: 0x007AE7D0 -> lua_settable
+[16:33:15]: 0x007AE200 -> lua_createtable
+[16:33:15]: 0x0077E460 -> Lua_Dostring
+[16:33:15]: 0x0077D290 -> Lua_Register
+[16:33:15]: 0x00401980 -> Lua_Reload
+[16:33:15]: 0x007ADAD0 -> lua_gettop
+[16:33:15]: 0x007ADF30 -> lua_tonumber
+[16:33:15]: 0x007ADF70 -> lua_tointeger
+[16:33:15]: 0x007ADFE0 -> lua_tostring
+[16:33:15]: 0x007AE110 -> lua_touserdata
+[16:33:15]: 0x007ADFB0 -> lua_toboolean
+[16:33:15]: 0x007AE1A0 -> lua_pushnumber
+[16:33:15]: 0x007AE1D0 -> lua_pushinteger
+[16:33:15]: 0x007AE200 -> lua_pushstring
+[16:33:15]: 0x007AE3D0 -> lua_pushboolean
+[16:33:16]: 0x007AE300 -> lua_pushcclosure
+[16:33:16]: 0x007AE180 -> lua_pushnil
+[16:33:16]: 0x007AE800 -> lua_setfield
+[16:33:16]: 0x007AF760 -> lua_getfield
+[16:33:16]: 0x007ADC70 -> lua_replace
+[16:33:16]: Adding a detour at 0x77D290(0x14CFDFC) called Lua_Register
+[16:33:16]: ID: 1, size: 32 ()
+[16:33:16]: ParentID: 1, size: 32 ()
+[16:33:16]: Name: C, size: 12C ()
+[16:33:16]: Group: 1, size: 32 ()
+[16:33:16]: ID: 1, size: 32 ()
+[16:33:16]: Achievement: 1, size: 32 ()
+[16:33:16]: Unknown: 1, size: 32 ()
+[16:33:16]: Group: 1, size: 32 ()
+[16:33:16]: Quantity: 1, size: 32 ()
+[16:33:16]: Category1: 1, size: 32 ()
+[16:33:16]: Map1: 1, size: 32 ()
+[16:33:16]: Category2: 1, size: 32 ()
+[16:33:16]: Map2: 1, size: 32 ()
+[16:33:16]: Description: C, size: 12C ()
+[16:33:16]: Unknown: 1, size: 32 ()
+[16:33:16]: Unknown: 1, size: 32 ()
+[16:33:16]: Unknown: 1, size: 32 ()
+[16:33:16]: Timevalue: 1, size: 32 ()
+[16:33:16]: Unknown: 1, size: 32 ()
+[16:33:16]: ID: 1, size: 32 ()
+[16:33:16]: Faction: 1, size: 32 ()
+[16:33:16]: Map: 1, size: 32 ()
+[16:33:16]: Previous: 1, size: 32 ()
+[16:33:16]: Name: C, size: C8 ()
+[16:33:16]: Description: C, size: C8 ()
+[16:33:16]: Category: 1, size: 32 ()
+[16:33:17]: Points: 1, size: 32 ()
+[16:33:17]: Unknown: 1, size: 32 ()
+[16:33:17]: Unknown: 1, size: 32 ()
+[16:33:17]: SpellIcon: 1, size: 32 ()
+[16:33:17]: Reward: C, size: C8 ()
+[16:33:17]: Demands: 1, size: 32 ()
+[16:33:17]: Unknown: 1, size: 32 ()
+[16:33:17]: ID: 1, size: 32 ()
+[16:33:17]: Name: C, size: C8 ()
+[16:33:17]: Weapon state: 1, size: 32 (32 = pull weapons out during animation. 16 and 4 weapons are put back)
+[16:33:17]: Flags: 1, size: 32 (unknown values etc)
+[16:33:17]: Unknown: 1, size: 32 (unknown values etc)
+[16:33:17]: Preceeding: 1, size: 32 (the animation, preceeding this one)
+[16:33:17]: RealId: 1, size: 32 (same as ID for normal animations)
+[16:33:17]: Group: 1, size: 32 (0 for normal, 3 for fly.)
+[16:33:17]: ID: 1, size: 32 ()
+[16:33:17]: Animation: 1, size: 32 ()
+[16:33:17]: Type: 1, size: 32 ()
+[16:33:17]: Flags: 1, size: 32 ()
+[16:33:17]: Unknown: 3, size: 32 ()
+[16:33:17]: ID: 1, size: 32 ()
+[16:33:17]: Name: C, size: 12C ()
+[16:33:17]: Race: 1, size: 32 ()
+[16:33:17]: Class: 1, size: 32 ()
+[16:33:17]: ID: 1, size: 32 ()
+[16:33:17]: Model1: 1, size: 32 ()
+[16:33:17]: Model2: 1, size: 32 ()
+[16:33:17]: Extra: 1, size: 32 ()
+[16:33:17]: Scale: 2, size: 32 ()
+[16:33:17]: Opacity: 1, size: 32 ()
+[16:33:17]: Skin1: C, size: 96 ()
+[16:33:17]: Skin2: C, size: 96 ()
+[16:33:18]: Skin3: C, size: 96 ()
+[16:33:18]: Icon: A, size: 96 ()
+[16:33:18]: Type: 1, size: 32 ()
+[16:33:18]: Flags: 1, size: 32 ()
+[16:33:18]: Sound: 1, size: 32 ()
+[16:33:18]: ID: 1, size: 32 ()
+[16:33:18]: iName: C, size: C8 ()
+[16:33:18]: Animation: 1, size: 32 ()
+[16:33:18]: Flags: 1, size: 32 ()
+[16:33:18]: Loop: 1, size: 32 ()
+[16:33:18]: Hold: 1, size: 32 ()
+[16:33:18]: Sound: 1, size: 32 ()
+[16:33:18]: ID: 1, size: 32 ()
+[16:33:18]: uGainID: 1, size: 32 (Each faction that has gainable rep has a unique number. All factions that you can not gain rep with has -1)
+[16:33:18]: atWar: 1, size: 32 ()
+[16:33:18]: allied: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:18]: BaseReputation: 1, size: 32 ()
+[16:33:18]: Mod1: 1, size: 32 ()
+[16:33:18]: Mod2: 1, size: 32 ()
+[16:33:18]: Mod3: 1, size: 32 ()
+[16:33:18]: Cond1: 1, size: 32 ()
+[16:33:18]: Cond2: 1, size: 32 ()
+[16:33:18]: Cond3: 1, size: 32 ()
+[16:33:18]: Cond4: 1, size: 32 ()
+[16:33:18]: ParentFaction: 1, size: 32 ()
+[16:33:18]: Name: C, size: C8 ()
+[16:33:18]: Description: C, size: C8 ()
+[16:33:18]: ID: 1, size: 32 ()
+[16:33:18]: Unknown: 1, size: 32 ()
+[16:33:19]: Name: B, size: 12C ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: ID: 1, size: 32 ()
+[16:33:19]: Map: 1, size: 32 ()
+[16:33:19]: posx: 2, size: 32 ()
+[16:33:19]: posy: 2, size: 32 ()
+[16:33:19]: posz: 2, size: 32 ()
+[16:33:19]: radin: 2, size: 32 ()
+[16:33:19]: radout: 2, size: 32 ()
+[16:33:19]: sky'n'fog: 1, size: 32 ()
+[16:33:19]: water: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: Unknown: 1, size: 32 ()
+[16:33:19]: ID: 1, size: 32 ()
+[16:33:19]: iName: C, size: C8 ()
+[16:33:19]: Filename: A, size: 12C ()
+[16:33:19]: ID: 1, size: 32 ()
+[16:33:19]: Filename: A, size: 12C (texture used for this icon)
+[16:33:19]: ID: 1, size: 32 ()
+[16:33:19]: Unknown1: 1, size: 32 ()
+[16:33:19]: Unknown2: 1, size: 32 ()
+[16:33:19]: Unknown3: 1, size: 32 ()
+[16:33:19]: Unknown4: 1, size: 32 ()
+[16:33:19]: ID: 1, size: 32 ()
+[16:33:19]: Unknown1: 1, size: 32 ()
+[16:33:19]: Unknown2: 1, size: 32 ()
+[16:33:19]: Unknown3: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit1: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit2: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit3: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit4: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit5: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit6: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit7: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit8: 1, size: 32 ()
+[16:33:19]: IdRefSpellVisualKit9: 1, size: 32 ()
+[16:33:20]: DB( E7 = DB_Achievement ) -> FCF550
+[16:33:20]: DB( E8 = DB_Achievement_Criteria ) -> FCF574
+[16:33:20]: DB( E9 = DB_Achievement_Category ) -> FCF598
+[16:33:20]: DB( EA = DB_AnimationData ) -> FCF5BC
+[16:33:20]: DB( EB = DB_AreaGroup ) -> FCF5E0
+[16:33:20]: DB( EC = DB_AreaPOI ) -> FCF604
+[16:33:20]: DB( ED = DB_AreaTable ) -> FCF628
+[16:33:20]: DB( EE = DB_AreaTrigger ) -> FCF64C
+[16:33:20]: DB( EF = DB_AttackAnimKits ) -> FCF670
+[16:33:20]: DB( F0 = DB_AttackAnimTypes ) -> FCF694
+[16:33:20]: DB( F1 = DB_AuctionHouse ) -> FCF6B8
+[16:33:20]: DB( F2 = DB_BankBagSlotPrices ) -> FCF6DC
+[16:33:20]: DB( F3 = DB_BarberShopStyle ) -> FCF700
+[16:33:20]: DB( F4 = DB_BattlemasterList ) -> FCF724
+[16:33:20]: DB( F5 = DB_CameraShakes ) -> FCF748
+[16:33:20]: DB( F6 = DB_Cfg_Categories ) -> FCF76C
+[16:33:20]: DB( F7 = DB_Cfg_Configs ) -> FCF790
+[16:33:20]: DB( F8 = DB_CharBaseInfo ) -> FCF7B4
+[16:33:20]: DB( F9 = DB_CharHairGeosets ) -> FCF7D8
+[16:33:20]: DB( FA = DB_CharSections ) -> FCF7FC
+[16:33:20]: DB( FB = DB_CharStartOutfit ) -> FCF820
+[16:33:20]: DB( FC = DB_CharTitles ) -> FCF844
+[16:33:20]: DB( FD = DB_CharacterFacialHairStyles ) -> FCF868
+[16:33:20]: DB( FE = DB_ChatChannels ) -> FCF88C
+[16:33:20]: DB( FF = DB_ChatProfanity ) -> FCF8B0
+[16:33:20]: DB( 100 = DB_ChrClasses ) -> FCF8D4
+[16:33:20]: DB( 101 = DB_ChrRaces ) -> FCF8F8
+[16:33:20]: DB( 102 = DB_CinematicCamera ) -> FCF91C
+[16:33:20]: DB( 103 = DB_CinematicSequences ) -> FCF940
+[16:33:20]: DB( 104 = DB_CreatureDisplayInfo ) -> FCF988
+[16:33:20]: DB( 105 = DB_CreatureDisplayInfoExtra ) -> FCF964
+[16:33:20]: DB( 106 = DB_CreatureFamily ) -> FCF9AC
+[16:33:20]: DB( 107 = DB_CreatureModelData ) -> FCF9D0
+[16:33:20]: DB( 108 = DB_CreatureSoundData ) -> FCF9F4
+[16:33:20]: DB( 109 = DB_CreatureSpellData ) -> FCFA18
+[16:33:20]: DB( 10A = DB_CreatureType ) -> FCFA3C
+[16:33:20]: DB( 10B = DB_CurrencyTypes ) -> FCFA60
+[16:33:20]: DB( 10C = DB_CurrencyCategory ) -> FCFA84
+[16:33:20]: DB( 10D = DB_DanceMoves ) -> FCFAA8
+[16:33:20]: DB( 10E = DB_DeathThudLookups ) -> FCFACC
+[16:33:20]: DB( 10F = DB_DeclinedWord ) -> FCFAF0
+[16:33:20]: DB( 110 = DB_DeclinedWordCases ) -> FCFB14
+[16:33:20]: DB( 111 = DB_DungeonMap ) -> FCFB38
+[16:33:21]: DB( 112 = DB_DungeonMapChunk ) -> FCFB5C
+[16:33:21]: DB( 113 = DB_DurabilityCosts ) -> FCFB80
+[16:33:21]: DB( 114 = DB_DurabilityQuality ) -> FCFBA4
+[16:33:21]: DB( 115 = DB_Emotes ) -> FCFBC8
+[16:33:21]: DB( 116 = DB_EmotesText ) -> FCFC34
+[16:33:21]: DB( 117 = DB_EmotesTextData ) -> FCFBEC
+[16:33:21]: DB( 118 = DB_EmotesTextSound ) -> FCFC10
+[16:33:21]: DB( 119 = DB_EnvironmentalDamage ) -> FCFC58
+[16:33:21]: DB( 11A = DB_Exhaustion ) -> FCFC7C
+[16:33:21]: DB( 11B = DB_Faction ) -> FCFCC4
+[16:33:21]: DB( 11C = DB_FactionGroup ) -> FCFCA0
+[16:33:21]: DB( 11D = DB_FactionTemplate ) -> FCFCE8
+[16:33:21]: DB( 11E = DB_FileData ) -> FCFD0C
+[16:33:21]: DB( 11F = DB_FootprintTextures ) -> FCFD30
+[16:33:21]: DB( 120 = DB_FootstepTerrainLookup ) -> FCFD54
+[16:33:21]: DB( 121 = DB_GameObjectArtKit ) -> FCFD78
+[16:33:21]: DB( 122 = DB_GameObjectDisplayInfo ) -> FCFD9C
+[16:33:21]: DB( 123 = DB_GameTables ) -> FCFDC0
+[16:33:21]: DB( 124 = DB_GameTips ) -> FCFDE4
+[16:33:21]: DB( 125 = DB_GemProperties ) -> FCFE08
+[16:33:21]: DB( 126 = DB_GlyphProperties ) -> FCFE2C
+[16:33:21]: DB( 127 = DB_GlyphSlot ) -> FCFE50
+[16:33:21]: DB( 128 = DB_GMSurveyAnswers ) -> FCFE74
+[16:33:21]: DB( 129 = DB_GMSurveyCurrentSurvey ) -> FCFE98
+[16:33:21]: DB( 12A = DB_GMSurveyQuestions ) -> FCFEBC
+[16:33:21]: DB( 12B = DB_GMSurveySurveys ) -> FCFEE0
+[16:33:21]: DB( 12C = DB_GMTicketCategory ) -> FCFF04
+[16:33:21]: DB( 12D = DB_GroundEffectDoodad ) -> FCFF28
+[16:33:21]: DB( 12E = DB_GroundEffectTexture ) -> FCFF4C
+[16:33:21]: DB( 12F = DB_gtBarberShopCostBase ) -> FCFF70
+[16:33:21]: DB( 130 = DB_gtCombatRatings ) -> FCFF94
+[16:33:21]: DB( 131 = DB_gtChanceToMeleeCrit ) -> FCFFB8
+[16:33:21]: DB( 132 = DB_gtChanceToMeleeCritBase ) -> FCFFDC
+[16:33:21]: DB( 133 = DB_gtChanceToSpellCrit ) -> FD0000
+[16:33:21]: DB( 134 = DB_gtChanceToSpellCritBase ) -> FD0024
+[16:33:21]: DB( 135 = DB_gtNPCManaCostScaler ) -> FD0048
+[16:33:21]: DB( 136 = DB_gtOCTRegenHP ) -> FD006C
+[16:33:21]: DB( 137 = DB_gtOCTRegenMP ) -> FD0090
+[16:33:21]: DB( 138 = DB_gtRegenHPPerSpt ) -> FD00B4
+[16:33:21]: DB( 139 = DB_gtRegenMPPerSpt ) -> FD00D8
+[16:33:21]: DB( 13A = DB_HelmetGeosetVisData ) -> FD00FC
+[16:33:21]: DB( 13B = DB_HolidayDescriptions ) -> FD0120
+[16:33:21]: DB( 13C = DB_HolidayNames ) -> FD0144
+[16:33:21]: DB( 13D = DB_Holidays ) -> FD0168
+[16:33:21]: DB( 13E = DB_Item ) -> FD018C
+[16:33:22]: DB( 13F = DB_ItemBagFamily ) -> FD01B0
+[16:33:22]: DB( 140 = DB_ItemClass ) -> FD01D4
+[16:33:22]: DB( 141 = DB_ItemCondExtCosts ) -> FD01F8
+[16:33:22]: DB( 142 = DB_ItemDisplayInfo ) -> FD021C
+[16:33:22]: DB( 143 = DB_ItemExtendedCost ) -> FD0240
+[16:33:22]: DB( 144 = DB_ItemGroupSounds ) -> FD0264
+[16:33:22]: DB( 145 = DB_ItemLimitCategory ) -> FD0288
+[16:33:22]: DB( 146 = DB_ItemPetFood ) -> FD02AC
+[16:33:22]: DB( 147 = DB_ItemPurchaseGroup ) -> FD02D0
+[16:33:22]: DB( 148 = DB_ItemRandomProperties ) -> FD02F4
+[16:33:22]: DB( 149 = DB_ItemRandomSuffix ) -> FD0318
+[16:33:22]: DB( 14A = DB_ItemSet ) -> FD033C
+[16:33:22]: DB( 14B = DB_ItemSubClass ) -> FD0384
+[16:33:22]: DB( 14C = DB_ItemSubClassMask ) -> FD0360
+[16:33:22]: DB( 14D = DB_ItemVisualEffects ) -> FD03A8
+[16:33:22]: DB( 14E = DB_ItemVisuals ) -> FD03CC
+[16:33:22]: DB( 14F = DB_LanguageWords ) -> FD03F0
+[16:33:22]: DB( 150 = DB_Languages ) -> FD0414
+[16:33:22]: DB( 151 = DB_LfgDungeons ) -> FD0438
+[16:33:22]: DB( 152 = DB_Light ) -> FF2D80
+[16:33:22]: DB( 153 = DB_LightFloatBand ) -> FF2D38
+[16:33:22]: DB( 154 = DB_LightIntBand ) -> FF2D14
+[16:33:22]: DB( 155 = DB_LightParams ) -> FF2D5C
+[16:33:22]: DB( 156 = DB_LightSkybox ) -> FF2CF0
+[16:33:22]: DB( 157 = DB_LiquidType ) -> FD045C
+[16:33:22]: DB( 158 = DB_LiquidMaterial ) -> FD0480
+[16:33:22]: DB( 159 = DB_LoadingScreens ) -> FD04A4
+[16:33:22]: DB( 15A = DB_LoadingScreenTaxiSplines ) -> FD04C8
+[16:33:22]: DB( 15B = DB_Lock ) -> FD04EC
+[16:33:22]: DB( 15C = DB_LockType ) -> FD0510
+[16:33:22]: DB( 15D = DB_MailTemplate ) -> FD0534
+[16:33:22]: DB( 15E = DB_Map ) -> FD0558
+[16:33:22]: DB( 15F = DB_Material ) -> FD057C
+[16:33:22]: DB( 160 = DB_Movie ) -> FD05A0
+[16:33:22]: DB( 161 = DB_MovieFileData ) -> FD05C4
+[16:33:22]: DB( 162 = DB_MovieVariation ) -> FD05E8
+[16:33:22]: DB( 163 = DB_NameGen ) -> FD060C
+[16:33:22]: DB( 164 = DB_NPCSounds ) -> FD0630
+[16:33:22]: DB( 165 = DB_NamesProfanity ) -> FD0654
+[16:33:22]: DB( 166 = DB_NamesReserved ) -> FD0678
+[16:33:22]: DB( 167 = DB_Package ) -> FD069C
+[16:33:22]: DB( 168 = DB_PageTextMaterial ) -> FD06C0
+[16:33:23]: DB( 169 = DB_PaperDollItemFrame ) -> FD06E4
+[16:33:23]: DB( 16A = DB_ParticleColor ) -> FD0708
+[16:33:23]: DB( 16B = DB_PetPersonality ) -> FD072C
+[16:33:23]: DB( 16C = DB_QuestInfo ) -> FD0750
+[16:33:23]: DB( 16D = DB_QuestSort ) -> FD0774
+[16:33:23]: DB( 16E = DB_Resistances ) -> FD0798
+[16:33:23]: DB( 16F = DB_RandPropPoints ) -> FD07BC
+[16:33:23]: DB( 170 = DB_ScalingStatDistribution ) -> FD07E0
+[16:33:23]: DB( 171 = DB_ScalingStatValues ) -> FD0804
+[16:33:23]: DB( 172 = DB_ScreenEffect ) -> FD0828
+[16:33:23]: DB( 173 = DB_ServerMessages ) -> FD084C
+[16:33:23]: DB( 174 = DB_SheatheSoundLookups ) -> FD0870
+[16:33:23]: DB( 175 = DB_SkillCostsData ) -> FD0894
+[16:33:23]: DB( 176 = DB_SkillLineAbility ) -> FD08B8
+[16:33:23]: DB( 177 = DB_SkillLineCategory ) -> FD08DC
+[16:33:23]: DB( 178 = DB_SkillLine ) -> FD0900
+[16:33:23]: DB( 179 = DB_SkillRaceClassInfo ) -> FD0924
+[16:33:23]: DB( 17A = DB_SkillTiers ) -> FD0948
+[16:33:23]: DB( 17B = DB_SoundAmbience ) -> FD096C
+[16:33:23]: DB( 17C = DB_SoundEmitters ) -> FD09B4
+[16:33:23]: DB( 17D = DB_SoundEntries ) -> FD0990
+[16:33:23]: DB( 17E = DB_SoundProviderPreferences ) -> FD09D8
+[16:33:23]: DB( 17F = DB_SoundSamplePreferences ) -> FD09FC
+[16:33:23]: DB( 180 = DB_SoundWaterType ) -> FD0A20
+[16:33:23]: DB( 181 = DB_SpamMessages ) -> FD0A44
+[16:33:23]: DB( 182 = DB_SpellCastTimes ) -> FD0A68
+[16:33:23]: DB( 183 = DB_SpellCategory ) -> FD0A8C
+[16:33:23]: DB( 184 = DB_SpellChainEffects ) -> FD0AB0
+[16:33:23]: DB( 185 = DB_Spell ) -> FD0CA8
+[16:33:23]: DB( 186 = DB_SpellDispelType ) -> FD0AD4
+[16:33:23]: DB( 187 = DB_SpellDuration ) -> FD0AF8
+[16:33:23]: DB( 188 = DB_SpellEffectCameraShakes ) -> FD0B1C
+[16:33:23]: DB( 189 = DB_SpellFocusObject ) -> FD0B40
+[16:33:23]: DB( 18A = DB_SpellIcon ) -> FD0B64
+[16:33:23]: DB( 18B = DB_SpellItemEnchantment ) -> FD0B88
+[16:33:23]: DB( 18C = DB_SpellItemEnchantmentCondition ) -> FD0BAC
+[16:33:23]: DB( 18D = DB_SpellMechanic ) -> FD0BD0
+[16:33:23]: DB( 18E = DB_SpellMissile ) -> FD0BF4
+[16:33:23]: DB( 18F = DB_SpellMissileMotion ) -> FD0C18
+[16:33:23]: DB( 190 = DB_SpellRadius ) -> FD0C3C
+[16:33:23]: DB( 191 = DB_SpellRange ) -> FD0C60
+[16:33:23]: DB( 192 = DB_SpellRuneCost ) -> FD0C84
+[16:33:23]: DB( 193 = DB_SpellShapeshiftForm ) -> FD0CCC
+[16:33:23]: DB( 194 = DB_SpellVisual ) -> FD0D38
+[16:33:23]: DB( 195 = DB_SpellVisualEffectName ) -> FD0CF0
+[16:33:24]: DB( 196 = DB_SpellVisualKit ) -> FD0D14
+[16:33:24]: DB( 197 = DB_StableSlotPrices ) -> FD0D5C
+[16:33:24]: DB( 198 = DB_Stationery ) -> FD0D80
+[16:33:24]: DB( 199 = DB_StringLookups ) -> FD0DA4
+[16:33:24]: DB( 19A = DB_SummonProperties ) -> FD0DC8
+[16:33:24]: DB( 19B = DB_Talent ) -> FD0DEC
+[16:33:24]: DB( 19C = DB_TalentTab ) -> FD0E10
+[16:33:24]: DB( 19D = DB_TaxiNodes ) -> FD0E34
+[16:33:24]: DB( 19E = DB_TaxiPath ) -> FD0E7C
+[16:33:24]: DB( 19F = DB_TaxiPathNode ) -> FD0E58
+[16:33:24]: DB( 1A0 = DB_TerrainType ) -> FD0EA0
+[16:33:24]: DB( 1A1 = DB_TerrainTypeSounds ) -> FD0EC4
+[16:33:24]: DB( 1A2 = DB_TotemCategory ) -> FD0EE8
+[16:33:24]: DB( 1A3 = DB_TransportAnimation ) -> FD0F0C
+[16:33:24]: DB( 1A4 = DB_TransportPhysics ) -> FD0F30
+[16:33:24]: DB( 1A5 = DB_UISoundLookups ) -> FD0F54
+[16:33:24]: DB( 1A6 = DB_UnitBlood ) -> FD0F9C
+[16:33:24]: DB( 1A7 = DB_UnitBloodLevels ) -> FD0F78
+[16:33:24]: DB( 1A8 = DB_Vehicle ) -> FD0FC0
+[16:33:24]: DB( 1A9 = DB_VehicleSeat ) -> FD0FE4
+[16:33:24]: DB( 1AA = DB_VocalUISounds ) -> FD1008
+[16:33:24]: DB( 1AB = DB_WMOAreaTable ) -> FD102C
+[16:33:24]: DB( 1AC = DB_WeaponImpactSounds ) -> FD1050
+[16:33:24]: DB( 1AD = DB_WeaponSwingSounds2 ) -> FD1074
+[16:33:24]: DB( 1AE = DB_Weather ) -> FD1098
+[16:33:24]: DB( 1AF = DB_WorldMapArea ) -> FD10BC
+[16:33:24]: DB( 1B0 = DB_WorldMapTransforms ) -> FD1128
+[16:33:24]: DB( 1B1 = DB_WorldMapContinent ) -> FD10E0
+[16:33:24]: DB( 1B2 = DB_WorldMapOverlay ) -> FD1104
+[16:33:24]: DB( 1B3 = DB_WorldSafeLocs ) -> FD114C
+[16:33:24]: DB( 1B4 = DB_WorldStateUI ) -> FD1170
+[16:33:24]: DB( 1B5 = DB_ZoneIntroMusicTable ) -> FD1194
+[16:33:24]: DB( 1B6 = DB_ZoneMusic ) -> FD11B8
+[16:33:24]: DB( 1B7 = DB_WorldStateZoneSounds ) -> FD11DC
+[16:33:24]: DB( 1B8 = DB_WorldChunkSounds ) -> FD1200
+[16:33:24]: DB( 1B9 = DB_SoundEntriesAdvanced ) -> FD1224
+[16:33:24]: DB( 1BA = DB_ObjectEffect ) -> FD1248
+[16:33:24]: DB( 1BB = DB_ObjectEffectGroup ) -> FD126C
+[16:33:24]: DB( 1BC = DB_ObjectEffectModifier ) -> FD1290
+[16:33:24]: DB( 1BD = DB_ObjectEffectPackage ) -> FD12B4
+[16:33:24]: DB( 1BE = DB_ObjectEffectPackageElem ) -> FD12D8
+[16:33:24]: DB( 1BF = DB_SoundFilter ) -> FD12FC
+[16:33:24]: DB( 1C0 = DB_SoundFilterElem ) -> FD1320
+[16:33:24]: Adding a detour at 0x4704E0(0x67046830) called CreateCurMgr
+[16:33:24]: Adding a detour at 0x7D1250(0x67046868) called LoadWarden
+[16:33:24]: Adding a detour at 0x602460(0x6704686C) called ChecksumClient
+[16:33:24]: Adding a detour at 0x404FA0(0x67046870) called AdditionalCheck1
+[16:33:24]: Adding a detour at 0x7CC2E0(0x67046874) called AdditionalCheck2
+[16:33:24]: Adding a detour at 0x77F9D0(0x67046848) called BroadcastEvent
+[16:33:24]: Adding a detour at 0x75DE60F8(0x67046878) called RegisterClassExA
+[16:33:24]: Module_Construct got called!
+[16:33:24]: Adding a detour at 0x53D460(0x670460FC) called sub_53D460
+[16:33:25]: Adding a detour at 0x74E210(0x67046100) called sub_0074E210
+[16:33:25]: Debug out detoured
+[16:33:25]: Added GlueXML patches
+[16:33:25]: Added SignatureCheck patches
+[16:33:25]: Added ModelEdit patch
+[16:33:25]: Added LUAProtection patch
+[16:33:27]: Adding a detour at 0x5DE0F0(0x6704684C) called WndProc
+[16:33:33]: 564180 -> GetTime
+[16:33:33]: 5641C0 -> GetGameTime
+[16:33:33]: 564200 -> ConsoleExec
+[16:33:33]: 49D1F0 -> ReadFile
+[16:33:33]: 49D1F0 -> DeleteFile
+[16:33:33]: 49D1F0 -> AppendToFile
+[16:33:33]: 475650 -> GetAccountExpansionLevel
+[16:33:33]: 780420 -> GetText
+[16:33:33]: 780750 -> GetNumFrames
+[16:33:33]: 780660 -> EnumerateFrames
+[16:33:33]: 7804B0 -> CreateFont
+[16:33:33]: 7807C0 -> CreateFrame
+[16:33:33]: 780AB0 -> GetFramesRegisteredForEvent
+[16:33:33]: 780520 -> GetCurrentKeyBoardFocus
+[16:33:33]: 473BC0 -> IsShiftKeyDown
+[16:33:33]: 473C10 -> GetBuildInfo
+[16:33:33]: 49D400 -> GetLocale
+[16:33:33]: 475020 -> GetSavedAccountName
+[16:33:33]: 473C70 -> SetSavedAccountName
+[16:33:33]: 475040 -> GetSavedAccountList
+[16:33:33]: 473CC0 -> SetSavedAccountList
+[16:33:33]: 473D10 -> SetCurrentScreen
+[16:33:33]: 473D60 -> QuitGame
+[16:33:33]: 473D70 -> QuitGameAndRunLauncher
+[16:33:33]: 473D80 -> PlayGlueMusic
+[16:33:33]: 473E60 -> PlayCreditsMusic
+[16:33:33]: 473EB0 -> StopGlueMusic
+[16:33:33]: 475060 -> GetMovieResolution
+[16:33:33]: 4748E0 -> GetScreenWidth
+[16:33:33]: 474930 -> GetScreenHeight
+[16:33:33]: 473ED0 -> LaunchURL
+[16:33:33]: 4750B0 -> ShowTOSNotice
+[16:33:33]: 4750F0 -> TOSAccepted
+[16:33:33]: 473F20 -> AcceptTOS
+[16:33:33]: 475130 -> ShowEULANotice
+[16:33:33]: 475170 -> EULAAccepted
+[16:33:33]: 473F30 -> AcceptEULA
+[16:33:33]: 4751B0 -> ShowTerminationWithoutNoticeNotice
+[16:33:33]: 4751F0 -> TerminationWithoutNoticeAccepted
+[16:33:33]: 473F40 -> AcceptTerminationWithoutNotice
+[16:33:33]: 475230 -> ShowScanningNotice
+[16:33:33]: 475270 -> ScanningAccepted
+[16:33:33]: 473F50 -> AcceptScanning
+[16:33:33]: 4752B0 -> ShowContestNotice
+[16:33:33]: 4752F0 -> ContestAccepted
+[16:33:33]: 473F60 -> AcceptContest
+[16:33:33]: 473F70 -> DefaultServerLogin
+[16:33:33]: 474210 -> StatusDialogClick
+[16:33:33]: 475330 -> GetServerName
+[16:33:33]: 475440 -> DisconnectFromServer
+[16:33:33]: 475480 -> IsConnectedToServer
+[16:33:33]: 474220 -> EnterWorld
+[16:33:33]: Adding a detour at 0x474220(0x67046828) called EnterWorld
+[16:33:33]: 474230 -> Screenshot
+[16:33:33]: 4754C0 -> PatchDownloadProgress
+[16:33:33]: 474250 -> PatchDownloadCancel
+[16:33:33]: 474260 -> PatchDownloadApply
+[16:33:33]: 474270 -> GetNumAddOns
+[16:33:33]: 4742B0 -> GetAddOnInfo
+[16:33:33]: 474470 -> LaunchAddOnURL
+[16:33:33]: 4754F0 -> GetAddOnDependencies
+[16:33:33]: 474510 -> GetAddOnEnableState
+[16:33:33]: 4745F0 -> EnableAddOn
+[16:33:33]: 4746B0 -> EnableAllAddOns
+[16:33:34]: 474700 -> DisableAddOn
+[16:33:34]: 4747C0 -> DisableAllAddOns
+[16:33:34]: 474810 -> SaveAddOns
+[16:33:34]: 474820 -> ResetAddOns
+[16:33:34]: 474830 -> IsAddonVersionCheckEnabled
+[16:33:34]: 474870 -> SetAddonVersionCheck
+[16:33:34]: 49D090 -> GetCursorPosition
+[16:33:34]: 4755C0 -> ShowCursor
+[16:33:34]: 4755E0 -> HideCursor
+[16:33:34]: 49E4E0 -> SetMovieSubtitles
+[16:33:34]: 49E530 -> GetMovieSubtitles
+[16:33:34]: 475600 -> GetBillingTimeRemaining
+[16:33:34]: 475690 -> GetBillingPlan
+[16:33:34]: 475740 -> GetBillingTimeRested
+[16:33:34]: 474980 -> SurveyNotificationDone
+[16:33:34]: 473FE0 -> PINEntered
+[16:33:34]: 473DD0 -> PlayGlueAmbience
+[16:33:34]: 473E40 -> StopGlueAmbience
+[16:33:34]: 474A20 -> GetCreditsText
+[16:33:34]: 475650 -> GetAccountExpansionLevel
+[16:33:34]: 4748B0 -> GetClientExpansionLevel
+[16:33:34]: 4740B0 -> MatrixEntered
+[16:33:34]: 474130 -> MatrixRevert
+[16:33:34]: 474140 -> MatrixCommit
+[16:33:34]: 474150 -> GetMatrixCoordinates
+[16:33:34]: 4749B0 -> ScanDLLStart
+[16:33:34]: 474AB0 -> ScanDLLContinueAnyway
+[16:33:34]: 474AC0 -> IsScanDLLFinished
+[16:33:34]: 4CDE50 -> IsWindowsClient
+[16:33:34]: 474B00 -> IsMacClient
+[16:33:34]: 474B00 -> IsLinuxClient
+[16:33:34]: 475C40 -> SetRealmSplitState
+[16:33:34]: 475CD0 -> RequestRealmSplitInfo
+[16:33:34]: 474B20 -> CancelLogin
+[16:33:34]: 475780 -> GetCVar
+[16:33:34]: 474B30 -> SetCVar
+[16:33:34]: 475800 -> GetCVarDefault
+[16:33:34]: 475890 -> GetCVarMin
+[16:33:34]: 475970 -> GetCVarMax
+[16:33:34]: 475A80 -> GetCVarAbsoluteMin
+[16:33:34]: 475B20 -> GetCVarAbsoluteMax
+[16:33:34]: 475BE0 -> GetChangedOptionWarnings
+[16:33:34]: 474BE0 -> AcceptChangedOptionWarnings
+[16:33:34]: 474BF0 -> ShowChangedOptionWarnings
+[16:33:35]: 4741E0 -> TokenEntered
+[16:33:35]: 474C30 -> GetNumDeclensionSets
+[16:33:35]: 49E3C0 -> DeclineName
+[16:33:35]: 474CD0 -> GetNumGameAccounts
+[16:33:35]: 474D60 -> GetGameAccountInfo
+[16:33:35]: 474E50 -> SetGameAccount
+[16:33:35]: 474F20 -> StopAllSFX
+[16:33:35]: 474F50 -> SetClearConfigData
+[16:33:35]: 49D430 -> RestartGx
+[16:33:35]: 474FA0 -> RestoreVideoResolutionDefaults
+[16:33:35]: 49D450 -> RestoreVideoEffectsDefaults
+[16:33:35]: 49D460 -> RestoreVideoStereoDefaults
+[16:33:35]: 474FB0 -> IsStreamingMode
+[16:33:35]: 474FC0 -> IsStreamingTrial
+[16:33:35]: 479980 -> SetCharSelectModelFrame
+[16:33:35]: 47A460 -> SetCharSelectBackground
+[16:33:35]: 47AB70 -> GetCharacterListUpdate
+[16:33:35]: 47A4B0 -> GetNumCharacters
+[16:33:35]: 47A4E0 -> GetCharacterInfo
+[16:33:35]: 47ABC0 -> SelectCharacter
+[16:33:35]: 47A720 -> DeleteCharacter
+[16:33:35]: 47A790 -> RenameCharacter
+[16:33:35]: 47A8B0 -> DeclineCharacter
+[16:33:35]: 4799F0 -> UpdateSelectionCustomizationScene
+[16:33:35]: 479A20 -> GetCharacterSelectFacing
+[16:33:35]: 479A50 -> SetCharacterSelectFacing
+[16:33:35]: 477950 -> SetCharCustomizeFrame
+[16:33:35]: 4779C0 -> SetCharCustomizeBackground
+[16:33:35]: 478EF0 -> ResetCharCustomize
+[16:33:35]: 477A10 -> GetNameForRace
+[16:33:35]: 477A90 -> GetFactionForRace
+[16:33:35]: 4785F0 -> GetAvailableRaces
+[16:33:35]: 478710 -> GetClassesForRace
+[16:33:35]: 477B60 -> GetHairCustomization
+[16:33:35]: 477BD0 -> GetFacialHairCustomization
+[16:33:35]: 477C50 -> GetSelectedRace
+[16:33:35]: 477C90 -> GetSelectedSex
+[16:33:35]: 477CD0 -> GetSelectedClass
+[16:33:35]: 478F00 -> SetSelectedRace
+[16:33:35]: 4787D0 -> SetSelectedSex
+[16:33:35]: 478840 -> SetSelectedClass
+[16:33:35]: 478F70 -> UpdateCustomizationBackground
+[16:33:35]: 477D60 -> UpdateCustomizationScene
+[16:33:35]: 477D90 -> CycleCharCustomization
+[16:33:35]: 4788B0 -> RandomizeCharCustomization
+[16:33:36]: 477E20 -> GetCharacterCreateFacing
+[16:33:36]: 477E50 -> SetCharacterCreateFacing
+[16:33:36]: 4773C0 -> GetRandomName
+[16:33:36]: 477EA0 -> CreateCharacter
+[16:33:36]: 478F90 -> CustomizeExistingCharacter
+[16:33:36]: 475D80 -> RequestRealmList
+[16:33:36]: 475DA0 -> RealmListUpdateRate
+[16:33:36]: 475E00 -> CancelRealmListQuery
+[16:33:36]: 476440 -> GetNumRealms
+[16:33:36]: 476510 -> GetRealmInfo
+[16:33:36]: 476900 -> ChangeRealm
+[16:33:36]: 476A60 -> GetRealmCategories
+[16:33:36]: 476CF0 -> SetPreferredInfo
+[16:33:36]: 476D70 -> SortRealms
+[16:33:36]: 476E40 -> GetSelectedCategory
+[16:33:36]: 475E10 -> RealmListDialogCancelled
+[16:33:36]: 476B10 -> IsInvalidTournamentRealmCategory
+[16:33:36]: 476BC0 -> IsTournamentRealmCategory
+[16:33:36]: 476C40 -> IsInvalidLocale
+[16:33:36]: 8D51B0 -> PlaySound
+[16:33:36]: 8D4C20 -> PlayMusic
+[16:33:36]: 8D4C80 -> PlaySoundFile
+[16:33:36]: 8D4CE0 -> StopMusic
+[16:33:36]: 8D4E70 -> Sound_GameSystem_GetNumInputDrivers
+[16:33:36]: 8D4EA0 -> Sound_GameSystem_GetInputDriverNameByIndex
+[16:33:36]: 8D4F30 -> Sound_GameSystem_GetNumOutputDrivers
+[16:33:36]: 8D4F60 -> Sound_GameSystem_GetOutputDriverNameByIndex
+[16:33:36]: 8D4FF0 -> Sound_GameSystem_RestartSoundSystem
+[16:33:36]: 8D4CF0 -> Sound_ChatSystem_GetNumInputDrivers
+[16:33:36]: 8D4D20 -> Sound_ChatSystem_GetInputDriverNameByIndex
+[16:33:36]: 8D4DB0 -> Sound_ChatSystem_GetNumOutputDrivers
+[16:33:36]: 8D4DE0 -> Sound_ChatSystem_GetOutputDriverNameByIndex
+[16:33:36]: 8D52A0 -> VoiceChat_StartCapture
+[16:33:36]: 8D5010 -> VoiceChat_StopCapture
+[16:33:36]: 8D5020 -> VoiceChat_RecordLoopbackSound
+[16:33:36]: 8D5090 -> VoiceChat_StopRecordingLoopbackSound
+[16:33:36]: 8D50A0 -> VoiceChat_PlayLoopbackSound
+[16:33:36]: 8D50B0 -> VoiceChat_StopPlayingLoopbackSound
+[16:33:36]: 8D50C0 -> VoiceChat_IsRecordingLoopbackSound
+[16:33:36]: 8D50F0 -> VoiceChat_IsPlayingLoopbackSound
+[16:33:36]: 8D5120 -> VoiceChat_GetCurrentMicrophoneSignalLevel
+[16:33:36]: 8D5150 -> VoiceChat_ActivatePrimaryCaptureCallback
+[16:33:36]: 4C1BB0 -> AccountMsg_LoadHeaders
+[16:33:36]: 4C1080 -> AccountMsg_GetNumTotalMsgs
+[16:33:36]: 4C1600 -> AccountMsg_GetNumUnreadMsgs
+[16:33:36]: 4C1680 -> AccountMsg_GetNumUnreadUrgentMsgs
+[16:33:36]: 4C16D0 -> AccountMsg_GetIndexHighestPriorityUnreadMsg
+[16:33:36]: 4C1780 -> AccountMsg_GetIndexNextUnreadMsg
+[16:33:36]: 4C10C0 -> AccountMsg_GetHeaderSubject
+[16:33:36]: 4C1160 -> AccountMsg_GetHeaderPriority
+[16:33:36]: 4C1210 -> AccountMsg_LoadBody
+[16:33:36]: 4C12C0 -> AccountMsg_GetBody
+[16:33:36]: 4C1850 -> AccountMsg_SetMsgRead
+[16:33:36]: 4C06B0 -> GetScreenResolutions
+[16:33:36]: 4C0720 -> GetCurrentResolution
+[16:33:36]: 4C07F0 -> SetScreenResolution
+[16:33:36]: 4C0920 -> GetRefreshRates
+[16:33:36]: 4C00B0 -> SetupFullscreenScale
+[16:33:36]: 4C0AB0 -> GetMultisampleFormats
+[16:33:36]: 4C0B40 -> GetCurrentMultisampleFormat
+[16:33:36]: 4C0C10 -> SetMultisampleFormat
+[16:33:36]: 4C0190 -> GetVideoCaps
+[16:33:36]: 4BFDD0 -> GetGamma
+[16:33:36]: 4BFE00 -> SetGamma
+[16:33:36]: 4BFE80 -> GetTerrainMip
+[16:33:36]: 4BFEB0 -> SetTerrainMip
+[16:33:36]: 4C02C0 -> IsStereoVideoAvailable
+[16:33:38]: FRAMES_LOADED
+[16:33:38]: SET_GLUE_SCREEN
+[16:33:38]: SCANDLL_DOWNLOADING
+[16:33:39]: SHOW_SERVER_ALERT
+[16:33:39]: SCANDLL_FINISHED
+[16:33:44]: OPEN_STATUS_DIALOG
+[16:33:44]: OPEN_STATUS_DIALOG
+[16:33:44]: OPEN_STATUS_DIALOG
+[16:33:44]: OPEN_STATUS_DIALOG
+[16:33:47]: OPEN_STATUS_DIALOG
+[16:33:48]: OPEN_STATUS_DIALOG
+[16:33:48]: OPEN_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:48]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:49]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_STATUS_DIALOG
+[16:33:50]: UPDATE_SELECTED_CHARACTER
+[16:33:51]: CHARACTER_LIST_UPDATE
+[16:33:51]: UPDATE_STATUS_DIALOG
+[16:33:51]: UPDATE_SELECTED_CHARACTER
+[16:33:51]: CHARACTER_LIST_UPDATE
+[16:33:51]: CLOSE_STATUS_DIALOG
+[16:33:51]: GET_PREFERRED_REALM_INFO
+[16:33:54]: SUGGEST_REALM
+[16:33:55]: OPEN_STATUS_DIALOG
+[16:33:55]: UPDATE_STATUS_DIALOG
+[16:33:55]: UPDATE_STATUS_DIALOG
+[16:33:55]: UPDATE_STATUS_DIALOG
+[16:33:55]: UPDATE_STATUS_DIALOG
+[16:33:55]: UPDATE_STATUS_DIALOG
+[16:33:55]: CLOSE_STATUS_DIALOG
+[16:33:55]: OPEN_REALM_LIST
+[16:33:57]: Module_Destruct got called!

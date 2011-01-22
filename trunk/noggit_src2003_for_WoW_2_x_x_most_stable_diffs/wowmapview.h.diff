@@ -1,0 +1,14 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wowmapview (2).h	Di Mrz 14 19:39:20 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wowmapview.h	Mi Sep  2 02:08:06 2009
+@@ -8,9 +8,9 @@
+ #include "freetype.h"
+ /// XXX this really needs to be refactored into a singleton class
+ 
+-#define APP_TITLE "Nogg-It"
++#define APP_TITLE "Nogg-It beta for WoW 2.x.x (edited by BEKET)"//version tip of the Noggit (lol)
+ 
+-#define APP_VERSION "v0.6 WIP"
++#define APP_VERSION "*Beta 1.2"
+ 
+ 
+ extern std::vector<AppState*> gStates;

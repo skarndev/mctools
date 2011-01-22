@@ -1,0 +1,3 @@
+syntax:geoset.exe <skin-file>
+
+by apfel

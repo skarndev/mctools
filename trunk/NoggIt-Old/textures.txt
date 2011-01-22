@@ -1,0 +1,606 @@
+tileset\aerie peaks\aeriepeaksgrasshighlight.blp
+tileset\aerie peaks\aeriepeaksgravelneedlesbase.blp
+tileset\aerie peaks\aeriepeaksrockbase.blp
+tileset\aerie peaks\aeriepeaksrockorangebase.blp
+tileset\aerie peaks\aeriepeaksrockroadbase.blp
+tileset\aerie peaks\aeriepeaksrockymudbase.blp
+tileset\aerie peaks\aeriepeaksscrubbrushbase.blp
+tileset\aerie peaks\aeriepeakstrolltile.blp
+tileset\aerie peaks\aeriepeakswebs.blp
+tileset\alteracmtns\alteraccropbase.blp
+tileset\alteracmtns\alteracdirtbase.blp
+tileset\alteracmtns\alteracdirtbase02.blp
+tileset\alteracmtns\alteracgrassbase.blp
+tileset\alteracmtns\alteracgrassbase2.blp
+tileset\alteracmtns\alteracgrassbase3.blp
+tileset\alteracmtns\alteracgrassdirt01.blp
+tileset\alteracmtns\alteracgrasshighlight.blp
+tileset\alteracmtns\alteracgrasshighlight02.blp
+tileset\alteracmtns\alteracgrasshighlight03.blp
+tileset\alteracmtns\alteracgrasshighlightwhite.blp
+tileset\alteracmtns\alteracleaf.blp
+tileset\alteracmtns\alteracleaf02.blp
+tileset\alteracmtns\alteracleaf03.blp
+tileset\alteracmtns\alteracpineneedles.blp
+tileset\alteracmtns\alteracrockbase.blp
+tileset\alteracmtns\alteracrockhighlight.blp
+tileset\alteracmtns\alteracrockroadbase.blp
+tileset\alteracmtns\alteracrockshorebase.blp
+tileset\alteracmtns\alteracrubblebase.blp
+tileset\alteracmtns\alteracthorns.blp
+tileset\alteracmtns\alteracweeds.blp
+tileset\alteracmtns\yellowflower01.blp
+tileset\alteracmtns\yellowflower02.blp
+tileset\araithihighlands\arathihighlandsbrickfloor.blp
+tileset\araithihighlands\arathihighlandscityfloor.blp
+tileset\araithihighlands\arathihighlandscropbase.blp
+tileset\araithihighlands\arathihighlandsdirt.blp
+tileset\araithihighlands\arathihighlandsgrassbase.blp
+tileset\araithihighlands\arathihighlandsgrasshighlight.blp
+tileset\araithihighlands\arathihighlandsrockbase.blp
+tileset\araithihighlands\arathihighlandsrubblebase.blp
+tileset\ashenvale\alpha3ashenvaleroots.blp
+tileset\ashenvale\ashenvaledirt.blp
+tileset\ashenvale\ashenvaleferns.blp
+tileset\ashenvale\ashenvalegrass.blp
+tileset\ashenvale\ashenvalegreencrack.blp
+tileset\ashenvale\ashenvalemossbase.blp
+tileset\ashenvale\ashenvaleroad.blp
+tileset\ashenvale\ashenvalerock.blp
+tileset\ashenvale\ashenvalerockcracked.blp
+tileset\ashenvale\ashenvalerocksmooth.blp
+tileset\ashenvale\ashenvaleroots.blp
+tileset\ashenvale\ashenvalesand.blp
+tileset\ashenvale\ashenvaleshore.blp
+tileset\ashzara\ashzarabeachgrassbrown.blp
+tileset\ashzara\ashzarabeachgrassgreen.blp
+tileset\ashzara\ashzarabeachgravel.blp
+tileset\ashzara\ashzarabeachgravel02.blp
+tileset\ashzara\ashzarabeachgravelgrey.blp
+tileset\ashzara\ashzarabeachrockpink.blp
+tileset\ashzara\ashzarabeachrockpurple.blp
+tileset\ashzara\ashzarabeachrockpurplebarnacle.blp
+tileset\ashzara\ashzarabeachrocksolidblue.blp
+tileset\ashzara\ashzaradirt.blp
+tileset\ashzara\ashzaradirtlighter.blp
+tileset\ashzara\ashzaragrass.blp
+tileset\ashzara\ashzaragrasshighlight.blp
+tileset\ashzara\ashzaragrassleaf.blp
+tileset\ashzara\ashzaragrassleafdirt.blp
+tileset\ashzara\ashzaraleaf.blp
+tileset\ashzara\ashzaramosaic.blp
+tileset\ashzara\ashzaramosaiccracked.blp
+tileset\ashzara\ashzaramosaicsolid.blp
+tileset\ashzara\ashzaramossbase01.blp
+tileset\ashzara\ashzararoad.blp
+tileset\ashzara\ashzararock.blp
+tileset\ashzara\ashzararock02.blp
+tileset\ashzara\ashzararock03.blp
+tileset\ashzara\ashzararock03darker.blp
+tileset\ashzara\ashzararocksmooth.blp
+tileset\ashzara\ashzararocksmoothdarker.blp
+tileset\ashzara\ashzararoots.blp
+tileset\ashzara\ashzaraseaweed.blp
+tileset\barrens\barrensbasebush.blp
+tileset\barrens\barrensbasedirt.blp
+tileset\barrens\barrensbasedirt02.blp
+tileset\barrens\barrensbasedirtlighter.blp
+tileset\barrens\barrensbasegrass.blp
+tileset\barrens\barrensbasegrassdead.blp
+tileset\barrens\barrensbasegrassgold.blp
+tileset\barrens\barrensbasegrassgoldhighlight.blp
+tileset\barrens\barrensbasegrassgrey.blp
+tileset\barrens\barrensbasegrasshighlight.blp
+tileset\barrens\barrensbaserock.blp
+tileset\barrens\barrensroad01.blp
+tileset\barrens\barrensrock01.blp
+tileset\barrens\barrensrocklighter.blp
+tileset\barrens\barrensrocktermite.blp
+tileset\barrens\barrensrocktermite02.blp
+tileset\burningstepps\burningsteppsash01.blp
+tileset\burningstepps\burningsteppsashcracks.blp
+tileset\burningstepps\burningsteppsashhighlight.blp
+tileset\burningstepps\burningsteppsbrick01.blp
+tileset\burningstepps\burningsteppscharcoal01.blp
+tileset\burningstepps\burningsteppslava01.blp
+tileset\burningstepps\burningsteppslava02.blp
+tileset\burningstepps\burningsteppslava03.blp
+tileset\burningstepps\burningsteppslavatest.blp
+tileset\burningstepps\burningsteppslavatest02.blp
+tileset\burningstepps\burningsteppslavatest03.blp
+tileset\burningstepps\burningsteppsrock01.blp
+tileset\burningstepps\burningsteppsrock02.blp
+tileset\burningstepps\burningsteppsrock03.blp
+tileset\burningstepps\burningsteppsrock04.blp
+tileset\burningstepps\burningsteppsrockhighlight.blp
+tileset\burningstepps\burningsteppsrocklava.blp
+tileset\burningstepps\burningsteppsspirelava01.blp
+tileset\burningstepps\burningsteppsspireroad01.blp
+tileset\burningstepps\burningsteppsspirerock02.blp
+tileset\darkshore\darkshorebarnacle.blp
+tileset\darkshore\darkshoredirt.blp
+tileset\darkshore\darkshoregrass.blp
+tileset\darkshore\darkshoregrassleaf.blp
+tileset\darkshore\darkshoremossgrass.blp
+tileset\darkshore\darkshoreroad.blp
+tileset\darkshore\darkshorerock.blp
+tileset\darkshore\darkshorerocklighter.blp
+tileset\darkshore\darkshoresand.blp
+tileset\darkshore\darkshoresand3.blp
+tileset\darkshore\darkshoresandrocks.blp
+tileset\darkshore\darkshoresandwaves.blp
+tileset\darkshore\darkshoreshader.blp
+tileset\deadwind pass\deadwindpassdirt.blp
+tileset\deadwind pass\deadwindpassrockbase.blp
+tileset\deadwind pass\deadwindpassshale.blp
+tileset\deadwind pass\deadwindpassweb.blp
+tileset\deadwind pass\deadwindpassweeds.blp
+tileset\desolace\desolacecracks.blp
+tileset\desolace\desolacedirt.blp
+tileset\desolace\desolacedirtfootprints.blp
+tileset\desolace\desolacegrass01.blp
+tileset\desolace\desolacemudsolid.blp
+tileset\desolace\desolacerock01.blp
+tileset\desolace\desolacerockblood.blp
+tileset\desolace\desolacerockhighlight.blp
+tileset\desolace\desolacesand01.blp
+tileset\durotar\durotardirt.blp
+tileset\durotar\durotardirtsmooth.blp
+tileset\durotar\durotargrass.blp
+tileset\durotar\durotargrassgreen.blp
+tileset\durotar\durotaridirt03.blp
+tileset\durotar\durotarimossroot01.blp
+tileset\durotar\durotariplantsalpha01.blp
+tileset\durotar\durotarirock05.blp
+tileset\durotar\durotarroad.blp
+tileset\durotar\durotarrock.blp
+tileset\durotar\durotarshorerocks.blp
+tileset\durotar\durotarshoresand.blp
+tileset\durotar\durotarshoresandripple.blp
+tileset\durotar\durotarshoresandwet.blp
+tileset\duskwallow marsh\duskwallowbrickfloor.blp
+tileset\duskwallow marsh\duskwallowbrush.blp
+tileset\duskwallow marsh\duskwallowcobblestone01.blp
+tileset\duskwallow marsh\duskwallowdirt.blp
+tileset\duskwallow marsh\duskwallowgravel01.blp
+tileset\duskwallow marsh\duskwallowmoss.blp
+tileset\duskwallow marsh\duskwallowmuck.blp
+tileset\duskwallow marsh\duskwallowrock.blp
+tileset\duskwallow marsh\duskwallowrockcracked.blp
+tileset\duskwallow marsh\duskwallowrocklighter.blp
+tileset\duskwallow marsh\duskwallowsand.blp
+tileset\duskwallow marsh\duskwallowstoneroad.blp
+tileset\duskwallow marsh\duskwallowvines.blp
+tileset\duskwood\08_water01.blp
+tileset\duskwood\duskwoodcobblestone.blp
+tileset\duskwood\duskwoodcobblestone2.blp
+tileset\duskwood\duskwoodcrop.blp
+tileset\duskwood\duskwoodcrop2.blp
+tileset\duskwood\duskwooddirt.blp
+tileset\duskwood\duskwooddirt2.blp
+tileset\duskwood\duskwooddirtgrass.blp
+tileset\duskwood\duskwoodgrassbase.blp
+tileset\duskwood\duskwoodgrassbase02.blp
+tileset\duskwood\duskwoodgrassbase04.blp
+tileset\duskwood\duskwoodgrassbasealpha.blp
+tileset\duskwood\duskwoodgrassthorns.blp
+tileset\duskwood\duskwoodmulch.blp
+tileset\duskwood\duskwoodrock.blp
+tileset\duskwood\duskwoodrock2.blp
+tileset\duskwood\duskwoodrockbase.blp
+tileset\duskwood\duskwoodrockgravel.blp
+tileset\duskwood\duskwood_grass2.blp
+tileset\elwynn\elwynncobblestonebase.blp
+tileset\elwynn\elwynncobblestonebasealpha01.blp
+tileset\elwynn\elwynncobblestonedarker.blp
+tileset\elwynn\elwynncobblestonerock.blp
+tileset\elwynn\elwynncobblestonerock2alpha.blp
+tileset\elwynn\elwynncobblestonerockalpha.blp
+tileset\elwynn\elwynncrop.blp
+tileset\elwynn\elwynncrop92.blp
+tileset\elwynn\elwynndirtbase.blp
+tileset\elwynn\elwynndirtbase2.blp
+tileset\elwynn\elwynndirtbasetest01.blp
+tileset\elwynn\elwynndirtbasetest02.blp
+tileset\elwynn\elwynndirtbasetest03.blp
+tileset\elwynn\elwynndirtmud.blp
+tileset\elwynn\elwynndirtmud02.blp
+tileset\elwynn\elwynndirtmud03.blp
+tileset\elwynn\elwynndirtmud04.blp
+tileset\elwynn\elwynnflowerbase.blp
+tileset\elwynn\elwynngrassbase.blp
+tileset\elwynn\elwynngrasshighlight.blp
+tileset\elwynn\elwynngrassshadow.blp
+tileset\elwynn\elwynnleaf.blp
+tileset\elwynn\elwynnrivermudbase.blp
+tileset\elwynn\elwynnrock2base.blp
+tileset\elwynn\elwynnrock2basealpha.blp
+tileset\elwynn\elwynnrockbase.blp
+tileset\elwynn\elwynnrockbasetest.blp
+tileset\elwynn\elwynnrockbasetest2.blp
+tileset\elwynn\elwynnrockgranite.blp
+tileset\elwynn\elwynnrockgravel.blp
+tileset\elwynn\elwynntreedirtbase.blp
+tileset\emeralddream\dreamforestcreep.blp
+tileset\emeralddream\dreamforestdarkgrass.blp
+tileset\emeralddream\dreamforestlightgrass.blp
+tileset\emeralddream\dreamforestmoss.blp
+tileset\emeralddream\dreamforestpath.blp
+tileset\emeralddream\dreamgrass01.blp
+tileset\emeralddream\dreamgrass02.blp
+tileset\emeralddream\dreamgrass03.blp
+tileset\emeralddream\dreamgrass04.blp
+tileset\emeralddream\dreamrock01.blp
+tileset\emeralddream\dreamrock02.blp
+tileset\emeralddream\dreamsand01.blp
+tileset\emeralddream\dreamsand02.blp
+tileset\emeralddream\old\dreamgrass01.blp
+tileset\emeralddream\old\dreamgrass02.blp
+tileset\emeralddream\old\dreamgrass03.blp
+tileset\emeralddream\old\dreamgrass04.blp
+tileset\emeralddream\old\dreamrock01.blp
+tileset\emeralddream\old\dreamrock02.blp
+tileset\emeralddream\old\dreamsand01.blp
+tileset\emeralddream\old\dreamsand02.blp
+tileset\emeralddreamcanyon\dreamcgrass02.blp
+tileset\emeralddreamcanyon\dreamcgrass03.blp
+tileset\emeralddreamcanyon\dreamcrock01.blp
+tileset\emeralddreamcanyon\dreamcsand01.blp
+tileset\felwood\felwoodashfernsdarkeralpha.blp
+tileset\felwood\felwoodcorrupt.blp
+tileset\felwood\felwoodcorruptslime.blp
+tileset\felwood\felwoodcorruptslimesolid.blp
+tileset\felwood\felwooddirt.blp
+tileset\felwood\felwoodferns.blp
+tileset\felwood\felwoodfernsalpha.blp
+tileset\felwood\felwoodfernsorange2alpha.blp
+tileset\felwood\felwoodmoss.blp
+tileset\felwood\felwoodmossalpha.blp
+tileset\felwood\felwoodmossorange.blp
+tileset\felwood\felwoodroad.blp
+tileset\felwood\felwoodrock.blp
+tileset\felwood\felwoodrock03.blp
+tileset\felwood\felwoodrockalpha.blp
+tileset\felwood\felwoodrockcracked.blp
+tileset\felwood\felwoodrocksmooth.blp
+tileset\felwood\felwoodroots.blp
+tileset\felwood\felwoodroots2alpha.blp
+tileset\felwood\felwoodrootsalpha.blp
+tileset\felwood\felwoodrootscorrupt.blp
+tileset\felwood\glowgreenfade32.blp
+tileset\felwood\greencracks.blp
+tileset\feralas\feralasbrush.blp
+tileset\feralas\feralasbrushcol.blp
+tileset\feralas\feralasbrushroots.blp
+tileset\feralas\feralasdirt.blp
+tileset\feralas\feralasdirtcol.blp
+tileset\feralas\feralasgrass.blp
+tileset\feralas\feralasroad.blp
+tileset\feralas\feralasrockbrown.blp
+tileset\feralas\feralasrocksground.blp
+tileset\feralas\feralassand.blp
+tileset\generic\black.blp
+tileset\generic\blue.blp
+tileset\generic\burgundy.blp
+tileset\generic\caustictest.blp
+tileset\generic\caustictest02.blp
+tileset\generic\charcoal.blp
+tileset\generic\checkers.blp
+tileset\generic\checkersalpha.blp
+tileset\generic\green.blp
+tileset\generic\grey.blp
+tileset\generic\red.blp
+tileset\generic\underwatergrass01.blp
+tileset\generic\underwatergrass02.blp
+tileset\generic\underwaterrock01.blp
+tileset\generic\underwaterrock02.blp
+tileset\generic\underwaterrock03.blp
+tileset\generic\waterblue.blp
+tileset\generic\yellow.blp
+tileset\hyjal\alphahyjalgrassleaf.blp
+tileset\hyjal\alphahyjalroad.blp
+tileset\hyjal\alphahyjalrock.blp
+tileset\hyjal\hyjaldirtbase.blp
+tileset\hyjal\hyjaldirtrock.blp
+tileset\hyjal\hyjalflowerbase.blp
+tileset\hyjal\hyjalgrassbase.blp
+tileset\hyjal\hyjalgrassleaf.blp
+tileset\hyjal\hyjalgrasslowcolor.blp
+tileset\hyjal\hyjalrock.blp
+tileset\hyjal\hyjalrockcracked.blp
+tileset\hyjal\hyjalrocksmooth.blp
+tileset\hyjal\hyjalrootsalpha.blp
+tileset\ironforge\ironforgefootprintsalpha.blp
+tileset\ironforge\ironforgeice01.blp
+tileset\ironforge\ironforgepineneedles.blp
+tileset\ironforge\ironforgerock06road2.blp
+tileset\ironforge\ironforgerock07mountain.blp
+tileset\ironforge\ironforgerock08brown.blp
+tileset\ironforge\ironforgerock09browncracks.blp
+tileset\ironforge\ironforgesnow01solid.blp
+tileset\ironforge\ironforgesnow03ripple.blp
+tileset\ironforge\ironforgesnow04rock.blp
+tileset\ironforge\ironforgesnow05scrapebrown.blp
+tileset\ironforge\ironforgesnowcrop.blp
+tileset\kalidar\kalidardarnroad.blp
+tileset\kalidar\kalidarferns.blp
+tileset\kalidar\kalidarflower01.blp
+tileset\kalidar\kalidarflower02.blp
+tileset\kalidar\kalidarleaf.blp
+tileset\kalidar\kalidarroad.blp
+tileset\kalidar\kalidarrock.blp
+tileset\kalidar\kalidarroots.blp
+tileset\kalidar\kalidarwood.blp
+tileset\kalidar\kalidarwooddarker.blp
+tileset\kalidar\kalidarwoodgold.blp
+tileset\loch modan\lochmodanbrickroadbase.blp
+tileset\loch modan\lochmodandirt.blp
+tileset\loch modan\lochmodandirt02.blp
+tileset\loch modan\lochmodangrassbase.blp
+tileset\loch modan\lochmodangrassbase02.blp
+tileset\loch modan\lochmodangravel.blp
+tileset\loch modan\lochmodangraveldirt.blp
+tileset\loch modan\lochmodangraveldirtalpha.blp
+tileset\loch modan\lochmodanmud.blp
+tileset\loch modan\lochmodanrockbase.blp
+tileset\loch modan\lochmodanrockymudbase.blp
+tileset\loch modan\lochmodanrockymudbase02.blp
+tileset\loch modan\lochmodanscrubbrushbase.blp
+tileset\loch modan\lochmodanscrubbrushbase02.blp
+tileset\loch modan\lochmodanstrawbase.blp
+tileset\moonglade\alphamoongladeroad.blp
+tileset\moonglade\alphamoongladerock.blp
+tileset\moonglade\moongladedirtbase.blp
+tileset\moonglade\moongladedirtnograss.blp
+tileset\moonglade\moongladeflowerbase.blp
+tileset\moonglade\moongladegrassbase.blp
+tileset\moonglade\moongladegrassleaf.blp
+tileset\moonglade\moongladerivermudbase.blp
+tileset\moonglade\moongladerock2base.blp
+tileset\moonglade\moongladerockbase.blp
+tileset\moonglade\moongladerockcracked.blp
+tileset\moonglade\moongladerockgranite.blp
+tileset\moonglade\moongladerootsalpha.blp
+tileset\moonglade\moongladesparkle.blp
+tileset\mullgore\mullgorealphacracks.blp
+tileset\mullgore\mullgorebasebush.blp
+tileset\mullgore\mullgorebasedirt.blp
+tileset\mullgore\mullgorebasegrass.blp
+tileset\mullgore\mullgorebasegrasshighlight.blp
+tileset\mullgore\mullgorebaserock01.blp
+tileset\mullgore\mullgorebaserockholes.blp
+tileset\mullgore\mullgorecrackeddirt.blp
+tileset\mullgore\mullgoreroad01.blp
+tileset\mullgore\mullgorerocksolid.blp
+tileset\mullgore\mullgorerocksolidhighlight.blp
+tileset\outland\outlanddirt01.blp
+tileset\outland\outlanddirt02.blp
+tileset\outland\outlanddirtcracklight.blp
+tileset\outland\outlandrock01.blp
+tileset\outland\outlandrock02.blp
+tileset\outland\outlandrockgrass01.blp
+tileset\outland\outlandsand01.blp
+tileset\plaguelands\plaguedearthcreep01.blp
+tileset\plaguelands\plaguedearthcreep02.blp
+tileset\plaguelands\plaguedearthcreep03.blp
+tileset\plaguelands\plaguedearthred01.blp
+tileset\plaguelands\plaguedgrass01.blp
+tileset\plaguelands\plaguedroadstone01.blp
+tileset\plaguelandseast\eastplaguedbasedirt.blp
+tileset\plaguelandseast\eastplaguedbaseground.blp
+tileset\plaguelandseast\eastplaguedbaserock.blp
+tileset\plaguelandseast\eastplaguedbaserock01.blp
+tileset\plaguelandseast\eastplaguedbaserock02.blp
+tileset\plaguelandseast\eastplaguedbaserock03.blp
+tileset\plaguelandseast\eastplaguedbaserock04.blp
+tileset\plaguelandseast\eastplaguedcorrupt.blp
+tileset\plaguelandseast\eastplaguedcorruptpurple.blp
+tileset\plaguelandseast\eastplaguedcracks.blp
+tileset\plaguelandseast\eastplaguedcreep01.blp
+tileset\plaguelandseast\eastplaguedcreep02.blp
+tileset\plaguelandseast\eastplaguedcreep03.blp
+tileset\plaguelandseast\eastplaguedcreep04.blp
+tileset\plaguelandseast\eastplagueddeadgrass.blp
+tileset\plaguelandseast\eastplaguedmudgrass.blp
+tileset\plaguelandseast\eastplaguedroadbase.blp
+tileset\plaguelandswest\westplaguedbasedirt.blp
+tileset\plaguelandswest\westplaguedbaserock.blp
+tileset\plaguelandswest\westplaguedcorrupt.blp
+tileset\plaguelandswest\westplagueddirtrock.blp
+tileset\plaguelandswest\westplaguedgrass01.blp
+tileset\plaguelandswest\westplaguedgrassandorhal.blp
+tileset\plaguelandswest\westplaguedmudgrass.blp
+tileset\plaguelandswest\westplaguedmudgrasshighlight.blp
+tileset\razorfen\dried mud.blp
+tileset\razorfen\razorfenrock.blp
+tileset\razorfen\razorfenrockbase.blp
+tileset\razorfen\razorfenrocksplatter.blp
+tileset\redridge\redridgecrop.blp
+tileset\redridge\redridgedirtbase.blp
+tileset\redridge\redridgedirtblack.blp
+tileset\redridge\redridgeggrassbase.blp
+tileset\redridge\redridgeggrassbase2.blp
+tileset\redridge\redridgeggrasshighlight.blp
+tileset\redridge\redridgegrassbase.blp
+tileset\redridge\redridgegrassdirtbase.blp
+tileset\redridge\redridgerockbase.blp
+tileset\redridge\redridgerockroadbase.blp
+tileset\redridge\redridgestonehighlight.blp
+tileset\silithis\silithisbrick01.blp
+tileset\silithis\silithisrock.blp
+tileset\silithis\silithisrockdark.blp
+tileset\silithis\silithisrockhighlight.blp
+tileset\silithis\silithisrockhighlight2.blp
+tileset\silithis\silithisrocksmooth.blp
+tileset\silithis\silithisrocksmoothdark.blp
+tileset\silithis\silithissand01.blp
+tileset\silithis\silithissanddetail.blp
+tileset\silithis\silithissandhighlight.blp
+tileset\silverpine\silverpineblight.blp
+tileset\silverpine\silverpinecropbase.blp
+tileset\silverpine\silverpinedirt.blp
+tileset\silverpine\silverpinegrass.blp
+tileset\silverpine\silverpinegrassflowers.blp
+tileset\silverpine\silverpineroad.blp
+tileset\silverpine\silverpinerock.blp
+tileset\silverpine\silverpinerockgrass.blp
+tileset\silverpine\silverpineshore.blp
+tileset\stonetalon mts\stonetalonbrush.blp
+tileset\stonetalon mts\stonetalonbrushalpha.blp
+tileset\stonetalon mts\stonetalongrass.blp
+tileset\stonetalon mts\stonetalonrockbrown.blp
+tileset\stonetalon mts\stonetalonrockred.blp
+tileset\stonetalon mts\stonetalonrocksalpha.blp
+tileset\stonetalon mts\stonetalonsand.blp
+tileset\stranglethorn\alphastranglethorngrass.blp
+tileset\stranglethorn\stranglethorncobblestoneroad.blp
+tileset\stranglethorn\stranglethorndirt03.blp
+tileset\stranglethorn\stranglethorngrass.blp
+tileset\stranglethorn\stranglethornmossroot01.blp
+tileset\stranglethorn\stranglethornmossroot01alpha.blp
+tileset\stranglethorn\stranglethornmossrootdirt01.blp
+tileset\stranglethorn\stranglethornplants01.blp
+tileset\stranglethorn\stranglethornplantsalpha01.blp
+tileset\stranglethorn\stranglethornrock05.blp
+tileset\stranglethorn\stranglethornrockcracked.blp
+tileset\swamp of sorrows\swampsorrowsdirt02.blp
+tileset\swamp of sorrows\swampsorrowsdirt03.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark01.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark02.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark03.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark04.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark05.blp
+tileset\swamp of sorrows\swampsorrowsmuckdark07.blp
+tileset\swamp of sorrows\swampsorrowsrock02.blp
+tileset\swamp of sorrows\swampsorrowsroot01.blp
+tileset\swamp of sorrows\swampsorrowsroot02.blp
+tileset\swamp of sorrows\swampsorrowsstoneroad07.blp
+tileset\tanaris\tanariscrackedground.blp
+tileset\tanaris\tanariscracks.blp
+tileset\tanaris\tanarisdirtfootprint.blp
+tileset\tanaris\tanarispurplebug01.blp
+tileset\tanaris\tanarispurplebug02.blp
+tileset\tanaris\tanarispurplebug03.blp
+tileset\tanaris\tanarisrockbase01.blp
+tileset\tanaris\tanarisrockbaseburn.blp
+tileset\tanaris\tanarissandbase01.blp
+tileset\tanaris\tanarissandbase02.blp
+tileset\tanaris\tanarissandbase03.blp
+tileset\tanaris\tanarissandstones.blp
+tileset\the badlands\badlandsdirt.blp
+tileset\the badlands\badlandsdirt05.blp
+tileset\the badlands\badlandsdirtredlighter.blp
+tileset\the badlands\badlandsgrass2.blp
+tileset\the badlands\badlandsgrass2alpha.blp
+tileset\the badlands\badlandsrock.blp
+tileset\the badlands\badlandsrockhighlight.blp
+tileset\the badlands\badlandsrockred.blp
+tileset\the badlands\badlandssand.blp
+tileset\the badlands\badlandssandwaves.blp
+tileset\the badlands\cobrapillartile01.blp
+tileset\the badlands\cobrapillartile02alpha.blp
+tileset\the blasted lands\blastedlandsblack.blp
+tileset\the blasted lands\blastedlandschardrock.blp
+tileset\the blasted lands\blastedlandsdirt01.blp
+tileset\the blasted lands\blastedlandsdirt02.blp
+tileset\the blasted lands\blastedlandslavarock01.blp
+tileset\the blasted lands\blastedlandsroad.blp
+tileset\the blasted lands\blastedlandsrock.blp
+tileset\the blasted lands\blastedlandsrock01.blp
+tileset\the blasted lands\blastedlandsrock01new.blp
+tileset\the blasted lands\blastedlandsrock02.blp
+tileset\the blasted lands\blastedlandsrock02new.blp
+tileset\the blasted lands\blastedlandsrock03new.blp
+tileset\the blasted lands\blastedlandsrock04.blp
+tileset\the blasted lands\blastedlandsrockblue.blp
+tileset\the blasted lands\blastedlandsrockcrackhighlight.blp
+tileset\the blasted lands\blastedlandsrockhighlight01.blp
+tileset\the blasted lands\blastedlandsrockhighlight01new.blp
+tileset\the blasted lands\blastedlandsrockhighlight02.blp
+tileset\the blasted lands\blastedlandsrockhighlight03.blp
+tileset\thousandneedles\thousandneedlesdirt.blp
+tileset\thousandneedles\thousandneedlesdirt02.blp
+tileset\thousandneedles\thousandneedlesdirt03.blp
+tileset\thousandneedles\thousandneedlesgrass.blp
+tileset\thousandneedles\thousandneedlesroad.blp
+tileset\thousandneedles\thousandneedlesrock.blp
+tileset\thousandneedles\thousandneedlesrockblue.blp
+tileset\thousandneedles\thousandneedlesrockhighlight.blp
+tileset\thousandneedles\thousandneedlesrockhighlight02.blp
+tileset\thousandneedles\thousandneedlessaltflats.blp
+tileset\thousandneedles\thousandneedlessaltflats2.blp
+tileset\thousandneedles\thousandneedlessaltflats3.blp
+tileset\tirisfall\tirisfalldirtrock02.blp
+tileset\tirisfall\tirisfalldirtrock07.blp
+tileset\tirisfall\tirisfallgrass01.blp
+tileset\tirisfall\tirisfallgrass02.blp
+tileset\tirisfall\tirisfallrockymudgrass.blp
+tileset\tirisfall\tirisfallrockymudgrasshighlight.blp
+tileset\tirisfall\tirisfallshore.blp
+tileset\tirisfall\tirisfallstoneroad01.blp
+tileset\tol barad\tolbaradcobblestone.blp
+tileset\tol barad\tolbaraddirt.blp
+tileset\tol barad\tolbaradgrassbase.blp
+tileset\tol barad\tolbaradrock.blp
+tileset\tol barad\tolbaradrock2.blp
+tileset\tol barad\tolbaradrockgravelalpha.blp
+tileset\tol barad\tolbaradrocksalpha.blp
+tileset\tol barad\tolbaradsand.blp
+tileset\ungoro\ungorodirt.blp
+tileset\ungoro\ungoromossroot.blp
+tileset\ungoro\ungoroplants.blp
+tileset\ungoro\ungoroplantsalpha.blp
+tileset\ungoro\ungororock.blp
+tileset\westwood\alphawestfallleaf.blp
+tileset\westwood\westfallcobblestonebase.blp
+tileset\westwood\westfallcropbase.blp
+tileset\westwood\westfallcropburned.blp
+tileset\westwood\westfallcropgreenbase.blp
+tileset\westwood\westfalldirtbase.blp
+tileset\westwood\westfallgrassbase.blp
+tileset\westwood\westfallgrasshighlight.blp
+tileset\westwood\westfallleaf.blp
+tileset\westwood\westfallleafalphatest01.blp
+tileset\westwood\westfallleaftest01.blp
+tileset\westwood\westfalloceanfloorbase.blp
+tileset\westwood\westfallrockbase.blp
+tileset\westwood\westfallrubblebase.blp
+tileset\westwood\westfallsandbase.blp
+tileset\westwood\westfallsandbasewet.blp
+tileset\westwood\westfallsandgrassbase.blp
+tileset\westwood\westfallsandrockbase.blp
+tileset\westwood\westfallsandwavebase.blp
+tileset\westwood\westfallsandwavebaserotate.blp
+tileset\westwood\westfallsawdust.blp
+tileset\westwood\westfallstrawbase.blp
+tileset\wetlands\wetlandsbaserock.blp
+tileset\wetlands\wetlandsdirt01.blp
+tileset\wetlands\wetlandsdirtmoss01.blp
+tileset\wetlands\wetlandsgrassdark01.blp
+tileset\wetlands\wetlandsgrassdark02.blp
+tileset\wetlands\wetlandsroad01.blp
+tileset\winterspring grove\greenslime.blp
+tileset\winterspring grove\winterspringdirt.blp
+tileset\winterspring grove\winterspringfootprints.blp
+tileset\winterspring grove\winterspringgreencracks.blp
+tileset\winterspring grove\winterspringice.blp
+tileset\winterspring grove\winterspringicecracked.blp
+tileset\winterspring grove\winterspringiceglacier.blp
+tileset\winterspring grove\winterspringiceglacier2.blp
+tileset\winterspring grove\winterspringicesmooth.blp
+tileset\winterspring grove\winterspringicesnowalpha.blp
+tileset\winterspring grove\winterspringrock.blp
+tileset\winterspring grove\winterspringrocksnow.blp
+tileset\winterspring grove\winterspringsnowripple.blp
+tileset\winterspring grove\winterspringsnowsolid.blp
+tileset\zulaman\zulamandirtbase.blp
+tileset\zulaman\zulamangrassbase.blp
+tileset\zulaman\zulamangrasshighlight.blp
+tileset\zulaman\zulamanroadbase.blp
+tileset\zulaman\zulamanrockbase.blp
+tileset\zulaman\zulamanroots.blp
+tileset\zulgurub\zulgurubdirt01.blp
+tileset\zulgurub\zulgurubferns.blp
+tileset\zulgurub\zulgurubroad01.blp
+tileset\zulgurub\zulgurubrock01.blp
+tileset\zulgurub\zulgurubvines.blp

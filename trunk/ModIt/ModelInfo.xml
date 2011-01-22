@@ -1,0 +1,3991 @@
+<m2>
+  <info>
+    <fullname>Creature\Frostwurmnorthrend\frostwurmnorthrend</fullname>
+    <modelname>Creature\Frostwurmnorthrend\frostwurmnorthrend.m2</modelname>
+  </info>
+  <header>
+    <nameLength>19</nameLength>
+    <nameOfs>320</nameOfs>
+    <name>FrostWurmNorthrend</name>
+    <GlobalModelFlags>8</GlobalModelFlags>
+    <nGlobalSequences>1</nGlobalSequences>
+    <ofsGlobalSequences>352</ofsGlobalSequences>
+    <nAnimations>70</nAnimations>
+    <ofsAnimations>368</ofsAnimations>
+    <nAnimationLookup>127</nAnimationLookup>
+    <ofsAnimationLookup>4848</ofsAnimationLookup>
+    <nBones>154</nBones>
+    <ofsBones>5104</ofsBones>
+    <nKeyBoneLookup>27</nKeyBoneLookup>
+    <ofsKeyBoneLookup>227136</ofsKeyBoneLookup>
+    <nVertices>6234</nVertices>
+    <ofsVertices>227200</ofsVertices>
+    <nViews>4</nViews>
+    <lodname>Creature\Frostwurmnorthrend\frostwurmnorthrend00.skin</lodname>
+    <nColors>0</nColors>
+    <ofsColors>0</ofsColors>
+    <nTextures>7</nTextures>
+    <ofsTextures>526432</ofsTextures>
+    <nTransparency>1</nTransparency>
+    <ofsTransparency>526736</ofsTransparency>
+    <nTexAnims>0</nTexAnims>
+    <ofsTexAnims>0</ofsTexAnims>
+    <nTexReplace>14</nTexReplace>
+    <ofsTexReplace>526800</ofsTexReplace>
+    <nTexFlags>14</nTexFlags>
+    <ofsTexFlags>526832</ofsTexFlags>
+    <nBoneLookup>540</nBoneLookup>
+    <ofsBoneLookup>526896</ofsBoneLookup>
+    <nTexLookup>6</nTexLookup>
+    <ofsTexLookup>527984</ofsTexLookup>
+    <nTexUnitLookup>2</nTexUnitLookup>
+    <ofsTexUnitLookup>528000</ofsTexUnitLookup>
+    <nTransparencyLookup>1</nTransparencyLookup>
+    <ofsTransparencyLookup>528016</ofsTransparencyLookup>
+    <nTexAnimLookup>2</nTexAnimLookup>
+    <ofsTexAnimLookup>528032</ofsTexAnimLookup>
+    <PhysicsSettings>
+      <VertexBox0>(-27.3272, -29.8465, -17.0357)</VertexBox0>
+      <VertexBox1>(20.6144, 29.508, 41.7315)</VertexBox1>
+      <VertexRadius>43.8696</VertexRadius>
+      <BoundingBox0>(-0.305556, -0.305556, 0)</BoundingBox0>
+      <BoundingBox1>(0.305556, 0.305556, 2.03128)</BoundingBox1>
+      <BoundingRadius>1.10374</BoundingRadius>
+    </PhysicsSettings>
+    <nBoundingTriangles>36</nBoundingTriangles>
+    <ofsBoundingTriangles>528048</ofsBoundingTriangles>
+    <nBoundingVertices>8</nBoundingVertices>
+    <ofsBoundingVertices>528128</ofsBoundingVertices>
+    <nBoundingNormals>12</nBoundingNormals>
+    <ofsBoundingNormals>528224</ofsBoundingNormals>
+    <nAttachments>16</nAttachments>
+    <ofsAttachments>528368</ofsAttachments>
+    <nAttachLookup>41</nAttachLookup>
+    <ofsAttachLookup>529008</ofsAttachLookup>
+    <nEvents>22</nEvents>
+    <ofsEvents>529104</ofsEvents>
+    <nLights>0</nLights>
+    <ofsLights>0</ofsLights>
+    <nCameras>1</nCameras>
+    <ofsCameras>542224</ofsCameras>
+    <nCameraLookup>1</nCameraLookup>
+    <ofsCameraLookup>542432</ofsCameraLookup>
+    <nRibbonEmitters>0</nRibbonEmitters>
+    <ofsRibbonEmitters>0</ofsRibbonEmitters>
+    <nParticleEmitters>16</nParticleEmitters>
+    <ofsParticleEmitters>542448</ofsParticleEmitters>
+  </header>
+  <SkeletonAndAnimation>
+  <GlobalSequences>
+<Sequence>33</Sequence>
+  </GlobalSequences>
+  <Animations>
+    <Animation id="0">
+      <animID>5</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0418</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>0</Index>
+    </Animation>
+    <Animation id="1">
+      <animID>0</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>15291</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0472</rad>
+      <NextAnimation>2</NextAnimation>
+      <Index>1</Index>
+    </Animation>
+    <Animation id="2">
+      <animID>0</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>15291</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0283</rad>
+      <NextAnimation>3</NextAnimation>
+      <Index>2</Index>
+    </Animation>
+    <Animation id="3">
+      <animID>0</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>2184</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>300</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.3364</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>3</Index>
+    </Animation>
+    <Animation id="4">
+      <animID>55</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32766</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>300</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>25.3891</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>4</Index>
+    </Animation>
+    <Animation id="5">
+      <animID>4</animID>
+      <length>5567</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>200</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0482</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>5</Index>
+    </Animation>
+    <Animation id="6">
+      <animID>25</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.8765</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>6</Index>
+    </Animation>
+    <Animation id="7">
+      <animID>16</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>10376</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>18.2186</rad>
+      <NextAnimation>9</NextAnimation>
+      <Index>7</Index>
+    </Animation>
+    <Animation id="8">
+      <animID>181</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>18.0161</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>8</Index>
+    </Animation>
+    <Animation id="9">
+      <animID>16</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>10376</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.735</rad>
+      <NextAnimation>10</NextAnimation>
+      <Index>9</Index>
+    </Animation>
+    <Animation id="10">
+      <animID>16</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>1638</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.7055</rad>
+      <NextAnimation>12</NextAnimation>
+      <Index>10</Index>
+    </Animation>
+    <Animation id="11">
+      <animID>180</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32766</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.9011</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>11</Index>
+    </Animation>
+    <Animation id="12">
+      <animID>16</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>10376</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>28.1871</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>13</Index>
+    </Animation>
+    <Animation id="13">
+      <animID>213</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>96</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>28.1871</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>12</Index>
+    </Animation>
+    <Animation id="14">
+      <animID>74</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>0</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>25.7059</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>14</Index>
+    </Animation>
+    <Animation id="15">
+      <animID>60</animID>
+      <length>2666</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>1</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.9031</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>15</Index>
+    </Animation>
+    <Animation id="16">
+      <animID>65</animID>
+      <length>2667</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>0</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>300</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.87</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>16</Index>
+    </Animation>
+    <Animation id="17">
+      <animID>64</animID>
+      <length>2667</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>0</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>300</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0535</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>17</Index>
+    </Animation>
+    <Animation id="18">
+      <animID>99</animID>
+      <length>3000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>34</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.6713</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>19</Index>
+    </Animation>
+    <Animation id="19">
+      <animID>139</animID>
+      <length>3000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>96</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.6713</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>18</Index>
+    </Animation>
+    <Animation id="20">
+      <animID>100</animID>
+      <length>4000</length>
+      <moveSpeed>2.5</moveSpeed>
+      <flags>8</flags>
+      <probability>16383</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>11.647</rad>
+      <NextAnimation>21</NextAnimation>
+      <Index>20</Index>
+    </Animation>
+    <Animation id="21">
+      <animID>100</animID>
+      <length>800</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>9</flags>
+      <probability>16383</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>11.6987</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>21</Index>
+    </Animation>
+    <Animation id="22">
+      <animID>101</animID>
+      <length>3000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>4</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.4936</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>22</Index>
+    </Animation>
+    <Animation id="23">
+      <animID>11</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>15.8287</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>23</Index>
+    </Animation>
+    <Animation id="24">
+      <animID>12</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.2421</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>24</Index>
+    </Animation>
+    <Animation id="25">
+      <animID>229</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.7408</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>26</Index>
+    </Animation>
+    <Animation id="26">
+      <animID>254</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.7408</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>25</Index>
+    </Animation>
+    <Animation id="27">
+      <animID>458</animID>
+      <length>1400</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>28.557</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>27</Index>
+    </Animation>
+    <Animation id="28">
+      <animID>463</animID>
+      <length>1666</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.2136</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>28</Index>
+    </Animation>
+    <Animation id="29">
+      <animID>234</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>31129</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.3733</rad>
+      <NextAnimation>30</NextAnimation>
+      <Index>29</Index>
+    </Animation>
+    <Animation id="30">
+      <animID>234</animID>
+      <length>4000</length>
+      <moveSpeed>6.66667</moveSpeed>
+      <flags>32</flags>
+      <probability>1638</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>29.7916</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>30</Index>
+    </Animation>
+    <Animation id="31">
+      <animID>9</animID>
+      <length>1000</length>
+      <moveSpeed>6.66667</moveSpeed>
+      <flags>32</flags>
+      <probability>32766</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.9785</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>31</Index>
+    </Animation>
+    <Animation id="32">
+      <animID>10</animID>
+      <length>1333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.9242</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>32</Index>
+    </Animation>
+    <Animation id="33">
+      <animID>1</animID>
+      <length>4500</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>35</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>26.475</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>33</Index>
+    </Animation>
+    <Animation id="34">
+      <animID>118</animID>
+      <length>5333</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>18.922</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>34</Index>
+    </Animation>
+    <Animation id="35">
+      <animID>411</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.7909</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>35</Index>
+    </Animation>
+    <Animation id="36">
+      <animID>182</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>23.7895</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>36</Index>
+    </Animation>
+    <Animation id="37">
+      <animID>470</animID>
+      <length>1334</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>18.473</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>37</Index>
+    </Animation>
+    <Animation id="38">
+      <animID>353</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.9316</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>39</Index>
+    </Animation>
+    <Animation id="39">
+      <animID>354</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>96</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.9316</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>38</Index>
+    </Animation>
+    <Animation id="40">
+      <animID>471</animID>
+      <length>2534</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>35</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>25.7164</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>40</Index>
+    </Animation>
+    <Animation id="41">
+      <animID>469</animID>
+      <length>1400</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>29.5843</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>41</Index>
+    </Animation>
+    <Animation id="42">
+      <animID>280</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.6741</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>43</Index>
+    </Animation>
+    <Animation id="43">
+      <animID>281</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.6741</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>42</Index>
+    </Animation>
+    <Animation id="44">
+      <animID>282</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.259</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>45</Index>
+    </Animation>
+    <Animation id="45">
+      <animID>283</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.259</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>44</Index>
+    </Animation>
+    <Animation id="46">
+      <animID>233</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.6342</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>46</Index>
+    </Animation>
+    <Animation id="47">
+      <animID>52</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.3534</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>48</Index>
+    </Animation>
+    <Animation id="48">
+      <animID>51</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>16.3534</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>47</Index>
+    </Animation>
+    <Animation id="49">
+      <animID>54</animID>
+      <length>500</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>24.7505</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>50</Index>
+    </Animation>
+    <Animation id="50">
+      <animID>53</animID>
+      <length>500</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>24.7505</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>49</Index>
+    </Animation>
+    <Animation id="51">
+      <animID>8</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.0338</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>51</Index>
+    </Animation>
+    <Animation id="52">
+      <animID>14</animID>
+      <length>2633</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.7108</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>53</Index>
+    </Animation>
+    <Animation id="53">
+      <animID>137</animID>
+      <length>2633</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>17.7108</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>52</Index>
+    </Animation>
+    <Animation id="54">
+      <animID>30</animID>
+      <length>1300</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>19.876</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>55</Index>
+    </Animation>
+    <Animation id="55">
+      <animID>20</animID>
+      <length>1300</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>97</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>19.876</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>54</Index>
+    </Animation>
+    <Animation id="56">
+      <animID>326</animID>
+      <length>5334</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>13.0564</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>56</Index>
+    </Animation>
+    <Animation id="57">
+      <animID>325</animID>
+      <length>4467</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.8641</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>57</Index>
+    </Animation>
+    <Animation id="58">
+      <animID>327</animID>
+      <length>3233</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.4266</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>58</Index>
+    </Animation>
+    <Animation id="59">
+      <animID>237</animID>
+      <length>1000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.5918</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>59</Index>
+    </Animation>
+    <Animation id="60">
+      <animID>455</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>33.7004</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>60</Index>
+    </Animation>
+    <Animation id="61">
+      <animID>456</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.9137</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>61</Index>
+    </Animation>
+    <Animation id="62">
+      <animID>457</animID>
+      <length>1666</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32766</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>300</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>30.2935</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>62</Index>
+    </Animation>
+    <Animation id="63">
+      <animID>125</animID>
+      <length>1600</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>24.8842</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>63</Index>
+    </Animation>
+    <Animation id="64">
+      <animID>245</animID>
+      <length>1567</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.0695</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>64</Index>
+    </Animation>
+    <Animation id="65">
+      <animID>465</animID>
+      <length>1567</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>33</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>29.2726</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>65</Index>
+    </Animation>
+    <Animation id="66">
+      <animID>464</animID>
+      <length>1300</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>28.3376</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>66</Index>
+    </Animation>
+    <Animation id="67">
+      <animID>214</animID>
+      <length>3600</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>31.9953</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>67</Index>
+    </Animation>
+    <Animation id="68">
+      <animID>242</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>32</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>20.0995</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>69</Index>
+    </Animation>
+    <Animation id="69">
+      <animID>274</animID>
+      <length>2000</length>
+      <moveSpeed>0</moveSpeed>
+      <flags>96</flags>
+      <probability>32767</probability>
+      <d1>0</d1>
+      <d2>0</d2>
+      <playSpeed>150</playSpeed>
+      <boxA>(0, 0, 0)</boxA>
+      <boxB>(0, 0, 0)</boxB>
+      <rad>20.0995</rad>
+      <NextAnimation>-1</NextAnimation>
+      <Index>68</Index>
+    </Animation>
+  </Animations>
+  <AnimationLookups>
+    <AnimationLookup id="0">1</AnimationLookup>
+    <AnimationLookup id="1">26</AnimationLookup>
+    <AnimationLookup id="2">33</AnimationLookup>
+    <AnimationLookup id="3">-1</AnimationLookup>
+    <AnimationLookup id="4">5</AnimationLookup>
+    <AnimationLookup id="5">0</AnimationLookup>
+    <AnimationLookup id="6">-1</AnimationLookup>
+    <AnimationLookup id="7">-1</AnimationLookup>
+    <AnimationLookup id="8">51</AnimationLookup>
+    <AnimationLookup id="9">31</AnimationLookup>
+    <AnimationLookup id="10">32</AnimationLookup>
+    <AnimationLookup id="11">23</AnimationLookup>
+    <AnimationLookup id="12">19</AnimationLookup>
+    <AnimationLookup id="13">24</AnimationLookup>
+    <AnimationLookup id="14">52</AnimationLookup>
+    <AnimationLookup id="15">53</AnimationLookup>
+    <AnimationLookup id="16">7</AnimationLookup>
+    <AnimationLookup id="17">-1</AnimationLookup>
+    <AnimationLookup id="18">-1</AnimationLookup>
+    <AnimationLookup id="19">-1</AnimationLookup>
+    <AnimationLookup id="20">55</AnimationLookup>
+    <AnimationLookup id="21">69</AnimationLookup>
+    <AnimationLookup id="22">-1</AnimationLookup>
+    <AnimationLookup id="23">-1</AnimationLookup>
+    <AnimationLookup id="24">-1</AnimationLookup>
+    <AnimationLookup id="25">6</AnimationLookup>
+    <AnimationLookup id="26">42</AnimationLookup>
+    <AnimationLookup id="27">43</AnimationLookup>
+    <AnimationLookup id="28">44</AnimationLookup>
+    <AnimationLookup id="29">45</AnimationLookup>
+    <AnimationLookup id="30">35</AnimationLookup>
+    <AnimationLookup id="31">54</AnimationLookup>
+    <AnimationLookup id="32">-1</AnimationLookup>
+    <AnimationLookup id="33">-1</AnimationLookup>
+    <AnimationLookup id="34">-1</AnimationLookup>
+    <AnimationLookup id="35">-1</AnimationLookup>
+    <AnimationLookup id="36">-1</AnimationLookup>
+    <AnimationLookup id="37">-1</AnimationLookup>
+    <AnimationLookup id="38">-1</AnimationLookup>
+    <AnimationLookup id="39">-1</AnimationLookup>
+    <AnimationLookup id="40">-1</AnimationLookup>
+    <AnimationLookup id="41">-1</AnimationLookup>
+    <AnimationLookup id="42">-1</AnimationLookup>
+    <AnimationLookup id="43">-1</AnimationLookup>
+    <AnimationLookup id="44">-1</AnimationLookup>
+    <AnimationLookup id="45">-1</AnimationLookup>
+    <AnimationLookup id="46">-1</AnimationLookup>
+    <AnimationLookup id="47">-1</AnimationLookup>
+    <AnimationLookup id="48">-1</AnimationLookup>
+    <AnimationLookup id="49">-1</AnimationLookup>
+    <AnimationLookup id="50">-1</AnimationLookup>
+    <AnimationLookup id="51">48</AnimationLookup>
+    <AnimationLookup id="52">47</AnimationLookup>
+    <AnimationLookup id="53">11</AnimationLookup>
+    <AnimationLookup id="54">8</AnimationLookup>
+    <AnimationLookup id="55">4</AnimationLookup>
+    <AnimationLookup id="56">36</AnimationLookup>
+    <AnimationLookup id="57">-1</AnimationLookup>
+    <AnimationLookup id="58">50</AnimationLookup>
+    <AnimationLookup id="59">49</AnimationLookup>
+    <AnimationLookup id="60">15</AnimationLookup>
+    <AnimationLookup id="61">-1</AnimationLookup>
+    <AnimationLookup id="62">-1</AnimationLookup>
+    <AnimationLookup id="63">-1</AnimationLookup>
+    <AnimationLookup id="64">17</AnimationLookup>
+    <AnimationLookup id="65">16</AnimationLookup>
+    <AnimationLookup id="66">-1</AnimationLookup>
+    <AnimationLookup id="67">-1</AnimationLookup>
+    <AnimationLookup id="68">-1</AnimationLookup>
+    <AnimationLookup id="69">-1</AnimationLookup>
+    <AnimationLookup id="70">-1</AnimationLookup>
+    <AnimationLookup id="71">57</AnimationLookup>
+    <AnimationLookup id="72">56</AnimationLookup>
+    <AnimationLookup id="73">58</AnimationLookup>
+    <AnimationLookup id="74">14</AnimationLookup>
+    <AnimationLookup id="75">60</AnimationLookup>
+    <AnimationLookup id="76">61</AnimationLookup>
+    <AnimationLookup id="77">27</AnimationLookup>
+    <AnimationLookup id="78">-1</AnimationLookup>
+    <AnimationLookup id="79">-1</AnimationLookup>
+    <AnimationLookup id="80">-1</AnimationLookup>
+    <AnimationLookup id="81">62</AnimationLookup>
+    <AnimationLookup id="82">28</AnimationLookup>
+    <AnimationLookup id="83">66</AnimationLookup>
+    <AnimationLookup id="84">65</AnimationLookup>
+    <AnimationLookup id="85">-1</AnimationLookup>
+    <AnimationLookup id="86">13</AnimationLookup>
+    <AnimationLookup id="87">67</AnimationLookup>
+    <AnimationLookup id="88">41</AnimationLookup>
+    <AnimationLookup id="89">37</AnimationLookup>
+    <AnimationLookup id="90">40</AnimationLookup>
+    <AnimationLookup id="91">-1</AnimationLookup>
+    <AnimationLookup id="92">-1</AnimationLookup>
+    <AnimationLookup id="93">-1</AnimationLookup>
+    <AnimationLookup id="94">-1</AnimationLookup>
+    <AnimationLookup id="95">-1</AnimationLookup>
+    <AnimationLookup id="96">-1</AnimationLookup>
+    <AnimationLookup id="97">-1</AnimationLookup>
+    <AnimationLookup id="98">-1</AnimationLookup>
+    <AnimationLookup id="99">18</AnimationLookup>
+    <AnimationLookup id="100">20</AnimationLookup>
+    <AnimationLookup id="101">22</AnimationLookup>
+    <AnimationLookup id="102">25</AnimationLookup>
+    <AnimationLookup id="103">-1</AnimationLookup>
+    <AnimationLookup id="104">38</AnimationLookup>
+    <AnimationLookup id="105">39</AnimationLookup>
+    <AnimationLookup id="106">46</AnimationLookup>
+    <AnimationLookup id="107">29</AnimationLookup>
+    <AnimationLookup id="108">-1</AnimationLookup>
+    <AnimationLookup id="109">-1</AnimationLookup>
+    <AnimationLookup id="110">59</AnimationLookup>
+    <AnimationLookup id="111">-1</AnimationLookup>
+    <AnimationLookup id="112">-1</AnimationLookup>
+    <AnimationLookup id="113">-1</AnimationLookup>
+    <AnimationLookup id="114">-1</AnimationLookup>
+    <AnimationLookup id="115">68</AnimationLookup>
+    <AnimationLookup id="116">-1</AnimationLookup>
+    <AnimationLookup id="117">-1</AnimationLookup>
+    <AnimationLookup id="118">34</AnimationLookup>
+    <AnimationLookup id="119">64</AnimationLookup>
+    <AnimationLookup id="120">-1</AnimationLookup>
+    <AnimationLookup id="121">-1</AnimationLookup>
+    <AnimationLookup id="122">-1</AnimationLookup>
+    <AnimationLookup id="123">-1</AnimationLookup>
+    <AnimationLookup id="124">-1</AnimationLookup>
+    <AnimationLookup id="125">63</AnimationLookup>
+    <AnimationLookup id="126">-1</AnimationLookup>
+  </AnimationLookups>
+  <Bones>
+    <Bone id="0">
+      <keyboneid>26</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-1228515739</unknown>
+      <pivot>(-1.77652, 0, 5.62111)</pivot>
+    </Bone>
+    <Bone id="1">
+      <keyboneid>5</keyboneid>
+      <billboard>0</billboard>
+      <parent>0</parent>
+      <geoid>47</geoid>
+      <unknown>-604562657</unknown>
+      <pivot>(-3.05606, 0, 5.28043)</pivot>
+    </Bone>
+    <Bone id="2">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>0</parent>
+      <geoid>44</geoid>
+      <unknown>1883286857</unknown>
+      <pivot>(-0.532133, 0, 5.73948)</pivot>
+    </Bone>
+    <Bone id="3">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>0</parent>
+      <geoid>98</geoid>
+      <unknown>1236608114</unknown>
+      <pivot>(-1.20812, 0, 2.93499)</pivot>
+    </Bone>
+    <Bone id="4">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>74</geoid>
+      <unknown>-29919124</unknown>
+      <pivot>(-3.08962, 1.87112, 4.39186)</pivot>
+    </Bone>
+    <Bone id="5">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>128</geoid>
+      <unknown>486382940</unknown>
+      <pivot>(-6.22668, 0, 3.62351)</pivot>
+    </Bone>
+    <Bone id="6">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>173</geoid>
+      <unknown>1811590602</unknown>
+      <pivot>(-7.36751, 0, 3.14022)</pivot>
+    </Bone>
+    <Bone id="7">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>221</geoid>
+      <unknown>-174180247</unknown>
+      <pivot>(-8.53879, 0, 2.49101)</pivot>
+    </Bone>
+    <Bone id="8">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>269</geoid>
+      <unknown>-2103899905</unknown>
+      <pivot>(-9.75007, 0, 1.94942)</pivot>
+    </Bone>
+    <Bone id="9">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>313</geoid>
+      <unknown>462444869</unknown>
+      <pivot>(-11.0175, 0, 1.72921)</pivot>
+    </Bone>
+    <Bone id="10">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>357</geoid>
+      <unknown>1821862355</unknown>
+      <pivot>(-12.2981, 0, 1.65972)</pivot>
+    </Bone>
+    <Bone id="11">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>398</geoid>
+      <unknown>-64457662</unknown>
+      <pivot>(-13.5296, 0, 1.68)</pivot>
+    </Bone>
+    <Bone id="12">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>436</geoid>
+      <unknown>-1959836460</unknown>
+      <pivot>(-14.6406, 0, 1.69829)</pivot>
+    </Bone>
+    <Bone id="13">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>495</geoid>
+      <unknown>-337064655</unknown>
+      <pivot>(-16.2985, 0, 1.53884)</pivot>
+    </Bone>
+    <Bone id="14">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>74</geoid>
+      <unknown>70796559</unknown>
+      <pivot>(-3.08961, -1.87112, 4.39186)</pivot>
+    </Bone>
+    <Bone id="15">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>2</parent>
+      <geoid>45</geoid>
+      <unknown>122133983</unknown>
+      <pivot>(0.615987, 0, 6.23377)</pivot>
+    </Bone>
+    <Bone id="16">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>4</parent>
+      <geoid>69</geoid>
+      <unknown>-749425572</unknown>
+      <pivot>(-2.74635, 1.98482, 2.48134)</pivot>
+    </Bone>
+    <Bone id="17">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>14</parent>
+      <geoid>69</geoid>
+      <unknown>693866815</unknown>
+      <pivot>(-2.74635, -1.98482, 2.48134)</pivot>
+    </Bone>
+    <Bone id="18">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>50</geoid>
+      <unknown>-776205836</unknown>
+      <pivot>(1.97698, 0, 6.51073)</pivot>
+    </Bone>
+    <Bone id="19">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>54</geoid>
+      <unknown>1356559117</unknown>
+      <pivot>(0.555553, -1.38889, 6.84253)</pivot>
+    </Bone>
+    <Bone id="20">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>54</geoid>
+      <unknown>-1428926866</unknown>
+      <pivot>(0.555552, 1.38889, 6.84253)</pivot>
+    </Bone>
+    <Bone id="21">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>50</geoid>
+      <unknown>-1725757316</unknown>
+      <pivot>(1.97698, 0, 6.51073)</pivot>
+    </Bone>
+    <Bone id="22">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>16</parent>
+      <geoid>69</geoid>
+      <unknown>-787344891</unknown>
+      <pivot>(-4.44012, 2.20186, 1.55134)</pivot>
+    </Bone>
+    <Bone id="23">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>17</parent>
+      <geoid>69</geoid>
+      <unknown>723332966</unknown>
+      <pivot>(-4.44011, -2.20186, 1.55133)</pivot>
+    </Bone>
+    <Bone id="24">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>21</parent>
+      <geoid>50</geoid>
+      <unknown>-299616022</unknown>
+      <pivot>(3.35867, 0, 6.3695)</pivot>
+    </Bone>
+    <Bone id="25">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>18</parent>
+      <geoid>69</geoid>
+      <unknown>-339094887</unknown>
+      <pivot>(1.90791, 1.60856, 5.42538)</pivot>
+    </Bone>
+    <Bone id="26">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>18</parent>
+      <geoid>69</geoid>
+      <unknown>298250234</unknown>
+      <pivot>(1.90791, -1.60856, 5.42539)</pivot>
+    </Bone>
+    <Bone id="27">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>19</parent>
+      <geoid>148</geoid>
+      <unknown>1496710260</unknown>
+      <pivot>(-2.16732, -3.65106, 8.95572)</pivot>
+    </Bone>
+    <Bone id="28">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>20</parent>
+      <geoid>148</geoid>
+      <unknown>-1556430569</unknown>
+      <pivot>(-2.16732, 3.65105, 8.95572)</pivot>
+    </Bone>
+    <Bone id="29">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>22</parent>
+      <geoid>69</geoid>
+      <unknown>22397879</unknown>
+      <pivot>(-4.09685, 2.31556, -0.35919)</pivot>
+    </Bone>
+    <Bone id="30">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>23</parent>
+      <geoid>69</geoid>
+      <unknown>-77922604</unknown>
+      <pivot>(-4.09686, -2.31556, -0.359191)</pivot>
+    </Bone>
+    <Bone id="31">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>24</parent>
+      <geoid>55</geoid>
+      <unknown>1999464784</unknown>
+      <pivot>(4.63496, 0, 7.20925)</pivot>
+    </Bone>
+    <Bone id="32">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>25</parent>
+      <geoid>104</geoid>
+      <unknown>1730788108</unknown>
+      <pivot>(0.774734, 2.40829, 2.85959)</pivot>
+    </Bone>
+    <Bone id="33">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>26</parent>
+      <geoid>105</geoid>
+      <unknown>-1658419601</unknown>
+      <pivot>(0.774736, -2.40828, 2.85958)</pivot>
+    </Bone>
+    <Bone id="34">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>27</parent>
+      <geoid>228</geoid>
+      <unknown>-953065</unknown>
+      <pivot>(1.17631, -7.57228, 12.6759)</pivot>
+    </Bone>
+    <Bone id="35">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>28</parent>
+      <geoid>228</geoid>
+      <unknown>100550772</unknown>
+      <pivot>(1.17631, 7.57227, 12.6759)</pivot>
+    </Bone>
+    <Bone id="36">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>29</parent>
+      <geoid>32</geoid>
+      <unknown>392317534</unknown>
+      <pivot>(-3.7803, 2.98982, -0.854749)</pivot>
+    </Bone>
+    <Bone id="37">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>29</parent>
+      <geoid>34</geoid>
+      <unknown>242842399</unknown>
+      <pivot>(-3.44249, 2.3154, -1.0638)</pivot>
+    </Bone>
+    <Bone id="38">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>29</parent>
+      <geoid>39</geoid>
+      <unknown>626272476</unknown>
+      <pivot>(-3.60776, 1.57935, -1.00201)</pivot>
+    </Bone>
+    <Bone id="39">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>30</parent>
+      <geoid>39</geoid>
+      <unknown>-1785591696</unknown>
+      <pivot>(-3.60775, -1.57935, -1.00201)</pivot>
+    </Bone>
+    <Bone id="40">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>30</parent>
+      <geoid>34</geoid>
+      <unknown>-1094755405</unknown>
+      <pivot>(-3.4425, -2.31539, -1.0638)</pivot>
+    </Bone>
+    <Bone id="41">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>30</parent>
+      <geoid>32</geoid>
+      <unknown>-1482396942</unknown>
+      <pivot>(-3.78031, -2.98983, -0.854749)</pivot>
+    </Bone>
+    <Bone id="42">
+      <keyboneid>6</keyboneid>
+      <billboard>0</billboard>
+      <parent>31</parent>
+      <geoid>55</geoid>
+      <unknown>130111906</unknown>
+      <pivot>(5.65931, 0, 8.34275)</pivot>
+    </Bone>
+    <Bone id="43">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>32</parent>
+      <geoid>104</geoid>
+      <unknown>-1041419665</unknown>
+      <pivot>(1.03869, 2.46966, -0.0444598)</pivot>
+    </Bone>
+    <Bone id="44">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>33</parent>
+      <geoid>104</geoid>
+      <unknown>1004670732</unknown>
+      <pivot>(1.03869, -2.46966, -0.0444601)</pivot>
+    </Bone>
+    <Bone id="45">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>93</geoid>
+      <unknown>-167967973</unknown>
+      <pivot>(-0.377115, -9.11711, 14.0513)</pivot>
+    </Bone>
+    <Bone id="46">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>80</geoid>
+      <unknown>-556773160</unknown>
+      <pivot>(-0.961307, -8.06125, 13.0449)</pivot>
+    </Bone>
+    <Bone id="47">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>79</geoid>
+      <unknown>-942972519</unknown>
+      <pivot>(-1.04286, -7.51231, 12.6159)</pivot>
+    </Bone>
+    <Bone id="48">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>83</geoid>
+      <unknown>-136606164</unknown>
+      <pivot>(-0.752807, -8.57922, 13.513)</pivot>
+    </Bone>
+    <Bone id="49">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>209</geoid>
+      <unknown>-587801105</unknown>
+      <pivot>(-4.48039, -8.51806, 13.7004)</pivot>
+    </Bone>
+    <Bone id="50">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>119</geoid>
+      <unknown>-974263122</unknown>
+      <pivot>(-1.78872, -6.46725, 11.6359)</pivot>
+    </Bone>
+    <Bone id="51">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>34</parent>
+      <geoid>70</geoid>
+      <unknown>2090762020</unknown>
+      <pivot>(1.28405, -9.0147, 13.9806)</pivot>
+    </Bone>
+    <Bone id="52">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>93</geoid>
+      <unknown>1161503671</unknown>
+      <pivot>(-0.377116, 9.11712, 14.0513)</pivot>
+    </Bone>
+    <Bone id="53">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>80</geoid>
+      <unknown>1846964340</unknown>
+      <pivot>(-0.961308, 8.06125, 13.0449)</pivot>
+    </Bone>
+    <Bone id="54">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>79</geoid>
+      <unknown>1997357365</unknown>
+      <pivot>(-1.04286, 7.5123, 12.6159)</pivot>
+    </Bone>
+    <Bone id="55">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>83</geoid>
+      <unknown>1193127552</unknown>
+      <pivot>(-0.752808, 8.57922, 13.513)</pivot>
+    </Bone>
+    <Bone id="56">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>209</geoid>
+      <unknown>1815149891</unknown>
+      <pivot>(-4.48038, 8.51805, 13.7004)</pivot>
+    </Bone>
+    <Bone id="57">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>119</geoid>
+      <unknown>1965804546</unknown>
+      <pivot>(-1.78872, 6.46724, 11.6359)</pivot>
+    </Bone>
+    <Bone id="58">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>35</parent>
+      <geoid>70</geoid>
+      <unknown>-2037300665</unknown>
+      <pivot>(1.28405, 9.0147, 13.9806)</pivot>
+    </Bone>
+    <Bone id="59">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>36</parent>
+      <geoid>23</geoid>
+      <unknown>-1905583132</unknown>
+      <pivot>(-3.21281, 3.19079, -1.13625)</pivot>
+    </Bone>
+    <Bone id="60">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>37</parent>
+      <geoid>33</geoid>
+      <unknown>-1754256731</unknown>
+      <pivot>(-2.60897, 2.3154, -1.47479)</pivot>
+    </Bone>
+    <Bone id="61">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>38</parent>
+      <geoid>19</geoid>
+      <unknown>-1134724762</unknown>
+      <pivot>(-3.18096, 1.51676, -1.31979)</pivot>
+    </Bone>
+    <Bone id="62">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>39</parent>
+      <geoid>19</geoid>
+      <unknown>211507658</unknown>
+      <pivot>(-3.18097, -1.51676, -1.31979)</pivot>
+    </Bone>
+    <Bone id="63">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>40</parent>
+      <geoid>33</geoid>
+      <unknown>666241545</unknown>
+      <pivot>(-2.60897, -2.31539, -1.47479)</pivot>
+    </Bone>
+    <Bone id="64">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>41</parent>
+      <geoid>23</geoid>
+      <unknown>1051540296</unknown>
+      <pivot>(-3.21281, -3.19078, -1.13625)</pivot>
+    </Bone>
+    <Bone id="65">
+      <keyboneid>7</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>40</geoid>
+      <unknown>818638717</unknown>
+      <pivot>(6.74611, 0, 8.10412)</pivot>
+    </Bone>
+    <Bone id="66">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>82</geoid>
+      <unknown>1410223650</unknown>
+      <pivot>(7.76517, -0.431617, 9.10692)</pivot>
+    </Bone>
+    <Bone id="67">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>82</geoid>
+      <unknown>-1375636671</unknown>
+      <pivot>(7.76516, 0.431616, 9.10692)</pivot>
+    </Bone>
+    <Bone id="68">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>43</parent>
+      <geoid>25</geoid>
+      <unknown>797489928</unknown>
+      <pivot>(1.05407, 3.04397, -0.47439)</pivot>
+    </Bone>
+    <Bone id="69">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>43</parent>
+      <geoid>30</geoid>
+      <unknown>915638857</unknown>
+      <pivot>(1.59538, 2.47762, -0.682151)</pivot>
+    </Bone>
+    <Bone id="70">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>43</parent>
+      <geoid>35</geoid>
+      <unknown>499046794</unknown>
+      <pivot>(0.602069, 1.85118, -0.658058)</pivot>
+    </Bone>
+    <Bone id="71">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>35</geoid>
+      <unknown>-1384580826</unknown>
+      <pivot>(0.60207, -1.85117, -0.658057)</pivot>
+    </Bone>
+    <Bone id="72">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>30</geoid>
+      <unknown>-2041206043</unknown>
+      <pivot>(1.59538, -2.47762, -0.682151)</pivot>
+    </Bone>
+    <Bone id="73">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>25</geoid>
+      <unknown>-1622238300</unknown>
+      <pivot>(1.05408, -3.04397, -0.47439)</pivot>
+    </Bone>
+    <Bone id="74">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>45</parent>
+      <geoid>222</geoid>
+      <unknown>1827951265</unknown>
+      <pivot>(-5.20626, -11.8297, 16.7639)</pivot>
+    </Bone>
+    <Bone id="75">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>46</parent>
+      <geoid>158</geoid>
+      <unknown>1205404002</unknown>
+      <pivot>(-4.74478, -9.55233, 14.7364)</pivot>
+    </Bone>
+    <Bone id="76">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>47</parent>
+      <geoid>114</geoid>
+      <unknown>1589784611</unknown>
+      <pivot>(-4.20992, -7.43656, 12.6866)</pivot>
+    </Bone>
+    <Bone id="77">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>48</parent>
+      <geoid>182</geoid>
+      <unknown>1859313558</unknown>
+      <pivot>(-4.88664, -10.6438, 15.5776)</pivot>
+    </Bone>
+    <Bone id="78">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>50</parent>
+      <geoid>66</geoid>
+      <unknown>1558494484</unknown>
+      <pivot>(-3.60164, -6.17061, 11.4158)</pivot>
+    </Bone>
+    <Bone id="79">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>52</parent>
+      <geoid>222</geoid>
+      <unknown>-600673779</unknown>
+      <pivot>(-5.20626, 11.8297, 16.7639)</pivot>
+    </Bone>
+    <Bone id="80">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>53</parent>
+      <geoid>158</geoid>
+      <unknown>-148954674</unknown>
+      <pivot>(-4.74479, 9.55234, 14.7364)</pivot>
+    </Bone>
+    <Bone id="81">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>54</parent>
+      <geoid>114</geoid>
+      <unknown>-301723505</unknown>
+      <pivot>(-4.20993, 7.43656, 12.6866)</pivot>
+    </Bone>
+    <Bone id="82">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>55</parent>
+      <geoid>182</geoid>
+      <unknown>-569049286</unknown>
+      <pivot>(-4.88665, 10.6438, 15.5776)</pivot>
+    </Bone>
+    <Bone id="83">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>57</parent>
+      <geoid>66</geoid>
+      <unknown>-333275720</unknown>
+      <pivot>(-3.60165, 6.17061, 11.4158)</pivot>
+    </Bone>
+    <Bone id="84">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>65</parent>
+      <geoid>80</geoid>
+      <unknown>-103351569</unknown>
+      <pivot>(8.81314, 0, 7.26015)</pivot>
+    </Bone>
+    <Bone id="85">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>68</parent>
+      <geoid>34</geoid>
+      <unknown>-1232999758</unknown>
+      <pivot>(1.80894, 3.27197, -1.0375)</pivot>
+    </Bone>
+    <Bone id="86">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>69</parent>
+      <geoid>34</geoid>
+      <unknown>-1348805645</unknown>
+      <pivot>(2.4343, 2.47762, -1.17308)</pivot>
+    </Bone>
+    <Bone id="87">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>70</parent>
+      <geoid>33</geoid>
+      <unknown>-2068346832</unknown>
+      <pivot>(1.34413, 1.38564, -0.971898)</pivot>
+    </Bone>
+    <Bone id="88">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>71</parent>
+      <geoid>33</geoid>
+      <unknown>879863964</unknown>
+      <pivot>(1.34413, -1.38564, -0.971898)</pivot>
+    </Bone>
+    <Bone id="89">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>72</parent>
+      <geoid>34</geoid>
+      <unknown>526187359</unknown>
+      <pivot>(2.4343, -2.47762, -1.17308)</pivot>
+    </Bone>
+    <Bone id="90">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>73</parent>
+      <geoid>34</geoid>
+      <unknown>105368094</unknown>
+      <pivot>(1.80894, -3.27197, -1.0375)</pivot>
+    </Bone>
+    <Bone id="91">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>74</parent>
+      <geoid>233</geoid>
+      <unknown>468935223</unknown>
+      <pivot>(-11.1242, -13.8028, 18.5053)</pivot>
+    </Bone>
+    <Bone id="92">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>75</parent>
+      <geoid>163</geoid>
+      <unknown>819868148</unknown>
+      <pivot>(-9.22184, -10.2352, 15.1368)</pivot>
+    </Bone>
+    <Bone id="93">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>76</parent>
+      <geoid>107</geoid>
+      <unknown>700776629</unknown>
+      <pivot>(-7.12662, -6.93067, 12.3156)</pivot>
+    </Bone>
+    <Bone id="94">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>79</parent>
+      <geoid>233</geoid>
+      <unknown>-1422572901</unknown>
+      <pivot>(-11.1242, 13.8028, 18.5053)</pivot>
+    </Bone>
+    <Bone id="95">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>80</parent>
+      <geoid>163</geoid>
+      <unknown>-2145906344</unknown>
+      <pivot>(-9.22183, 10.2352, 15.1368)</pivot>
+    </Bone>
+    <Bone id="96">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>81</parent>
+      <geoid>107</geoid>
+      <unknown>-1727848423</unknown>
+      <pivot>(-7.12661, 6.93067, 12.3156)</pivot>
+    </Bone>
+    <Bone id="97">
+      <keyboneid>22</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-1556831965</unknown>
+      <pivot>(1.04823, 0, 13.3388)</pivot>
+    </Bone>
+    <Bone id="98">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>1034101060</unknown>
+      <pivot>(-0, 0, 0)</pivot>
+    </Bone>
+    <Bone id="99">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>1524902329</unknown>
+      <pivot>(3.45966, 0, 9.79025)</pivot>
+    </Bone>
+    <Bone id="100">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>562728875</unknown>
+      <pivot>(-0.305071, -0.043194, 0.10153)</pivot>
+    </Bone>
+    <Bone id="101">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-547908709</unknown>
+      <pivot>(-0, 0, 0)</pivot>
+    </Bone>
+    <Bone id="102">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-1708876519</unknown>
+      <pivot>(-0, 0, 0)</pivot>
+    </Bone>
+    <Bone id="103">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-509253128</unknown>
+      <pivot>(-0, 0, 0)</pivot>
+    </Bone>
+    <Bone id="104">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>1451682</unknown>
+      <pivot>(4.64656, 0.877238, 0)</pivot>
+    </Bone>
+    <Bone id="105">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>1997608500</unknown>
+      <pivot>(0.382175, 2.45236, 0)</pivot>
+    </Bone>
+    <Bone id="106">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-732489347</unknown>
+      <pivot>(5.04051, -0.907967, 0)</pivot>
+    </Bone>
+    <Bone id="107">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-1555027477</unknown>
+      <pivot>(0.520532, -2.45533, 0)</pivot>
+    </Bone>
+    <Bone id="108">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>456731918</unknown>
+      <pivot>(4.35502, 0.877691, 0)</pivot>
+    </Bone>
+    <Bone id="109">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>1816010136</unknown>
+      <pivot>(0.30669, 2.45709, 0)</pivot>
+    </Bone>
+    <Bone id="110">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-814214447</unknown>
+      <pivot>(4.81755, -0.900381, 0)</pivot>
+    </Bone>
+    <Bone id="111">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>-1199627705</unknown>
+      <pivot>(0.0739928, -2.4507, 0)</pivot>
+    </Bone>
+    <Bone id="112">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>-1</parent>
+      <geoid>0</geoid>
+      <unknown>652988272</unknown>
+      <pivot>(0.0019388, 0, 15.2778)</pivot>
+    </Bone>
+    <Bone id="113">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>87</geoid>
+      <unknown>-2047554330</unknown>
+      <pivot>(-5.11041, 0, 3.99769)</pivot>
+    </Bone>
+    <Bone id="114">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>135</geoid>
+      <unknown>-656160035</unknown>
+      <pivot>(-5.29274, 0, 2.26948)</pivot>
+    </Bone>
+    <Bone id="115">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>2</parent>
+      <geoid>200</geoid>
+      <unknown>1511036747</unknown>
+      <pivot>(0.00559509, 0.707, 0.228096)</pivot>
+    </Bone>
+    <Bone id="116">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>1</parent>
+      <geoid>36</geoid>
+      <unknown>-772662305</unknown>
+      <pivot>(-4.04651, -0.0106036, 5.03244)</pivot>
+    </Bone>
+    <Bone id="117">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>2</parent>
+      <geoid>22</geoid>
+      <unknown>652692402</unknown>
+      <pivot>(-0.305071, -0.000321965, 6.32198)</pivot>
+    </Bone>
+    <Bone id="118">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>113</parent>
+      <geoid>31</geoid>
+      <unknown>949075690</unknown>
+      <pivot>(-5.85935, -0.00195863, 4.42413)</pivot>
+    </Bone>
+    <Bone id="119">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>5</parent>
+      <geoid>27</geoid>
+      <unknown>1073511155</unknown>
+      <pivot>(-6.06943, -0.0106037, 4.37894)</pivot>
+    </Bone>
+    <Bone id="120">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>6</parent>
+      <geoid>24</geoid>
+      <unknown>-1473338501</unknown>
+      <pivot>(-7.64033, -0.0106038, 3.77523)</pivot>
+    </Bone>
+    <Bone id="121">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>7</parent>
+      <geoid>42</geoid>
+      <unknown>-550923283</unknown>
+      <pivot>(-9.46419, -0.0106037, 3.24394)</pivot>
+    </Bone>
+    <Bone id="122">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>9</parent>
+      <geoid>37</geoid>
+      <unknown>-1915193206</unknown>
+      <pivot>(-11.3215, -0.0106034, 2.72043)</pivot>
+    </Bone>
+    <Bone id="123">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>11</parent>
+      <geoid>27</geoid>
+      <unknown>-86030308</unknown>
+      <pivot>(-13.6935, -0.0106035, 2.43678)</pivot>
+    </Bone>
+    <Bone id="124">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>13</parent>
+      <geoid>38</geoid>
+      <unknown>1335266940</unknown>
+      <pivot>(-16.2256, -0.0101703, 2.59591)</pivot>
+    </Bone>
+    <Bone id="125">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>13</geoid>
+      <unknown>1452130109</unknown>
+      <pivot>(0.43195, -0.000321998, 5.89603)</pivot>
+    </Bone>
+    <Bone id="126">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>18</geoid>
+      <unknown>-813371769</unknown>
+      <pivot>(0.33745, -0.00243877, 6.68071)</pivot>
+    </Bone>
+    <Bone id="127">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>24</geoid>
+      <unknown>-307404022</unknown>
+      <pivot>(-0, 0, 5.97222)</pivot>
+    </Bone>
+    <Bone id="128">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>24</geoid>
+      <unknown>-1390880692</unknown>
+      <pivot>(-0, 0, 5.97222)</pivot>
+    </Bone>
+    <Bone id="129">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>24</geoid>
+      <unknown>524081717</unknown>
+      <pivot>(-0, 0, 5.97222)</pivot>
+    </Bone>
+    <Bone id="130">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>15</parent>
+      <geoid>24</geoid>
+      <unknown>1025530540</unknown>
+      <pivot>(-0, 0, 5.97222)</pivot>
+    </Bone>
+    <Bone id="131">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>18</parent>
+      <geoid>61</geoid>
+      <unknown>1896888731</unknown>
+      <pivot>(1.49545, -4.86757e-006, 8.13903)</pivot>
+    </Bone>
+    <Bone id="132">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>24</parent>
+      <geoid>92</geoid>
+      <unknown>1302814389</unknown>
+      <pivot>(5.01837, 0, 4.40825)</pivot>
+    </Bone>
+    <Bone id="133">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>24</parent>
+      <geoid>77</geoid>
+      <unknown>-1321889222</unknown>
+      <pivot>(3.51452, -0.0431964, 8.52981)</pivot>
+    </Bone>
+    <Bone id="134">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>31</parent>
+      <geoid>76</geoid>
+      <unknown>-726790385</unknown>
+      <pivot>(6.21477, 0, 5.77166)</pivot>
+    </Bone>
+    <Bone id="135">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>132</parent>
+      <geoid>3</geoid>
+      <unknown>-1097775973</unknown>
+      <pivot>(4.95575, -2.26253e-005, 4.35151)</pivot>
+    </Bone>
+    <Bone id="136">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>3</geoid>
+      <unknown>1639899198</unknown>
+      <pivot>(1.0706, -2.42311, 0.0232928)</pivot>
+    </Bone>
+    <Bone id="137">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>43</parent>
+      <geoid>10</geoid>
+      <unknown>-1682842275</unknown>
+      <pivot>(0.755783, 2.46028, -0.0624029)</pivot>
+    </Bone>
+    <Bone id="138">
+      <keyboneid>21</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>51</geoid>
+      <unknown>-995840682</unknown>
+      <pivot>(7.02935, -0.000123422, 7.96383)</pivot>
+    </Bone>
+    <Bone id="139">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>76</geoid>
+      <unknown>1750115027</unknown>
+      <pivot>(7.72222, -6.30345e-006, 7.77778)</pivot>
+    </Bone>
+    <Bone id="140">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>134</parent>
+      <geoid>19</geoid>
+      <unknown>-1368456183</unknown>
+      <pivot>(5.71914, -2.51248e-005, 5.96016)</pivot>
+    </Bone>
+    <Bone id="141">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>37</geoid>
+      <unknown>-1960598786</unknown>
+      <pivot>(0.766728, -2.32436, -1.02789)</pivot>
+    </Bone>
+    <Bone id="142">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>43</parent>
+      <geoid>29</geoid>
+      <unknown>304804676</unknown>
+      <pivot>(0.972956, 2.50871, -0.866091)</pivot>
+    </Bone>
+    <Bone id="143">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>41</geoid>
+      <unknown>-1493882039</unknown>
+      <pivot>(6.75724, 0.032118, 8.72717)</pivot>
+    </Bone>
+    <Bone id="144">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>54</geoid>
+      <unknown>-969760084</unknown>
+      <pivot>(7.17051, -0.000137923, 8.47734)</pivot>
+    </Bone>
+    <Bone id="145">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>62</geoid>
+      <unknown>1224428133</unknown>
+      <pivot>(7.38643, -0.00224954, 8.24719)</pivot>
+    </Bone>
+    <Bone id="146">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>57</geoid>
+      <unknown>-2124918890</unknown>
+      <pivot>(7.11143, -0.000122145, 7.66426)</pivot>
+    </Bone>
+    <Bone id="147">
+      <keyboneid>20</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>57</geoid>
+      <unknown>-1842030656</unknown>
+      <pivot>(7.11143, -0.000122145, 7.66426)</pivot>
+    </Bone>
+    <Bone id="148">
+      <keyboneid>24</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>57</geoid>
+      <unknown>903451752</unknown>
+      <pivot>(7.11143, -0.000122145, 7.66426)</pivot>
+    </Bone>
+    <Bone id="149">
+      <keyboneid>25</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>57</geoid>
+      <unknown>-543489656</unknown>
+      <pivot>(7.11143, -0.000122145, 7.66426)</pivot>
+    </Bone>
+    <Bone id="150">
+      <keyboneid>18</keyboneid>
+      <billboard>0</billboard>
+      <parent>42</parent>
+      <geoid>149</geoid>
+      <unknown>-606408919</unknown>
+      <pivot>(9.5558, 0.177463, 6.92705)</pivot>
+    </Bone>
+    <Bone id="151">
+      <keyboneid>19</keyboneid>
+      <billboard>0</billboard>
+      <parent>44</parent>
+      <geoid>0</geoid>
+      <unknown>1748757155</unknown>
+      <pivot>(1.03869, -2.46966, -0.04446)</pivot>
+    </Bone>
+    <Bone id="152">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>69</parent>
+      <geoid>32</geoid>
+      <unknown>1589765923</unknown>
+      <pivot>(2.49122, 2.51613, -0.650074)</pivot>
+    </Bone>
+    <Bone id="153">
+      <keyboneid>-1</keyboneid>
+      <billboard>0</billboard>
+      <parent>72</parent>
+      <geoid>33</geoid>
+      <unknown>-1529947584</unknown>
+      <pivot>(2.51861, -2.52104, -0.650379)</pivot>
+    </Bone>
+  </Bones>
+  <BoneLookups></BoneLookups>
+  <KeyBoneLookups>
+<KeyBoneLookup id="0">-1</KeyBoneLookup>
+<KeyBoneLookup id="1">-1</KeyBoneLookup>
+<KeyBoneLookup id="2">-1</KeyBoneLookup>
+<KeyBoneLookup id="3">-1</KeyBoneLookup>
+<KeyBoneLookup id="4">-1</KeyBoneLookup>
+<KeyBoneLookup id="5">1</KeyBoneLookup>
+<KeyBoneLookup id="6">42</KeyBoneLookup>
+<KeyBoneLookup id="7">65</KeyBoneLookup>
+<KeyBoneLookup id="8">-1</KeyBoneLookup>
+<KeyBoneLookup id="9">-1</KeyBoneLookup>
+<KeyBoneLookup id="10">-1</KeyBoneLookup>
+<KeyBoneLookup id="11">-1</KeyBoneLookup>
+<KeyBoneLookup id="12">-1</KeyBoneLookup>
+<KeyBoneLookup id="13">-1</KeyBoneLookup>
+<KeyBoneLookup id="14">-1</KeyBoneLookup>
+<KeyBoneLookup id="15">-1</KeyBoneLookup>
+<KeyBoneLookup id="16">-1</KeyBoneLookup>
+<KeyBoneLookup id="17">-1</KeyBoneLookup>
+<KeyBoneLookup id="18">150</KeyBoneLookup>
+<KeyBoneLookup id="19">151</KeyBoneLookup>
+<KeyBoneLookup id="20">147</KeyBoneLookup>
+<KeyBoneLookup id="21">138</KeyBoneLookup>
+<KeyBoneLookup id="22">97</KeyBoneLookup>
+<KeyBoneLookup id="23">-1</KeyBoneLookup>
+<KeyBoneLookup id="24">148</KeyBoneLookup>
+<KeyBoneLookup id="25">149</KeyBoneLookup>
+<KeyBoneLookup id="26">0</KeyBoneLookup>
+  </KeyBoneLookups>
+  </SkeletonAndAnimation>
+  <GeometryAndRendering>
+  <Vertices>6234</Vertices>
+  <Views>
+  <Indices>6234</Indices>
+  <Triangles>28428</Triangles>
+  <Properties>6234</Properties>
+  <Subs>11</Subs>
+  <Texs>14</Texs>
+	<RenderPasses>
+	  <RenderPass id="0">
+      <indexStart>696</indexStart>
+      <indexCount>10974</indexCount>
+      <vertexStart>469</vertexStart>
+      <vertexEnd>2393</vertexEnd>
+      <tex>4</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>3.45776</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>1</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="1">
+      <indexStart>12702</indexStart>
+      <indexCount>2748</indexCount>
+      <vertexStart>2613</vertexStart>
+      <vertexEnd>3153</vertexEnd>
+      <tex>2</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>3.6059</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>3</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="2">
+      <indexStart>22506</indexStart>
+      <indexCount>5238</indexCount>
+      <vertexStart>4920</vertexStart>
+      <vertexEnd>5874</vertexEnd>
+      <tex>2</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>4.98769</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>9</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="3">
+      <indexStart>11670</indexStart>
+      <indexCount>1032</indexCount>
+      <vertexStart>2393</vertexStart>
+      <vertexEnd>2613</vertexEnd>
+      <tex>4</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>5.7635</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>2</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="4">
+      <indexStart>15702</indexStart>
+      <indexCount>3660</indexCount>
+      <vertexStart>3314</vertexStart>
+      <vertexEnd>3992</vertexEnd>
+      <tex>6</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>7.9017</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>5</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="5">
+      <indexStart>19362</indexStart>
+      <indexCount>2682</indexCount>
+      <vertexStart>3992</vertexStart>
+      <vertexEnd>4628</vertexEnd>
+      <tex>6</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>8.48908</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>6</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="6">
+      <indexStart>22044</indexStart>
+      <indexCount>42</indexCount>
+      <vertexStart>4628</vertexStart>
+      <vertexEnd>4644</vertexEnd>
+      <tex>6</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>1</cull>
+      <trans>0</trans>
+      <unlit>1</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>8.91046</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>0</blendmode>
+      <order>0</order>
+      <geoset>7</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="7">
+      <indexStart>0</indexStart>
+      <indexCount>696</indexCount>
+      <vertexStart>0</vertexStart>
+      <vertexEnd>469</vertexEnd>
+      <tex>4</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>3.31356</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>1</blendmode>
+      <order>0</order>
+      <geoset>0</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="8">
+      <indexStart>22086</indexStart>
+      <indexCount>420</indexCount>
+      <vertexStart>4644</vertexStart>
+      <vertexEnd>4920</vertexEnd>
+      <tex>2</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>4.04567</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>1</blendmode>
+      <order>0</order>
+      <geoset>8</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="9">
+      <indexStart>15450</indexStart>
+      <indexCount>252</indexCount>
+      <vertexStart>3153</vertexStart>
+      <vertexEnd>3314</vertexEnd>
+      <tex>6</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>0</noZWrite>
+      <billboard>0</billboard>
+      <p>7.55827</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>1</blendmode>
+      <order>0</order>
+      <geoset>4</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="10">
+      <indexStart>12702</indexStart>
+      <indexCount>2748</indexCount>
+      <vertexStart>2613</vertexStart>
+      <vertexEnd>3153</vertexEnd>
+      <tex>2</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>1</noZWrite>
+      <billboard>0</billboard>
+      <p>3.6059</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>2</blendmode>
+      <order>0</order>
+      <geoset>3</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="11">
+      <indexStart>11670</indexStart>
+      <indexCount>1032</indexCount>
+      <vertexStart>2393</vertexStart>
+      <vertexEnd>2613</vertexEnd>
+      <tex>4</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>1</noZWrite>
+      <billboard>0</billboard>
+      <p>5.7635</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>2</blendmode>
+      <order>0</order>
+      <geoset>2</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="12">
+      <indexStart>19362</indexStart>
+      <indexCount>2682</indexCount>
+      <vertexStart>3992</vertexStart>
+      <vertexEnd>4628</vertexEnd>
+      <tex>6</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>1</noZWrite>
+      <billboard>0</billboard>
+      <p>8.48908</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>2</blendmode>
+      <order>0</order>
+      <geoset>6</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	  <RenderPass id="13">
+      <indexStart>27744</indexStart>
+      <indexCount>684</indexCount>
+      <vertexStart>5874</vertexStart>
+      <vertexEnd>6234</vertexEnd>
+      <tex>2</tex>
+      <useTex2>0</useTex2>
+      <useEnvMap>0</useEnvMap>
+      <cull>0</cull>
+      <trans>0</trans>
+      <unlit>0</unlit>
+      <noZWrite>1</noZWrite>
+      <billboard>0</billboard>
+      <p>11.9776</p>
+      <texanim>-1</texanim>
+      <color>-1</color>
+      <opacity>0</opacity>
+      <blendmode>2</blendmode>
+      <order>0</order>
+      <geoset>10</geoset>
+      <swrap>0</swrap>
+      <twrap>0</twrap>
+      <ocol>(1, 1, 1, 1)</ocol>
+      <ecol>(0, 0, 0, 0)</ecol>
+	  </RenderPass>
+	</RenderPasses>
+	<Geosets>
+	  <Geoset id="0">
+      <id>0</id>
+      <vstart>0</vstart>
+      <vcount>469</vcount>
+      <istart>0</istart>
+      <icount>696</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(-2.54009, -0.0175383, 3.31356)</BoundingBox>
+      <BoundingBox>(-3.80405, -7.15256e-007, 3.07525)</BoundingBox>
+      <radius>8.96707</radius>
+	  </Geoset>
+	  <Geoset id="1">
+      <id>0</id>
+      <vstart>469</vstart>
+      <vcount>1924</vcount>
+      <istart>696</istart>
+      <icount>10974</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(-4.63904, -4.43255e-007, 3.45776)</BoundingBox>
+      <BoundingBox>(-6.36282, 7.15256e-007, 3.26631)</BoundingBox>
+      <radius>9.15905</radius>
+	  </Geoset>
+	  <Geoset id="2">
+      <id>0</id>
+      <vstart>2393</vstart>
+      <vcount>220</vcount>
+      <istart>11670</istart>
+      <icount>1032</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(-7.17001, -5.47989e-007, 5.7635)</BoundingBox>
+      <BoundingBox>(-7.53758, -6.10948e-007, 5.93986)</BoundingBox>
+      <radius>8.65384</radius>
+	  </Geoset>
+	  <Geoset id="3">
+      <id>0</id>
+      <vstart>2613</vstart>
+      <vcount>540</vcount>
+      <istart>12702</istart>
+      <icount>2748</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(-4.00223, 5.99579e-007, 3.6059)</BoundingBox>
+      <BoundingBox>(-10.156, 0, 8.46792)</BoundingBox>
+      <radius>18.5721</radius>
+	  </Geoset>
+	  <Geoset id="4">
+      <id>0</id>
+      <vstart>3153</vstart>
+      <vcount>161</vcount>
+      <istart>15450</istart>
+      <icount>252</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(6.33863, -1.75334e-006, 7.55827)</BoundingBox>
+      <BoundingBox>(6.33863, -1.75334e-006, 7.55827)</BoundingBox>
+      <radius>3.3377</radius>
+	  </Geoset>
+	  <Geoset id="5">
+      <id>0</id>
+      <vstart>3314</vstart>
+      <vcount>678</vcount>
+      <istart>15702</istart>
+      <icount>3660</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(5.35547, -1.85636e-006, 7.9017)</BoundingBox>
+      <BoundingBox>(5.35547, -1.85636e-006, 7.9017)</BoundingBox>
+      <radius>4.50242</radius>
+	  </Geoset>
+	  <Geoset id="6">
+      <id>0</id>
+      <vstart>3992</vstart>
+      <vcount>636</vcount>
+      <istart>19362</istart>
+      <icount>2682</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(6.92553, -1.67755e-006, 8.48908)</BoundingBox>
+      <BoundingBox>(4.82008, -1.54972e-006, 9.63169)</BoundingBox>
+      <radius>5.77413</radius>
+	  </Geoset>
+	  <Geoset id="7">
+      <id>0</id>
+      <vstart>4628</vstart>
+      <vcount>16</vcount>
+      <istart>22044</istart>
+      <icount>42</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(7.85501, -1.5907e-006, 8.91046)</BoundingBox>
+      <BoundingBox>(7.8397, -1.51992e-006, 8.92198)</BoundingBox>
+      <radius>0.636571</radius>
+	  </Geoset>
+	  <Geoset id="8">
+      <id>0</id>
+      <vstart>4644</vstart>
+      <vcount>276</vcount>
+      <istart>22086</istart>
+      <icount>420</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(1.19472, -9.57994e-007, 4.04567)</BoundingBox>
+      <BoundingBox>(1.16323, -2.38419e-007, 3.70621)</BoundingBox>
+      <radius>5.6331</radius>
+	  </Geoset>
+	  <Geoset id="9">
+      <id>0</id>
+      <vstart>4920</vstart>
+      <vcount>954</vcount>
+      <istart>22506</istart>
+      <icount>5238</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(0.558123, -7.52493e-007, 4.98769)</BoundingBox>
+      <BoundingBox>(-3.97609, 2.38419e-006, 8.77196)</BoundingBox>
+      <radius>18.8433</radius>
+	  </Geoset>
+	  <Geoset id="10">
+      <id>0</id>
+      <vstart>5874</vstart>
+      <vcount>360</vcount>
+      <istart>27744</istart>
+      <icount>684</icount>
+      <nBones>96</nBones>
+      <StartBones>0</StartBones>
+      <BoundingBox>(-3.47475, 1.30071e-006, 11.9776)</BoundingBox>
+      <BoundingBox>(-4.89024, 4.76837e-007, 12.5711)</BoundingBox>
+      <radius>16.2498</radius>
+	  </Geoset>
+	</Geosets>
+	<TexUnits>
+	  <TexUnit id="0">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>3</op>
+      <op2>3</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>0</flagsIndex>
+      <texunit>0</texunit>
+      <mode>2</mode>
+      <textureid>2</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="1">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>3</op>
+      <op2>3</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>1</flagsIndex>
+      <texunit>1</texunit>
+      <mode>1</mode>
+      <textureid>2</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="2">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>1</op>
+      <op2>1</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>2</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>0</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="3">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>0</op>
+      <op2>0</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>3</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>0</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="4">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>2</op>
+      <op2>2</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>4</flagsIndex>
+      <texunit>0</texunit>
+      <mode>2</mode>
+      <textureid>0</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="5">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>2</op>
+      <op2>2</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>5</flagsIndex>
+      <texunit>1</texunit>
+      <mode>1</mode>
+      <textureid>0</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="6">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>4</op>
+      <op2>4</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>6</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>4</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="7">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>5</op>
+      <op2>5</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>7</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>4</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="8">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>6</op>
+      <op2>6</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>8</flagsIndex>
+      <texunit>0</texunit>
+      <mode>2</mode>
+      <textureid>4</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="9">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>6</op>
+      <op2>6</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>9</flagsIndex>
+      <texunit>1</texunit>
+      <mode>1</mode>
+      <textureid>4</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="10">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>7</op>
+      <op2>7</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>10</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>4</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="11">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>8</op>
+      <op2>8</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>11</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>2</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="12">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>9</op>
+      <op2>9</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>12</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>2</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	  <TexUnit id="13">
+      <flags>16</flags>
+      <shading>0</shading>
+      <op>10</op>
+      <op2>10</op2>
+      <colorIndex>-1</colorIndex>
+      <flagsIndex>13</flagsIndex>
+      <texunit>0</texunit>
+      <mode>1</mode>
+      <textureid>2</textureid>
+      <texunit2>0</texunit2>
+      <transid>0</transid>
+      <texanimid>0</texanimid>
+	  </TexUnit>
+	</TexUnits>
+  </Views>
+  <RenderFlags></RenderFlags>
+	<Colors>
+	</Colors>
+	<Transparency>
+    <Tran id="0">
+    <trans>
+      <type>0</type>
+      <seq>-1</seq>
+      <anims>
+    <anim id="0">
+      <data time="0">1</data>
+    </anim>
+      </anims>
+    </trans>
+    </Tran>
+	</Transparency>
+  <TransparencyLookup></TransparencyLookup>
+	<Textures>
+	  <Texture id="0">
+      <type>0</type>
+      <flags>0</flags>
+		<name>SPELLS\CLOUDS8X8.BLP</name>
+	  </Texture>
+	  <Texture id="1">
+      <type>0</type>
+      <flags>0</flags>
+		<name>PARTICLES\SNOWFLAKE.BLP</name>
+	  </Texture>
+	  <Texture id="2">
+      <type>12</type>
+      <flags>0</flags>
+	  </Texture>
+	  <Texture id="3">
+      <type>0</type>
+      <flags>0</flags>
+		<name>ITEM\OBJECTCOMPONENTS\HEAD\SMOOTHREFLECT.BLP</name>
+	  </Texture>
+	  <Texture id="4">
+      <type>13</type>
+      <flags>0</flags>
+	  </Texture>
+	  <Texture id="5">
+      <type>0</type>
+      <flags>0</flags>
+		<name>INTERFACE\BUTTONS\GLOWSTAR.BLP</name>
+	  </Texture>
+	  <Texture id="6">
+      <type>11</type>
+      <flags>0</flags>
+	  </Texture>
+	</Textures>
+	<TextureLookup></TextureLookup>
+	<ReplacableTextureLookup></ReplacableTextureLookup>
+  </GeometryAndRendering>
+  <Effects>
+	<TexAnims>
+	</TexAnims>
+	<RibbonEmitters></RibbonEmitters>
+	<Particles>
+	  <Particle id="0">
+        <colors>(0.756863, 1, 0.980392, 0)</colors>
+        <colors>(0.439216, 0.854902, 0.890196, 0.274514)</colors>
+        <colors>(0.27451, 0.12549, 0.498039, 0)</colors>
+        <sizes>1.38889</sizes>
+        <sizes>1.38889</sizes>
+        <sizes>2.77778</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-0.305071, 0.10153, 0.043194)</pos>
+        <texture>1</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>562</mtime>
+        <rows>8</rows>
+        <cols>8</cols>
+        <billboard>0</billboard>
+        <rem>0.8375</rem>
+        <flags>152096</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.760918</tofs>
+	  </Particle>
+	  <Particle id="1">
+        <colors>(0.419608, 1, 0.819608, 0)</colors>
+        <colors>(0, 0.572549, 0.901961, 0.392163)</colors>
+        <colors>(0.164706, 0.141176, 0.486275, 0)</colors>
+        <sizes>0.000277778</sizes>
+        <sizes>0.000277778</sizes>
+        <sizes>0.138889</sizes>
+        <mid>0.5</mid>
+        <slowdown>0.15</slowdown>
+        <rotation>0.0174533</rotation>
+        <pos>(-5.85935, 4.42413, 0.00195863)</pos>
+        <texture>2</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>3791</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.163333</rem>
+        <flags>131616</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.366253</tofs>
+	  </Particle>
+	  <Particle id="2">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.156865)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.66667</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-6.06943, 4.37894, 0.0106037)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>536</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.755882</tofs>
+	  </Particle>
+	  <Particle id="3">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.156865)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.66667</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-7.64033, 3.77523, 0.0106038)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>2175</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.0633259</tofs>
+	  </Particle>
+	  <Particle id="4">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.156865)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.66667</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-9.46419, 3.24394, 0.0106037)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>1476</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.932127</tofs>
+	  </Particle>
+	  <Particle id="5">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.156865)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.66667</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-11.3215, 2.72043, 0.0106034)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>727</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.791772</tofs>
+	  </Particle>
+	  <Particle id="6">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.156865)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.66667</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-13.6935, 2.43678, 0.0106035)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>755</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.79693</tofs>
+	  </Particle>
+	  <Particle id="7">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.235298)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>1.38889</sizes>
+        <sizes>1.38889</sizes>
+        <sizes>2.5</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>0</rotation>
+        <pos>(-16.2256, 2.59591, 0.0101703)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>4948</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.8375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.5833</tofs>
+	  </Particle>
+	  <Particle id="8">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.235298)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>1.38889</sizes>
+        <sizes>1.38889</sizes>
+        <sizes>2.77778</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-4.04651, 5.03244, 0.0106036)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>4</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.675</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.656178</tofs>
+	  </Particle>
+	  <Particle id="9">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.196081)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>1.38889</sizes>
+        <sizes>1.38889</sizes>
+        <sizes>2.5</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(6.75724, 8.72717, -0.032118)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>2527</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.52375</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.129246</tofs>
+	  </Particle>
+	  <Particle id="10">
+        <colors>(0.756863, 1, 0.980392, 0)</colors>
+        <colors>(0.439216, 0.854902, 0.890196, 0.117649)</colors>
+        <colors>(0.27451, 0.12549, 0.498039, 0)</colors>
+        <sizes>0.833333</sizes>
+        <sizes>0.833333</sizes>
+        <sizes>1.94444</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(7.17051, 8.47734, 0.000137923)</pos>
+        <texture>1</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>2752</mtime>
+        <rows>8</rows>
+        <cols>8</cols>
+        <billboard>1</billboard>
+        <rem>0.9075</rem>
+        <flags>148000</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.171545</tofs>
+	  </Particle>
+	  <Particle id="11">
+        <colors>(0.419608, 1, 0.819608, 0)</colors>
+        <colors>(0, 0.572549, 0.901961, 0.392163)</colors>
+        <colors>(0.164706, 0.141176, 0.486275, 0)</colors>
+        <sizes>0.000277778</sizes>
+        <sizes>0.000277778</sizes>
+        <sizes>0.138889</sizes>
+        <mid>0.5</mid>
+        <slowdown>0.15</slowdown>
+        <rotation>0.0174533</rotation>
+        <pos>(7.38643, 8.24719, 0.00224954)</pos>
+        <texture>2</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>4771</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.5125</rem>
+        <flags>131616</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.550157</tofs>
+	  </Particle>
+	  <Particle id="12">
+        <colors>(0.756863, 1, 0.980392, 0)</colors>
+        <colors>(0.439216, 0.854902, 0.890196, 0.196081)</colors>
+        <colors>(0.27451, 0.12549, 0.498039, 0)</colors>
+        <sizes>1.38889</sizes>
+        <sizes>1.38889</sizes>
+        <sizes>2.5</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(3.51452, 8.52981, 0.0431964)</pos>
+        <texture>1</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>384</mtime>
+        <rows>8</rows>
+        <cols>8</cols>
+        <billboard>1</billboard>
+        <rem>0.605</rem>
+        <flags>148000</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.727378</tofs>
+	  </Particle>
+	  <Particle id="13">
+        <colors>(0.572549, 0.945098, 1, 0)</colors>
+        <colors>(0, 0.447059, 1, 0.274514)</colors>
+        <colors>(0, 0.0313726, 0.662745, 0)</colors>
+        <sizes>2.77778</sizes>
+        <sizes>2.77778</sizes>
+        <sizes>5.55556</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(0.43195, 5.89603, 0.000321998)</pos>
+        <texture>4</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>3266</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.5125</rem>
+        <flags>148000</flags>
+        <pTypes>2</pTypes>
+        <tofs>0.26783</tofs>
+	  </Particle>
+	  <Particle id="14">
+        <colors>(0.419608, 1, 0.819608, 0)</colors>
+        <colors>(0, 0.572549, 0.901961, 0.392163)</colors>
+        <colors>(0.164706, 0.141176, 0.486275, 0)</colors>
+        <sizes>0.000277778</sizes>
+        <sizes>0.000277778</sizes>
+        <sizes>0.138889</sizes>
+        <mid>0.5</mid>
+        <slowdown>0.15</slowdown>
+        <rotation>0.0174533</rotation>
+        <pos>(0.33745, 6.68071, 0.00243877)</pos>
+        <texture>2</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>1285</mtime>
+        <rows>1</rows>
+        <cols>1</cols>
+        <billboard>1</billboard>
+        <rem>0.862499</rem>
+        <flags>131616</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.896359</tofs>
+	  </Particle>
+	  <Particle id="15">
+        <colors>(0.756863, 1, 0.980392, 0)</colors>
+        <colors>(0.439216, 0.854902, 0.890196, 0.274514)</colors>
+        <colors>(0.27451, 0.12549, 0.498039, 0)</colors>
+        <sizes>2.77778</sizes>
+        <sizes>2.77778</sizes>
+        <sizes>5</sizes>
+        <mid>0.5</mid>
+        <slowdown>1</slowdown>
+        <rotation>-0.010472</rotation>
+        <pos>(-0.305071, 6.32198, 0.000321965)</pos>
+        <texture>1</texture>
+        <blend>4</blend>
+        <order>0</order>
+        <type>0</type>
+        <manim>3</manim>
+        <mtime>3768</mtime>
+        <rows>8</rows>
+        <cols>8</cols>
+        <billboard>1</billboard>
+        <rem>0.15125</rem>
+        <flags>148000</flags>
+        <pTypes>1</pTypes>
+        <tofs>0.362072</tofs>
+	  </Particle>
+	</Particles>
+  </Effects>
+	<Miscellaneous>
+	<BoundingVolumes></BoundingVolumes>
+	<Lights></Lights>
+	<Cameras></Cameras>
+	<Attachments>
+	  <Attachment id="0">
+      <id>0</id>
+      <bone>0</bone>
+      <pos>(3.3, 7.1, 0)</pos>
+	  </Attachment>
+	  <Attachment id="1">
+      <id>1</id>
+      <bone>136</bone>
+      <pos>(1.0706, 0.0232928, 2.42311)</pos>
+	  </Attachment>
+	  <Attachment id="2">
+      <id>2</id>
+      <bone>137</bone>
+      <pos>(0.755783, -0.0624029, -2.46028)</pos>
+	  </Attachment>
+	  <Attachment id="3">
+      <id>15</id>
+      <bone>135</bone>
+      <pos>(4.95575, 4.35151, 2.26253e-005)</pos>
+	  </Attachment>
+	  <Attachment id="4">
+      <id>16</id>
+      <bone>114</bone>
+      <pos>(-5.29274, 2.26948, -0)</pos>
+	  </Attachment>
+	  <Attachment id="5">
+      <id>17</id>
+      <bone>138</bone>
+      <pos>(7.02935, 7.96383, 0.000123422)</pos>
+	  </Attachment>
+	  <Attachment id="6">
+      <id>18</id>
+      <bone>97</bone>
+      <pos>(1.04823, 13.3388, -0)</pos>
+	  </Attachment>
+	  <Attachment id="7">
+      <id>19</id>
+      <bone>98</bone>
+      <pos>(-0, 0, -0)</pos>
+	  </Attachment>
+	  <Attachment id="8">
+      <id>20</id>
+      <bone>99</bone>
+      <pos>(3.45966, 9.79025, -0)</pos>
+	  </Attachment>
+	  <Attachment id="9">
+      <id>21</id>
+      <bone>152</bone>
+      <pos>(2.49122, -0.650074, -2.51613)</pos>
+	  </Attachment>
+	  <Attachment id="10">
+      <id>22</id>
+      <bone>153</bone>
+      <pos>(2.51861, -0.650379, 2.52104)</pos>
+	  </Attachment>
+	  <Attachment id="11">
+      <id>23</id>
+      <bone>139</bone>
+      <pos>(7.72222, 7.77778, 6.30345e-006)</pos>
+	  </Attachment>
+	  <Attachment id="12">
+      <id>24</id>
+      <bone>115</bone>
+      <pos>(0.00559509, 0.228096, -0.707)</pos>
+	  </Attachment>
+	  <Attachment id="13">
+      <id>34</id>
+      <bone>140</bone>
+      <pos>(5.71914, 5.96016, 2.51248e-005)</pos>
+	  </Attachment>
+	  <Attachment id="14">
+      <id>39</id>
+      <bone>141</bone>
+      <pos>(0.766728, -1.02789, 2.32436)</pos>
+	  </Attachment>
+	  <Attachment id="15">
+      <id>40</id>
+      <bone>142</bone>
+      <pos>(0.972956, -0.866091, -2.50871)</pos>
+	  </Attachment>
+	</Attachments>
+	<Events>
+	  <Event id="0">
+		<id>$CST</id>
+		<dbid>0</dbid>
+		<bone>146</bone>
+		<pos>(7.11143, -0.000122145, 7.66426)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>529904</ofsTimes>
+	  </Event>
+	  <Event id="1">
+		<id>$CSL</id>
+		<dbid>0</dbid>
+		<bone>147</bone>
+		<pos>(7.11143, -0.000122145, 7.66426)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>530464</ofsTimes>
+	  </Event>
+	  <Event id="2">
+		<id>$CHD</id>
+		<dbid>0</dbid>
+		<bone>148</bone>
+		<pos>(7.11143, -0.000122145, 7.66426)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>531024</ofsTimes>
+	  </Event>
+	  <Event id="3">
+		<id>$CCH</id>
+		<dbid>0</dbid>
+		<bone>149</bone>
+		<pos>(7.11143, -0.000122145, 7.66426)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>531584</ofsTimes>
+	  </Event>
+	  <Event id="4">
+		<id>$BTH</id>
+		<dbid>0</dbid>
+		<bone>150</bone>
+		<pos>(9.5558, 0.177463, 6.92705)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>532144</ofsTimes>
+	  </Event>
+	  <Event id="5">
+		<id>$CSR</id>
+		<dbid>0</dbid>
+		<bone>151</bone>
+		<pos>(1.03869, -2.46966, -0.04446)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>532704</ofsTimes>
+	  </Event>
+	  <Event id="6">
+		<id>$CAH</id>
+		<dbid>0</dbid>
+		<bone>127</bone>
+		<pos>(-0, 0, 5.97222)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>533264</ofsTimes>
+	  </Event>
+	  <Event id="7">
+		<id>$CPP</id>
+		<dbid>0</dbid>
+		<bone>128</bone>
+		<pos>(-0, 0, 5.97222)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>533824</ofsTimes>
+	  </Event>
+	  <Event id="8">
+		<id>$CSS</id>
+		<dbid>0</dbid>
+		<bone>129</bone>
+		<pos>(-0, 0, 5.97222)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>534384</ofsTimes>
+	  </Event>
+	  <Event id="9">
+		<id>$HIT</id>
+		<dbid>0</dbid>
+		<bone>130</bone>
+		<pos>(-0, 0, 5.97222)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>534944</ofsTimes>
+	  </Event>
+	  <Event id="10">
+		<id>$DTH</id>
+		<dbid>0</dbid>
+		<bone>101</bone>
+		<pos>(-0, 0, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>535504</ofsTimes>
+	  </Event>
+	  <Event id="11">
+		<id>$FSD</id>
+		<dbid>0</dbid>
+		<bone>102</bone>
+		<pos>(-0, 0, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>536064</ofsTimes>
+	  </Event>
+	  <Event id="12">
+		<id>$WNG</id>
+		<dbid>0</dbid>
+		<bone>103</bone>
+		<pos>(-0, 0, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>536624</ofsTimes>
+	  </Event>
+	  <Event id="13">
+		<id>$FL0</id>
+		<dbid>0</dbid>
+		<bone>104</bone>
+		<pos>(4.64656, 0.877238, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>537184</ofsTimes>
+	  </Event>
+	  <Event id="14">
+		<id>$FL1</id>
+		<dbid>0</dbid>
+		<bone>105</bone>
+		<pos>(0.382175, 2.45236, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>537744</ofsTimes>
+	  </Event>
+	  <Event id="15">
+		<id>$FR0</id>
+		<dbid>0</dbid>
+		<bone>106</bone>
+		<pos>(5.04051, -0.907967, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>538304</ofsTimes>
+	  </Event>
+	  <Event id="16">
+		<id>$FR1</id>
+		<dbid>0</dbid>
+		<bone>107</bone>
+		<pos>(0.520532, -2.45533, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>538864</ofsTimes>
+	  </Event>
+	  <Event id="17">
+		<id>$RL0</id>
+		<dbid>0</dbid>
+		<bone>108</bone>
+		<pos>(4.35502, 0.877691, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>539424</ofsTimes>
+	  </Event>
+	  <Event id="18">
+		<id>$RL1</id>
+		<dbid>0</dbid>
+		<bone>109</bone>
+		<pos>(0.30669, 2.45709, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>539984</ofsTimes>
+	  </Event>
+	  <Event id="19">
+		<id>$RR0</id>
+		<dbid>0</dbid>
+		<bone>110</bone>
+		<pos>(4.81755, -0.900381, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>540544</ofsTimes>
+	  </Event>
+	  <Event id="20">
+		<id>$RR1</id>
+		<dbid>0</dbid>
+		<bone>111</bone>
+		<pos>(0.0739928, -2.4507, 0)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>541104</ofsTimes>
+	  </Event>
+	  <Event id="21">
+		<id>$STB</id>
+		<dbid>0</dbid>
+		<bone>112</bone>
+		<pos>(0.0019388, 0, 15.2778)</pos>
+		<type>0</type>
+		<seq>-1</seq>
+		<nTimes>70</nTimes>
+		<ofsTimes>541664</ofsTimes>
+	  </Event>
+	</Events>
+	</Miscellaneous>
+</m2>

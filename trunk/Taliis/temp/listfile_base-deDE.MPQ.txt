@@ -1,0 +1,192 @@
+Background Downloader.app\Contents\Info.plist
+Background Downloader.app\Contents\MacOS\Blizzard Downloader
+Background Downloader.app\Contents\PkgInfo
+Background Downloader.app\Contents\Resources\Downloader.nib\classes.nib
+Background Downloader.app\Contents\Resources\Downloader.nib\info.nib
+Background Downloader.app\Contents\Resources\Downloader.nib\keyedobjects.nib
+Background Downloader.app\Contents\Resources\checked.tiff
+Background Downloader.app\Contents\Resources\downloader-grey.png
+Background Downloader.app\Contents\Resources\downloader-splash-zhCN.jpg
+Background Downloader.app\Contents\Resources\downloader-splash-zhTW.jpg
+Background Downloader.app\Contents\Resources\downloader-splash.jpg
+Background Downloader.app\Contents\Resources\downloader.icns
+Background Downloader.app\Contents\Resources\green.png
+Background Downloader.app\Contents\Resources\listfile
+Background Downloader.app\Contents\Resources\red.png
+Background Downloader.app\Contents\Resources\signature
+Background Downloader.app\Contents\Resources\star4.tiff
+Background Downloader.app\Contents\Resources\yellow.png
+BackgroundDownloader.exe
+Battle.net.dll
+Data\deDE\AccountBilling.url
+Data\deDE\Credits.html
+Data\deDE\Credits_BC.html
+Data\deDE\Credits_LK.html
+Data\deDE\Documentation\Images\BLWidget.jpg
+Data\deDE\Documentation\Images\BRWidget.jpg
+Data\deDE\Documentation\Images\BWidget.jpg
+Data\deDE\Documentation\Images\Blizz.jpg
+Data\deDE\Documentation\Images\CRepeat.jpg
+Data\deDE\Documentation\Images\ItemMarker.jpg
+Data\deDE\Documentation\Images\LRepeat.jpg
+Data\deDE\Documentation\Images\MacLogo.jpg
+Data\deDE\Documentation\Images\PCLogo.jpg
+Data\deDE\Documentation\Images\RRepeat.jpg
+Data\deDE\Documentation\Images\TLWidget.jpg
+Data\deDE\Documentation\Images\TRWidget.jpg
+Data\deDE\Documentation\Images\TWidget.jpg
+Data\deDE\Documentation\Images\bg-botleft.jpg
+Data\deDE\Documentation\Images\bg-botright.jpg
+Data\deDE\Documentation\Images\bg-bottom.jpg
+Data\deDE\Documentation\Images\bg-left.jpg
+Data\deDE\Documentation\Images\bg-merge.jpg
+Data\deDE\Documentation\Images\bg-mergebot.jpg
+Data\deDE\Documentation\Images\bg-middle.jpg
+Data\deDE\Documentation\Images\bg-right.jpg
+Data\deDE\Documentation\Images\bg-top.jpg
+Data\deDE\Documentation\Images\buttons\contactinfo-over.gif
+Data\deDE\Documentation\Images\buttons\contactinfo.gif
+Data\deDE\Documentation\Images\buttons\mac-over.jpg
+Data\deDE\Documentation\Images\buttons\mac.jpg
+Data\deDE\Documentation\Images\buttons\pc-over.jpg
+Data\deDE\Documentation\Images\buttons\pc.jpg
+Data\deDE\Documentation\Images\buttons\readme-over.gif
+Data\deDE\Documentation\Images\buttons\readme.gif
+Data\deDE\Documentation\Images\buttons\readme.jpg
+Data\deDE\Documentation\Images\buttons\troubleshooting-over.gif
+Data\deDE\Documentation\Images\buttons\troubleshooting.gif
+Data\deDE\Documentation\Images\buttons\troubleshooting.jpg
+Data\deDE\Documentation\Images\buttons\website-over.gif
+Data\deDE\Documentation\Images\buttons\website.gif
+Data\deDE\Documentation\Images\dragon-left.jpg
+Data\deDE\Documentation\Images\dragon-right.jpg
+Data\deDE\Documentation\Images\gryphon-right.jpg
+Data\deDE\Documentation\Images\help-request.gif
+Data\deDE\Documentation\Images\logo-blizzard.gif
+Data\deDE\Documentation\Images\logo-blizzard.jpg
+Data\deDE\Documentation\Images\logo-bnet.gif
+Data\deDE\Documentation\Images\logo-wow.gif
+Data\deDE\Documentation\Images\pixel.gif
+Data\deDE\Documentation\Images\splash.jpg
+Data\deDE\Documentation\Images\title-troubleshooting.jpg
+Data\deDE\Documentation\Images\titles\contactinfo-mac.jpg
+Data\deDE\Documentation\Images\titles\contactinfo-pc.jpg
+Data\deDE\Documentation\Images\titles\readme-mac.jpg
+Data\deDE\Documentation\Images\titles\readme-pc.jpg
+Data\deDE\Documentation\Images\titles\troubleshooting-mac.jpg
+Data\deDE\Documentation\Images\titles\troubleshooting-pc.jpg
+Data\deDE\Documentation\Layout\BSpacer.html
+Data\deDE\Documentation\Layout\CSpacer.html
+Data\deDE\Documentation\Layout\Detector.js
+Data\deDE\Documentation\Layout\Greeting.html
+Data\deDE\Documentation\Layout\Index.html
+Data\deDE\Documentation\Layout\LBorder.html
+Data\deDE\Documentation\Layout\Nav.html
+Data\deDE\Documentation\Layout\RBorder.html
+Data\deDE\Documentation\Layout\Requirements.html
+Data\deDE\Documentation\Layout\Splash.html
+Data\deDE\Documentation\Layout\Styles.css
+Data\deDE\Documentation\Layout\StylesLeft.css
+Data\deDE\Documentation\Layout\TBorder.html
+Data\deDE\Documentation\Layout\TheScript.js
+Data\deDE\Documentation\Manual.pdf
+Data\deDE\Documentation\Manual_TBC.pdf
+Data\deDE\Documentation\Manual_WLK.pdf
+Data\deDE\Documentation\ReadMe.html
+Data\deDE\Documentation\ReadMe\(Mac)Foreword.html
+Data\deDE\Documentation\ReadMe\(Mac)Installation.html
+Data\deDE\Documentation\ReadMe\(Mac)Patching.html
+Data\deDE\Documentation\ReadMe\(Mac)ReadMeMenu.html
+Data\deDE\Documentation\ReadMe\(Mac)SystemRequirements.html
+Data\deDE\Documentation\ReadMe\(Mac)Uninstall.html
+Data\deDE\Documentation\ReadMe\(PC)Foreword.html
+Data\deDE\Documentation\ReadMe\(PC)Installation.html
+Data\deDE\Documentation\ReadMe\(PC)Patching.html
+Data\deDE\Documentation\ReadMe\(PC)ReadMeMenu.html
+Data\deDE\Documentation\ReadMe\(PC)SystemRequirements.html
+Data\deDE\Documentation\ReadMe\(PC)Uninstall.html
+Data\deDE\Documentation\ReadMe\BasicCommands.html
+Data\deDE\Documentation\ReadMe\CharacterNaming.html
+Data\deDE\Documentation\ReadMe\EULA.html
+Data\deDE\Documentation\ReadMe\GettingStarted.html
+Data\deDE\Documentation\ReadMe\ManualErrata.html
+Data\deDE\Documentation\ReadMe\RealmSelection.html
+Data\deDE\Documentation\Support\(Mac)SupportMenu.html
+Data\deDE\Documentation\Support\(Mac)TechnicalSupport.html
+Data\deDE\Documentation\Support\(PC)SupportMenu.html
+Data\deDE\Documentation\Support\(PC)TechnicalSupport.html
+Data\deDE\Documentation\Support\AccountAdministration.html
+Data\deDE\Documentation\Support\BlizzardInsider.html
+Data\deDE\Documentation\Support\Employment.html
+Data\deDE\Documentation\Support\GameSuggestions.html
+Data\deDE\Documentation\Support\GameSupport.html
+Data\deDE\Documentation\Support\Password.html
+Data\deDE\Documentation\Troubleshooting\(Mac)AudioProblems.html
+Data\deDE\Documentation\Troubleshooting\(Mac)BlizzardDownloaderProblems.html
+Data\deDE\Documentation\Troubleshooting\(Mac)ConnectionLoginProblems.html
+Data\deDE\Documentation\Troubleshooting\(Mac)GameplayProblems.html
+Data\deDE\Documentation\Troubleshooting\(Mac)Install.html
+Data\deDE\Documentation\Troubleshooting\(Mac)PreventiveMaintenance.html
+Data\deDE\Documentation\Troubleshooting\(Mac)StartupProblems.html
+Data\deDE\Documentation\Troubleshooting\(Mac)TroubleshootingMenu.html
+Data\deDE\Documentation\Troubleshooting\(Mac)VideoProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)AudioProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)BlizzardDownloaderProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)ConnectionLoginProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)GameplayProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)Install.html
+Data\deDE\Documentation\Troubleshooting\(PC)PreventiveMaintenance.html
+Data\deDE\Documentation\Troubleshooting\(PC)StartupProblems.html
+Data\deDE\Documentation\Troubleshooting\(PC)TroubleshootingMenu.html
+Data\deDE\Documentation\Troubleshooting\(PC)VideoProblems.html
+Data\deDE\TechSupport.url
+Data\deDE\WTF\DefaultBindings.wtf
+Data\deDE\connection-help.html
+Data\deDE\eula.html
+Data\deDE\scan.html
+Data\deDE\termination.html
+Data\deDE\tos.html
+DivxDecoder.dll
+Launcher.exe
+Microsoft.VC80.CRT.manifest
+Repair.exe
+Scan.dll
+Uninstall.exe
+World of Warcraft Launcher.app\Contents\Info.plist
+World of Warcraft Launcher.app\Contents\MacOS\Launcher
+World of Warcraft Launcher.app\Contents\PkgInfo
+World of Warcraft Launcher.app\Contents\Resources\LauncherGeneric.icns
+World of Warcraft Launcher.app\Contents\Resources\MainMenu.nib\classes.nib
+World of Warcraft Launcher.app\Contents\Resources\MainMenu.nib\info.nib
+World of Warcraft Launcher.app\Contents\Resources\MainMenu.nib\keyedobjects.nib
+World of Warcraft Launcher.app\Contents\Resources\launcher.mpq
+World of Warcraft Launcher.app\Contents\Resources\listfile
+World of Warcraft Launcher.app\Contents\Resources\signature
+World of Warcraft.app\Contents\Frameworks\Battle.net.bundle
+World of Warcraft.app\Contents\Info.plist
+World of Warcraft.app\Contents\MacOS\World of Warcraft
+World of Warcraft.app\Contents\PkgInfo
+World of Warcraft.app\Contents\Resources\DivX Gaming.component\Contents\Info.plist
+World of Warcraft.app\Contents\Resources\DivX Gaming.component\Contents\MacOS\DivX Gaming
+World of Warcraft.app\Contents\Resources\DivX Gaming.component\Contents\PkgInfo
+World of Warcraft.app\Contents\Resources\DivX Gaming.component\Contents\Resources\DivX Gaming.rsrc
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\Info.plist
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\MacOS\Error Reporter
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\PkgInfo
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\Resources\English.lproj\MainMenu.nib\classes.nib
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\Resources\English.lproj\MainMenu.nib\info.nib
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\Resources\English.lproj\MainMenu.nib\keyedobjects.nib
+World of Warcraft.app\Contents\Resources\Error Reporter.app\Contents\Resources\wow-error.icns
+World of Warcraft.app\Contents\Resources\Main.nib\classes.nib
+World of Warcraft.app\Contents\Resources\Main.nib\info.nib
+World of Warcraft.app\Contents\Resources\Main.nib\objects.xib
+World of Warcraft.app\Contents\Resources\mpq.icns
+World of Warcraft.app\Contents\Resources\wow.icns
+Wow.exe
+WowError.exe
+dbghelp.dll
+ijl15.dll
+msvcr71.dll
+msvcr80.dll
+realmlist.wtf
+unicows.dll

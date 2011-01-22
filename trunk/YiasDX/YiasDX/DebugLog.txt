@@ -1,0 +1,15 @@
+Loading YiasEdit DX build from Feb  9 2010 (20:57:13)
+
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-3.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-4.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-5.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-6.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-7.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-8.MPQ'
+.\MpqHandler.cpp(88): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-9.MPQ'
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch-2.MPQ' ...... not found!
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\patch.MPQ' ...... not found!
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\lichking.MPQ' ...... not found!
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\expansion.MPQ' ...... not found!
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\common-2.MPQ' ...... not found!
+.\MpqHandler.cpp(102): Loading MPQ 'C:\Program Files (x86)\World of Warcraft\Data\common.MPQ' ...... not found!

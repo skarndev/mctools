@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<extension name="M2-Translator" version="2.5">
+  <author>Tigurius</author>
+  <date>2008</date>
+  <description>
+This Plugin allows to import and inject M2s from WoW
+  </description>
+  <comments>
+  </comments>
+  <plugin class="artofillusion.translators.M2Translator"/>
+ </extension>
+

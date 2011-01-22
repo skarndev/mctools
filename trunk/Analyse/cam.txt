@@ -1,0 +1,5 @@
+syntax: camsearch.exe <M2>
+
+M2 must be 3.x
+
+by night

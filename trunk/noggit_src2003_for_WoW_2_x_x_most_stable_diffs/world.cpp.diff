@@ -1,0 +1,12 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/world (2).cpp	Mi Jan  3 04:18:52 2007
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/world.cpp	Do Okt 16 02:05:48 2008
+@@ -1608,7 +1608,8 @@
+ 	if(!oktile(newX,newZ)|| !maps[newZ][newX])
+ 		return;
+ 
+-	for (int i=0; i<MAPTILECACHESIZE; i++) {
++	for (int i=0; i<MAPTILECACHESIZE; i++)
++	{
+ 		if ((maptilecache[i] != 0)  && (maptilecache[i]->x >= newX-1) && (maptilecache[i]->x <= newX+1) && (maptilecache[i]->z >= newZ-1) && (maptilecache[i]->z <= newZ+1)) 
+ 		{
+ 			for(int t=0;t<256;t++)

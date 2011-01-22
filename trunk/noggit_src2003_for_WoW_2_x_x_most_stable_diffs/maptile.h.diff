@@ -1,0 +1,18 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/maptile (2).h	Mo Jul 31 21:25:36 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/maptile.h	Do Okt 16 01:51:37 2008
+@@ -202,6 +202,7 @@
+ 	void loadModel();
+ 	void loadModelInstances(int id);
+ 
++
+ 	bool	wmosLoaded;
+ 	char	*wmoBuffer;
+ 	char	*wmoPos;
+@@ -216,6 +217,7 @@
+ 	
+ 
+ public:
++	void unloadModelInstances(int id);
+ 	void finishLoading();
+ 	bool isLoaded(){return texturesLoaded&modelsLoaded&wmosLoaded;};
+ 	void partialLoad(){

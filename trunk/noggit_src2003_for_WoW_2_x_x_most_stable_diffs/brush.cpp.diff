@@ -1,0 +1,11 @@
+--- brush.cpp	Sa Mrz 18 13:28:12 2006
++++ brush.cpp	Mi Sep  2 01:21:16 2009
+@@ -2,7 +2,7 @@
+ 
+ 
+ 
+-void brush::init()
++void brush::init()//tis is the brush function which we use to paint on the ground
+ {
+ 	radius=CHUNKSIZE/2;
+ 	hardness=0.5f;

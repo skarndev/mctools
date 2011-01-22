@@ -1,0 +1,290 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/texturingUI (2).cpp	Do Jul 20 01:00:30 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/texturingUI.cpp	Mi Sep  2 02:01:48 2009
+@@ -5,6 +5,8 @@
+ #include "areadb.h"
+ 
+ 
++
++
+ //Texture Files
+ std::vector<std::string>	textureNames;
+ std::vector<std::string>		tilesetNames;
+@@ -17,6 +19,7 @@
+ minWindowUI	*windowTexturePalette;
+ textureUI	*curTextures[8];
+ ManagedItem	*theTextures[8];
++ManagedItem *selectedChunkTexture;
+ ManagedItem	*selectedTexture;
+ std::map<GLuint, ManagedItem*>::iterator startTexture;
+ 
+@@ -24,7 +27,9 @@
+ 
+ //Selected Texture Window
+ minWindowUI	*windowSelectedTexture;
++minWindowUI *windowSelectedChunkTexture;
+ textureUI	*textureSelected;
++textureUI   *textureChunkSelected;
+ textUI		*textSelectedTexture;
+ 
+ //Texture Loading Window
+@@ -134,13 +139,15 @@
+ }
+ 
+ 
++
+ std::map<GLuint, ManagedItem*>::iterator FindCurTexture()
+ {
+ 	//want to guarantee the texture is there
+ 	video.textures.add(CurTextureName);
+ 
+ 	//now find where it is
+-	for(std::map<GLuint, ManagedItem*>::iterator i=video.textures.items.begin();i!=video.textures.items.end();i++)
++	std::map<GLuint, ManagedItem*>::iterator i=video.textures.items.begin();
++	for(i;i!=video.textures.items.end();i++)
+ 		if(strcmp(CurTextureName,i->second->name.c_str())==0)
+ 			return i;
+ 	return i;
+@@ -305,6 +312,13 @@
+ 			curTextures[i]->setHighlight(false);
+ }
+ 
++
++void textureChunkClick(frame *f,int id)
++{
++textureChunkSelected->setTexture(chunkTexture[id]->texture);
++}
++
++
+ void showTextureLoader(frame *button,int id)
+ {
+ 	windowTilesetLoader->hidden=false;
+@@ -357,9 +371,6 @@
+ 	return windowTexturePalette;
+ }
+ 
+-
+-
+-
+ frame *CreateSelectedTexture()
+ {
+ 	windowSelectedTexture=new minWindowUI(video.xres-148.0f-128.0f,video.yres-162.0f-128.0f,274.0f,288.0f,"Current Texture");
+@@ -382,8 +393,30 @@
+ 
+ 	return windowSelectedTexture;
+ }
++frame *CreateSelectedChunkTexture()
++{
++	windowSelectedChunkTexture=new minWindowUI(video.xres-150.0f,video.yres-162.0f-128.0f-170.0f,150.0f,160.0f,"Chunk Texture");
++	windowSelectedChunkTexture->movable=true;
+ 
++	//if(selectedChunkTexture!=0)
++	//	textureChunkSelected=new textureUI(9.0f,24.0f,256.0f,256.0f,video.textures.add(selectedTexture->name.c_str()));
++	//else
++		textureChunkSelected=new textureUI(11.0f,24.0f,128.0f,128.0f,video.textures.add("tileset\\generic\\black.blp"));
++	windowSelectedChunkTexture->addChild(textureChunkSelected);
+ 
++	//if(selectedTexture!=0)
++	//	textSelectedTexture=new textUI(274.0f/2.0f,264.0f,selectedTexture->name.c_str());
++	//else
++		textSelectedTexture=new textUI(274.0f/2.0f,264.0f,"tileset\\generic\\black.blp");
++//	textSelectedChunkTexture->setFont(&arialn13);
++//	textSelectedChunkTexture->setJustify(UI_JUSTIFY_CENTER);
++//	textSelectedChunkTexture->setBackground(0.0f,0.0f,0.0f,0.5f);
++//	windowSelectedChunkTexture->addChild(textSelectedChunkTexture);
++
++	return windowSelectedChunkTexture;
++}
++
++
+ void LoadTileset(frame *button,int id)
+ {
+ 	std::vector<std::string>::iterator i;
+@@ -472,7 +505,7 @@
+ 	return windowTextureFilter;
+ }
+ 
+-/*closeWindowUI	*windowMapChunk;
++/*closeWindowUI	*windowMapChunk;////
+ textUI			*chunkLocation;
+ textUI			*chunkAreaID;
+ textUI			*chunkFlags;
+@@ -485,13 +518,14 @@
+ textUI			*chunkTextureNames[4];
+ textUI			*chunkTextureFlags[4];
+ textUI			*chunkTextureEffectID[4];
+-*/
++//*/
+ 
+ frame *createMapChunkWindow()
+ {
+ 	window *chunkSettingsWindow,*chunkTextureWindow,*chunkEffectWindow;
+-	windowMapChunk=new closeWindowUI(video.xres/2.0f-316.0f,video.yres/2.0f-162.0f,634.0f,337.0f,"Map Chunk Settings");
++	windowMapChunk=new closeWindowUI(video.xres/2.0f-316.0f,video.yres-337.0f,634.0f,337.0f,"Map Chunk Settings");
+ 	windowMapChunk->movable=true;
++	//windowMapChunk->hidden=true;
+ 	
+ 	chunkSettingsWindow=new window(11.0f,26.0f,300.0f,300.0f);
+ 	windowMapChunk->addChild(chunkSettingsWindow);
+@@ -511,9 +545,11 @@
+ 	chunkFlags->setJustify(UI_JUSTIFY_LEFT);
+ 	chunkSettingsWindow->addChild(chunkFlags);
+ 
++
+ 	chunkFlagChecks[0]=new checkboxUI(6,chunkFlags->y+22.0f,"Shadow");
+ 	chunkSettingsWindow->addChild(chunkFlagChecks[0]);
+ 
++
+ 	chunkFlagChecks[1]=new checkboxUI(150,chunkFlags->y+22.0f,"Impassible");
+ 	chunkSettingsWindow->addChild(chunkFlagChecks[1]);
+ 
+@@ -526,24 +562,29 @@
+ 	chunkFlagChecks[4]=new checkboxUI(chunkFlagChecks[2]->x,chunkFlagChecks[2]->y+30.0f,"Magma");
+ 	chunkSettingsWindow->addChild(chunkFlagChecks[4]);
+ 
++
+ 	chunkEffectID=new textUI(5.0f,chunkFlagChecks[4]->y+35.0f,"EffectID:");
+ 	chunkEffectID->setFont(&arial14);
+ 	chunkEffectID->setJustify(UI_JUSTIFY_LEFT);
+ 	chunkSettingsWindow->addChild(chunkEffectID);
++	chunkEffectID->hidden=true;//////
+ 	chunkNumEffects=new textUI(150.0f,chunkEffectID->y,"Num Effects:");
+ 	chunkNumEffects->setFont(&arial14);
+ 	chunkNumEffects->setJustify(UI_JUSTIFY_LEFT);
+ 	chunkSettingsWindow->addChild(chunkNumEffects);
++	chunkNumEffects->hidden=true;//////
+ 
+ 	int i;    
+ 
+ 	chunkEffectWindow=new window(8.0f,chunkEffectID->y+23.0f,284.0f,300.0f-(chunkEffectID->y+23.0f+8.0f));
+ 	chunkSettingsWindow->addChild(chunkEffectWindow);
++	chunkEffectWindow->hidden=true;
+ 	
+ 	chunkEffectModels[0]=new textUI(8.0f,8.0f,"Effect Doodad");
+ 	chunkEffectModels[0]->setFont(&arial14);
+ 	chunkEffectModels[0]->setJustify(UI_JUSTIFY_LEFT);
+ 	chunkEffectWindow->addChild(chunkEffectModels[0]);
++	chunkEffectModels[0]->hidden=true;/////////
+ 
+     for(i=1;i<4;i++)
+ 	{
+@@ -551,9 +592,10 @@
+ 		chunkEffectModels[i]->setFont(&arial14);
+ 		chunkEffectModels[i]->setJustify(UI_JUSTIFY_LEFT);
+ 		chunkEffectWindow->addChild(chunkEffectModels[i]);
++		chunkEffectModels[i]->hidden=true;///////
++
+ 	}
+-
+-
++    
+ 	chunkTextureWindow=new window(324.0f,26.0f,300.0f,300.0f);
+ 	windowMapChunk->addChild(chunkTextureWindow);
+ 
+@@ -566,8 +608,10 @@
+ 		buttonUI	*RemoveTexture;
+ 
+ 		chunkTexture[i]=new textureUI(10.0f,yPos,64.0f,64.0f,video.textures.add("tileset\\generic\\black.blp"));
++		//chunkTexture[i]->setClickFunc(textureChunkClick,i);///
+ 		chunkTextureWindow->addChild(chunkTexture[i]);
+ 		
++		
+ 		chunkTextureNames[i]=new textUI(83.0f,yPos+5.0f,"Texture Name");
+ 		chunkTextureNames[i]->setFont(&arial14);
+ 		chunkTextureNames[i]->setJustify(UI_JUSTIFY_LEFT);
+@@ -586,18 +630,29 @@
+ 
+ 		yPos+=64.0f+8.0f;
+ 	}
+-	scrollbarUI	*TempScroll=new scrollbarUI(10,10,150,10);
+-	chunkTextureWindow->addChild(TempScroll);
++	//scrollbarUI	*TempScroll=new scrollbarUI(10,10,150,10);
++	//chunkTextureWindow->addChild(TempScroll);
+ 
+ 	return windowMapChunk;
+ }
+ 
++void setChunk(MapChunk *chunk)//I dont remember, but is is maybe mine ground texture changing function
++{   int i;
++for(i=0;i<4;i++)
++   {
++	   if((chunk->textures[i]==textureChunkSelected->texture)&&(selectedTexture!=0))
++	   {
++		chunk->textures[i]=video.textures.add(selectedTexture->name.c_str());
++	   }
++   };
++}
++
+ void setChunkWindow(MapChunk *chunk)
+ {
+ 	char Temp[255];
+ 
+ 	sprintf(Temp,"Chunk %d, %d at (%.2f, %.2f, %.2f)",chunk->px,chunk->py,chunk->xbase,chunk->ybase,chunk->zbase);
+-	chunkLocation->setText(Temp);
++	chunkLocation->setText(Temp);///
+ 
+ 	
+ 	std::string areaName;
+@@ -610,17 +665,56 @@
+ 		areaName = "";
+ 	}
+ 	sprintf(Temp,"AreaID: %s (%d)",areaName.c_str(),chunk->areaID);
+-	chunkAreaID->setText(Temp);
++	chunkAreaID->setText(Temp);///
+ 	
+ 	sprintf(Temp,"Flags: %d",chunk->Flags);
+-	chunkFlags->setText(Temp);
++	chunkFlags->setText(Temp);///
+ 
+-	for(int i=0;i<5;i++)
+-		chunkFlagChecks[i]->setState(((chunk->Flags>>i)&1)==1);
++	for(int ch=0;ch<5;ch++)
++		chunkFlagChecks[ch]->setState(false);
+ 
++
++	if(chunk->Flags&FLAG_SHADOW)
++		chunkFlagChecks[0]->setState(true);
++	if(chunk->Flags&FLAG_IMPASS)
++		chunkFlagChecks[1]->setState(true);
++	if(chunk->Flags&FLAG_LQ_RIVER)
++		chunkFlagChecks[2]->setState(true);
++	if(chunk->Flags&FLAG_LQ_OCEAN)
++		chunkFlagChecks[3]->setState(true);
++	if(chunk->Flags&FLAG_LQ_MAGMA)
++		chunkFlagChecks[4]->setState(true);
++
+ 	sprintf(Temp,"EffectID: %d",chunk->header.effectId);
+-	chunkEffectID->setText(Temp);
++	chunkEffectID->setText(Temp);///
+ 
+ 	sprintf(Temp,"Num Effects: %d",chunk->header.nEffectDoodad);
+-	chunkNumEffects->setText(Temp);
++	chunkNumEffects->setText(Temp);///
++    
++	int pl=0;
++	for(pl=0;pl<(chunk->nTextures);pl++)
++	{
++	chunkTexture[pl]->setClickFunc(textureChunkClick,pl);///????????????????
++    chunkTexture[pl]->hidden=false;
++	chunkTextureNames[pl]->hidden=false;
++    chunkTextureFlags[pl]->hidden=false;
++	chunkTextureEffectID[pl]->hidden=false;
++
++    sprintf(Temp,"Flags- %d",chunk->texFlags[pl]);
++	chunkTextureFlags[pl]->setText(Temp);
++
++	sprintf(Temp,"EffectID- %d",chunk->effectID[pl]);
++	chunkTextureEffectID[pl]->setText(Temp);
++
++	chunkTexture[pl]->setTexture(video.textures.add(video.textures.items[chunk->textures[pl]]->name.c_str()));
++
++	chunkTextureNames[pl]->setText(video.textures.items[chunk->textures[pl]]->name.c_str());
++	}
++	for(pl;pl<4;pl++)
++	{
++		chunkTexture[pl]->hidden=true;
++	    chunkTextureNames[pl]->hidden=true;
++		chunkTextureFlags[pl]->hidden=true;
++		chunkTextureEffectID[pl]->hidden=true;
++	}
+ }
+\ No newline at end of file

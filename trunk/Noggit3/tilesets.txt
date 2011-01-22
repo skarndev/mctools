@@ -1,0 +1,69 @@
+Aerie Peaks	aerie peaks
+Alterac Mountains	alteracmtns
+Araithi Highlands	araithihighlands
+Ashenvale	ashenvale
+Ashzara	ashzara
+The Badlands	the badlands
+The Barrens	barrens
+The Blasted Lands	the blasted lands
+Burning Steppes	burningstepps
+Darkshore	darkshore
+Deadwind Pass	deadwind pass
+Desolace	desolace
+Durotar	durotar
+Duskwallow Marsh	duskwallow marsh
+Duskwood	duskwood
+Elywnn	elwynn
+Emerald Dream	emeralddream\
+Emerald Dream Canyon	emeralddreamcanyon
+Felwood	felwood
+Feralas	feralas
+Generic	generic
+Hyjal	hyjal
+Ironforge	ironforge
+Kalidar	kalidar
+Loch Modan	loch modan
+Moonglade	moonglade
+Mulgore	mullgore
+Outland	outland
+Plaguelands	plaguelands\
+Eastern Plaguelands	plaguelandseast
+Western Plaguelands	plaguelandswest
+Razorfen	razorfen
+Red Ridge Mountains	redridge
+Silithus	silithis
+Silverpine Forest	silverpine
+Stonetalon Mountains	stonetalon mts
+Stranglethorn Vale	stranglethorn
+Swamp of Sorrows	swamp of sorrows
+Tanaris	tanaris
+Thousand Needles	thousandneedles
+Tirisfal	tirisfall
+Tol Barad	tol barad
+Un'goro Crater	ungoro
+Westfall	westwood
+Wetlands	wetlands
+Winterspring	winterspring grove
+Zul'Aman	zulaman
+Zul'Gurub	zulgurub
+Bonewastes	expansion01\bonewastes
+BladesEdge	expansion01\Bladesedge
+BloodMyst	expansion01\bloodmyst
+Eversong	expansion01\eversong
+Ghostlands	expansion01\ghostlands
+Nagrand 	expansion01\nagrand
+Netherstorm	expansion01\netherstorm
+Legion	expansion01\portallegion
+Shadowmoon	expansion01\shdaowmoonValley
+SilverMyst	expansion01\silvermyst
+Terokkar	expansion01\terokkar
+Zangarmarsh	expansion01\zangarmarsh
+Boreantundra	expansion02\boreantundra
+Dragonblight	expansion02\dragonblight
+GrizzlyHills	expansion02\grizzlyhills
+Howlingfjord	expansion02\howlingfjord
+IceCrown	expansion02\icecrown
+LakeWintergrasp	expansion02\lakewintergrasp
+Scholazarbasin	expansion02\scholazarbasin
+Stormpeaks	expansion02\stormpeaks
+Zul'drak	expansion02\zuldrak

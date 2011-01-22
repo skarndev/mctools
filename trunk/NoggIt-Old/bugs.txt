@@ -1,0 +1,11 @@
+KNOWN ISSUES:
+
+v0.5:
+- secondary water color is missing
+- outdoor fog not complete
+- indoor fog too dense when viewed from a distance
+- lighting is still not 100% correct
+- transparent polygons aren't depth-sorted; this means that there might be some artifacts around partially transparent objects like tree leaves.
+- slowdown in some areas like outside Stormwind or the Undercity
+- as the program loads new areas of the map it will cause short pauses :(
+- still eats a lot of RAM
