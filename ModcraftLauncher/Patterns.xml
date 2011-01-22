@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<WoWX>
+  <Patterns>
+    <WoW>
+		<Pattern desc="LUAProtection" pattern="\x55\x8B\xEC\xA1\x40\xB6\x2E\x01\x8B\x0D\x44\xB6\x2E\x01\x83\xEC\x40\x85\xC0\x74\x04\x85\xC9\x75\x10" mask="xxxx????xx????xxxxxxxxxxx" />
+		<Pattern desc="RenderFlags" pattern="\xF7\x05\xB0\xDB\x22\x01\x00\x00\x00\x02\x6A\x00\x74\x1D\x68\x68\xC5\x97\x00\xE8\x18\x04\xFB\xFF" mask="xx????xxxxxxxxx????x????">
+			<Add value="2" />
+			<Lea />	
+		</Pattern>
+		<Pattern desc="SignatureCheck" pattern="\x1B\xC0\x5F\x83\xC0\x03\x5E\x8B\xE5\x5D\xC3\x33\xC0\xF7\xD8\x1B\xC0\x5F\x83\xC0\x03\x5E\x8B\xE5" mask="xxxxxxxxxxxxxxxxxxxxxxxx">
+		</Pattern>
+		<Pattern desc="SignatureCheck2" pattern="\x1B\xC0\x5F\x83\xC0\x03\x5E\x8B\xE5\x5D\xC3\x33\xC0\xF7\xD8\x1B\xC0\x5F\x83\xC0\x03\x5E\x8B\xE5" mask="xxxxxxxxxxxxxxxxxxxxxxxx">
+			<Add value="F" />
+		</Pattern>
+		<Pattern desc="CheckExecutableSignature" pattern="\x55\x8B\xEC\x83\xEC\x0C\x8B\x45\x08\x53\x68\x3F\x3F\x3F\x3F\x68\x80\x00\x00\x00\x6A\x03\x6A\x01" mask="xxxxxxxxxxxxxxxxxxxxxxxx" />
+		<Pattern desc="Commentator_enable" pattern="\x8B\x80\x00\x00\x00\x00\x8B\x48\x00\xC1\xE9\x13\x83\xE1\x01\x89\x4D\xFC\xDB\x45\xFC\x8B\x55\x08" mask="xx????xx?xxxxxxxxxxxxxxx">
+			<Add value="2" />
+		</Pattern>
+		<Pattern desc="Commentator_structure" pattern="\xB9\x00\x00\x00\x00\xE8\x00\x00\xFF\xFF\x6A\x00\x68\x00\x00\x00\x00\x68\xBB\x03\x00\x00\xE8\x00\x00\x00\x00" mask="x????x????xxx????xxxxxx????">
+			<Add value="1" />
+			<Lea />	
+		</Pattern>
+		
+      <Pattern desc="RenderScreen" pattern="\x55\x8B\xEC\x81\xEC\xA8\x00\x00\x00\x56\x57\x6A\x00\x8D\x45\xFC\x50" mask="xxxxx????xxx?xx?x" />
+      <Pattern desc="GlueXML_AdditionalScan" pattern="\x8B\x4D\x0C\x33\xC0\x83\xF9\x03\x77" mask="xx?xxxx?x">
+        <Add value="8" />
+      </Pattern>
+      <Pattern desc="UpdateGameTime2" pattern="\x55\x8B\xEC\x57\x8B\xF9\x8B\x4D\x08\x8D\x45\x0B\x50\x51\x8D\x4F\x4C\xE8" mask="xxxxxxxx?xx?xxxx?x" />
+      <Pattern desc="CursorItemInfo" pattern="\x89\x50\x04\x8B\x45\x10\x8B\x0D\xF0\xE7\xC6\x00\x89\x08\x5D\xC3" mask="xxxxxxxx????xxxx">
+        <Add value="8" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="EquipCursorItem" pattern="\x55\x8B\xEC\x83\xEC\x58\x83\x3D\xDC\xE7\xC6\x00\x09\x56\x57\x8B\xF9\x89\x7D\xF8\x75" mask="xxxxx?xx?????xxxxxx?x" />
+      <Pattern desc="AdditionalCheck2" pattern="\x8A\x08\x80\xF9\xC3\x75\x1A\xC7\x45\xFC\xFF\xFF\xFF\xFF\xB0" mask="xxxx?x?xx?????x">
+        <Sub value="32" />
+      </Pattern>
+      <Pattern desc="GetLuaState" pattern="\x55\x8B\xEC\x56\xE8\x57\x48\x2D\x00\x8B\xF0\x8B\x45\x08\x50\x56" mask="xxxxx????xxxx?xx">
+        <Add value="5" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="AdditionalCheck1" pattern="\x55\x8B\xEC\x6A\xFF\x68\x68\x60\x9B\x00\x68\x34\xB0\x40\x00\x64\xA1\x00\x00\x00\x00" mask="xxxx?x????x????xxxxxx">
+      </Pattern>
+      <Pattern desc="RepairMode" pattern="\x55\x8B\xEC\xE8\x58\xD5\x08\x00\x83\xF8\x11\x75\x1B\xD9\xE8\x8B\x45\x08\x83\xEC\x08\xDD\x1C\x24\x50" mask="xxxx????xx?x?xxxx?xx?xxxx">
+        <Add value="4" />
+        <Rel size="5" offset="1" />
+        <Add value="1" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="RepairItem" pattern="\x53\x8B\x5D\x08\x83\xFB\x27\x7C\x05\x83\xFB\x42\x7E\x08\x8D\x53\xBD\x83\xFA\x06\x77\x11\xA1" mask="xxx?xx?x?xx?x?xx?xx?x?x">
+        <Sub value="4F" />
+      </Pattern>
+      <Pattern desc="DefaultServerLogin" pattern="\x83\xC4\x0C\x50\xE8\x9A\xD1\xFF\xFF\x83\xC4\x08\x33\xC0\x5E\x5D\xC3\x68" mask="xx?xx????xx?xxxxxx">
+        <Add value="5" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="BroadcastCombatLogEvent" pattern="\x56\x8B\xF1\x57\x33\xFF\xB8\x00\x00\x00\x80\x57\x8D\x4E\x48" mask="xxxxxxx????xxx?">
+      </Pattern>
+      <Pattern desc="TraceLine" pattern="\x55\x8B\xEC\x83\xEC\x18\x8B\x45\x18\x83\x05\x54\x33\x28\x01\x01\x53\x56\x8B\x75\x08" mask="xxxxx?xx?xx?????xxxx?">
+      </Pattern>
+      <Pattern desc="LoadWardenModule" pattern="\x50\x57\x8B\xCE\xE8\x7C\xE8\x32\x00\x84\xC0\x53\x75" mask="xxxxx????xxxx">
+        <Add value="5" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="CloseLoot" pattern="\x89\x45\xFC\x8B\xC6\x83\xC4\x14\x0B\xC7" mask="xx?xxxx?xx">
+        <Sub value="2C" />
+      </Pattern>
+      <Pattern desc="GetNetStats" pattern="\x83\xEC\x10\x56\x8D\x45\xF4" mask="xxxxxxx">
+        <Add value="18" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="NetClass" pattern="\x56\x57\x33\xFF\x57\xE8" mask="xxxxxx">
+        <Add value="6" />
+        <Rel size="5" offset="1" />
+        <Add value="1" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="CreateCurMgr" pattern="\x8B\x7D\x08\x57\x50\x6A\x00\xE8\x8A\x6E\x37\x00\x83\xC4\x04\x50\xE8\x71\x3B\x03\x00\x83\xC4" mask="xx?xxx?x????xx?xx????xx">
+        <Sub value="A" />
+      </Pattern>
+      <Pattern desc="ContainerGUIDBase" pattern="\x74\x10\x8B\x04\xCD" mask="x?xxx">
+        <Add value="5" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="SellItem" pattern="\x8B\xD0\x0B\xD1\x74\x1E\x6A\x00\x57\x56\x51\x50\xE8" mask="xxxxx?x?xxxxx">
+        <Add value="D" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="GetSpellManaCostByID" pattern="\x55\x8B\xEC\x83\xEC\x14\x57\x8B\x7D\x0C\x85\xFF\x75\x08\x83\xC8\xFF\x5F\x8B\xE5\x5D\xC3" mask="xxxxx?xxx?xxx?xx?xxxxx">
+      </Pattern>
+      <Pattern desc="IsValidSpell" pattern="\x8B\x45\x08\x56\x8B\x75\x0C\x56" mask="xxxxxxxx">
+        <Sub value="3" />
+      </Pattern>
+      <Pattern desc="LootSlot" pattern="\x85\xC0\x56\x8B\x75\x08\x74\x5B\x85\xF6\x75\x51\x85\xC0\x0F\x8E" mask="xxxxx?x?xxx?xxxx">
+        <Sub value="2E" />
+      </Pattern>
+      <Pattern desc="GetNumLootItems" pattern="\x75\x01\xC3\x33\xC0\x56\x8D\x48" mask="x?xxxxxx">
+        <Sub value="B" />
+      </Pattern>
+      <Pattern desc="SelectUnit" pattern="\x8B\x45\x08\x8B\x48\x04\x8B\x10\x51\x52\xE8" mask="xx?xx?xxxxx">
+        <Add value="B" />
+        <Rel offset="1" size="5" />
+      </Pattern>
+      <Pattern desc="RealZoneText" pattern="\x33\xF6\x85\xC0\x53\x89\x45\xF4" mask="xxxxxxxx">
+        <Sub value="4" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="CInputControl" pattern="\x72\xE6\x5E\xC3\xCC\xA1\xE4\x31\xCF\x00\xC3" mask="x?xxxx????x">
+        <Add value="6" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="CInputControl::SetFlags" pattern="\x83\x7D\x0C\x00\x53\x8B\x5D\x08\x56\x57" mask="xxxxxxxxxx">
+        <Sub value="3" />
+      </Pattern>
+      <Pattern desc="ModelEdit" pattern="\x8B\xE5\x5D\xC2\x18\x00\x8B\x4D\x10\x89\x3D\xAC\xB6\x1F\x01\x89\x0D\xA8\xB6\x1F\x01\x83\x3D\xE4\xB3\x1F\x01\x00\x74" mask="xxxx??xx?xx????xx????xx?????x">
+        <Add value="1C" />
+      </Pattern>
+      <Pattern desc="NameplatePatch" pattern="\xDF\xE0\xF6\xC4\x41\x7A\x15\x53\x8D\x4D\xF4\x51\x8B\xCE" mask="xxxx?x?xxx?xxx">
+        <Add value="5" />
+      </Pattern>
+      <Pattern desc="CanAttack" pattern="\x32\xC0\x5B\x8B\xE5\x5D\xC2\x04\x00\x56\x8B\x75\x08\x8B\x4E" mask="xxxxxxx??xxx?xx">
+        <Sub value="25" />
+      </Pattern>
+      <Pattern desc="GetUnitRelation" pattern="\x55\x8B\xEC\x83\xEC\x10\x53\x57\x8B\x7D\x08\x8B\xD9" mask="xxxxxxxxxxxxx" />
+      <Pattern desc="UpdateGameTime" pattern="\x55\x8B\xEC\x51\x56\x57\x8B\xF9\xE8\x00\x00\x00\x00\x8B\xF0" mask="xxxxxxxxx????xx" />
+      <Pattern desc="TimeSetPatch" pattern="\xF3\xA5\x74\x56\x8B\x03\x85\xC0\x75\x44\x8B\x43\x04\x85\xC0" mask="xxxxxxxxxxxxxxx" />
+      <Pattern desc="TimeSetPatch2" pattern="\x89\x31\x89\x41\x04\x5E\x5D\xC2\x04\x00" mask="xxxxxxxxxx" />
+      <Pattern desc="SetFacing" pattern="\x55\x8B\xEC\xD9\x45\x08\x56\xD9\xC0\x8B\xF1\xD8\x66" mask="xxxxx?xxxxxxx" />
+      <Pattern desc="GetUnitType" pattern="\x8B\xC8\x83\xE9\x01\xBA\x01\x00\x00\x00\xD3\xE2" mask="xxxx?x????xx">
+        <Sub value="4" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="GlueXML_SignaturePatch" pattern="\x83\xC4\x14\x83\xF8\x03\x77\x34\xFF\x24\x85\x40\x1E\x47\x00\x68" mask="xx?xx?x?xxx????x">
+        <Add value="6" />
+      </Pattern>
+      <Pattern desc="FrameXML_SignaturePatch" start="GlueXML_SignaturePatch" pattern="\x83\xC4\x14\x83\xF8\x03\x77\x34\xFF\x24\x85\x40\x1E\x47\x00\x68" mask="xx?xx?x?xxx????x">
+        <Add value="6" />
+      </Pattern>
+      <Pattern desc="GetSpellIdByName" pattern="\x55\x8B\xEC\x8B\x45\x08\x56\x8B\x75\x0C\x56\x50" mask="xxxxx?xxx?xx">
+        <Add value="D" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="GetObjectByGUID" pattern="\x68\x86\x00\x00\x00\x68\x58\xC3\x92\x00\x6A\x10\x52\x50\xE8" mask="x????x????x?xxx">
+        <Add value="F" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="GetGUIDByKeyword" pattern="\xC3\x6A\x00\x51\x56\xE8\x58\xAC\x0D\x00\x83\xC4" mask="xx?xxx????xx">
+        <Add value="6" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="TranslatePatch" pattern="\x0F\x84\x72\xFF\xFF\xFF\x3B\xC7\x0F\x84\x6A\xFF\xFF\xFF\x8D\x55\xF8\x52\x56\x8B\xC8" mask="xx????xxxx????xx?xxxx">
+        <Add value="8" />
+      </Pattern>
+      <Pattern desc="GlueXML_RenamePatch" pattern="\x85\xC0\x74\x3C\x56\x68\xCC\x87\x8B\x00\x8D\x85\xF8\xFE\xFF\xFF\x68\x04\x01\x00\x00\x50" mask="xxx?xx????xx????x????x">
+        <Add value="2" />
+      </Pattern>
+      <Pattern desc="GetItemIDByName" pattern="\x83\xC4\x08\x85\xC0\x74\x0C\x83\xC0\x05\x50" mask="xxxxxxxxxxx">
+        <Sub value="12" />
+      </Pattern>
+      <Pattern desc="UseItem" pattern="\x55\x8B\xEC\x81\xEC\xBC\x04\x00\x00\x57\x8B\xF9\x8B\x47\x08\x8B\x48\x08\xC1\xE9" mask="xxxxx????xxxxx?xx?xx" />
+      <Pattern desc="Checksum" pattern="\x55\x8B\xEC\x8B\x45\x0C\x8B\x4D\x08\x81\xEC\x70\x01\x00\x00\x56\x50\x51" mask="xxxxx?xx?xx????xxx">
+      </Pattern>
+      <Pattern desc="GetSpellCooldown" pattern="\xF6\xD8\x1B\xC0\x83\xC0\x01\x50\x57\xE8" mask="xxxxxx?x?x">
+        <Add value="A" />
+        <Rel offset="1" size="5" />
+      </Pattern>
+      <Pattern desc="Base_DBCache" pattern="\x57\x57\x57\x8D\x4D\xF4\x51\x56\xB9" mask="xxxxx?xxx">
+        <Add value="9" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="DBCache::GetInfoBlockByID" pattern="\x85\xC0\x74\x1E\x33\xC9" mask="xxxxxx">
+        <Sub value="4" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="GetItemCooldown" pattern="\x8B\x75\x08\x6A\x01\x6A\x00\x89\x45\xF8" mask="xxxxxxxxxx">
+        <Sub value="C" />
+      </Pattern>
+
+      <Pattern desc="BroadcastEvent" pattern="\xE8\xFC\xE3\xD8\xFF\x68\xC0\x43\x9D\x00\x68\x54\xBC\x97\x00\x6A\x03\xE8\x00\x00\x00\x00" mask="x????x????x????xxx????">
+        <Add value="12" />
+        <Rel size="5" offset="1" />
+	  </Pattern>
+      <Pattern desc="EventBase" pattern="\xA1\x00\x00\x00\x00\x8B\x4D\x08\x8B\x0C\x88\x8B\x41\x20" mask="x????xxxxxxxxx">
+        <Add value="1" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="MountainClimbPatch" pattern="\xD9\x05\xFF\xFF\xFF\xFF\x8B\x0D\xFF\xFF\xFF\xFF\x6B\xC0\x34" mask="xx????xx????xxx">
+        <Add value="2" />
+        <Lea />
+        <Add value="3" />
+      </Pattern>
+      <Pattern desc="ObjectTracking" pattern="\x84\xC0\x74\x07\x32\xC0\x5F\x5D\xC2\x04\x00\x8B\x4D\x08\x8B\x81\x08\x01\x00\x00\x80\x78\x45\x19\x74" mask="xxx?xxxxx??xx?xx????xx??x">
+        <Sub value="10" />
+      </Pattern>
+      <Pattern desc="UnitTracking" pattern="\x32\xC0\x5F\x5D\xC2\x04\x00\x8B\x4D\x08\x8B\x81\x20\x01\x00\x00\x8A\x90\x66\x02\x00\x00\xF6\xC2\x04\x75" mask="xxxxx??xx?xx????xx????xx?x">
+        <Sub value="14" />
+      </Pattern>
+      <Pattern desc="CastSpellById" pattern="\x8B\x16\x6A\x00\x6A\x00\x6A\x00\x52" mask="xxxxxxxxx">
+        <Add value="A" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="TimePtr" pattern="\x55\x8B\xEC\x8B\x45\x08\xD9\x00\x51\xB9\x00\x00\x00\x00\xD9\x1C\x24" mask="xxxxxxxxxx????xxx">
+        <Add value="A" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="Repop" pattern="\x84\xC0\x74\x6B\x53\x33\xDB" mask="xxxxxxx">
+        <Sub value="10" />
+      </Pattern>
+      <Pattern desc="RegisterBase_ClientDB" pattern="\x8B\x40\x28\x83\xF8\xFF\x74\x09\x85\xC0\x74\x33\x83\xF8\x01\x75" mask="xx?xx?x?xxx?xx?x">
+        <Add value="19" />
+        <Rel offset="1" size="5" />
+      </Pattern>
+      <Pattern desc="GetRow_ClientDB" pattern="\x8B\x04\x81\x5D\xC2\x04\x00\x33\xC0\x5D\xC2" mask="xxxxx??xxxx">
+        <Sub value="17" />
+      </Pattern>
+      <Pattern desc="Language_Restriction" pattern="\x75\x16\x68\x28\x02\x00\x00\xE8\xBD\x26\x01\x00\x83\xC4\x04\x5F\x5E\x5B\x33\xC0\x8B\xE5\x5D\xC3" mask="x?x????x????xx?xxxxxxxxx">
+      </Pattern>
+      <Pattern desc="BuyItem" pattern="\x56\x33\xF6\x68\xA2\x01\x00\x00" mask="xxxxxxxx">
+        <Sub value="6" />
+      </Pattern>
+      <Pattern desc="MerchantItemBase" pattern="\x74\x0A\xC1\xE0\x05\x05\x20\x58\xDD\x00\x5D\xC3\x33\xC0\x5D\xC3" mask="x?xx?x????xxxxxx">
+        <Add value="6" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="InteractMerchantInfo" pattern="\xA1\xE0\xDA\xDD\x00\x0B\x05\xE4\xDA\xDD\x00\x74\x0F\x6A" mask="x????xx????x?x">
+        <Add value="1" />
+        <Lea />
+      </Pattern>
+      <Pattern desc="AFK jump" pattern="\x8B\xF0\x83\xC4\x14\x85\xF6\x74\x60\x8B\x86" mask="xxxxxxxx?xx">
+        <Add value="7" />
+      </Pattern>
+      <Pattern desc="InputEvent" pattern="\x83\xF8\x0F\x56\x75\x04\x33\xF6\xEB\x03\x8D\x70" mask="xx?xx?xxx?xx">
+        <Sub value="8" />
+      </Pattern>
+      <Pattern desc="GetCamera" pattern="\xE8\xBD\x8D\x2D\x00\x8B\x55\x0C\x89\x50\x08\x8B\x4D" mask="x????xx?xx?xx">
+        <Add value="1" />
+        <Rel offset="1" size="5" />
+      </Pattern>
+    </WoW>
+    <Lua>
+      <Pattern desc="lua_settable" pattern="\x55\x8B\xEC\x8B\x45\x0C\x56\x8B\x75\x08\x8B\xCE\xE8\xDF\xF0\xFF\xFF\x8B\x4E\x0C\x8D\x51\xF0\x52" mask="xxxxxxxxxxxxx????xxxxxxx" />
+      <Pattern desc="lua_createtable" pattern="\x55\x8B\xEC\x56\x8B\x75\x08\x8B\x46\x14\x8B\x48\x44\x3B\x48\x40\x57\x72\x09\x56\xE8\xF7\x98\x00\x00" mask="xxxxxxxxxxxxxxxxxxxxx????" />
+      <Pattern desc="Lua_Dostring" pattern="\x74\x11\x8B\x0D\x9C\x34\xFC\x00\x51\x50\x50\xE8\x06\x0D\x2E\x00\x83\xC4\x0C\x33\xC0\x5E\x5D\xC3" mask="x?xx????xxxx????xx?xxxxx">
+        <Add value="C" />
+        <Rel size="5" offset="1" />
+      </Pattern>
+      <Pattern desc="Lua_Register" pattern="\x55\x8B\xEC\x8B\x45\x0C\x56\x8B\x35\x54\x66\x2E\x01\x6A\x00\x50\x56" mask="xxxxx?xxx????xxxx">
+      </Pattern>
+      <Pattern desc="Lua_Reload" pattern="\xC7\x05\x00\x00\x00\x00\x01\x00\x00\x00\xE8\x00\x00\x00\x00\xB8\x01" mask="xx????xxxxx????xx" />
+      <Pattern desc="lua_gettop" pattern="\x55\x8B\xEC\x8B\x4D\x00\x8B\x41\x00\x2B\x41\x00\xC1\xF8\x00\x5D\xC3" mask="xxxxx?xx?xx?xx?xx" />
+      <Pattern desc="lua_tonumber" pattern="\x83\xC4\x00\x85\xC0\x75\x00\xD9\xEE\x8B\xE5\x5D\xC3\xDD\x00\x8B\xE5\x5D" mask="xx?xxx?xxxxxxxxxxx">
+        <Sub value="21" />
+      </Pattern>
+      <Pattern desc="lua_tointeger" pattern="\xDD\x00\xDD\x5D\x00\xDD\x45\x00\xDB\x5D\x00\x8B\x45\x00" mask="xxxx?xx?xx?xx?">
+        <Sub value="2C" />
+      </Pattern>
+      <Pattern desc="lua_tostring" pattern="\x55\x8B\xEC\x56\x8B\x75\x00\x57\x8B\x7D\x00\x8B\xC7\x8B\xCE" mask="xxxxxx?xxx?xxxx" />
+      <Pattern desc="lua_touserdata" pattern="\x55\x8B\xEC\x56\x8B\x75\x00\x57\x8B\x7D\x00\x8B\xC6\x8B\xCF" mask="xxxxxx?xxx?xxxx" />
+      <Pattern desc="lua_toboolean" pattern="\x55\x8B\xEC\x8B\x45\x00\x8B\x4D\x00\xE8\x00\x00\x00\x00\x8B\x48\x00" mask="xxxxx?xx?x????xx?" />
+      <Pattern desc="lua_pushnumber" pattern="\x55\x8B\xEC\x8B\x4D\x08\xDD\x45\x0C\x8B\x41\x0C" mask="xxxxxxxxxxxx" />
+      <Pattern desc="lua_pushinteger" pattern="\x55\x8B\xEC\x8B\x4D\x08\xDB\x45\x0C\x8B\x41\x0C" mask="xxxxxxxxxxxx" />
+      <Pattern desc="lua_pushstring" pattern="\x83\xC4\x0C\x89\x07\xC7\x47\x08\x04\x00\x00\x00\x83\x46\x0C\x10" mask="xxxxxxxxxxxxxxxx">
+        <Sub value="36" />
+      </Pattern>
+      <Pattern desc="lua_pushboolean" pattern="\x55\x8B\xEC\x8B\x15\x00\x00\x00\x00\x8B\x4D\x08\x8B\x41\x0C" mask="xxxxx????xxxxxx" />
+      <Pattern desc="lua_pushcclosure" pattern="\x55\x8B\xEC\x53\x56\x8B\x75\x08\x8B\x46\x14\x8B\x48\x44" mask="xxxxxxxxxxxxxx" />
+      <Pattern desc="lua_pushnil" pattern="\x55\x8B\xEC\x8B\x45\x00\x8B\x48\x00\x8B\x15\x00\x00\x00\x00\x89\x51\x00" mask="xxxxx?xx?xx????xx?" />
+      <Pattern desc="lua_setfield" pattern="\x8B\x4E\x0C\x83\xE9\x10\x51\x8D\x55\xF0\x52" mask="xxxxxxxxxxx">
+        <Sub value="3B" />
+      </Pattern>
+      <Pattern desc="lua_getfield" pattern="\x55\x8B\xEC\x8B\x45\x0C\x53\x56\x8B\x75\x08\x57\x50\x56" mask="xxxxxxxxxxxxxx" />
+      <Pattern desc="lua_replace" pattern="\x55\x8B\xEC\x56\x8B\x75\x08\x57\x8B\x7D\x0C\x81\xFF\xEF\xD8\xFF\xFF\x75\x16\x8B\x46\x18\x3B\x46\x2C\x75" mask="xxxxxx?xxx?xx????x?xx?xx?x" />
+    </Lua>
+  </Patterns>
+</WoWX>

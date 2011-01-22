@@ -1,0 +1,42 @@
+left click: set point
+right click and hold: camera move
+
+w= forward
+s= back
+a= left
+d= right
+q= turn left
+e = turn right
+
+selected point + l = point get lower terrain
+selected point + r = point get higher terrain
+
+t = Interpolation
+
+space = high camera
+x = down camera
+
+y = hide interface
+
+i = inraise radius of circuel
+shift + i = deraise radius of circuel
+
+p = save adts
+
+f = lock chunk (press again f for unlock)
+
+enter = command write
+
+mouseweel up = zoom in
+mouseweel down = zoom out
+
+v = inraise intensität
+shift + v = deraise intensität
+
+, = camera up scroll
+. = camera down scroll
+
++ = raise world large
+- = unraise world large
+
+alt = hold on display

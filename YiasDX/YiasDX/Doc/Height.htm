@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Heightchanges - WorldEditing</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=unicode">
+<META content=Cromon name=author>
+<META NAME="GENERATOR" CONTENT="AFSS HTML Designer 2.3 (http://www.afss.de)"></HEAD>
+<BODY text=#000000 vLink=#400040 aLink=#ff0000 link=#0000ff bgColor=#ffffff>
+<P><U><FONT size=6>Worldediting - Heightchanges</FONT></U></P>
+<P><FONT size=4>After you have selected the point where you would like to enter 
+you should see the world with the userinterface. This looks like that (if you 
+are exactly at the same position in the world ;) ).</FONT></P>
+<P><FONT size=4><IMG alt="" hspace=0 src="Images\02.JPG" align=baseline  border=0></FONT></P>
+<P><FONT size=4>First i would like to explain you some basic things.</FONT></P>
+<OL>
+  <LI><FONT size=4>You can see those red lines all over the terrain. These lines 
+  separate chunks. The files of WoW are made of chunks. Every chunk has 145 
+  points for which you can set the height. Every chunk can have up to 4 
+  different textures blended over eachother.</FONT> 
+  <LI><FONT size=4>Also you can see black lines. These lines are always on the 
+  same height. So to say these are heightlines. You can set the interval (which 
+  is default 20 units) and disable those lines when you click on the "Settings" 
+  button.</FONT> 
+  <LI><FONT size=4>In the top left you can see the coordinates of the server. 
+  The client and the server do not have the same coordinate system. If you would 
+  like to teleport to the edited location within WoW you should use the 
+  coordinates of the server (e.g. in arcemu with .gps)</FONT> 
+  <LI><FONT size=4>In the middle you see the name of the area of the chunk you 
+  are currently hovering with the camera (not where you look at). This is taken 
+  from AreaTable.dbc</FONT> 
+  <LI><FONT size=4>On the right you see the name of the currently hovered ADT 
+  (actually not really important)</FONT> 
+  <LI><FONT size=4>Under the mouse you can see a blue circle. This circle shows 
+  2 things: Where something gets edited and how big the radius is. For example 
+  if you raise the terrain it will raise the terrain within this blue circle and 
+  not outside it.</FONT></LI></OL>
+<P><FONT size=4>Now lets get started. If you like to change the terrain you 
+should open the "Terrain"-Tab by pressing the Terrain-button. Now this should 
+look like that:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\03.JPG" align=baseline border=0></P>
+<P>&nbsp;</P>
+<P><FONT size=4>There are 2 important things: The Mode of change and the 
+checkbox with "Align models to ground". The rest should be pretty clear. For the 
+interpolation just test and get a feeling it doesnt really help to explain what 
+it does.</FONT></P>
+<P><FONT size=4>For the mode of change its also pretty simple. Change height 
+just lowers or raises the terrain within the circle. Flatten is a bit different. 
+It tries to take out sharp edges in the terrain. It flattens the terrain and 
+makes it smooth. If you press on "Flatten" you wont be able to select Flat and 
+Quadratic because they do not give nice results. The same is for blur. Also 
+there just get a feeling for whats different between Blur and Flatten it doesnt 
+really give you a clue if i just explain it.</FONT></P>
+<P><FONT size=4>Now lets have a look how the editing of the terrain works. You 
+have several possibilities to change it. The first one is to press on the ground 
+where you would like to edit and use the key r (raise) or the key l (lower) to 
+perform the change. Another possibility is to press CTRL and the left 
+mousebutton. That will make the changes always at the point under the 
+mousearrow. CTRL has the same effect as the key r, ALT as the key l. And the 
+third possibility is to just hold the left mousebutton for more than 1.5 seconds 
+and then it will have the same effect as if you would have CTRL pressed until 
+you release the mousebutton.</FONT></P>
+<P><FONT size=4>Of course you can also change the radius and the intensity. 
+There are basically 2 possibilities to do that. Either you use the scrollbar in 
+the terraintab or you use the keyboard. The key i increases the radius, the key 
+I decreases the radius. The key v increases the intensity, the key V decreases 
+it.</FONT></P>
+<P><FONT size=4>At last i would like to explain the checkbox with "Align models 
+to ground". This may be pretty usefull. If you change the height of a piece of 
+terrain this may also affect the models on it. But by default the models have a 
+fixed position and are not raised automatically if you raise the terrain. So 
+maybe the will hang in the air if you lower the terrain or stick in the ground 
+if you rise it. If you enable the checkbox this wont happen. The editor checks 
+every model and aligns it to the new height.</FONT></P>
+</BODY></HTML>

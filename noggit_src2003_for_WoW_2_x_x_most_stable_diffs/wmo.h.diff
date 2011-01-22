@@ -1,0 +1,11 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wmo (2).h	Mo Aug 28 22:41:16 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wmo.h	So Aug  3 16:02:02 2008
+@@ -176,6 +176,8 @@
+ 	int id, d2, d3;
+ 	int doodadset;
+ 	unsigned int nameID;
++	unsigned int wmoID;
++	unsigned int d5;
+ 
+ 	WMOInstance(WMO *wmo, MPQFile &f);
+ 	WMOInstance(WMO *wmo, MODF *d);

@@ -1,0 +1,11 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/mapheaders (2).h	Do Jul 20 20:14:10 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/mapheaders.h	Mi Sep  2 02:01:48 2009
+@@ -1,7 +1,7 @@
+ #ifndef MAPHEADERS
+ #define MAPHEADERS
+ 
+-struct MHDR
++struct MHDR//our .adt headers
+ {
+  /*000h*/  uint32 pad;
+  /*004h*/  uint32 MCIN_Offset;	//Positions of MCNK's

@@ -1,0 +1,40 @@
+CHANGELOG
+
+v0.5:
+Terrain/outdoor:
+- added fog (F to toggle)
+- added light colors
+- added lowres terrain/some LOD for fogged mode
+- fixed liquid colors/extents
+WMOs:
+- added fog
+- added liquids
+Models:
+- added particle and ribbon effects
+
+
+
+v0.4:
+Terrain:
+- Rewritten rendering code to use index buffers
+- Fixed textures a bit
+- Added shadow maps
+- Added high-resolution tesselation, press H to return to the lowres height maps
+- Added support for animated ground textures, like flowing lava (not 100% correct)
+- Fixed holes in the terrain, now the ground doesn't stick into map objects like buildings and caves
+WMOs:
+- Fixed indoor lighting
+- Some minor tweaks
+Models:
+- Added support for skeletal animation
+- Texture animation	(lava flows, waterfalls)
+- Some fixes to transparency etc. (still far from perfect)
+Misc:
+- Changed MPQ library to libmpq, since SFMPQ was closed source
+- Added support for patch.mpq
+
+
+
+
+v0.3:
+- initial public release

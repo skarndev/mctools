@@ -1,0 +1,363 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/test (2).cpp	Mi Jan  3 04:15:52 2007
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/test.cpp	Mi Sep  2 02:01:48 2009
+@@ -80,13 +80,15 @@
+ 
+ // why the hell is this class called Test, anyway
+ // I should rename it to MapViewer or something when I'm not lazy
++// our keyboard manipulating class...
+ 
+ Test::Test(World *w, float ah0, float av0): world(w), ah(ah0), av(av0)
+ {
+-	LastClicked=0;
++	LastClicked=0;///
++	
+ 	moving = strafing = updown = 0;
+ 
+-	mousedir = 1.0f;
++	mousedir = -1.0f;
+ 
+ 	movespd = SPEED;
+ 
+@@ -117,10 +119,11 @@
+ 	tileFrames.height=(float)video.yres;
+ 	tileFrames.width=(float)video.xres;
+ 
++
+ 	window *W1;
+ 	W1=new window(video.xres-182.0f,2.0f,180.0f,100.0f);
+ 	W1->movable=true;
+-	
++
+ 	tileFrames.addChild(W1);
+ 
+ 	textUI *T1;
+@@ -166,10 +169,12 @@
+ 	
+ 	tileFrames.addChild(CreateTexturePalette());
+ 	tileFrames.addChild(CreateSelectedTexture());
++	tileFrames.addChild(CreateSelectedChunkTexture());
+ 	tileFrames.addChild(CreateTilesetLoader());
+ 	tileFrames.addChild(CreateTextureFilter());
+-	//tileFrames.addChild(createMapChunkWindow());
+ 	
++	tileFrames.addChild(createMapChunkWindow());
++	
+ 	lastBrushUpdate=0;
+ 	textureBrush.init();
+ }
+@@ -201,9 +206,14 @@
+ 		rotate(0,0, &dir.x,&dir.y, av*PI/180.0f);
+ 		rotate(0,0, &dir.x,&dir.z, ah*PI/180.0f);
+ 
++		//if((MoveObj)&&(Selection=0))
++		//	MoveObj=false;
++		//if((MoveObj)&&(CurSelection=0))
++		//	MoveObj=false;
++
+ 		
+ 
+-		if(LShiftDown||RShiftDown)
++		if(LShiftDown||RShiftDown)//object manipulations (using SDL)
+ 		{
+ 			dirUp.x=0;
+ 			dirUp.y=1;
+@@ -234,6 +244,21 @@
+ 				ObjPos.x=abs(ObjPos.x);
+ 		}
+ 
++		if((MoveObj)&&(Selection->type==ENTRY_WMO))
++		{
++				 ObjPos.x=80.0f;
++				 Selection->data.wmo->pos+=mv*dirUp*ObjPos.x;
++				 Selection->data.wmo->pos-=mh*dirRight*ObjPos.x;
++				 Selection->data.wmo->extents[0][0]=Selection->data.wmo->pos.x-1;
++				 Selection->data.wmo->extents[0][2]=Selection->data.wmo->pos.z-1;
++				 Selection->data.wmo->extents[1][0]=Selection->data.wmo->pos.x+1;
++				 Selection->data.wmo->extents[1][2]=Selection->data.wmo->pos.z+1;
++				 Selection->data.wmo->extents[0][1]=Selection->data.wmo->pos.y-1;
++				 Selection->data.wmo->extents[1][1]=Selection->data.wmo->pos.y+1;
++		}
++
++
++
+ 		if(MoveObj&&(CurSelection!=0)&&(CurSelection->type==ENTRY_MODEL))
+ 		{
+ 			if(LAltDown||RAltDown)
+@@ -248,14 +273,15 @@
+ 			}
+ 			else
+ 			{
+-				ObjPos.x=40.0f;
+-				CurSelection->data.model->pos+=mv*dirUp*ObjPos.x;
+-				CurSelection->data.model->pos-=mh*dirRight*ObjPos.x;
++				ObjPos.x=80.0f;
++				Selection->data.model->pos+=mv*dirUp*ObjPos.x;
++				Selection->data.model->pos-=mh*dirRight*ObjPos.x;
+ 			}
+ 		}
+-		if(look&&(CurSelection!=0))
++
++		if(look&&(Selection!=0))
+ 		{
+-			if((LShiftDown||RShiftDown)&&(CurSelection->type==ENTRY_MODEL))
++			if((LShiftDown||RShiftDown)&&(Selection->type==ENTRY_MODEL))
+ 			{
+ 				CurSelection->data.model->dir.y+=rh+rv;
+ 
+@@ -264,7 +290,7 @@
+ 				else if(CurSelection->data.model->dir.y<-360.0f)
+ 					CurSelection->data.model->dir.y+=360.0f;			
+ 			}
+-			else if((LCtrlDown||RCtrlDown)&&(CurSelection->type==ENTRY_MODEL))
++			else if((LCtrlDown||RCtrlDown)&&(Selection->type==ENTRY_MODEL))
+ 			{
+ 				CurSelection->data.model->dir.x+=rh+rv;
+ 
+@@ -273,7 +299,7 @@
+ 				else if(CurSelection->data.model->dir.x<-360.0f)
+ 					CurSelection->data.model->dir.x+=360.0f;
+ 			}
+-			else if((LAltDown||RAltDown)&&(CurSelection->type==ENTRY_MODEL))
++			else if((LAltDown||RAltDown)&&(Selection->type==ENTRY_MODEL))
+ 			{
+ 				CurSelection->data.model->dir.z+=rh+rv;
+ 
+@@ -282,6 +308,33 @@
+ 				else if(CurSelection->data.model->dir.z<-360.0f)
+ 					CurSelection->data.model->dir.z+=360.0f;
+ 			}
++			else if((LShiftDown||RShiftDown)&&(Selection->type==ENTRY_WMO))
++			{
++				Selection->data.wmo->dir.y+=rh+rv;
++
++				if(Selection->data.wmo->dir.y>360.0f)
++					Selection->data.wmo->dir.y-=360.0f;
++				else if(Selection->data.wmo->dir.y<-360.0f)
++					Selection->data.wmo->dir.y+=360.0f;			
++			}
++			else if((LCtrlDown||RCtrlDown)&&(Selection->type==ENTRY_WMO))
++			{
++				Selection->data.wmo->dir.x+=rh+rv;
++
++				if(Selection->data.wmo->dir.x>360.0f)
++					Selection->data.wmo->dir.x-=360.0f;
++				else if(Selection->data.wmo->dir.x<-360.0f)
++					Selection->data.wmo->dir.x+=360.0f;
++			}
++			else if((LAltDown||RAltDown)&&(Selection->type==ENTRY_WMO))
++			{
++				Selection->data.wmo->dir.z+=rh+rv;
++
++				if(Selection->data.wmo->dir.z>360.0f)
++					Selection->data.wmo->dir.z-=360.0f;
++				else if(Selection->data.wmo->dir.z<-360.0f)
++					Selection->data.wmo->dir.z+=360.0f;
++			}
+ 		}
+ 		mh=0;
+ 		mv=0;
+@@ -381,7 +434,7 @@
+ 	world->tick(dt);
+ }
+ 
+-void Test::doSelection()
++void Test::doSelection()//do selection
+ {
+ 	world->drawSelection(MouseX,MouseY);
+ 	Sel=world->getSelection();
+@@ -446,7 +499,7 @@
+ 		
+ 
+ 	}
+-	else if(TileMode)
++	else if(TileMode)//tile mode
+ 	{
+ 
+ 		ResetUniques();
+@@ -616,6 +669,11 @@
+ 				std::string areaName = rec.getString(AreaDB::Name);
+ 				regionID = rec.getUInt(AreaDB::Region);
+ 				f16->shprint(5,20,"%s", areaName.c_str());
++				if(areaID==3277)gPop=true;
++				if(areaID==3358)gPop=true;
++				if(areaID==2597)gPop=true;
++				if(areaID==268)gPop=true;
++				if(areaID==3820)gPop=true;
+ 			} catch(AreaDB::NotFound)
+ 			{
+ 				/// Not found, unknown area
+@@ -624,9 +682,10 @@
+ 			if (regionID != 0) {
+ 				/// Look up region
+ 				try {
+-					AreaDB::Record rec = gAreaDB.getByAreaID(regionID);
++					AreaDB::Record rec = gAreaDB.getByAreaID(regionID);	
+ 					std::string regionName = rec.getString(AreaDB::Name);
+ 					f16->shprint(5,40,"%s", regionName.c_str());
++					//if(regionID==876)gPop=true;
+ 				} catch(AreaDB::NotFound)
+ 				{
+ 					//f16->print(5,40,"Unknown [%i]", regionID);
+@@ -666,7 +725,7 @@
+ 			//f16->shprint(video.xres - 250, 40, "Object Pos (%.2f, %.2f, %.2f)",ObjPos.x,ObjPos.y,ObjPos.z);
+ 
+ 
+-			if(CurSelection!=0)
++			if(CurSelection!=0)//selected object info
+ 			{
+ 				if(DetailSelection)
+ 				{
+@@ -801,16 +860,17 @@
+ 							f16->shprint(10,83,"%UniqueID: %d",Selection->data.wmo->id);
+ 							f16->shprint(10,103,"Pos: (%.2f, %.2f, %.2f)",Selection->data.wmo->pos.x,Selection->data.wmo->pos.y,Selection->data.wmo->pos.z);
+ 							f16->shprint(10,123,"Rot: (%.2f, %.2f, %.2f)",Selection->data.wmo->dir.x,Selection->data.wmo->dir.y,Selection->data.wmo->dir.z);
+-							f16->shprint(10,143,"Lower Extents: (%.2f, %.2f, %.2f)",Selection->data.wmo->extents[0].x,Selection->data.wmo->extents[0].y,Selection->data.wmo->extents[0].z);
+-							f16->shprint(10,163,"Upper Extents: (%.2f, %.2f, %.2f)",Selection->data.wmo->extents[1].x,Selection->data.wmo->extents[1].y,Selection->data.wmo->extents[1].z);
+-							f16->shprint(10,183,"Textures Used: %d",Selection->data.wmo->wmo->nTextures);
++							//f16->shprint(10,143,"Lower Extents: (%.2f, %.2f, %.2f)",Selection->data.wmo->extents[0].x,Selection->data.wmo->extents[0].y,Selection->data.wmo->extents[0].z);
++							//f16->shprint(10,163,"Upper Extents: (%.2f, %.2f, %.2f)",Selection->data.wmo->extents[1].x,Selection->data.wmo->extents[1].y,Selection->data.wmo->extents[1].z);
++							/*f16->shprint(10,183,"Textures Used: %d",Selection->data.wmo->wmo->nTextures);
+ 							for(int j=0;j<Selection->data.wmo->wmo->nTextures;j++)
+ 							{
+ 								if(j<25)
+ 									f16->shprint(15,203+20*j,"%d - %s",j,Selection->data.wmo->wmo->textures[j].c_str());
+ 								else
+ 									f16->shprint((video.xres-15)/2,203+20*(j-25),"%d - %s",j,Selection->data.wmo->wmo->textures[j].c_str());
+-							}
++							}*/
++                            f16->shprint(10,143,"%Doodads set: %d",Selection->data.wmo->doodadset);
+ 						}
+ 						else if(Selection->type==ENTRY_MAPCHUNK)
+ 						{
+@@ -861,6 +921,7 @@
+ 								}
+ 								TextOffset+=5;								
+ 							}
++							
+ 							setChunkWindow(Selection->data.mapchunk);
+ 						}
+ 					}
+@@ -917,7 +978,7 @@
+ extern bool DrawMapContour;
+ extern bool drawFlags;
+ 
+-void Test::keypressed(SDL_KeyboardEvent *e)
++void Test::keypressed(SDL_KeyboardEvent *e)//our manipulating keys
+ {
+ 
+ 	if (e->type == SDL_KEYDOWN) {
+@@ -949,6 +1010,27 @@
+ 			updown = 1.0f;
+ 		}
+ 
++		if ((e->keysym.sym == SDLK_z)&&(Selection!=0)&&(Selection->type==ENTRY_MAPCHUNK)) 
++		{
++			setChunk(Selection->data.mapchunk);
++		}
++		if (e->keysym.sym == SDLK_x)
++		{
++		   if(Selection->type==ENTRY_MODEL)
++		    	Selection->data.model->pos.y=-100001;
++		   if(Selection->type==ENTRY_WMO)
++		    	Selection->data.wmo->pos.y=-100001;
++		}
++
++
++
++		if ((e->keysym.sym == SDLK_c)&&(TileMode=true)){
++			
++			if((Selection!=0)&&(Selection->type==ENTRY_MAPCHUNK)){
++				tileFrames.addChild(createMapChunkWindow());
++				setChunkWindow(Selection->data.mapchunk);}
++		}
++
+ 		// invertmouse
+ 		if (e->keysym.sym == SDLK_i) {
+ 			mousedir *= -1.0f;
+@@ -1069,33 +1151,47 @@
+ 			Selection=0;
+ 			CurSelection=0;
+ 		}
+-
+-		if(e->keysym.sym == SDLK_0)
+-			world->LowerTerrain=-120.0f;
+-		/*
+-		// lighting
+-		if (e->keysym.sym == SDLK_1) {
+-			world->l_const -= 0.1f;
+-			if (world->l_const <= 0) world->l_const = 0.0f;
++        //doodads set
++		if((e->keysym.sym == SDLK_0)&&(Selection!=0)&&(Selection->type==ENTRY_WMO))
++			Selection->data.wmo->doodadset=0;
++		
++		if ((e->keysym.sym == SDLK_1)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=1;
+ 		}
+-		if (e->keysym.sym == SDLK_2) {
+-			world->l_const += 0.1f;
++		if ((e->keysym.sym == SDLK_2)&&(Selection!=0)&&(Selection->type==ENTRY_WMO))
++		{
++			Selection->data.wmo->doodadset=2;
+ 		}
+-		if (e->keysym.sym == SDLK_3) {
+-			world->l_linear -= 0.01f;
+-			if (world->l_linear <= 0) world->l_linear = 0.0f;
++		if ((e->keysym.sym == SDLK_3)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=3;
+ 		}
+-		if (e->keysym.sym == SDLK_4) {
+-			world->l_linear += 0.01f;
++		if ((e->keysym.sym == SDLK_4)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=4;
+ 		}
+-		if (e->keysym.sym == SDLK_5) {
+-			world->l_quadratic -= 0.001f;
+-			if (world->l_quadratic <= 0) world->l_quadratic = 0.0f;
++		if ((e->keysym.sym == SDLK_5)&&(Selection!=0)&&(Selection->type==ENTRY_WMO))
++		{
++			Selection->data.wmo->doodadset=5;
+ 		}
+-		if (e->keysym.sym == SDLK_6) {
+-			world->l_quadratic += 0.001f;
++		if ((e->keysym.sym == SDLK_6)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=6;
+ 		}
+-		*/
++		if ((e->keysym.sym == SDLK_7)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=7;
++		}
++		if ((e->keysym.sym == SDLK_8)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=8;
++		}
++		if ((e->keysym.sym == SDLK_9)&&(Selection!=0)&&(Selection->type==ENTRY_WMO)) 
++		{
++			Selection->data.wmo->doodadset=9;
++		}
++		
+ 
+ 		if (e->keysym.sym == SDLK_F5) {
+ 			FILE *bf = fopen("bookmarks.txt","a");
+@@ -1228,7 +1324,7 @@
+ 	if(leftMouse&&(LAltDown||RAltDown))
+ 	{
+ 		BrushRadius+=e->xrel /( XSENS);
+-		if(BrushRadius>100.0f)
++		if(BrushRadius>1000.0f)
+ 			BrushRadius=100.0f;
+ 		else if(BrushRadius<1.0f)
+ 			BrushRadius=1.0f;
+@@ -1268,7 +1364,7 @@
+ 			
+ 				
+ 		}
+-		if(e->button==SDL_BUTTON_MIDDLE)
++		if((e->button==SDL_BUTTON_MIDDLE)&&(Selection!=0))
+ 			MoveObj=true;
+ 
+ 	} else if (e->type == SDL_MOUSEBUTTONUP) {

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Worldediting - Texturing</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=unicode">
+<META content=Cromon name=author>
+<META NAME="GENERATOR" CONTENT="AFSS HTML Designer 2.3 (http://www.afss.de)"></HEAD>
+<BODY text=#000000 vLink=#400040 aLink=#ff0000 link=#0000ff bgColor=#ffffff>
+<P><FONT size=6><U>Worldediting - Texturing</U></FONT></P>
+<P><FONT size=4>When you have changed the height of the terrain and are happy 
+with it (or also before, it doesnt matter) you can go and texture the terrain. 
+Thats actually the most important step of the creation. The textures will make 
+the terrain interesting.</FONT></P>
+<P><FONT size=4>Before you start to texture you should select some texture you 
+would like to use. Thats pretty simple. All you need to do is to open the 
+"Textures"-Tab by pressing the Textures-button. Now you should see the 
+following:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images/04.JPG" align=baseline border=0></P>
+<P><FONT size=4>In this interface you can search for the textures you would like 
+to use. You can enter the name of the zone the textures should be loaded from 
+and press the Load button. This will show you the textures that can be found 
+within this zone and display them in the free space. You may pay attention that 
+textures that are nearly invisble are maybe only alphamaps that will show up 
+strange within wow (or just plain green which means the same as "No 
+texture").</FONT></P>
+<P><FONT size=4>In this picture you see how it looks after loading a 
+tileset:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\05.JPG" align=baseline border=0></P>
+<P><FONT size=4>Now you can press on the textures you would like to save and 
+use. They will have a purple border around. If you are finished with the 
+textures you can press add and move to the next zone if you like and do the same 
+again.</FONT></P>
+<P><FONT size=4>After selecting all the textures you like you can close the 
+Textures-Tab and open the Texturing-tab. This should then look as following (in 
+my case):</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\06.JPG" align=baseline border=0></P>
+<P><FONT size=4>We find the textures that we added in the other interface and 
+some other options. First i will explain those options:</FONT></P>
+<OL>
+  <LI><FONT size=4>Texturing active: This checkbox determines if we would like 
+  to change the terrainheight or if we would like to texture the terrain. 
+  Changing the value will display a message in the chatbox to make you 
+  remember.</FONT> 
+  <LI><FONT size=4>Next you see the textures that are available now. You can 
+  press on one of them to make them active (indicated by a purple border). This 
+  will also change the text of "Curtex".</FONT> 
+  <LI><FONT size=4>Circle - Square : Select if the brush should be a circle or 
+  if it should be a square. Just experiment, pretty simple</FONT> 
+  <LI><FONT size=4>Layers! This is actually the most complex part of it. Every 
+  chunk can have up to 4 layers of textures, not more! The lowest layer (layer 
+  1) is a fully opaque groundtexture. What it means that its fully opaque you 
+  can see if you enable only Layer 1 and then texture a chunk. The other 3 
+  layers can be blended using transparencies set in the chunk. Now actually a 
+  chunk does not need to have 4 layers it also can have 1 or 2 or 3. But it 
+  needs always a layer. Once a chunk has 4 layers and want to set another 
+  texture you need to replace another layer because it cannot have 5 layers. 
+  Thats basically what you can specify using the first 4 checkboxes (Layer 1 - 
+  Layer 4). These checkboxes define which layer gets overwritten if the chunk 
+  has 4 layers already.<BR><BR>If you only check the "Free Layer" - box this 
+  will mean that it will always use a free layer if there is an unused layer (if 
+  the chunk has less then 4 layers). If the chunk has 4 layers already nothing 
+  will happen. If you check Free Layer and another Layer - checkbox this will 
+  set the following rule: "Take a free layer if one is available, else overwrite 
+  layer X".</FONT> 
+  <LI><FONT size=4>Intensity and Gradient: The intensity is not the same value 
+  as the intensity in the terrain. The intensity determines how fast the opacity 
+  of the new texture grows while you are applying it. The gradient determines 
+  how fast the intensity decreases when the distance to the centre increases. A 
+  high gradient means a slow loss, a low gradient fast loss.</FONT></LI></OL>
+<P><FONT size=4>To texture you should enable texturing, select a texture and 
+choose a layer. The following picture show how this then can look:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\07.JPG" align=baseline border=0></P>
+<P><FONT size=4>The chunks all had already 2 layers. By setting "Free Layer" the 
+program added a third layer with my texture. Now the chunks have 3 Layers. Now i 
+took another texture and i didnt change anything else:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\08.JPG" align=baseline border=0></P>
+<P><FONT size=4>This texture now used the next free layer, thats the 4th and 
+last layer. If we would now take another texture and begin to texture with the 
+same settings nothing would happen on these chunks because they already have 4 
+layers and therefore there is no free layer left but we have chosen to only take 
+free layers --&gt; Nothing to be done. For the last layer we take the second 
+layer and overwrite it with a new texture, that looks as following:</FONT></P>
+<P><IMG alt="" hspace=0 src="Images\09.JPG" align=baseline border=0></P>
+<P><FONT size=4>As you can see some chunks now have a completly different color. 
+Thats because they already had 4 Layers and so the editor replaced the layer 2 
+with our new texture.</FONT></P>
+<P><FONT size=4>If you would like to make sure that even with a Layer selected 
+in the checkboxes no texture gets overwritten in a chunk place the mouse above 
+it and press the f key to lock the chunk. Unlock it by pressing f 
+again.</FONT></P>
+</BODY></HTML>

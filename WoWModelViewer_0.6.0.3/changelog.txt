@@ -1,0 +1,100 @@
+*************************************************
+         WoW Model Viewer Change-Log
+*************************************************
+-------------------------------------------------
+IMPORTANT NOTE:
+-------------------------------------------------
+
+The official http://www.wowmodelviewer.org website is no longer updated with downloads!
+Due to the original developer not being able to work on WoWModelViewer before 2010, there won't be any
+download on the official website.
+Please visit http://www.wowprovider.com instead for new updates.
+
+-------------------------------------------------
+Known Bugs / Issues:
+-------------------------------------------------
+Warning: WoW Model Viewer IS NOT TESTED UNDER Windows Vista
+Warning: WoW Model Viewer IS NOT TESTED UNDER Windows 64x Operating Systems
+
+- Particles not working as intended (this includes Weapon-Enchants)
+- Problems with alpha/transparency/opacity with some models
+- Export sometimes chrashes while extracting textures for unknown reason
+- Application sometimes crashes on exit for unknown reason
+
+-------------------------------------------------
+Todo:
+-------------------------------------------------
+- Release a custom Win64-Bit executable
+- Add additional filters to the item-browsing window
+- Update/redo the item and NPC browsing feature by adding colors/icons to it
+- Add localizations for deDE, frFR, esES, zhTW, zhCN and ruRU
+- Better model positioning (i.e weapons/shields facing properly)
+- Unsused/Unseen creature skins should be loaded from a file instead of hardcoding
+- Add a bug report feature to give feedback to the developers
+- Add an "Animated Model Export"-Option (MS3D)
+
+-------------------------------------------------
+Build: 0.6.0.3 [release] (13. January 2009)
+-------------------------------------------------
+Changes / Bugfixes:
+- Added a "Load NPC Outfit..." option to the character menu. It's now possible to equip a character with the exact NPC's gear (without weapons).
+- Added quality colors to the item-list
+- Redone the MS3D export. Bones/Joints are now extracted along with additional fixes for attachment objects
+- Added a "Init-Position Model Export"-Option (MS3D)
+- The CxImage component was removed due to problems encountered by lots of users
+- Exported textures are now stored as TGA files instead of PNG
+- Exported screenshots are now stored as TGA files
+- The "Set Background Image..." feature is now limited to BMP files only
+- Fixed the "Export AVI" feature. Now all frames are exported and you won't just see a "still" image
+- Fixed the "Model Control", models are now selectable again to define various settings per model
+- Fixed Guild Tabard. The Guild Tabard is now fully customizable again
+- Added some exception handling (the buggy particle system caused a lot of crashes)
+- Added WOTLK mounts to the ridable list
+- Fixed some memory leaks
+
+-------------------------------------------------
+Build: 0.6.0.2 [release] (7. January 2009)
+-------------------------------------------------
+Changes / Bugfixes:
+- Added a loading splash screen
+- Weapon and shoulder models scale now based on the selected race/gender combination
+- Deathknight/NPC-Skins are now browsable when checked in the "Character Control"
+- Readded/fixed the "Check for updates" feature
+- Added better support for automatic wow-client detection (if registry fails, you can manually select your game-directory)
+- Fixed a bug in the armory import for undead characters
+- Fixed model exporting to all available formats (MS3D, 3DS, LWO and OBJ)
+- Fixed the "Set Background Image" feature
+- Added all the new WOTLK Skyboxes to the "Set Background Skybox" feature
+- Fixed sheathing of weapons
+- Fixed some "animated texture" bugs
+- Added a version check on startup, so older (pre-WOTLK) versions can't be loaded anymore
+- Updated some 3rd Party Libs to the latest available version
+- Added a "Show Eye Glow" feature under the characters menu to enable/disable character/deathknight eye glows
+- Removed the camera-node from the browsable models
+- Added some exception handling at various points. The application shouldn't just close silently anymore
+- Creature skins are now only once listed in the selection drop-down
+- Fixed the initial animation of some models to the default "stand" animation
+- Added an option to enable/disable particle effects
+- Redesigned/redone the menu layout. Features are now ordered in a more logical way
+
+-------------------------------------------------
+Build: 0.6.0.1 [prerelease-debug] (18. December 2008)
+-------------------------------------------------
+Changes / Bugfixes:
+- WoW Model Viewer is now WOTLK ready (Older versions [WoW-Classic/TBC] are NO LONGER supported!)
+- Working Vrykul/Nothrend-Character Models
+- Working Animations for all Models
+- Working Barber-Style Options for Characters
+- Working Camera for WMO Models
+- Fixed some bugs in the "Armory Import" feature
+- Removed some "Test" features from the menus
+- Temporary removed the "Save Animated Gif" feature
+- Updated the Items.csv and NPC.csv files to 3.0.3.9183
+- Upadted the Items.csv and NPC.csv files with additional information (filtering by Item/NPC-Id or DisplayInfo-id is now supported)
+- Updated/Redone the Enchants.csv files to reflect the actual ingame enchant-names
+- Added tons of additional Items and NPC's to the database. This includes also "Not-Yet-Known" Items and NPC's
+- Browsing Items by NPC-Name is now supported (for example filter shoulder for "Thrall" and you'll get Thrall's shoulder-model)
+- Small changes to the layout and appeareance of the main WoWModelViewer window
+- Little Bug-Fixes throughout the entire source-code to make the application more stable
+- Moved all user-related files (Equipment Files, Character Profiles, Charater Model Bank, Screenshots, Config and Log-Files to a new folder "userSettings")
+- Added a Localization-Feature to make WoWModelViewer compatible with every available WoW-Client language

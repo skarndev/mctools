@@ -1,0 +1,199 @@
+<DBCFiles>
+	<DBCFile name="Achievement_Category">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="ParentID" type="Integer" size="50" />
+			<Column name="Name" type="String" size="300" />
+			<Column name="Group" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Achievement_Criteria">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Achievement" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Group" type="Integer" size="50" />
+			<Column name="Quantity" type="Integer" size="50" />
+			<Column name="Category1" type="Integer" size="50" />
+			<Column name="Map1" type="Integer" size="50" />
+			<Column name="Category2" type="Integer" size="50" />
+			<Column name="Map2" type="Integer" size="50" />
+			<Column name="Description" type="String" size="300" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Timevalue" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Achievement">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Faction" type="Integer" size="50" />
+			<Column name="Map" type="Integer" size="50" />
+			<Column name="Previous" type="Integer" size="50" />
+			<Column name="Name" type="String" size="200" />
+			<Column name="Description" type="String" size="200" />
+			<Column name="Category" type="Integer" size="50" />
+			<Column name="Points" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="SpellIcon" type="Integer" size="50" />
+			<Column name="Reward" type="String" size="200" />
+			<Column name="Demands" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="AnimationData">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Name" type="String" size="200" />
+			<Column name="Weapon state" type="Integer" description="32 = pull weapons out during animation. 16 and 4 weapons are put back" size="50" />
+			<Column name="Flags" type="Integer" description="unknown values etc" size="50" />
+			<Column name="Unknown" type="Integer" description="unknown values etc" size="50" />
+			<Column name="Preceeding" type="Integer" references="AnimationData" description="the animation, preceeding this one" size="50" />
+			<Column name="RealId" type="Integer" description="same as ID for normal animations" size="50" />
+			<Column name="Group" type="Integer" description="0 for normal, 3 for fly." size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="AttackAnimKits">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Animation" type="Integer" size="50" />
+			<Column name="Type" type="Integer" size="50" />
+			<Column name="Flags" type="Integer" size="50" />
+			<Column name="Unknown" type="Boolean" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="AttackAnimTypes">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Name" type="String" size="300" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="CharBaseInfo">
+		<Columns>
+			<Column name="Race" type="Integer" size="50" />
+			<Column name="Class" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="CreatureDisplayInfo">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Model1" type="Integer" size="50" />
+			<Column name="Model2" type="Integer" size="50" />
+			<Column name="Extra" type="Integer" size="50" />
+			<Column name="Scale" type="Float" size="50" />
+			<Column name="Opacity" type="Integer" size="50" />
+			<Column name="Skin1" type="String" size="150" />
+			<Column name="Skin2" type="String" size="150" />
+			<Column name="Skin3" type="String" size="150" />
+			<Column name="Icon" type="Texture" size="150" />
+			<Column name="Type" type="Integer" size="50" />
+			<Column name="Flags" type="Integer" size="50" />
+			<Column name="Sound" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Emotes">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="iName" type="String" size="200" />
+			<Column name="Animation" type="Integer" size="50" />
+			<Column name="Flags" type="Integer" size="50" />
+			<Column name="Loop" type="Integer" size="50" />
+			<Column name="Hold" type="Integer" size="50" />
+			<Column name="Sound" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Faction">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="uGainID" type="Integer" description="Each faction that has gainable rep has a unique number. All factions that you can not gain rep with has -1" size="50" />
+			<Column name="atWar" type="Integer" size="50" />
+			<Column name="allied" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="BaseReputation" type="Integer" size="50" />
+			<Column name="Mod1" type="Integer" size="50" />
+			<Column name="Mod2" type="Integer" size="50" />
+			<Column name="Mod3" type="Integer" size="50" />
+			<Column name="Cond1" type="Integer" size="50" />
+			<Column name="Cond2" type="Integer" size="50" />
+			<Column name="Cond3" type="Integer" size="50" />
+			<Column name="Cond4" type="Integer" size="50" />
+			<Column name="ParentFaction" type="Integer" size="50" />
+			<Column name="Name" type="String" size="200" />
+			<Column name="Description" type="String" size="200" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="GroundEffectDoodad">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Name" type="Model" size="300" />
+			<Column name="Unknown" type="Boolean" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Light">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Map" type="Integer" size="50" />
+			<Column name="posx" type="Float" size="50" />
+			<Column name="posy" type="Float" size="50" />
+			<Column name="posz" type="Float" size="50" />
+			<Column name="radin" type="Float" size="50" />
+			<Column name="radout" type="Float" size="50" />
+			<Column name="sky'n'fog" type="Integer" size="50" />
+			<Column name="water" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+			<Column name="Unknown" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="LoadingScreens">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="iName" type="String" size="200" />
+			<Column name="Filename" type="Texture" size="300" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="SpellIcon">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Filename" type="Texture" description="texture used for this icon" size="300" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="Spell">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Unknown1" type="Integer" size="50" />
+			<Column name="Unknown2" type="Integer" size="50" />
+			<Column name="Unknown3" type="Integer" size="50" />
+			<Column name="Unknown4" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+	<DBCFile name="SpellVisual">
+		<Columns>
+			<Column name="ID" type="Integer" size="50" />
+			<Column name="Unknown1" type="Integer" size="50" />
+			<Column name="Unknown2" type="Integer" size="50" />
+			<Column name="Unknown3" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit1" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit2" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit3" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit4" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit5" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit6" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit7" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit8" type="Integer" size="50" />
+			<Column name="IdRefSpellVisualKit9" type="Integer" size="50" />
+		</Columns>
+	</DBCFile>
+</DBCFiles>

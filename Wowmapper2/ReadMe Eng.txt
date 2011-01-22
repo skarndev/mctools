@@ -1,0 +1,1 @@
+This program lets you view WoW's minimap files. Each picture is an ADT.

@@ -1,0 +1,26 @@
+--- animated.h	Do Jun 23 11:45:00 2005
++++ animated.h	So Dez  9 17:56:30 2007
+@@ -61,6 +61,23 @@
+ 	}
+ };
+ 
++// In WoW 2.0+ Blizzard are now storing rotation data in 16bit values instead of 32bit.
++// I don't really understand why as its only a very minor saving in model sizes and adds extra overhead in
++// processing the models.  Need this structure to read the data into.
++struct PACK_QUATERNION {__int16 x,y,z,w;  }; 
++
++class Quat16ToQuat32 {
++public:
++	static const Quaternion conv(const PACK_QUATERNION t)
++	{
++		return Quaternion(
++			float(t.x > 0? t.x - 32767 : t.x + 32767)/ 32767.0f, 
++			float(t.y > 0? t.y - 32767 : t.y + 32767)/ 32767.0f,
++			float(t.z > 0? t.z - 32767 : t.z + 32767)/ 32767.0f,
++			float(t.w > 0? t.w - 32767 : t.w + 32767)/ 32767.0f);
++	}
++};
++
+ // Convert opacity values stored as shorts to floating point
+ // I wonder why Blizzard decided to save 2 bytes by doing this
+ class ShortToFloat {

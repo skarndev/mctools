@@ -1,0 +1,31 @@
+--- FreeType.cpp	Do Mrz  9 11:23:40 2006
++++ FreeType.cpp	Mo Sep 29 02:22:30 2008
+@@ -319,7 +319,8 @@
+ 	//this tutorial with unnecessary library dependencies).
+ 	const char *start_line=text;
+ 	vector<string> lines;
+-	for(const char *c=text;*c;c++) {
++	const char *c=text;
++	for(c;*c;c++) {
+ 		if(*c=='\n') {
+ 			string line;
+ 			for(const char *n=start_line;n<c;n++) line.append(1,*n);
+@@ -435,7 +436,8 @@
+ 	//this tutorial with unnecessary library dependencies).
+ 	const char *start_line=text;
+ 	vector<string> lines;
+-	for(const char *c=text;*c;c++) {
++	const char *c=text;
++	for(c;*c;c++) {
+ 		if(*c=='\n') {
+ 			string line;
+ 			for(const char *n=start_line;n<c;n++) line.append(1,*n);
+@@ -457,7 +459,7 @@
+ 		int	curWidth=0;
+ 		for(int j=0;j<lines[i].size();j++)
+ 			curWidth+=ft_font.charWidths[lines[i].c_str()[j]];
+-		if(curWidth>maxWidth);
++		if(curWidth>maxWidth)
+ 			maxWidth=curWidth;
+ 	}
+ 	return maxWidth;

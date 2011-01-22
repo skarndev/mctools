@@ -1,0 +1,1 @@
+In den World of Warcraft Ordner verschieben und World of Warcraft Extractor.bat ausführen

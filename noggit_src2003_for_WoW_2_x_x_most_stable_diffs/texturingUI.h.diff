@@ -1,0 +1,12 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/texturingUI (2).h	So Mrz 26 06:03:06 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/texturingUI.h	Fr Aug 22 15:25:34 2008
+@@ -1,6 +1,8 @@
+ frame *CreateSelectedTexture();
++frame *CreateSelectedChunkTexture();
+ frame *CreateTexturePalette();
+ frame *CreateTilesetLoader();
+ frame *CreateTextureFilter();
+ frame *createMapChunkWindow();
++void setChunk(MapChunk *chunk);
+ void setChunkWindow(MapChunk *chunk);
+\ No newline at end of file

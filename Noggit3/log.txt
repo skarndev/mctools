@@ -1,0 +1,216 @@
+.\wowmapview.cpp:154 > Nogg-It $Rev: 104 $
+.\wowmapview.cpp:264 > Game path: C:\Program Files (x86)\World of Warcraft\Data\
+.\wowmapview.cpp:266 > Project path: C:\Program Files (x86)\World of Warcraft\
+.\wowmapview.cpp:304 > Locale: deDE
+.\mpq_libmpq.cpp:27 > Opening C:\Program Files (x86)\World of Warcraft\Data\deDE\locale-deDE.MPQ
+.\wowmapview.cpp:362 > main: mpqs: 168 ms
+.\wowmapview.cpp:398 > main: directory: 62 ms
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\AreaTable.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\Map.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LoadingScreens.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\Light.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LightParams.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LightSkybox.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LightIntBand.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LightFloatBand.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\GroundEffectDoodad.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\GroundEffectTexture.dbc
+.\dbcfile.cpp:13 > Opening DBC DBFilesClient\LiquidType.dbc
+.\wowmapview.cpp:429 > Creating Menu
+.\world.cpp:42 > World 0: Azeroth has no WDT file!
+.\world.cpp:42 > World 1: Kalimdor has no WDT file!
+.\world.cpp:42 > World 13: test has no WDT file!
+.\world.cpp:42 > World 25: ScottTest has no WDT file!
+.\world.cpp:42 > World 35: StormwindPrison has no WDT file!
+.\world.cpp:42 > World 37: PVPZone02 has no WDT file!
+.\world.cpp:42 > World 42: Collin has no WDT file!
+.\world.cpp:42 > World 369: DeeprunTram has no WDT file!
+.\world.cpp:42 > World 449: AlliancePVPBarracks has no WDT file!
+.\world.cpp:42 > World 450: HordePVPBarracks has no WDT file!
+.\world.cpp:42 > World 451: development has no WDT file!
+.\world.cpp:42 > World 530: Expansion01 has no WDT file!
+.\world.cpp:42 > World 571: Northrend has no WDT file!
+.\world.cpp:42 > World 573: ExteriorTest has no WDT file!
+.\world.cpp:42 > World 582: Transport176244 has no WDT file!
+.\world.cpp:42 > World 584: Transport176231 has no WDT file!
+.\world.cpp:42 > World 586: Transport181645 has no WDT file!
+.\world.cpp:42 > World 587: Transport177233 has no WDT file!
+.\world.cpp:42 > World 588: Transport176310 has no WDT file!
+.\world.cpp:42 > World 589: Transport175080 has no WDT file!
+.\world.cpp:42 > World 590: Transport176495 has no WDT file!
+.\world.cpp:42 > World 591: Transport164871 has no WDT file!
+.\world.cpp:42 > World 592: Transport186238 has no WDT file!
+.\world.cpp:42 > World 593: Transport20808 has no WDT file!
+.\world.cpp:42 > World 594: Transport187038 has no WDT file!
+.\world.cpp:42 > World 596: Transport187263 has no WDT file!
+.\world.cpp:42 > World 597: CraigTest has no WDT file!
+.\world.cpp:42 > World 605: development_nonweighted has no WDT file!
+.\world.cpp:42 > World 606: QA_DVD has no WDT file!
+.\world.cpp:42 > World 609: DeathKnightStart has no WDT file!
+.\world.cpp:42 > World 610: Transport_Tirisfal _Vengeance_Landing has no WDT file!
+.\world.cpp:42 > World 612: Transport_Menethil_Valgarde has no WDT file!
+.\world.cpp:42 > World 613: Transport_Orgrimmar_Warsong_Hold has no WDT file!
+.\world.cpp:42 > World 614: Transport_Stormwind_Valiance_Keep has no WDT file!
+.\world.cpp:42 > World 620: Transport_Moa'ki_Unu'pe has no WDT file!
+.\world.cpp:42 > World 621: Transport_Moa'ki_Kamagua has no WDT file!
+.\world.cpp:42 > World 622: Transport192241 has no WDT file!
+.\world.cpp:42 > World 623: Transport192242 has no WDT file!
+.\world.cpp:42 > World 638: Gilneas has no WDT file!
+.\world.cpp:42 > World 641: Transport_AllianceAirshipBG has no WDT file!
+.\world.cpp:42 > World 642: Transport_HordeAirshipBG has no WDT file!
+.\world.cpp:42 > World 646: Deephome has no WDT file!
+.\world.cpp:42 > World 647: Transport_Orgrimmar_to_Thunderbluff has no WDT file!
+.\world.cpp:42 > World 648: LostIsles has no WDT file!
+.\world.cpp:42 > World 651: ElevatorSpawnTest has no WDT file!
+.\world.cpp:42 > World 654: Gilneas2 has no WDT file!
+.\world.cpp:42 > World 655: GilneasPhase1 has no WDT file!
+.\world.cpp:42 > World 656: GilneasPhase2 has no WDT file!
+.\world.cpp:42 > World 659: LostIslesPhase1 has no WDT file!
+.\world.cpp:42 > World 660: Deephomeceiling has no WDT file!
+.\world.cpp:42 > World 661: LostIslesPhase2 has no WDT file!
+.\world.cpp:42 > World 662: Transport197195 has no WDT file!
+.\world.cpp:42 > World 672: Transport197347 has no WDT file!
+.\world.cpp:42 > World 673: Transport197348 has no WDT file!
+.\world.cpp:42 > World 674: Transport197349-2 has no WDT file!
+.\world.cpp:42 > World 712: Transport197349 has no WDT file!
+.\world.cpp:42 > World 713: Transport197350 has no WDT file!
+.\world.cpp:42 > World 718: Transport201834 has no WDT file!
+.\world.cpp:42 > World 719: MountHyjalPhase1 has no WDT file!
+.\world.cpp:42 > World 723: Stormwind has no WDT file!
+.\world.cpp:42 > World 730: MaelstromZone has no WDT file!
+.\world.cpp:42 > World 731: DesolaceBomb has no WDT file!
+.\world.cpp:42 > World 732: TolBarad has no WDT file!
+.\world.cpp:42 > World 736: TwilightHighlandsDragonmawPhase has no WDT file!
+.\world.cpp:42 > World 738: Transport200100 has no WDT file!
+.\world.cpp:42 > World 739: Transport200101 has no WDT file!
+.\world.cpp:42 > World 740: Transport200102 has no WDT file!
+.\world.cpp:42 > World 741: Transport200103 has no WDT file!
+.\world.cpp:42 > World 742: Transport203729 has no WDT file!
+.\world.cpp:42 > World 743: Transport203730 has no WDT file!
+.\world.cpp:42 > World 746: UldumPhaseOasis has no WDT file!
+.\world.cpp:42 > World 747: Transport 203732 has no WDT file!
+.\world.cpp:42 > World 748: Transport203858 has no WDT file!
+.\world.cpp:42 > World 749: Transport203859 has no WDT file!
+.\world.cpp:42 > World 750: Transport203860 has no WDT file!
+.\world.cpp:42 > World 751: RedgridgeOrcBomb has no WDT file!
+.\world.cpp:42 > World 752: RedridgeBridgePhaseOne has no WDT file!
+.\world.cpp:42 > World 753: RedridgeBridgePhaseTwo has no WDT file!
+.\world.cpp:42 > World 759: UldumPhasedEntrance has no WDT file!
+.\world.cpp:42 > World 760: TwilightHighlandsPhasedEntrance has no WDT file!
+.\world.cpp:42 > World 762: Transport 203861 has no WDT file!
+.\world.cpp:42 > World 763: Transport 203862 has no WDT file!
+.\world.cpp:42 > World 33: Shadowfang has no WDT file!
+.\world.cpp:42 > World 34: StormwindJail has no WDT file!
+.\world.cpp:42 > World 36: DeadminesInstance has no WDT file!
+.\world.cpp:42 > World 43: WailingCaverns has no WDT file!
+.\world.cpp:42 > World 44: Monastery has no WDT file!
+.\world.cpp:42 > World 47: RazorfenKraulInstance has no WDT file!
+.\world.cpp:42 > World 48: Blackfathom has no WDT file!
+.\world.cpp:42 > World 70: Uldaman has no WDT file!
+.\world.cpp:42 > World 90: GnomeragonInstance has no WDT file!
+.\world.cpp:42 > World 109: SunkenTemple has no WDT file!
+.\world.cpp:42 > World 129: RazorfenDowns has no WDT file!
+.\world.cpp:42 > World 189: MonasteryInstances has no WDT file!
+.\world.cpp:42 > World 209: TanarisInstance has no WDT file!
+.\world.cpp:42 > World 229: BlackRockSpire has no WDT file!
+.\world.cpp:42 > World 230: BlackrockDepths has no WDT file!
+.\world.cpp:42 > World 269: CavernsOfTime has no WDT file!
+.\world.cpp:42 > World 289: SchoolofNecromancy has no WDT file!
+.\world.cpp:42 > World 329: Stratholme has no WDT file!
+.\world.cpp:42 > World 349: Mauradon has no WDT file!
+.\world.cpp:42 > World 389: OrgrimmarInstance has no WDT file!
+.\world.cpp:42 > World 429: DireMaul has no WDT file!
+.\world.cpp:42 > World 540: HellfireMilitary has no WDT file!
+.\world.cpp:42 > World 542: HellfireDemon has no WDT file!
+.\world.cpp:42 > World 543: HellfireRampart has no WDT file!
+.\world.cpp:42 > World 545: CoilfangPumping has no WDT file!
+.\world.cpp:42 > World 546: CoilfangMarsh has no WDT file!
+.\world.cpp:42 > World 547: CoilfangDraenei has no WDT file!
+.\world.cpp:42 > World 552: TempestKeepArcane has no WDT file!
+.\world.cpp:42 > World 553: TempestKeepAtrium has no WDT file!
+.\world.cpp:42 > World 554: TempestKeepFactory has no WDT file!
+.\world.cpp:42 > World 555: AuchindounShadow has no WDT file!
+.\world.cpp:42 > World 556: AuchindounDemon has no WDT file!
+.\world.cpp:42 > World 557: AuchindounEthereal has no WDT file!
+.\world.cpp:42 > World 558: AuchindounDraenei has no WDT file!
+.\world.cpp:42 > World 560: HillsbradPast has no WDT file!
+.\world.cpp:42 > World 574: Valgarde70 has no WDT file!
+.\world.cpp:42 > World 575: UtgardePinnacle has no WDT file!
+.\world.cpp:42 > World 576: Nexus70 has no WDT file!
+.\world.cpp:42 > World 578: Nexus80 has no WDT file!
+.\world.cpp:42 > World 585: Sunwell5ManFix has no WDT file!
+.\world.cpp:42 > World 595: StratholmeCOT has no WDT file!
+.\world.cpp:42 > World 598: Sunwell5Man has no WDT file!
+.\world.cpp:42 > World 599: Ulduar70 has no WDT file!
+.\world.cpp:42 > World 600: DrakTheronKeep has no WDT file!
+.\world.cpp:42 > World 601: Azjol_Uppercity has no WDT file!
+.\world.cpp:42 > World 602: Ulduar80 has no WDT file!
+.\world.cpp:42 > World 604: GunDrak has no WDT file!
+.\world.cpp:42 > World 608: DalaranPrison has no WDT file!
+.\world.cpp:42 > World 619: Azjol_LowerCity has no WDT file!
+.\world.cpp:42 > World 627: unused has no WDT file!
+.\world.cpp:42 > World 632: IcecrownCitadel5Man has no WDT file!
+.\world.cpp:42 > World 637: AbyssalMaw has no WDT file!
+.\world.cpp:42 > World 643: AbyssalMaw_Interior has no WDT file!
+.\world.cpp:42 > World 644: Uldum has no WDT file!
+.\world.cpp:42 > World 645: BlackRockSpire_4_0 has no WDT file!
+.\world.cpp:42 > World 650: ArgentTournamentDungeon has no WDT file!
+.\world.cpp:42 > World 657: SkywallDungeon has no WDT file!
+.\world.cpp:42 > World 658: QuarryofTears has no WDT file!
+.\world.cpp:42 > World 668: HallsOfReflection has no WDT file!
+.\world.cpp:42 > World 670: GrimBatolDungeon has no WDT file!
+.\world.cpp:42 > World 725: DeepholmeDungeon has no WDT file!
+.\world.cpp:42 > World 727: STV_Mine_BG has no WDT file!
+.\world.cpp:42 > World 728: TheBattleforGilneas has no WDT file!
+.\world.cpp:42 > World 734: AhnQirajTerrace has no WDT file!
+.\world.cpp:42 > World 754: SkywallRaid has no WDT file!
+.\world.cpp:42 > World 755: UldumDungeon has no WDT file!
+.\world.cpp:42 > World 757: BaradinHold has no WDT file!
+.\world.cpp:42 > World 169: EmeraldDream has no WDT file!
+.\world.cpp:42 > World 249: OnyxiaLairInstance has no WDT file!
+.\world.cpp:42 > World 309: Zul'gurub has no WDT file!
+.\world.cpp:42 > World 409: MoltenCore has no WDT file!
+.\world.cpp:42 > World 469: BlackwingLair has no WDT file!
+.\world.cpp:42 > World 509: AhnQiraj has no WDT file!
+.\world.cpp:42 > World 531: AhnQirajTemple has no WDT file!
+.\world.cpp:42 > World 532: Karazahn has no WDT file!
+.\world.cpp:42 > World 533: Stratholme Raid has no WDT file!
+.\world.cpp:42 > World 534: HyjalPast has no WDT file!
+.\world.cpp:42 > World 544: HellfireRaid has no WDT file!
+.\world.cpp:42 > World 548: CoilfangRaid has no WDT file!
+.\world.cpp:42 > World 550: TempestKeepRaid has no WDT file!
+.\world.cpp:42 > World 564: BlackTemple has no WDT file!
+.\world.cpp:42 > World 565: GruulsLair has no WDT file!
+.\world.cpp:42 > World 568: ZulAman has no WDT file!
+.\world.cpp:42 > World 580: SunwellPlateau has no WDT file!
+.\world.cpp:42 > World 603: UlduarRaid has no WDT file!
+.\world.cpp:42 > World 615: ChamberOfAspectsBlack has no WDT file!
+.\world.cpp:42 > World 616: NexusRaid has no WDT file!
+.\world.cpp:42 > World 624: WintergraspRaid has no WDT file!
+.\world.cpp:42 > World 631: IcecrownCitadel has no WDT file!
+.\world.cpp:42 > World 649: ArgentTournamentRaid has no WDT file!
+.\world.cpp:42 > World 669: BlackwingDescent has no WDT file!
+.\world.cpp:42 > World 671: GrimBatolRaid has no WDT file!
+.\world.cpp:42 > World 720: Firelands1 has no WDT file!
+.\world.cpp:42 > World 721: Firelands2 has no WDT file!
+.\world.cpp:42 > World 724: ChamberofAspectsRed has no WDT file!
+.\model.cpp:85 > Loading model "interface\glues\models\ui_human\ui_human.m2".
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\doodads\stormwindcrate01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\doodads\stormwindbarrel.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_06.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file world\generic\human\passive doodads\planterboxes\stormwindplanter.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_05.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\trim\mm_strmwnd_trim_02.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_04.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_03.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\trim\mm_strmwnd_supports_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\roof\mm_strmwnd_roof_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\walls\mm_strmwnd_wall_02.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\trim\mm_strmwnd_trim_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\windows\mm_strmwnd_windows_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\door\mm_strmwnd_doors_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\trim\mm_strmwnd_int_trim_01.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\doodads\stormwindstreetlamp.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file dungeons\textures\doodads\stormwindlampglass.blp! Check MPQs and the file that has been requesting this!
+.\mpq_libmpq.cpp:125 > Unable to find file world\generic\human\passive doodads\stormwind\elwynntreetallcanopy_new01.blp! Check MPQs and the file that has been requesting this!

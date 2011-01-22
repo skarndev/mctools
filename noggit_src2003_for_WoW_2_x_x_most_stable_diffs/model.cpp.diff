@@ -1,0 +1,40 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/model (2).cpp	Sa Aug 26 16:10:48 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/model.cpp	Mi Sep  2 02:13:15 2009
+@@ -163,9 +163,9 @@
+ 				if (bb.translation.type || bb.rotation.type || bb.scaling.type || (bb.flags&8)) {
+ 					if (bb.flags&8) {
+ 						// if we have billboarding, the model will need per-instance animation
+-						ind = true;
++						ind = false;///true;
+ 					}
+-					animGeometry = true;
++					animGeometry = false;///true;
+ 					break;
+ 				}
+ 			}
+@@ -940,6 +940,7 @@
+ 	glColor4f(1,1,1,1);
+ 	glDepthMask(GL_TRUE);
+ }
++//src by Beket
+ 
+ void ModelHighlight()
+ {
+@@ -1566,6 +1567,8 @@
+ 	// load new
+ 	Model *model = new Model(name);
+ 	id = nextID();
++	///////////////////////if(d1==482564)gPop = true;
++	
+     do_add(name, id, model);
+     return id;
+ }
+@@ -1687,6 +1690,8 @@
+ {
+ 	//if ((pos - gWorld->camera).lengthSquared() > (gWorld->modeldrawdistance2+(model->rad*model->rad*sc))) return;
+ 	if(CheckUniques(d1)) return;
++	//if(d1==482564)
++		//gPop = true;
+ 	glPushMatrix();
+ 	glTranslatef(pos.x/CHUNKSIZE, pos.z/CHUNKSIZE, pos.y);
+ 

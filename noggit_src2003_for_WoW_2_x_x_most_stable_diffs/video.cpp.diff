@@ -1,0 +1,11 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/video (2).cpp	Do Aug  3 20:53:50 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/video.cpp	Sa Aug 16 18:06:07 2008
+@@ -488,7 +488,7 @@
+ 	FILE *f = fopen(filename,"rb");
+ 	TGAHeader h;
+ 	fread(&h,18,1,f);
+-	if (h.datatypecode != 2) return 0;
++	if (h.datatypecode != 2) return 0;////////////////////////////////////
+ 	size_t s = h.width * h.height;
+ 	GLint bppformat;
+ 	GLint format;

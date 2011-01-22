@@ -1,0 +1,28 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/modelheaders (2).h	Do Jul 13 12:44:54 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/modelheaders.h	Mi Sep  2 02:01:48 2009
+@@ -25,7 +25,7 @@
+ 	}
+ };
+ 
+-struct ModelHeader {
++struct ModelHeader {//our modelheaders
+ 	char id[4];
+ 	uint8 version[4];
+ 	uint32 nameLength;
+@@ -147,6 +147,8 @@
+ 	int32 flags;
+ 	int16 parent; // parent bone index
+ 	int16 geoid;
++	// new int added to the bone definitions.  Added in WoW 2.0
++	int32 unknown;
+ 	AnimationBlock translation;
+ 	AnimationBlock rotation;
+ 	AnimationBlock scaling;
+@@ -189,6 +191,7 @@
+ 	uint16 d5;		// ?
+ 	uint16 d6;		// root bone?
+ 	Vec3D v;
++	float unknown[4];	// Added in WoW 2.0?
+ };
+ 
+ /// A texture unit (sub of material)

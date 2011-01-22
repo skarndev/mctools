@@ -1,0 +1,66 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wowmapview (2).cpp	Mi Jan  3 04:14:30 2007
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/wowmapview.cpp	Sa Okt 11 18:42:54 2008
+@@ -103,6 +103,7 @@
+ 	LONG l;
+ 	s = 1024;
+ 	memset(gamepath,0,s);
++	//l = RegOpenKeyEx(HKEY_LOCAL_MACHINE,"SOFTWARE\\Blizzard Entertainment\\World of Warcraft\\2",0,KEY_QUERY_VALUE,&key); //open WoWLK
+ 	l = RegOpenKeyEx(HKEY_LOCAL_MACHINE,"SOFTWARE\\Blizzard Entertainment\\World of Warcraft",0,KEY_QUERY_VALUE,&key);
+ 	l = RegQueryValueEx(key,"InstallPath",0,&t,(LPBYTE)gamepath,&s);
+ 	l = RegQueryValueEx(key,"InstallPath",0,&t,(LPBYTE)wowpath,&s);
+@@ -133,6 +134,10 @@
+ 			xres = 1024;
+ 			yres = 768;
+ 		}
++		else if (!strcmp(argv[i],"-800") || !strcmp(argv[i],"-800x600")) {
++			xres = 800;
++			yres = 600;
++		}
+ 		else if (!strcmp(argv[i],"-1280") || !strcmp(argv[i],"-1280x1024")) {
+ 			xres = 1280;
+ 			yres = 1024;
+@@ -175,33 +180,29 @@
+ 
+ 
+ 	std::vector<MPQArchive*> archives;
+-	const char* archiveNames[] = {"fonts.mpq", "texture.MPQ", "model.MPQ", "wmo.MPQ", "terrain.MPQ", "interface.MPQ", "misc.MPQ", "dbc.MPQ"};
++	const char* archiveNames[] = {"common-2.MPQ", "lichking.mpq", "common.MPQ", "expansion.MPQ", "enUS\\locale-enUS.MPQ", "enUS\\expansion-locale-enUS.MPQ", "enGB\\lichking-locale-enGB.MPQ", "enGB\\locale-enGB.MPQ", "enGB\\expansion-locale-enGB.MPQ", "deDE\\locale-deDE.MPQ", "deDE\\expansion-locale-deDE.MPQ", "frFR\\locale-frFR.MPQ", "frFR\\expansion-locale-frFR.MPQ"};
+ 
+ 	char path[512];
+ 
+ 	if (usePatch) {
+ 		// patch goes first -> fake priority handling
+-		sprintf(path, "%s%s", gamepath, "patch-9.MPQ");
++		sprintf(path, "%s%s", gamepath, "patch.MPQ");
+ 		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-8.MPQ");
++
++		sprintf(path, "%s%s", gamepath, "enUS\\Patch-enUS.MPQ");
+ 		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-7.MPQ");
++
++		sprintf(path, "%s%s", gamepath, "enGB\\Patch-enGB.MPQ");
+ 		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-6.MPQ");
++
++		sprintf(path, "%s%s", gamepath, "deDE\\Patch-deDE.MPQ");
+ 		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-5.MPQ");
++
++		sprintf(path, "%s%s", gamepath, "frFR\\Patch-frFR.MPQ");
+ 		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-4.MPQ");
+-		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-3.MPQ");
+-		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch-2.MPQ");
+-		archives.push_back(new MPQArchive(path));
+-		sprintf(path, "%s%s", gamepath, "patch.MPQ");		
+-		archives.push_back(new MPQArchive(path));
+ 	}
+ 
+-	for (size_t i=0; i<7; i++) {
++	for (size_t i=0; i<10; i++) {
+ 		sprintf(path, "%s%s", gamepath, archiveNames[i]);
+ 		archives.push_back(new MPQArchive(path));
+ 	}

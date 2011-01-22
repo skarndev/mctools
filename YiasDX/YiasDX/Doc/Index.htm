@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Overview</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=unicode">
+<META content=Cromon name=author>
+<META NAME="GENERATOR" CONTENT="AFSS HTML Designer 2.3 (http://www.afss.de)"></HEAD>
+<BODY text=#000000 vLink=#400040 aLink=#ff0000 link=#0000ff bgColor=#ffffff>
+<P><FONT size=6><U>YiasEdit DX Documentation</U></FONT></P>
+<P><FONT size=4>In the following files you will find a hopefully complete 
+documentation of all the features you have present in YiasEdit DX as well as 
+some tips and tricks to make handling a bit easier for you. Of course it can be 
+that it wont cover every question and aspect of the program. If so dont hesitate 
+to contact me on <A href="http://www.yias.de">www.yias.de</A> or <A 
+href="http://www.mmowned.com">www.mmowned.com</A>. There you will find threads 
+about the program where you can post questions and suggestions (which actually 
+are the most important of it all as i dont every single wish of the community by 
+heart ;) ).<BR><BR>First I would like to tell you some basic things about the 
+different files you can find in the folder where the YiasDX.exe lies.</FONT></P>
+<UL>
+  <LI><FONT size=4>YiasDX.exe : This is the main executable of the program. It 
+  contains all the code to render and modify the files of WoW. You can start it 
+  without the launcher but its recommended to start the launcher to check for 
+  updates and then use the "Start"-button from the launcher to start the 
+  program. 
+  <LI>Launcher.exe : The main purpose of the launcher is to make sure that you 
+  always have the newest version of the program. As there may be several 
+  versions that are uploaded a day because some major errors were fixed its 
+  pretty important to start the program always with the launcher. It also makes 
+  sure that you know if you have actually the newest version or if i uploaded 
+  something new what can get pretty difficult if there is only a simple 
+  download. There is button called "Start" which will just open the YiasDX.exe 
+  and has basically the same effect like opening the YiasDX.exe 
+  <LI>VS_1.fx, VS_2.fx, VS_3.fx, VS_4.fx : These files are shaders for DirectX. 
+  When it comes to render a pixel the engine and the graphics card have a fixed 
+  function pipeline. Vertices get transformed by the WorldViewProj-matrix, 
+  polygons get tesselated and so on. This is fixed and done always the same way. 
+  A lot of effects are pretty simpler if you could do it pixel by pixel 
+  dynamically after all the transformation. Thats where we find shaders. Shaders 
+  allow to program on this fixed function pipeline. So basically you can very 
+  simple change the fashion of the rendering by editing this shaders. Its though 
+  not recommended to massivly change the shaders without the knowledge of it. 
+  You can perform some simple things like multiplying some color-channels and 
+  watch the effects. This of course has to be done in every .fx file. </FONT>
+  <LI><FONT size=4>LVersion.dll : This DLL contains the current version of your 
+  build. The launcher uses this DLL to determine the current version. If no DLL 
+  is found or if its corrupt you get the version -1 which of course is always 
+  less than the remote version.</FONT> 
+  <LI><FONT size=4>Locale-xxXX.txt : This files (where xxXX specifies a locale 
+  like enGB, deDE, frFR, ...) contains translations of the texts in the editor. 
+  Nearly every text displayed there can be changed. The editor reads the locale 
+  from WoW and searches for a Locale-xxXX.txt where xxXX matches the locale 
+  read. textures.MPQ : This file contains a list with all the tilesets and the 
+  matching textures. This is needed by the editor to be able to load the 
+  textures very fast. If you like to add a custom tileset with your textures do 
+  the following: Open the Tilesets.txt in the textures.MPQ. At the end enter the 
+  name of your tileset (It should not contain any illegal characters for 
+  windows-paths like \ / ? * and so on). Then create a file with the name of 
+  your tileset (it should not have an extension). Into this file write the 
+  absolut MPQ-paths of all the textures. Then place this file and the new 
+  Tilsets.txt in the textures.MPQ and you can acces the textures within the 
+  textureselection-UI with the name of your tileset.</FONT></LI></UL>
+<P><FONT size=4>Now there is a little table of contents which will link you to 
+the other pages:</FONT></P>
+<UL>
+  <LI><FONT size=4><A href="Minimap.htm">Minmap - Selection of the entry 
+  point</A></FONT> 
+  <LI><FONT size=4><A href="Height.htm">Worldediting - Height changes</A></FONT>
+  <LI><FONT size=4><A href="Texturing.htm">Worldediting - Texturing</A></LI></UL></FONT>
+</BODY></HTML>

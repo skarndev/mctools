@@ -1,0 +1,295 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/maptile (2).cpp	Mi Jan  3 04:23:38 2007
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/maptile.cpp	Mi Sep  2 01:42:32 2009
+@@ -155,7 +155,7 @@
+ void startTimer();
+ void stopTimer();
+ 
+-MapTile::MapTile(int x0, int z0, char* filename): x(x0), z(z0), topnode(0,0,16)
++MapTile::MapTile(int x0, int z0, char* filename): x(x0), z(z0), topnode(0,0,16)//the beginning of map tile
+ {
+ 	xbase = x0 * TILESIZE;
+ 	zbase = z0 * TILESIZE;
+@@ -190,7 +190,7 @@
+ 		fourcc[4] = 0;
+ 
+ 		size_t nextpos = theFile->getPos() + size;
+-
++//next we must to read some info from .adt file
+ 		if (!strcmp(fourcc,"MCIN")) {
+ 			// mapchunk offsets/sizes
+ 			for (int i=0; i<256; i++) {
+@@ -344,7 +344,7 @@
+ 		loadTexture();
+ }
+ 
+-void MapTile::loadModel()
++void MapTile::loadModel()//loading models
+ {
+ 	if(modelsLoaded)
+ 		return;
+@@ -379,12 +379,13 @@
+ 	}
+ }
+ 
+-void MapTile::loadModelInstances(int id)
++void MapTile::loadModelInstances(int id)//adding do the map ony models with current modelID
+ {
+ 	for (int i=0; i<modelNum; i++)
+ 	{
+ 		if(modelInstances[i].nameID!=id)
+ 			continue;
++
+ 		Model *model = (Model*)gWorld->modelmanager.items[gWorld->modelmanager.get(models[modelInstances[i].nameID])];
+ 		ModelInstance inst(model, &modelInstances[i]);
+ 		inst.modelID=modelInstances[i].nameID;
+@@ -408,7 +409,7 @@
+ 	delete modelInstances;
+ }*/
+ 
+-void MapTile::loadWMO()
++void MapTile::loadWMO()//loading WMO
+ {
+ 	if(wmosLoaded)
+ 		return;	
+@@ -564,7 +565,7 @@
+ }
+ 
+ 
+-void MapTile::drawLines()
++void MapTile::drawLines()//draw red lines around the square of a chunk
+ {
+ 	if(!chunksLoaded)
+ 	{
+@@ -718,7 +719,7 @@
+ int holetab_h[4] = {0x1111, 0x2222, 0x4444, 0x8888};
+ int holetab_v[4] = {0x000F, 0x00F0, 0x0F00, 0xF000};
+ 
+-bool isHole(int holes, int i, int j)
++bool isHole(int holes, int i, int j)//checking of holes in the ground =)
+ {
+ 	return (holes & holetab_h[i] & holetab_v[j])!=0;
+ }
+@@ -1871,7 +1872,7 @@
+ 	glBindBufferARB(GL_ARRAY_BUFFER_ARB, minishadows);
+ 	glBufferDataARB(GL_ARRAY_BUFFER_ARB, mapbufsize*4*sizeof(float), ts, GL_STATIC_DRAW_ARB);
+ }
+-
++//next is a manipulating of terrain
+ void MapChunk::changeTerrain(float x, float z, float change, float radius, int BrushType)
+ {
+ 	float dist,xdiff,zdiff;
+@@ -2083,7 +2084,7 @@
+ 	nTextures=0;
+ }
+ 
+-int MapChunk::addTexture(GLuint texture)
++int MapChunk::addTexture(GLuint texture)//change chunk texture
+ {
+ 	int texLevel=-1;
+ 	if(nTextures<4)
+@@ -2114,7 +2115,7 @@
+ 	return texLevel;
+ }
+ 
+-bool MapChunk::paintTexture(float x, float z, brush *Brush, float strength, float pressure, int texture)
++bool MapChunk::paintTexture(float x, float z, brush *Brush, float strength, float pressure, int texture)//paint with texture
+ {
+ 	float zPos,xPos,change,xdiff,zdiff,dist, radius;
+ 
+@@ -2246,7 +2247,7 @@
+ 
+ }
+ 
+-void MapChunk::drawWater()
++void MapChunk::drawWater()//draw water (WTF why is too little?)
+ {
+ 	// TODO: figure out how water really works
+ 
+@@ -2392,7 +2393,7 @@
+ 	return false;
+ }
+ 
+-void MapTile::saveTile()
++void MapTile::saveTile()//saving the map (I worked on it too long)
+ {
+ 	MHDR	MapHeader;
+ 	MHDR	newMapHeader;
+@@ -2404,9 +2405,9 @@
+ 	unsigned int	ChunkWMORef[1024];
+ 	unsigned int	NumWMORefs;
+ 	int i;
++//reading info from target .adt
++	MPQFile f(fname.c_str());//
+ 
+-	MPQFile f(fname.c_str());
+-
+ 	f.seek(0x14);
+ 	f.read(&MapHeader,sizeof(MHDR));
+ 	f.seek(0x14);
+@@ -2417,11 +2418,11 @@
+ 	
+ 	NewDoodadRefTot=0;
+ 
+-	unsigned int NewFileSize=(unsigned int)(2*f.getSize());
++	unsigned int NewFileSize=(unsigned int)(2*f.getSize());//new file size calculating
+ 	char *Buffer;
+ 
+ 
+-	Buffer=new char[NewFileSize];
++	Buffer=new char[NewFileSize];//creating some buffer before save to file
+ 	memset(Buffer,0,NewFileSize);
+ 
+ 	memcpy(Buffer,f.getBuffer(),0x14+MapHeader.MTEX_Offset+4);
+@@ -2463,10 +2464,10 @@
+ 	f.read(&Change,sizeof(int));
+ 
+ 	memcpy(Buffer+0x14+MapHeader.MTEX_Offset+4,&texSize,4);
+-	memcpy(Buffer+0x14+MapHeader.MTEX_Offset+8,allTextures,texSize);
++	memcpy(Buffer+0x14+MapHeader.MTEX_Offset+8,allTextures,texSize);//saving chunk textures
+ 	Change=texSize-Change;
+ 
+-	newMapHeader.MMDX_Offset+=Change;
++	newMapHeader.MMDX_Offset+=Change;//moving other heades
+ 	newMapHeader.MMID_Offset+=Change;
+ 	newMapHeader.MWMO_Offset+=Change;
+ 	newMapHeader.MWID_Offset+=Change;
+@@ -2475,27 +2476,88 @@
+ 
+ 
+ 
+-	memcpy(Buffer+0x14+newMapHeader.MMDX_Offset,f.getBuffer()+0x14+MapHeader.MMDX_Offset,MCINs[0].offset-(0x14+MapHeader.MMDX_Offset));
++	//memcpy(Buffer+0x14+newMapHeader.MMDX_Offset,f.getBuffer()+0x14+MapHeader.MMDX_Offset,MCINs[0].offset-(0x14+MapHeader.MMDX_Offset));
++
++	memcpy(Buffer+0x14+newMapHeader.MMDX_Offset,f.getBuffer()+0x14+MapHeader.MMDX_Offset,MapHeader.MDDF_Offset+8-(MapHeader.MMDX_Offset));
++
++	//int ggg=(nMDX-1)*36;
++	//memcpy(Buffer+0x14+newMapHeader.MDDF_Offset+0x04,&ggg,4);
+ 	
+ 	//Time to resave the doodads
+ 	MDDF TempDDF;
+ 
+-	for(i=0;i<nMDX;i++)
+-	{
+-		TempDDF.scale=(int)(modelis[i].sc*1024);
+-		//TempDDF.flags=0;
++
++    int Diff=0;
++
++	for(i=0;i<nMDX;i++)//save models from some temporary TempDDF structure 
++	{   if( modelis[i].pos[1]==-100001)
++	      {Diff++;
++	       continue;
++		  }
++	   
+ 		TempDDF.uniqueID=modelis[i].d1;
+ 		TempDDF.nameID=modelis[i].modelID;
++		  gLog("Saving Model %d \n",i);//////////////////////////////////
+ 		for(int j=0;j<3;j++)
+ 		{
+ 			TempDDF.pos[j]=modelis[i].pos[j];
+ 			TempDDF.rot[j]=modelis[i].dir[j];
+ 		}
+-		memcpy(0x14+Buffer+newMapHeader.MDDF_Offset+8+sizeof(MDDF)*i,&TempDDF,sizeof(MDDF));
++		TempDDF.scale=(int)(modelis[i].sc*1024);
++		memcpy(0x14+Buffer+MapHeader.MDDF_Offset+8+sizeof(MDDF)*(i-Diff),&TempDDF,sizeof(MDDF));
+ 	}
++    nMDX-=Diff;
++	int ggg=(nMDX)*36;
++	memcpy(Buffer+0x14+newMapHeader.MDDF_Offset+0x04,&ggg,4);
++	// !!!! HERE !!!!! we must to change number of models (maybe some model was deleted by user) and move other headers
+ 
++	int nOldMDX; 
+ 
+-	for(i=0;i<256;i++)
++	f.seek(0x14+MapHeader.MDDF_Offset+4);
++	f.read(&nOldMDX,4);
++
++	nOldMDX=nOldMDX/sizeof(MDDF);
++
++	Change = sizeof(MDDF)*nOldMDX - sizeof(MDDF)*(nMDX);
++
++	newMapHeader.MODF_Offset+=Change;
++
++	// ----------------
++
++	memcpy(Buffer+0x14+newMapHeader.MODF_Offset,f.getBuffer()+0x14+MapHeader.MODF_Offset,MCINs[0].offset-(0x14+MapHeader.MODF_Offset));
++
++    Diff=0;
++
++    MODF TempODF;
++
++	for(i=0;i<nWMO;i++)////////////WMO SAVE!!!!! just like modelsave...
++	{   if( wmois[i].pos[1]==-100001)
++	      {Diff++;
++	       continue;
++		  }
++
++		gLog("Saving WMO %d \n",i);
++		TempODF.uniqueID=wmois[i].id;
++		TempODF.nameID=wmois[i].wmoID;
++		for(int j=0;j<3;j++)
++		{   
++			TempODF.pos[j]=wmois[i].pos[j];
++			TempODF.rot[j]=wmois[i].dir[j];
++			TempODF.extents[j][0]=wmois[i].extents[j][0];
++			TempODF.extents[j][1]=wmois[i].extents[j][1];
++			TempODF.extents[j][2]=wmois[i].extents[j][2];
++		}
++		TempODF.doodadSet=wmois[i].doodadset;
++		
++		memcpy(0x14+Buffer+newMapHeader.MODF_Offset+8+sizeof(MODF)*(i-Diff),&TempODF,sizeof(MODF));
++	}
++	//also we must to change the number of WMOs
++	nWMO-=Diff;
++	int gggg=(nWMO)*64;
++	memcpy(Buffer+0x14+newMapHeader.MODF_Offset+4,&gggg,4);
++
++
++	for(i=0;i<256;i++)//saving chunks (it is too difficult for me)
+ 	{
+ 		gLog("Saving Chunk %d (%d,%d)\n",i,i/16,i%16);
+ 		f.seek(MCINs[i].offset+8);
+@@ -2507,6 +2569,7 @@
+ 		ChunkZ= 32*533.3333f -(ChunkHeader[i].zpos)+TILESIZE/32.0f;
+ 
+ 		NumDoodadRefs=0;
++		//ChunkHeader[i].flags=chunk[i];////////////
+ 
+ 		Vec3D	ChunkExtents[2];
+ 		ChunkExtents[0]=Vec3D(-TILESIZE/32.0f,0,-TILESIZE/32.0f);
+@@ -2548,16 +2611,16 @@
+ 				}
+ 			}			
+ 		}
+-
+ 		ChunkExtents[0].x+=ChunkX;
+ 		ChunkExtents[0].z+=ChunkZ;
+ 		ChunkExtents[1].x+=ChunkX;
+ 		ChunkExtents[1].z+=ChunkZ;
+ 		NumWMORefs=0;
++
+ 		for(int j=0;j<nWMO;j++)
+ 		{
+ 			Vec3D	WMOExtents[2];
+-			Matrix	Rot;				
++			Matrix	Rot;
+ 
+ 			Rot.transpose();
+ 			Rot.unit();
+@@ -2623,6 +2686,7 @@
+ 		vecHeight=(float *)(Buffer+Change+MCINs[i].offset+ChunkHeader[i].ofsHeight+8);
+ 		Normals=(Buffer+Change+MCINs[i].offset+ChunkHeader[i].ofsNormal+8);
+ 		ChunkHeader[i].ypos=chunks[i/16][i%16].tv[0].y;
++		//ChunkHeader[i].flags=mapchunkis[i];/////////////////////////////////////////////////////////////
+ 		for(int j=0;j<mapbufsize;j++)
+ 		{
+ 			vecHeight[j]=chunks[i/16][i%16].tv[j].y-ChunkHeader[i].ypos;
+@@ -2747,7 +2811,7 @@
+ 		
+ 		Change+=lChange;
+ 	}
+-	memcpy(Buffer+0x5c,MCINs,sizeof(MCIN)*256);
++	memcpy(Buffer+0x5c,MCINs,sizeof(MCIN)*256);////groung invisible bug maybe is from here...
+ 
+ 	memcpy(Buffer+0x14,&newMapHeader,sizeof(MHDR));
+ 

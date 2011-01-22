@@ -1,0 +1,185 @@
+﻿0,0,0,0,0,0,None
+2,62,62,62,62,62,+10 Weapon Damage
+178,121,121,183,121,183,+110 Attack Power
+125,125,125,125,125,125,+15 Agility
+125,125,125,125,125,125,+15 Strength
+104,124,124,124,124,124,+150 Attack Power vs Undead and Demons
+31,50,50,50,50,50,+2 Beastslaying
+125,125,125,125,125,125,+20 Agility
+29,48,48,48,48,48,+20 Spirit
+106,126,126,126,126,126,+20 Strength
+29,48,48,48,48,48,+22 Intellect
+125,125,125,125,125,125,+25 Agility
+125,125,125,125,125,125,+26 Agility
+28,0,0,0,0,47,+28 Melee Critical Strike Rating
+103,123,123,123,123,123,+29 Spell Power
+42,2,2,2,2,2,+3 Weapon Damage
+2,62,62,62,62,62,+30 Intellect
+107,127,127,127,127,127,+30 Spell Power
+125,125,125,125,125,125,+35 Agility
+2,62,62,62,62,62,+4 Weapon Damage
+159,186,186,186,186,186,+40 Spell Power
+151,0,0,100,177,0,+43 Spell Power
+159,186,186,186,186,186,+45 Spirit
+2,62,62,62,62,62,+5 Weapon Damage
+103,123,123,123,123,123,+50 Spell Power
+31,50,50,50,50,50,+6 Beastslaying
+31,50,50,50,50,50,+6 Elemental Slayer
+160,187,187,187,187,187,+63 Spell Power
+29,48,48,48,48,48,+65 Attack Power
+2,62,62,62,62,62,+7 Weapon Damage
+61,0,0,0,81,0,+80 Rockbiter
+2,62,62,62,62,62,+9 Damage
+29,48,48,48,48,48,+9 Intellect
+29,48,48,48,48,48,+9 Spirit
+24,1,1,1,1,1,+9 Weapon Damage
+2,62,62,62,62,62,Accuracy
+26,0,0,0,0,46,Anesthetic Poison
+26,0,0,0,0,46,Anesthetic Poison II
+159,186,186,186,186,186,Battlemaster
+178,121,121,183,121,183,Berserking
+161,0,0,100,0,42,Black Magic
+139,158,158,158,158,158,Black Temple Dummy
+42,2,2,2,2,2,Blessed Weapon Coating
+33,0,0,0,52,0,Cold Blood
+26,0,0,0,0,46,Crippling Poison
+26,0,0,0,0,46,Crippling Poison II
+103,123,123,123,123,123,Crusader
+26,0,0,0,0,46,Deadly Poison
+26,0,0,0,0,46,Deadly Poison II
+26,0,0,0,0,46,Deadly Poison III
+26,0,0,0,0,46,Deadly Poison IV
+26,0,0,0,0,46,Deadly Poison IX
+26,0,0,0,0,46,Deadly Poison V
+26,0,0,0,0,46,Deadly Poison VI
+26,0,0,0,0,46,Deadly Poison VII
+26,0,0,0,0,46,Deadly Poison VIII
+166,124,124,195,124,195,Deathfrost
+25,45,45,45,45,45,Demonslaying
+106,126,126,126,126,126,Earthliving 1
+106,126,126,126,126,126,Earthliving 2
+106,126,126,126,126,126,Earthliving 3
+106,126,126,126,126,126,Earthliving 4
+106,126,126,126,126,126,Earthliving 5
+106,126,126,126,126,126,Earthliving 6
+173,0,0,0,0,0,Empower Rune Weapon
+165,194,194,194,194,194,Executioner
+107,127,127,127,127,127,Feedback 1
+107,127,127,127,127,127,Feedback 2
+107,127,127,127,127,127,Feedback 3
+107,127,127,127,127,127,Feedback 4
+107,127,127,127,127,127,Feedback 5
+107,127,127,127,127,127,Feedback 6
+25,45,45,45,45,45,Fiery Weapon
+32,0,0,0,51,0,Firestone 1
+32,0,0,0,51,0,Firestone 2
+32,0,0,0,51,0,Firestone 3
+32,0,0,0,51,0,Firestone 4
+32,0,0,0,51,0,Firestone 5
+32,0,0,0,51,0,Flametongue 1
+32,0,0,0,51,0,Flametongue 10
+32,0,0,0,51,0,Flametongue 2
+32,0,0,0,51,0,Flametongue 3
+32,0,0,0,51,0,Flametongue 4
+32,0,0,0,51,0,Flametongue 5
+32,0,0,0,51,0,Flametongue 6
+32,0,0,0,51,0,Flametongue 7
+32,0,0,0,51,0,Flametongue 8
+32,0,0,0,51,0,Flametongue 9
+32,0,0,0,51,0,Flametongue Totem 1
+32,0,0,0,51,0,Flametongue Totem 2
+32,0,0,0,51,0,Flametongue Totem 3
+32,0,0,0,51,0,Flametongue Totem 4
+32,0,0,0,51,0,Flametongue Totem 5
+27,3,3,3,3,3,Frost Oil
+33,0,0,0,52,0,Frostbrand 1
+33,0,0,0,52,0,Frostbrand 2
+33,0,0,0,52,0,Frostbrand 3
+33,0,0,0,52,0,Frostbrand 4
+33,0,0,0,52,0,Frostbrand 5
+33,0,0,0,52,0,Frostbrand 6
+33,0,0,0,52,0,Frostbrand 7
+33,0,0,0,52,0,Frostbrand 8
+33,0,0,0,52,0,Frostbrand 9
+1,207,207,207,207,207,Frozen Rune Weapon
+1,207,207,207,207,207,Frozen Rune Weapon 2
+1,207,207,207,207,207,Frozen Rune Weapon 3
+1,207,207,207,207,207,Frozen Rune Weapon 4
+1,207,207,207,207,207,Frozen Rune Weapon 5
+25,45,45,45,45,45,Giantslaying
+25,45,45,45,45,45,Icebreaker Weapon
+126,144,144,144,144,144,Icy Weapon
+26,0,0,0,0,46,Instant Poison
+26,0,0,0,0,46,Instant Poison II
+26,0,0,0,0,46,Instant Poison III
+26,0,0,0,0,46,Instant Poison IV
+26,0,0,0,0,46,Instant Poison IX
+26,0,0,0,0,46,Instant Poison V
+26,0,0,0,0,46,Instant Poison VI
+26,0,0,0,0,46,Instant Poison VII
+26,0,0,0,0,46,Instant Poison VIII
+107,127,127,127,127,127,Lifestealing
+103,123,123,123,123,123,Lifeward
+105,141,141,141,141,141,MHTest02
+26,0,0,0,0,46,Mind Numbing Poison
+26,0,0,0,0,46,Mind-numbing Poison II
+26,0,0,0,0,46,Mind-Numbing Poison III
+155,182,182,182,182,182,Mongoose
+26,0,0,0,0,46,Omen of Clarity
+32,0,0,0,51,0,Orb of Fire
+26,0,0,0,0,46,Poison
+26,0,0,0,0,46,Poison (15 Dmg)
+26,0,0,0,0,46,Poison (20 Dmg)
+26,0,0,0,0,46,Poison (25 Dmg)
+26,0,0,0,0,46,Poison (Instant 20)
+31,50,50,50,50,50,Righteous Weapon Coating
+61,0,0,0,81,0,Rockbiter 1
+61,0,0,0,81,0,Rockbiter 2
+61,0,0,0,81,0,Rockbiter 3
+61,0,0,0,81,0,Rockbiter 4
+61,0,0,0,81,0,Rockbiter 5
+61,0,0,0,81,0,Rockbiter 6
+61,0,0,0,81,0,Rockbiter 7
+61,0,0,0,81,0,Rockbiter 8
+61,0,0,0,81,0,Rockbiter 9
+166,124,124,195,124,195,Rune of Cinderglacier
+25,45,45,45,45,45,Rune of Lichbane
+1,207,207,207,207,207,Rune of Razorice
+161,0,0,100,0,42,Rune of Spellbreaking
+161,0,0,100,0,42,Rune of Spellshattering
+156,50,50,183,50,183,Rune of Swordbreaking
+156,50,50,183,50,183,Rune of Swordshattering
+160,187,187,187,187,187,Rune of the Fallen Crusader
+156,50,50,183,50,183,Savagery
+31,50,50,50,50,50,Scourgebane
+1,207,207,207,207,207,Shadow Oil
+28,0,0,0,0,47,Sharpened (+2 Damage)
+28,0,0,0,0,47,Sharpened (+3 Damage)
+28,0,0,0,0,47,Sharpened (+4 Damage)
+157,184,184,184,184,184,Soulfrost
+160,187,187,187,187,187,Spellsurge
+158,185,185,185,185,185,Sunfire
+159,186,186,186,186,186,Titanium Weapon Chain
+161,0,0,100,0,42,Unholy Weapon
+26,0,0,0,0,46,Venomhide Poison
+81,0,0,0,101,0,Windfury 1
+81,0,0,0,101,0,Windfury 2
+81,0,0,0,101,0,Windfury 3
+81,0,0,0,101,0,Windfury 4
+81,0,0,0,101,0,Windfury 5
+81,0,0,0,101,0,Windfury 6
+81,0,0,0,101,0,Windfury 7
+81,0,0,0,101,0,Windfury 8
+81,0,0,0,101,0,Windfury Totem 1
+81,0,0,0,101,0,Windfury Totem 2
+81,0,0,0,101,0,Windfury Totem 3
+81,0,0,0,101,0,Windfury Totem 4
+81,0,0,0,101,0,Windfury Totem 5
+81,0,0,0,101,0,Windfury Totem 5 (L70 Testing)
+26,0,0,0,0,46,Wound Poison
+26,0,0,0,0,46,Wound Poison II
+26,0,0,0,0,46,Wound Poison III
+26,0,0,0,0,46,Wound Poison IV
+26,0,0,0,0,46,Wound Poison V
+26,0,0,0,0,46,Wound Poison VI
+26,0,0,0,0,46,Wound Poison VII

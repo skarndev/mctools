@@ -1,0 +1,1 @@
+This is a program to rename multiple files for you. Good for use in Race to race edits!

@@ -1,0 +1,73 @@
+16:00:28: Starting:
+WoW Model Viewer v0.5.09c
+
+
+16:00:28: Initiating Objects...
+16:00:28: Creating Anim Control...
+16:00:28: Creating Char Control...
+16:00:28: Creating Light Control...
+16:00:28: Creating Model Control...
+16:00:28: Creating Settings Control...
+16:00:28: Creating Model Bank Control...
+16:00:28: Creating OpenGL Canvas...
+16:00:28: Initiating OpenGL...
+16:00:28: Info: GLEW successfully initiated.
+
+16:00:28: Video Renderer: GeForce 7600 GS/PCI/SSE2/3DNOW!
+16:00:28: Video Vendor: NVIDIA Corporation
+16:00:28: Driver Version: 2.0.3
+16:00:28: Support wglPixelFormat: true
+16:00:28: Support Texture Compression: true
+16:00:28: Support Multi-Textures: true
+16:00:28: Support Draw Range Elements: true
+16:00:28: Support Vertex Buffer Objects: true
+16:00:28: Support Point Sprites: true
+16:00:28: Support Pixel Shaders: true
+16:00:28: Support Vertex Shaders: true
+16:00:28: Support GLSL: true
+16:00:28: Support Anti-Aliasing: true
+16:00:28: Support Pixel Buffer Objects: true
+16:00:28: Support Frame Buffer Objects: true
+16:00:28: Support Non-Power-of-Two: true
+16:00:28: Support Rectangle Textures: true
+16:00:28: Support OpenGL 2.0: true
+16:00:28: Max Rectangle Texture Size Supported: 4096
+16:00:28: Max Texture Size Supported: 4096
+
+16:00:29: Creating OpenGL Canvas...
+16:00:29: Initiating OpenGL...
+16:00:29: Loading Session settings from: (null)
+
+16:00:29: Initiating File Menu..
+16:00:29: Initiating GUI Docking.
+16:00:29: Max Lights used: 4
+16:00:29: Setting OpenGL render state...
+16:00:29: Initiating Archives...
+
+16:00:29: Game Data Path: C:\Programme\World of Warcraft\Data\
+16:00:29: Use Local Files: false
+
+16:00:29: Opening C:\Programme\World of Warcraft\Data\lichking.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\expansion.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\base-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\backup-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\lichking-speech-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\lichking-locale-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\speech-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\locale-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\common.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\expansion-speech-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\deDE\expansion-locale-deDE.MPQ
+16:00:29: Opening C:\Programme\World of Warcraft\Data\common-2.MPQ
+16:00:30: Loaded Content TOC: v3.00.00
+
+16:00:32: Initiating Databases...
+16:00:32: Finished initiating database files.
+
+16:00:32: Info: GUI Layout loaded from previous session.
+16:00:32: WoW Model Viewer successfully loaded!
+----
+
+16:00:33: Shuting down the program...
+
+16:00:33: Info: GUI Layout was saved.

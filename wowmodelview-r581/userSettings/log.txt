@@ -1,0 +1,2028 @@
+12:42:14: Starting:
+World of Warcraft Model Viewer v0.5.08 (Chuanhsing Update r580)
+
+
+12:42:14: Initiating Objects...
+12:42:14: Creating Anim Control...
+12:42:14: Creating Char Control...
+12:42:14: Creating Light Control...
+12:42:14: Creating Model Control...
+12:42:14: Creating Settings Control...
+12:42:14: Creating Model Bank Control...
+12:42:14: Creating Model Opened...
+12:42:14: Creating OpenGL Canvas...
+12:42:14: Initiating OpenGL...
+12:42:15: Info: GLEW successfully initiated.
+
+12:42:15: Video Renderer: GeForce 9650M GT/PCI/SSE2
+12:42:15: Video Vendor: NVIDIA Corporation
+12:42:15: Driver Version: 3.0.0
+12:42:15: Support wglPixelFormat: true
+12:42:15: Support Texture Compression: true
+12:42:15: Support Multi-Textures: true
+12:42:15: Support Draw Range Elements: true
+12:42:15: Support Vertex Buffer Objects: true
+12:42:15: Support Point Sprites: true
+12:42:15: Support Pixel Shaders: true
+12:42:15: Support Vertex Shaders: true
+12:42:15: Support GLSL: true
+12:42:15: Support Anti-Aliasing: true
+12:42:15: Support Pixel Buffer Objects: true
+12:42:15: Support Frame Buffer Objects: true
+12:42:15: Support Non-Power-of-Two: true
+12:42:15: Support Rectangle Textures: true
+12:42:15: Support OpenGL 2.0: true
+12:42:15: Max Rectangle Texture Size Supported: 8192
+12:42:15: Max Texture Size Supported: 8192
+
+12:42:15: Creating OpenGL Canvas...
+12:42:15: Initiating OpenGL...
+12:42:15: Loading Session settings from: D:\Modelchanging\unknown\unkn0wnProject\trunk\Programme\wowmodelview-r581\userSettings\Config.ini
+
+12:42:15: Initiating File Menu..
+12:42:15: Initiating GUI Docking.
+12:42:15: Max Lights used: 4
+12:42:15: Setting OpenGL render state...
+12:42:15: Initiating Archives...
+
+12:42:15: Game Data Path: D:\World of Warcraft\Data\
+12:42:15: Use Local Files: true
+
+12:42:15: Opening D:\World of Warcraft\Data\Patch-2.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\Patch.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\Lichking.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\Expansion.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\Common-2.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\Common.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\Patch-deDE-2.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\Patch-deDE.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\Lichking-Locale-deDE.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\expansion-locale-deDE.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\Locale-deDE.MPQ
+12:42:15: Opening D:\World of Warcraft\Data\deDE\Base-deDE.MPQ
+12:42:15: Loaded Content TOC: v3.03.00
+12:42:15: Error: This version only support 3.02.00, please update your World of Warcraft client!
+12:42:15: Loaded Content Version: 10958
+12:42:17: Initiating Databases...
+12:42:17: Finished initiating database files.
+12:42:17: Info: GUI Layout loaded from previous session.
+12:42:17: WoW Model Viewer successfully loaded!
+----
+
+12:42:25: Loading model: Character\Vrykul\male\vrykulmale.m2
+
+12:42:26: Loading texture: Character\Vrykul\Hair00_04.blp
+12:42:26: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_00.blp
+12:42:26: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_00.blp
+12:42:26: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_00.blp
+12:42:26: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_00.blp
+12:42:26: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:26: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:26: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:37: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_01.blp
+12:42:37: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_01.blp
+12:42:37: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_01.blp
+12:42:37: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_01.blp
+12:42:37: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:37: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:37: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_02.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_02.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_02.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_02.blp
+12:42:38: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:38: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:38: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_03.blp
+12:42:38: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_03.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_03.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_03.blp
+12:42:39: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:39: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_05.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_05.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_05.blp
+12:42:39: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_05.blp
+12:42:39: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:39: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:40: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:40: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:40: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:40: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:40: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:40: Loading texture: Character\Vrykul\ScalpLowerHair01_04.blp
+12:42:40: Loading texture: Character\Vrykul\ScalpUpperHair01_04.blp
+12:42:43: Loading texture: Character\Vrykul\Hair00_00.blp
+12:42:43: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:43: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:43: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:43: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:43: Loading texture: Character\Vrykul\FacialLowerHair00_00.blp
+12:42:43: Loading texture: Character\Vrykul\FacialUpperHair00_00.blp
+12:42:43: Loading texture: Character\Vrykul\ScalpLowerHair01_00.blp
+12:42:43: Loading texture: Character\Vrykul\ScalpUpperHair01_00.blp
+12:42:44: Loading texture: Character\Vrykul\Hair00_01.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:44: Loading texture: Character\Vrykul\FacialLowerHair00_01.blp
+12:42:44: Loading texture: Character\Vrykul\ScalpLowerHair01_01.blp
+12:42:44: Loading texture: Character\Vrykul\ScalpUpperHair01_01.blp
+12:42:44: Loading texture: Character\Vrykul\Hair00_02.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:44: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:44: Loading texture: Character\Vrykul\ScalpLowerHair01_02.blp
+12:42:44: Loading texture: Character\Vrykul\ScalpUpperHair01_02.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:46: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:46: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:46: Loading texture: Character\Vrykul\ScalpLowerHair01_02.blp
+12:42:46: Loading texture: Character\Vrykul\ScalpUpperHair01_02.blp
+12:42:47: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:47: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:47: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:47: Loading texture: Character\Vrykul\ScalpLowerHair00_02.blp
+12:42:47: Loading texture: Character\Vrykul\ScalpUpperHair00_02.blp
+12:42:47: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:48: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:48: Loading texture: Character\Vrykul\ScalpLowerHair01_02.blp
+12:42:48: Loading texture: Character\Vrykul\ScalpUpperHair01_02.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:48: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:48: Loading texture: Character\Vrykul\ScalpLowerHair00_02.blp
+12:42:48: Loading texture: Character\Vrykul\ScalpUpperHair00_02.blp
+12:42:49: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:49: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:49: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:49: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:49: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:49: Loading texture: Character\Vrykul\ScalpLowerHair01_02.blp
+12:42:49: Loading texture: Character\Vrykul\ScalpUpperHair01_02.blp
+12:42:50: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:50: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:50: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:50: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:50: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:52: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:52: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:52: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:52: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:52: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:42:53: Loading texture: Character\Vrykul\Hair00_03.blp
+12:42:53: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:53: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:53: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:53: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:53: Loading texture: Character\Vrykul\FacialLowerHair00_03.blp
+12:42:54: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:54: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:54: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:54: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:54: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:56: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:56: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:56: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:56: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:56: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:57: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:57: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:57: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:57: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:57: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:42:58: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:42:58: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:42:58: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:42:58: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:42:58: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:01: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:01: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:01: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:01: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:01: Loading texture: Character\Vrykul\FacialLowerHair00_00.blp
+12:43:01: Loading texture: Character\Vrykul\FacialUpperHair00_00.blp
+12:43:02: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:02: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:02: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:02: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:02: Loading texture: Character\Vrykul\FacialLowerHair00_01.blp
+12:43:03: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:03: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:03: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:03: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:03: Loading texture: Character\Vrykul\FacialLowerHair00_02.blp
+12:43:04: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:04: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:04: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:04: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:04: Loading texture: Character\Vrykul\FacialLowerHair00_03.blp
+12:43:05: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:05: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:05: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:05: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:05: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:08: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:08: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:08: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:08: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:08: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:09: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Circlet_A_01_VrM.m2]
+12:43:09: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:09: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:09: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:09: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:09: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:10: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Mail_Northrend_B_01_VrM.m2]
+12:43:10: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:10: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:10: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:10: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:10: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:12: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Goggles_D_01_VrM.m2]
+12:43:12: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:12: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:12: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:12: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:12: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:13: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Cloth_A_01_VrM.m2]
+12:43:13: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:13: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:13: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:13: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:13: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:17: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:17: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:17: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:17: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:17: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:18: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Mail_C_02.m2
+
+12:43:18: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Plate_D_03Gold.blp
+12:43:18: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Mail_C_02.m2
+
+12:43:18: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Plate_D_03Green.blp
+12:43:18: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:18: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:18: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:18: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:18: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:18: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Mail_DungeonShaman_A_01.m2
+
+12:43:19: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Mail_DungeonShaman_A_01Orange.blp
+12:43:19: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Mail_DungeonShaman_A_01.m2
+
+12:43:19: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:19: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:19: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:19: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:19: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:20: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Plate_C_01.m2
+
+12:43:20: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Plate_C_01Green.blp
+12:43:20: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Plate_C_01.m2
+
+12:43:20: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:20: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:20: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:20: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:20: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:22: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Robe_RaidPriest_C_01.m2
+
+12:43:22: Loading texture: WORLD\KALIMDOR\MAURADON\PASSIVEDOODADS\SATYRHANGINGBRAZIERS\FIRE1WHITE.BLP
+12:43:22: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\PRIESTWINGFIRE02.BLP
+12:43:22: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+12:43:22: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Robe_RaidPriest_C_01Blue.blp
+12:43:22: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Robe_RaidPriest_C_01.m2
+
+12:43:22: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\PRIESTWINGFIRE02A.BLP
+12:43:22: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:22: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:22: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:22: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:22: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:23: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Leather_Northrend_B_02.m2
+
+12:43:23: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT_HARD.BLP
+12:43:23: Loading texture: Item\ObjectComponents\Shoulder\Leather_Northrend_B_02Blue.blp
+12:43:23: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Leather_Northrend_B_02.m2
+
+12:43:23: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:23: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:23: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:23: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:23: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:27: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:27: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:27: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:27: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:27: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:29: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:29: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:29: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:30: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_Lumberjack_A_02Brown_Sleeve_AU_U.blp
+12:43:30: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_Lumberjack_A_02Brown_Sleeve_AL_U.blp
+12:43:30: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_Lumberjack_A_02Brown_Chest_TU_M.blp
+12:43:30: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_Lumberjack_A_02Brown_Chest_TL_M.blp
+12:43:31: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:31: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:31: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:31: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:31: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:31: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:31: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:31: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:31: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:34: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:34: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:34: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:34: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:34: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:34: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:34: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:34: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:34: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:35: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:35: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:35: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoUpperTexture\Mail_Horde_A_01_Green_Chest_TU_M.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoLowerTexture\Mail_Horde_A_01_Green_Chest_TL_M.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:35: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:35: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:35: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:35: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:35: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_A_01Copper_Sleeve_AU_U.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_A_01Copper_Chest_TU_U.blp
+12:43:35: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_A_01Copper_Chest_TL_U.blp
+12:43:38: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:38: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:38: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:38: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:38: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:38: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:38: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:38: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:38: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:38: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_C_01Black_Sleeve_AU_U.blp
+12:43:38: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_C_01Black_Sleeve_AL_U.blp
+12:43:38: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_C_01Black_Chest_TU_M.blp
+12:43:38: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_C_01Black_Chest_TL_M.blp
+12:43:38: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_C_01Black_Pants_LU_U.blp
+12:43:38: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_C_01Black_Pant_LL_U.blp
+12:43:40: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:40: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:40: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:40: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:40: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:40: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:40: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:40: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:40: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:41: Loading texture: Item\TextureComponents\ArmUpperTexture\Mail_DungeonShaman_B_01Red_Sleeve_AU_U.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoUpperTexture\MAIL_DUNGEONSHAMAN_B_01RED_CHEST_TU_M.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoLowerTexture\Mail_DungeonShaman_B_01Red_Chest_TL_U.blp
+12:43:41: Loading texture: Item\TextureComponents\LegUpperTexture\Mail_DungeonShaman_B_01Red_Robe_LU_U.blp
+12:43:41: Loading texture: Item\TextureComponents\LegLowerTexture\Mail_DungeonShaman_B_01Red_Robe_LL_U.blp
+12:43:41: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:41: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:41: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:41: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:41: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:41: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:41: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:41: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_RaidPriest_F_01Blue_Sleeve_AU_U.blp
+12:43:41: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_RaidPriest_F_01Blue_Sleeve_AL_U.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_RaidPriest_F_01Blue_Chest_TU_M.blp
+12:43:41: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_RaidPriest_F_01Blue_Chest_TL_M.blp
+12:43:41: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_RaidPriest_F_01Blue_Robe_LU_U.blp
+12:43:41: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_RaidPriest_F_01Blue_Robe_LL_U.blp
+12:43:42: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:42: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:42: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:42: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:42: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:42: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:42: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:42: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:42: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:43: Loading texture: Item\TextureComponents\ArmUpperTexture\Dress_B_03Black_Sleeve_AU_U.blp
+12:43:43: Loading texture: Item\TextureComponents\ArmLowerTexture\Dress_B_03Black_Sleeve_AL_U.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoUpperTexture\Dress_B_03Black_Chest_TU_M.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoLowerTexture\Dress_B_03Black_Chest_TL_M.blp
+12:43:43: Loading texture: Item\TextureComponents\LegUpperTexture\Dress_B_03Black_Pant_LU_U.blp
+12:43:43: Loading texture: Item\TextureComponents\LegLowerTexture\Dress_B_03Black_Pant_LL_U.blp
+12:43:43: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:43: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:43: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:43: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:43: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:43: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:43: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:43: Loading texture: Item\TextureComponents\ArmUpperTexture\Mail_RaidShaman_F_01Blue_Sleeve_AU_U.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoUpperTexture\Mail_RaidShaman_F_01Blue_Chest_TU_M.blp
+12:43:43: Loading texture: Item\TextureComponents\TorsoLowerTexture\Mail_RaidShaman_F_01Blue_Chest_TL_M.blp
+12:43:43: Loading texture: Item\TextureComponents\LegUpperTexture\Mail_RaidShaman_F_01Blue_Robe_LU_U.blp
+12:43:43: Loading texture: Item\TextureComponents\LegLowerTexture\Mail_RaidShaman_F_01Blue_Robe_LL_U.blp
+12:43:44: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:44: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:44: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:44: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:44: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:44: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:44: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:45: Loading texture: Item\TextureComponents\ArmUpperTexture\robe_argentalliance_d_01mage_sleeve_au_U.blp
+12:43:45: Loading texture: Item\TextureComponents\TorsoUpperTexture\robe_argentalliance_d_01mage_Chest_TU_M.blp
+12:43:45: Loading texture: Item\TextureComponents\TorsoLowerTexture\robe_argentalliance_d_01mage_Chest_TL_M.blp
+12:43:45: Loading texture: Item\TextureComponents\LegUpperTexture\robe_argentalliance_d_01mage_robe_lu_U.blp
+12:43:45: Loading texture: Item\TextureComponents\LegLowerTexture\robe_argentalliance_d_01mage_robe_ll_U.blp
+12:43:46: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:46: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:46: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:46: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:46: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:46: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:46: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:46: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:46: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_DungeonPriest_A_01OutlandAqua_Sleeve_AU_M.blp
+12:43:46: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_DungeonPriest_A_01OutlandAqua_Sleeve_AL_M.blp
+12:43:46: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_DungeonPriest_A_01OutlandAqua_Chest_TU_M.blp
+12:43:46: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_DungeonPriest_A_01OutlandAqua_Chest_TL_M.blp
+12:43:46: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_DungeonPriest_A_01OutlandAqua_Robe_LU_U.blp
+12:43:46: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_DungeonPriest_A_01OutlandAqua_Robe_LL_U.blp
+12:43:48: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:48: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:48: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:48: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:48: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:48: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:48: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:48: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:48: Loading texture: Item\TextureComponents\ArmUpperTexture\Mail_DungeonShaman_B_01Red_Sleeve_AU_U.blp
+12:43:48: Loading texture: Item\TextureComponents\TorsoUpperTexture\MAIL_DUNGEONSHAMAN_B_01RED_CHEST_TU_M.blp
+12:43:48: Loading texture: Item\TextureComponents\TorsoLowerTexture\Mail_DungeonShaman_B_01Red_Chest_TL_U.blp
+12:43:48: Loading texture: Item\TextureComponents\LegUpperTexture\Mail_DungeonShaman_B_01Red_Robe_LU_U.blp
+12:43:48: Loading texture: Item\TextureComponents\LegLowerTexture\Mail_DungeonShaman_B_01Red_Robe_LL_U.blp
+12:43:49: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:49: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:49: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:49: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:49: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:49: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:49: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:49: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:49: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:49: Loading texture: Item\TextureComponents\ArmUpperTexture\Mail_DungeonShaman_B_01Red_Sleeve_AU_U.blp
+12:43:49: Loading texture: Item\TextureComponents\TorsoUpperTexture\MAIL_DUNGEONSHAMAN_B_01RED_CHEST_TU_M.blp
+12:43:49: Loading texture: Item\TextureComponents\TorsoLowerTexture\Mail_DungeonShaman_B_01Red_Chest_TL_U.blp
+12:43:49: Loading texture: Item\TextureComponents\LegUpperTexture\Mail_DungeonShaman_B_01Red_Robe_LU_U.blp
+12:43:49: Loading texture: Item\TextureComponents\LegLowerTexture\Mail_DungeonShaman_B_01Red_Robe_LL_U.blp
+12:43:51: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:51: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:51: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:51: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:51: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:51: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:51: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:51: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:51: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:51: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_PvPMage_B_01Green_Sleeve_AU_U.blp
+12:43:51: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_PvPMage_B_01Green_Sleeve_AL_U.blp
+12:43:51: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_PvPMage_B_01Green_Chest_TU_M.blp
+12:43:51: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_PvPMage_B_01Green_Chest_TL_M.blp
+12:43:51: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_PvPMage_B_01Green_Robe_LU_U.blp
+12:43:51: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_PvPMage_B_01Green_Robe_LL_U.blp
+12:43:52: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:52: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:52: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:52: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:52: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:52: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:52: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:52: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:52: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:52: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_PvPPriest_B_01Green_Sleeve_AU_U.blp
+12:43:52: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_PvPPriest_B_01Green_Sleeve_AL_U.blp
+12:43:52: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_PvPPriest_B_01Green_Chest_TU_M.blp
+12:43:52: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_PvPPriest_B_01Green_Chest_TL_M.blp
+12:43:53: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_PvPPriest_B_01Green_Robe_LU_U.blp
+12:43:53: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_PvPPriest_B_01Green_Robe_LL_U.blp
+12:43:53: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:53: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:53: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:53: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:53: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:53: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:53: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:53: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:53: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:53: Loading texture: Item\TextureComponents\ArmUpperTexture\Robe_PvPPriest_B_01Green_Sleeve_AU_U.blp
+12:43:53: Loading texture: Item\TextureComponents\ArmLowerTexture\Robe_PvPPriest_B_01Green_Sleeve_AL_U.blp
+12:43:53: Loading texture: Item\TextureComponents\TorsoUpperTexture\Robe_PvPPriest_B_01Green_Chest_TU_M.blp
+12:43:53: Loading texture: Item\TextureComponents\TorsoLowerTexture\Robe_PvPPriest_B_01Green_Chest_TL_M.blp
+12:43:53: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_PvPPriest_B_01Green_Robe_LU_U.blp
+12:43:53: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_PvPPriest_B_01Green_Robe_LL_U.blp
+12:43:54: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:54: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:54: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:54: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:54: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:54: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:54: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:54: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:54: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:55: Loading texture: Item\TextureComponents\ArmUpperTexture\leather_argenthorde_d_01druid_sleeve_au_U.blp
+12:43:55: Loading texture: Item\TextureComponents\TorsoUpperTexture\leather_argenthorde_d_01druid_Chest_TU_M.blp
+12:43:55: Loading texture: Item\TextureComponents\TorsoLowerTexture\leather_argenthorde_d_01druid_Chest_TL_M.blp
+12:43:55: Loading texture: Item\TextureComponents\LegUpperTexture\leather_argenthorde_d_01druid_robe_lu_U.blp
+12:43:55: Loading texture: Item\TextureComponents\LegLowerTexture\leather_argenthorde_d_01druid_robe_ll_U.blp
+12:43:57: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:43:57: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:43:57: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:43:57: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:43:57: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:43:57: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:43:57: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:43:57: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:43:57: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:43:58: Loading texture: Item\TextureComponents\ArmUpperTexture\robe_argenthorde_d_01priest_Sleeve_AU_U.blp
+12:43:58: Loading texture: Item\TextureComponents\TorsoUpperTexture\robe_argenthorde_d_01priest_Chest_TU_M.blp
+12:43:58: Loading texture: Item\TextureComponents\TorsoLowerTexture\robe_argenthorde_d_01priest_Chest_TL_M.blp
+12:43:58: Loading texture: Item\TextureComponents\LegUpperTexture\robe_argenthorde_d_01priest_robe_lu_U.blp
+12:43:58: Loading texture: Item\TextureComponents\LegLowerTexture\robe_argenthorde_d_01priest_robe_ll_U.blp
+12:44:00: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:01: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:01: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:01: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:01: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:01: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:01: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:01: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:01: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:01: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_C_01White_Sleeve_AU_U.blp
+12:44:01: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_C_01White_Chest_TU_U.blp
+12:44:01: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_C_01White_Chest_TL_U.blp
+12:44:03: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:03: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:03: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:03: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:03: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:03: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:03: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:03: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:03: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:03: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:03: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:03: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:04: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:04: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:04: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:04: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:04: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:04: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:04: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:04: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:04: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:04: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_PVPWarrior_C_01Blue_Sleeve_AU_U.blp
+12:44:04: Loading texture: Item\TextureComponents\ArmLowerTexture\Plate_PVPWarrior_C_01Blue_Sleeve_AL_U.blp
+12:44:04: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_PVPWarrior_C_01Blue_Chest_TU_M.blp
+12:44:04: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_PVPWarrior_C_01Blue_Chest_TL_M.blp
+12:44:06: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:06: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:06: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:06: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:06: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:06: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:06: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:06: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:06: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:06: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:06: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:06: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:09: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:09: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:09: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:09: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:09: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:09: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:09: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:09: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:09: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:09: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:09: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:09: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:13: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:13: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:13: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:13: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:13: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:13: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:13: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:13: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:13: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:13: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:14: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:14: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:14: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:17: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:17: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:17: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:17: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:17: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:17: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:17: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:17: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:17: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:17: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:17: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:17: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:17: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:18: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:18: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:18: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:18: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:18: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:18: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:18: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:18: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:18: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:18: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:18: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:18: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:18: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:20: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:20: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:20: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:20: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:20: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:20: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:20: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:20: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:20: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:20: Loading texture: Item\TextureComponents\LegUpperTexture\Robe_Northrend_B_02_Pant_LU_U.blp
+12:44:20: Loading texture: Item\TextureComponents\LegLowerTexture\Robe_Northrend_B_02_Pant_LL_U.blp
+12:44:20: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:20: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:20: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:20: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:22: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:22: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:22: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:22: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:22: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:22: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:22: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:22: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:22: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:22: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_D_03_Pant_LU_U.blp
+12:44:22: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_D_03_Pant_LL_U.blp
+12:44:22: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:22: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:22: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:22: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:29: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:29: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:29: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:29: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_DungeonWarrior_A_01OutlandGreen_Pant_LU_U.blp
+12:44:29: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_DungeonWarrior_A_01OutlandGreen_Pant_LL_U.blp
+12:44:29: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:29: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:29: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:29: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:29: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:29: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:29: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:30: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:30: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:30: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:30: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:30: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:30: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:36: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:36: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:36: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:36: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:36: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:36: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:36: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:36: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:36: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:36: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:36: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:36: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:36: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:36: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:36: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:41: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:41: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:41: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:41: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:41: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:41: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:41: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:41: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:41: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:41: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:41: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:41: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Boot_LL_U.blp
+12:44:42: Loading texture: Item\TextureComponents\FootTexture\Plate_RaidPaladin_E_01Orange_Boot_FO_U.blp
+12:44:42: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:42: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:42: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:42: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:44: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:44: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:44: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:44: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:44: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:44: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:44: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:44: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:44: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:44: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:44: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Horde_C_04Blue_Boot_LL_U.blp
+12:44:44: Loading texture: Item\TextureComponents\FootTexture\Plate_Horde_C_04Blue_Boot_FO_U.blp
+12:44:44: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:44: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:44: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:44: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:45: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:45: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:45: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:45: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:45: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:45: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:45: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:45: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:45: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:45: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:45: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:46: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_C_01Gold_Boot_LL_U.blp
+12:44:46: Loading texture: Item\TextureComponents\FootTexture\Plate_C_01Gold_Boot_FO_U.blp
+12:44:46: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:46: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:46: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:46: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:47: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:47: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:47: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_DungeonPaladin_A_01OutlandDarkBlue_Boot_LL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\FootTexture\Plate_DungeonPaladin_A_01OutlandDarkBlue_Boot_FO_U.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:47: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:44:47: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:44:47: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:44:47: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:44:47: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Boot_LL_U.blp
+12:44:47: Loading texture: Item\TextureComponents\FootTexture\Plate_RaidPaladin_E_01Orange_Boot_FO_U.blp
+12:44:47: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:44:47: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:44:47: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:45:35: Loading texture: Character\Vrykul\Male\VrykulMaleSkin00_04.blp
+12:45:36: Loading texture: Character\Vrykul\Male\VrykulMaleNakedPelvisSkin00_04.blp
+12:45:36: Loading texture: Character\Vrykul\Male\VrykulMaleFaceLower00_04.blp
+12:45:36: Loading texture: Character\Vrykul\Male\VrykulMaleFaceUpper00_04.blp
+12:45:36: Loading texture: Character\Vrykul\FacialLowerHair00_04.blp
+12:45:36: Loading texture: Item\TextureComponents\ArmUpperTexture\Cloth_A_08RedVelvet_Sleeve_AU_U.blp
+12:45:36: Loading texture: Item\TextureComponents\ArmLowerTexture\Cloth_A_08RedVelvet_Sleeve_AL_U.blp
+12:45:36: Loading texture: Item\TextureComponents\TorsoUpperTexture\Cloth_A_08RedVelvet_Chest_TU_M.blp
+12:45:36: Loading texture: Item\TextureComponents\TorsoLowerTexture\Cloth_A_08RedVelvet_Chest_TL_M.blp
+12:45:36: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_Northrend_B_02_Pant_LU_U.blp
+12:45:36: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_Northrend_B_02_Pant_LL_U.blp
+12:45:36: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Boot_LL_U.blp
+12:45:36: Loading texture: Item\TextureComponents\FootTexture\Plate_RaidPaladin_E_01Orange_Boot_FO_U.blp
+12:45:36: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_raiddeathknight_g_01green_sleeve_au_U.blp
+12:45:36: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_raiddeathknight_g_01green_Chest_TU_M.blp
+12:45:36: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_raiddeathknight_g_01green_Chest_TL_M.blp
+12:45:36: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_PVPWarrior_C_01Brown_Belt_LU_U.blp
+12:45:43: Loading model: Character\Tuskarr\male\tuskarrmale.m2
+
+12:45:43: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:43: Loading texture: Character\Tuskarr\Hair00_00.blp
+12:45:43: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_05.blp
+12:45:44: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_05.blp
+12:45:44: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_05.blp
+12:45:44: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_05.blp
+12:45:50: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:45:50: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_03.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_03.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_03.blp
+12:45:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_03.blp
+12:45:51: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_02.blp
+12:45:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_02.blp
+12:45:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_02.blp
+12:45:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_02.blp
+12:45:52: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:52: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_01.blp
+12:45:52: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_01.blp
+12:45:52: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_01.blp
+12:45:52: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_01.blp
+12:45:53: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:53: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_02.blp
+12:45:53: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_02.blp
+12:45:53: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_02.blp
+12:45:53: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_02.blp
+12:45:54: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_03.blp
+12:45:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_03.blp
+12:45:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_03.blp
+12:45:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_03.blp
+12:45:55: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:45:55: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_05.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_05.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_05.blp
+12:45:55: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_05.blp
+12:45:56: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:45:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:45:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:45:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:45:58: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:58: Loading texture: Character\Tuskarr\Hair00_01.blp
+12:45:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:45:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:45:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:45:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:45:59: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:45:59: Loading texture: Character\Tuskarr\Hair00_02.blp
+12:45:59: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:45:59: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:45:59: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:45:59: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:00: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:00: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:00: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:01: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:03: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:03: Loading texture: Character\Tuskarr\Hair00_03.blp
+12:46:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:04: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:04: Loading texture: Character\Tuskarr\Hair00_04.blp
+12:46:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:05: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:06: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:07: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:07: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:07: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:07: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:07: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:09: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:09: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:10: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:11: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:11: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:11: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:13: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:13: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:13: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:13: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:13: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:15: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:16: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:17: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:18: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:18: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:24: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:25: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Mail_DungeonShaman_A_01.m2
+
+12:46:25: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Mail_DungeonShaman_A_01Orange.blp
+12:46:25: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Mail_DungeonShaman_A_01.m2
+
+12:46:25: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:28: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Plate_DungeonPlate_C_01.m2
+
+12:46:28: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\ORBREFLECT02.BLP
+12:46:28: Loading texture: Item\ObjectComponents\Shoulder\plate_dungeonplate_c_01deathknight.blp
+12:46:28: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Plate_DungeonPlate_C_01.m2
+
+12:46:28: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:28: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:28: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:28: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:28: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:32: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:32: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:32: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:32: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:32: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:34: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Cloth_A_01_TuM.m2]
+12:46:34: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:34: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:34: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:34: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:34: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:35: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Circlet_A_01_TuM.m2]
+12:46:35: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:37: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Plate_Northrend_C_01_TuM.m2]
+12:46:37: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:37: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:38: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Plate_Northrend_B_01_TuM.m2]
+12:46:38: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:39: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Plate_Northrend_B_01_TuM.m2]
+12:46:39: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:40: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Plate_D_01_TuM.m2]
+12:46:40: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:42: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Mask_A_01Troll_TuM.m2]
+12:46:42: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:42: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:42: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:42: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:42: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:43: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Leather_Northrend_C_02_TuM.m2]
+12:46:43: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:43: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:43: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:43: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:43: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:45: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Circlet_B_02_TuM.m2]
+12:46:45: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:48: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Goggles_C_01_TuM.m2]
+12:46:48: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:48: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:48: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:48: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:48: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:48: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Mask_Halloween_TuM.m2]
+12:46:48: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:48: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:49: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:49: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:49: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:57: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:57: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:57: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:57: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:57: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:46:58: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:46:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:46:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:46:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:46:58: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:01: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:01: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:01: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_Northrend_B_02Green_Sleeve_AU_U.blp
+12:47:01: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_Northrend_B_02Green_Chest_TU_M.blp
+12:47:01: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_Northrend_B_02Green_Chest_TL_M.blp
+12:47:03: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:04: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_C_05_Purple_Sleeve_AU_M.blp
+12:47:04: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_C_05_Purple_Chest_TU_M.blp
+12:47:04: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_C_05_Purple_Chest_TL_M.blp
+12:47:04: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:04: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:05: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_A_05_Gold_Sleeve_AU_U.blp
+12:47:05: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_A_05_Gold_Chest_TU_M.blp
+12:47:05: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_A_05_Gold_Chest_TL_M.blp
+12:47:06: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:06: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:06: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_RaidPaladin_E_01Pieces_Sleeve_AU_U.blp
+12:47:06: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_RaidPaladin_E_01Pieces_Chest_TU_M.blp
+12:47:06: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_RaidPaladin_E_01Pieces_Chest_TL_M.blp
+12:47:08: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:08: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:08: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:08: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:08: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:09: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_D_06_Dark_Sleeve_AU_U.blp
+12:47:09: Loading texture: Item\TextureComponents\ArmLowerTexture\Plate_D_06_Dark_Sleeve_AL_U.blp
+12:47:09: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_D_06_Dark_Chest_TU_M.blp
+12:47:09: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_D_06_Dark_Chest_TL_M.blp
+12:47:10: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:10: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:10: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_Hyjal_D_02Yellow_Sleeve_AU_U.blp
+12:47:11: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_Hyjal_D_02Yellow_Chest_TU_M.blp
+12:47:11: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_Hyjal_D_02Yellow_Chest_TL_M.blp
+12:47:12: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:13: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_RaidPaladin_C_02Black_Sleeve_AU_U.blp
+12:47:13: Loading texture: Item\TextureComponents\ArmLowerTexture\Plate_RaidPaladin_C_02Black_Sleeve_AL_U.blp
+12:47:13: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_RaidPaladin_C_02Black_Chest_TU_M.blp
+12:47:13: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_RaidPaladin_C_02Black_Chest_TL_M.blp
+12:47:16: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:16: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_RaidPaladin_D_01_Sleeve_AU_U.blp
+12:47:16: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_RaidPaladin_D_01_Chest_TU_M.blp
+12:47:16: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_RaidPaladin_D_01_Chest_TL_M.blp
+12:47:17: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:17: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_PVPAlliance_B_01Gold_Sleeve_AU_U.blp
+12:47:17: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_PVPAlliance_B_01Gold_Chest_TU_M.blp
+12:47:17: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_PVPAlliance_B_01Gold_Chest_TL_M.blp
+12:47:21: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:21: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_RaidPaladin_F_01Blue_Sleeve_AU_U.blp
+12:47:21: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_RaidPaladin_F_01Blue_Chest_TU_M.blp
+12:47:21: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_RaidPaladin_F_01Blue_Chest_TL_M.blp
+12:47:22: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:22: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:22: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:22: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:22: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:22: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_RaidWarrior_E_01Rust_Sleeve_AU_U.blp
+12:47:22: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_RaidWarrior_E_01Rust_Chest_TU_M.blp
+12:47:22: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_RaidWarrior_E_01Rust_Chest_TL_M.blp
+12:47:24: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:24: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:24: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_Northrend_C_01Blue_Sleeve_AU_U.blp
+12:47:24: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_Northrend_C_01Blue_Chest_TU_M.blp
+12:47:24: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_Northrend_C_01Blue_Chest_TL_M.blp
+12:47:25: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:25: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:25: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_Northrend_B_02Green_Sleeve_AU_U.blp
+12:47:25: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_Northrend_B_02Green_Chest_TU_M.blp
+12:47:25: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_Northrend_B_02Green_Chest_TL_M.blp
+12:47:26: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:26: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:26: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:26: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:26: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:26: Loading texture: Item\TextureComponents\ArmUpperTexture\Plate_Northrend_B_02Green_Sleeve_AU_U.blp
+12:47:26: Loading texture: Item\TextureComponents\ArmLowerTexture\Plate_Northrend_B_02Green_Bracer_AL_U.blp
+12:47:26: Loading texture: Item\TextureComponents\TorsoUpperTexture\Plate_Northrend_B_02Green_Chest_TU_M.blp
+12:47:26: Loading texture: Item\TextureComponents\TorsoLowerTexture\Plate_Northrend_B_02Green_Chest_TL_M.blp
+12:47:27: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:27: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:27: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:27: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:27: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:27: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:27: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:27: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:33: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:33: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:33: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:33: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:33: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:33: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:33: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:33: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:38: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:38: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:38: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:38: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:38: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:38: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:38: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:40: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:40: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidWarrior_E_01Rust_Pant_LU_U.blp
+12:47:40: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidWarrior_E_01Rust_Pant_LL_U.blp
+12:47:40: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:40: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:40: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:40: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:41: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:41: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:41: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:41: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:41: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:41: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:41: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:50: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:50: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:50: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:50: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:50: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:50: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:51: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:51: Loading texture: Item\ObjectComponents\Cape\Cape_Mage_A_01Burgundy.blp
+12:47:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:51: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:51: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:51: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:51: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:51: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:51: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:53: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:54: Loading texture: Item\ObjectComponents\Cape\Cape_Cloth_A_02White.blp
+12:47:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:54: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:54: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:54: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:54: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:54: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:54: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:47:56: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:47:56: Loading texture: Item\ObjectComponents\Cape\Cape_Mail_Horde_A_01Red.blp
+12:47:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:47:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:47:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:47:56: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:47:56: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:47:56: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:47:56: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:47:56: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:47:56: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:03: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:03: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:03: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:03: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:03: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:03: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:03: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:04: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:05: Loading texture: Item\ObjectComponents\Cape\Cape_Cloth_A_02Gold.blp
+12:48:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:05: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:05: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:05: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:05: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:05: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:05: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:09: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:09: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_A_02Dirty.blp
+12:48:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:09: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:09: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:09: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:09: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:09: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:09: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:12: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:12: Loading texture: Item\ObjectComponents\Cape\Cape_Plate_Sunwell_D_01Silver.blp
+12:48:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:12: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:12: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:12: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:12: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:12: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:12: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:14: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:14: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:14: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:14: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:14: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:14: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:14: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:14: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:14: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:14: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:15: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:15: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_C_01Red.blp
+12:48:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:15: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:15: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:15: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:15: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:15: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:15: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:16: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:16: Loading texture: Item\ObjectComponents\Cape\Cape_Mail_A_02Purple.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:16: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:16: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:16: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:16: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:16: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:16: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:16: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_B_01Blue.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:16: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:16: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:16: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:16: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:16: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:16: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:17: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:17: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:17: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:17: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:17: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:18: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:18: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:18: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:18: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_Hored_B_01Red.blp
+12:48:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:18: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:18: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:18: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:18: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:18: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:18: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:19: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:19: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_Hored_B_01Purple.blp
+12:48:19: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:19: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:19: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:19: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:19: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:19: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:19: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:19: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:19: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:21: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:21: Loading texture: Item\ObjectComponents\Cape\Cape_Leather_Horde_C_01Brown.blp
+12:48:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:21: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:21: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:21: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:21: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:21: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:21: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:35: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:35: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:35: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:35: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:35: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:35: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:35: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:39: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:39: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:39: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:39: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:39: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:39: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:39: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:39: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:40: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:40: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:40: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:40: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:40: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:40: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:40: Loading texture: Item\TextureComponents\HandTexture\plate_raidwarrior_g_01green_Glove_HA_U.blp
+12:48:40: Loading texture: Item\TextureComponents\ArmLowerTexture\plate_raidwarrior_g_01green_glove_al_U.blp
+12:48:45: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:45: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:46: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:46: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:46: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:46: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:46: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:46: Loading texture: Item\TextureComponents\HandTexture\plate_raidwarrior_g_01green_Glove_HA_U.blp
+12:48:46: Loading texture: Item\TextureComponents\ArmLowerTexture\plate_raidwarrior_g_01green_glove_al_U.blp
+12:48:46: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:46: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:46: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:46: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:46: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:46: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:46: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:46: Loading texture: Item\TextureComponents\ArmLowerTexture\Leather_D_03Brown_Bracer_AL_U.blp
+12:48:46: Loading texture: Item\TextureComponents\HandTexture\plate_raidwarrior_g_01green_Glove_HA_U.blp
+12:48:46: Loading texture: Item\TextureComponents\ArmLowerTexture\plate_raidwarrior_g_01green_glove_al_U.blp
+12:48:50: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:50: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:50: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:50: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:50: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:50: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:50: Loading texture: Item\TextureComponents\ArmLowerTexture\Leather_D_03Brown_Bracer_AL_U.blp
+12:48:50: Loading texture: Item\TextureComponents\HandTexture\plate_raidwarrior_g_01green_Glove_HA_U.blp
+12:48:50: Loading texture: Item\TextureComponents\ArmLowerTexture\plate_raidwarrior_g_01green_glove_al_U.blp
+12:48:50: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleSkin00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleNakedPelvisSkin00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceLower00_04.blp
+12:48:50: Loading texture: Character\Tuskarr\Male\TuskarrMaleFaceUpper00_04.blp
+12:48:50: Loading texture: Item\TextureComponents\LegUpperTexture\Plate_RaidPaladin_E_01Orange_Pant_LU_U.blp
+12:48:50: Loading texture: Item\TextureComponents\LegLowerTexture\Plate_RaidPaladin_E_01Orange_Pant_LL_U.blp
+12:48:51: Loading texture: Item\TextureComponents\LegLowerTexture\Cloth_B_04WhiteGreen_Boot_LL_U.blp
+12:48:51: Loading texture: Item\TextureComponents\FootTexture\Cloth_B_04WhiteGreen_Boot_FO_U.blp
+12:48:51: Loading texture: Item\TextureComponents\ArmUpperTexture\plate_pvppaladin_b_03_sleeve_au_U.blp
+12:48:51: Loading texture: Item\TextureComponents\TorsoUpperTexture\plate_pvppaladin_b_03_Chest_TU_M.blp
+12:48:51: Loading texture: Item\TextureComponents\TorsoLowerTexture\plate_pvppaladin_b_03_Chest_TL_M.blp
+12:48:51: Loading texture: Item\TextureComponents\ArmLowerTexture\Leather_D_03Brown_Bracer_AL_U.blp
+12:48:51: Loading texture: Item\TextureComponents\HandTexture\plate_raidwarrior_g_01green_Glove_HA_U.blp
+12:48:51: Loading texture: Item\TextureComponents\ArmLowerTexture\plate_raidwarrior_g_01green_glove_al_U.blp
+12:49:03: Loading model: Character\Troll\male\trollmale.m2
+
+12:49:03: Loading texture: CHARACTER\BLOODELF\FEMALE\DEATHKNIGHTEYEGLOW.BLP
+12:49:03: Loading texture: Character\Troll\Hair00_12.blp
+12:49:03: Loading texture: Character\Troll\Male\TrollMaleSkin00_01.blp
+12:49:03: Loading texture: Character\Troll\Male\TrollMaleNakedPelvisSkin00_01.blp
+12:49:03: Loading texture: Character\Troll\Male\TrollMaleFaceLower01_01.blp
+12:49:03: Loading texture: Character\Troll\Male\TrollMaleFaceUpper01_01.blp
+12:49:03: Loading texture: Character\Troll\FacialLowerHair05_12.blp
+12:49:03: Loading texture: Character\Troll\FacialUpperHair05_12.blp
+12:49:03: Loading texture: Character\Troll\ScalpUpperHair02_12.blp
+12:49:10: Loading model: Character\Taunka\male\taunkamale.m2
+
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_03_Extra.blp
+12:49:10: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:10: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_03.blp
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_03.blp
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_03.blp
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_03.blp
+12:49:10: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_03.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00_Extra.blp
+12:49:20: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:20: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_01_Extra.blp
+12:49:20: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:20: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_01.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_01.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_01.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_01.blp
+12:49:20: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_01.blp
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_02_Extra.blp
+12:49:21: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:21: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_02.blp
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_02.blp
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_02.blp
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_02.blp
+12:49:21: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_02.blp
+12:49:22: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:22: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_03.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_03.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_03.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_03.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_03.blp
+12:49:22: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:22: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:22: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:26: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:26: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:26: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:26: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:26: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:26: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:26: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:27: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:27: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:27: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:27: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:27: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:27: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:27: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:28: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:28: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:28: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:28: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:28: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:28: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:28: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:29: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:29: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:29: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:29: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:29: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:29: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:29: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:29: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:30: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:30: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:30: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:30: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:30: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:30: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:31: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:31: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:31: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:31: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:31: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:32: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:32: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:32: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:32: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:32: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:32: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:32: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:33: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:33: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:33: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:33: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:33: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:33: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:33: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:41: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:41: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:41: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:41: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:41: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:41: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:41: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:42: Error: Unable to load model: [Item\ObjectComponents\Head\Helm_Plate_D_03_WtM.m2]
+12:49:42: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:42: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:42: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:42: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:42: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:42: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:42: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:46: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:46: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:46: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:46: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:46: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:46: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:46: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:49:46: Loading model: Item\ObjectComponents\Shoulder\LShoulder_Mail_C_01.m2
+
+12:49:47: Loading texture: Item\ObjectComponents\Shoulder\Shoulder_Mail_C_01Black.blp
+12:49:47: Loading model: Item\ObjectComponents\Shoulder\RShoulder_Mail_C_01.m2
+
+12:49:47: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:49:47: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:49:47: Loading texture: Character\Taunka\Male\TaunkaMaleSkin00_00.blp
+12:49:47: Loading texture: Character\Taunka\Male\TaunkaMaleNakedPelvisSkin00_00.blp
+12:49:47: Loading texture: Character\Taunka\Male\TaunkaMaleNakedTorsoSkin00_00.blp
+12:49:47: Loading texture: Character\Taunka\Male\TaunkaMaleFaceLower00_00.blp
+12:49:47: Loading texture: Character\Taunka\Male\TaunkaMaleFaceUpper00_00.blp
+12:50:13: Loading model: Character\Goblin\female\goblinfemale.m2
+
+12:50:13: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:13: Loading texture: Character\Goblin\Female\GoblinFemaleSkin00_101.blp
+12:50:16: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:16: Loading texture: Character\Goblin\Female\GoblinFemaleSkin00_102.blp
+12:50:17: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:17: Loading texture: Character\Goblin\Female\GoblinFemaleSkin00_100.blp
+12:50:18: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:18: Loading texture: Character\Goblin\Female\GoblinFemaleSkin00_101.blp
+12:50:18: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:18: Loading texture: Character\Goblin\Female\GoblinFemaleSkin00_102.blp
+12:50:27: Loading model: Character\Goblin\male\goblinmale.m2
+
+12:50:27: Loading texture: Creature\Goblin\Goblin.blp
+12:50:27: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:27: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_100.blp
+12:50:31: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:31: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_101.blp
+12:50:32: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:32: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_102.blp
+12:50:32: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:32: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_100.blp
+12:50:33: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:33: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_101.blp
+12:50:33: DBC hair Error: .\charcontrol.cpp : line #887 : CharControl::RefreshModel
+12:50:33: Loading texture: Character\Goblin\Male\GoblinMaleSkin00_102.blp
+12:50:48: Loading model: Character\Icetroll\male\icetrollmale.m2
+
+12:50:48: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:50:48: Loading texture: Character\IceTroll\Hair00_01.blp
+12:50:48: Loading texture: Character\IceTroll\Male\IceTrollMaleSkin00_01.blp
+12:50:48: Loading texture: Character\IceTroll\Male\IceTrollMaleSkin00_01.blp
+12:50:48: Loading texture: Character\IceTroll\Male\IceTrollMaleFaceLower00_01.blp
+12:50:48: Loading texture: Character\IceTroll\Male\IceTrollMaleFaceUpper00_01.blp
+12:51:00: Loading model: Character\Foresttroll\male\foresttrollmale.m2
+
+12:51:00: Loading texture: CHARACTER\FORESTTROLL\MALE\FORESTTROLLMALESKIN00_00.BLP
+12:51:01: Loading texture: Character\ForestTroll\Hair00_04.blp
+12:51:01: Loading texture: Character\ForestTroll\Male\ForestTrollMaleSkin00_03.blp
+12:51:01: Loading texture: Character\ForestTroll\Male\ForestTrollMaleNakedPelvisSkin00_03.blp
+12:51:01: Loading texture: Character\ForestTroll\Male\ForestTrollMaleNakedTorsoSkin00_03.blp
+12:51:01: Loading texture: Character\ForestTroll\Male\ForestTrollMaleFaceLower01_03.blp
+12:51:01: Loading texture: Character\ForestTroll\Male\ForestTrollMaleFaceUpper01_03.blp
+12:51:01: Loading texture: Character\ForestTroll\ScalpLowerHair00_04.blp
+12:51:01: Loading texture: Character\ForestTroll\ScalpUpperHair00_04.blp
+12:51:07: Loading model: Character\Naga_\female\naga_female.m2
+
+12:51:07: Loading texture: CREATURE\NAGAMALE\SIRENREFLECT.BLP
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleSkin00_03_Extra.blp
+12:51:08: Error: Could not load the texture 'Character\Naga_\Hair00_00.blp'
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleSkin00_03.blp
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleNakedPelvisSkin00_03.blp
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleNakedTorsoSkin00_03.blp
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleFaceLower00_03.blp
+12:51:08: Loading texture: Character\Naga_\Female\Naga_FemaleFaceUpper00_03.blp
+12:51:08: Error: Could not load the texture 'Character\Naga_\FacialLowerHair00_00.blp'
+12:51:08: Error: Could not load the texture 'Character\Naga_\FacialUpperHair00_00.blp'
+12:51:15: Loading model: Character\Naga_\male\naga_male.m2
+
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleSkin00_03_Extra.blp
+12:51:15: Error: Could not load the texture 'Character\Naga_\Hair00_00.blp'
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleSkin00_03.blp
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleNakedPelvisSkin00_03.blp
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleNakedTorsoSkin00_03.blp
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleFaceLower00_03.blp
+12:51:15: Loading texture: Character\Naga_\Male\Naga_MaleFaceUpper00_03.blp
+12:51:22: Loading model: Character\Northrendskeleton\male\northrendskeletonmale.m2
+
+12:51:22: Loading texture: SPELLS\TOONSMOKE16.BLP
+12:51:22: Loading texture: SPELLS\T_VFX_FIRE01_A64.BLP
+12:51:22: Loading texture: SPELLS\T_VFX_FIRE01_A32_BLANK4.BLP
+12:51:22: Loading texture: SPELLS\T_VFX_DIRT64.BLP
+12:51:22: Loading texture: SPELLS\T_VFX_SWARM3.BLP
+12:51:22: Loading texture: SPELLS\T_VFX_SWARM.BLP
+12:51:22: Loading texture: Character\NorthrendSkeleton\Male\NorthrendSkeletonSkin00_00_Extra.blp
+12:51:22: DBC facial feature Error: .\charcontrol.cpp : line #837 : CharControl::RefreshModel
+12:51:22: Loading texture: Character\Vrykul\Hair00_01.blp
+12:51:22: Error: Could not load the texture 'Character\NorthrendSkeleton\Male\NorthrendSkeletonMaleSkin00_00.blp'
+12:51:31: Loading model: Character\Scourge\female\scourgefemale.m2
+
+12:51:31: Loading texture: CHARACTER\SCOURGE\MALE\NIGHTELFMALEEYEGLOW.BLP
+12:51:31: Loading texture: CHARACTER\BLOODELF\FEMALE\DEATHKNIGHTEYEGLOW.BLP
+12:51:31: Loading texture: CHARACTER\GNOME\HAIR00_00.BLP
+12:51:31: Loading texture: Character\Scourge\Hair00_03.blp
+12:51:31: Loading texture: Character\Scourge\Female\ScourgeFemaleSkin00_03.blp
+12:51:31: Loading texture: Character\Scourge\Female\ScourgeFemaleNakedPelvisSkin00_03.blp
+12:51:31: Loading texture: Character\Scourge\Female\ScourgeFemaleNakedTorsoSkin00_03.blp
+12:51:31: Loading texture: Character\Scourge\Female\ScourgeFemaleFaceLower08_03.blp
+12:51:31: Loading texture: Character\Scourge\Female\ScourgeFemaleFaceUpper08_03.blp
+12:51:31: Loading texture: Character\Scourge\FacialLowerHair00_00.blp
+12:51:31: Loading texture: Character\Scourge\FacialUpperHair00_00.blp
+12:51:31: Loading texture: Character\Scourge\ScalpLowerHair00_03.blp
+12:51:31: Loading texture: Character\Scourge\ScalpUpperHair00_03.blp
+12:51:34: Loading model: Character\Scourge\male\scourgemale.m2
+
+12:51:34: Loading texture: CHARACTER\SCOURGE\MALE\NIGHTELFMALEEYEGLOW.BLP
+12:51:34: Loading texture: CHARACTER\BLOODELF\FEMALE\DEATHKNIGHTEYEGLOW.BLP
+12:51:34: Loading texture: Character\Scourge\Hair00_00.blp
+12:51:34: Loading texture: Character\Scourge\Male\ScourgeMaleSkin00_04.blp
+12:51:34: Loading texture: Character\Scourge\Male\ScourgeMaleNakedPelvisSkin00_04.blp
+12:51:34: Loading texture: Character\Scourge\Male\ScourgeMaleFaceLower01_04.blp
+12:51:34: Loading texture: Character\Scourge\Male\ScourgeMaleFaceUpper01_04.blp
+12:51:34: Loading texture: Character\Scourge\FacialLowerHair02_00.blp
+12:51:34: Loading texture: Character\Scourge\FacialUpperHair02_00.blp
+12:51:39: Loading model: Character\Skeleton\female\skeletonfemale.m2
+
+12:51:39: Error: Could not load the texture 'Character\Skeleton\Hair00_00.blp'
+12:51:39: Error: Could not load the texture 'Character\Skeleton\Female\SkeletonFemaleSkin00_00.blp'
+12:51:39: Error: Could not load the texture 'Character\Skeleton\Female\SkeletonFemaleSkin00_00.blp'
+12:51:39: Error: Could not load the texture 'Character\Skeleton\Female\SkeletonFemaleFaceLower00_00.blp'
+12:51:43: Loading model: Character\Skeleton\male\skeletonmale.m2
+
+12:51:43: Error: Could not load the texture 'Character\Skeleton\Hair00_00.blp'
+12:51:43: Loading texture: Character\Skeleton\Male\SkeletonMaleSkin00_04.blp
+12:51:43: Loading texture: Character\Skeleton\Male\SkeletonMaleSkin00_04.blp
+12:51:43: Loading texture: Character\Skeleton\Male\SkeletonMaleFaceLower00_04.blp
+12:51:43: Loading texture: Character\Skeleton\Male\SkeletonMaleFaceUpper00_04.blp
+12:52:07: Loading model: Creature\Arthaslichking\arthaslichking.m2
+
+12:52:07: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_01.BLP
+12:52:07: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT_RAINBOW.BLP
+12:52:07: Loading texture: SPELLS\TEXTURES\BEAM_SMOKEGREY.BLP
+12:52:07: Loading texture: WORLD\EXPANSION02\DOODADS\GENERIC\WATERFALLS\WATERFOAM_RAPID2.BLP
+12:52:07: Loading texture: CREATURE\ARTHASLICHKING\NEXUS_FIREBEAM_FAINT_SQUARE_BLU.BLP
+12:52:07: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_02.BLP
+12:52:07: Loading texture: CREATURE\ARTHASLICHKING\SWORD_2H_FROSTMOURNE_ARTHAS2.BLP
+12:52:07: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+12:52:07: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+12:52:07: Loading texture: WORLD\EXPANSION02\DOODADS\GENERIC\BONFIRE\T_VFX_FIRE_ANIM02_128_FULL_DESAT_BLUE.BLP
+12:52:07: Loading texture: SPELLS\T_VFX_GLOW01_64.BLP
+12:52:07: Loading texture: SPELLS\T_VFX_FIRE_ANIM02_128_DESAT.BLP
+12:52:08: Loading model: Creature\Arthaslichking\arthaslichking_unarmed.m2
+
+12:52:08: Loading texture: CREATURE\ARTHASUNDEAD\ARTHASUNDEAD_01.BLP
+12:52:08: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_V2_01.BLP
+12:52:08: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT_RAINBOW.BLP
+12:52:08: Loading texture: SPELLS\TEXTURES\BEAM_SMOKEGREY.BLP
+12:52:08: Loading texture: WORLD\EXPANSION02\DOODADS\GENERIC\WATERFALLS\WATERFOAM_RAPID2.BLP
+12:52:08: Loading texture: CREATURE\ARTHASLICHKING\NEXUS_FIREBEAM_FAINT_SQUARE_BLU.BLP
+12:52:08: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_01.BLP
+12:52:08: Loading texture: ITEM\OBJECTCOMPONENTS\HEAD\HELMETVISORGRADIENT.BLP
+12:52:08: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_02.BLP
+12:52:10: Loading model: Creature\Arthaslichking\arthaslichking.m2
+
+12:52:10: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_01.BLP
+12:52:10: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT_RAINBOW.BLP
+12:52:10: Loading texture: SPELLS\TEXTURES\BEAM_SMOKEGREY.BLP
+12:52:10: Loading texture: WORLD\EXPANSION02\DOODADS\GENERIC\WATERFALLS\WATERFOAM_RAPID2.BLP
+12:52:10: Loading texture: CREATURE\ARTHASLICHKING\NEXUS_FIREBEAM_FAINT_SQUARE_BLU.BLP
+12:52:10: Loading texture: CREATURE\ARTHASLICHKING\ARTHASLICHKING_02.BLP
+12:52:10: Loading texture: CREATURE\ARTHASLICHKING\SWORD_2H_FROSTMOURNE_ARTHAS2.BLP
+12:52:10: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+12:52:10: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+12:52:10: Loading texture: WORLD\EXPANSION02\DOODADS\GENERIC\BONFIRE\T_VFX_FIRE_ANIM02_128_FULL_DESAT_BLUE.BLP
+12:52:10: Loading texture: SPELLS\T_VFX_GLOW01_64.BLP
+12:52:10: Loading texture: SPELLS\T_VFX_FIRE_ANIM02_128_DESAT.BLP
+12:52:12: Loading model: Creature\Arthasundead\arthasundead.m2
+
+12:52:12: Loading texture: CREATURE\ARTHASUNDEAD\ARTHASUNDEAD_01.BLP
+12:52:12: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT_RAINBOW.BLP
+12:52:12: Loading texture: CREATURE\ARTHASUNDEAD\ARTHASUNDEAD_02.BLP
+12:52:23: Loading model: Creature\Wingedhorse\wingedhorse.m2
+
+12:52:23: Loading texture: CREATURE\WINGEDHORSE\WINGEDHORSEWINGS.BLP
+12:52:23: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ORBREFLECTBRIGHT.BLP
+12:52:23: Loading texture: CREATURE\WINGEDHORSE\WINGEDHORSE.BLP
+12:52:23: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\FROSTMOURNEBLADE.BLP
+12:52:23: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\FROSTMOURNEFROST.BLP
+12:52:23: Loading texture: PARTICLES\SNOWFLAKE.BLP
+12:52:23: Loading texture: SPELLS\CLOUDS8X8.BLP
+12:53:02: Loading model: Creature\Wisp\wisp.m2
+
+12:53:02: Loading texture: CREATURE\WISP\DUST3.BLP
+12:53:02: Loading texture: CREATURE\CRYSTALSATYR\STAR2_32.BLP
+12:53:02: Loading texture: CREATURE\WISP\DUST5.BLP
+12:53:02: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\DUST1.BLP
+12:53:02: Loading texture: SPELLS\SHOCKWAVE10.BLP
+12:53:02: Loading texture: CREATURE\WISP\CLOUDSINGLEFLAT.BLP
+12:53:02: Loading texture: Creature\Wisp\Wisp.blp
+12:53:02: Loading texture: Creature\Wisp\WispGlow.blp
+12:53:05: Loading model: Creature\Worgen\worgen.m2
+
+12:53:05: Loading texture: Creature\Worgen\WargenSkinWhite.blp
+12:53:17: Loading texture: Creature\Worgen\WargenSkinBlack.blp
+12:53:18: Loading texture: Creature\Worgen\WargenSkinBrown.blp
+12:54:16: Loading model: Creature\Wolpertinger\wolpertinger.m2
+
+12:54:16: Loading texture: Creature\Wolpertinger\Wolpertinger.blp
+12:54:36: Loading model: Creature\Warhorse\argentwarhorse.m2
+
+12:54:36: Loading texture: CREATURE\PROTODRAGON\ORBREFLECT.BLP
+12:54:36: Loading texture: Creature\Warhorse\ArgentWarhorse_Black.blp
+12:54:36: Loading texture: Creature\Warhorse\ArgentWarhorseBanner_Black.blp
+12:54:43: Loading model: Creature\Vampyrbloodprince\vampyrbloodprince.m2
+
+12:54:43: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+12:54:43: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\BUILDING_BASE1_ALPHA.BLP
+12:54:43: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceSkin_Brown.blp
+12:54:43: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceArmor_Brown.blp
+12:54:43: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceCape_Brown.blp
+12:54:47: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceSkin_Blue.blp
+12:54:47: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceArmor_Blue.blp
+12:54:47: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceCape_Blue.blp
+12:54:49: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceSkin_Blue.blp
+12:54:49: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceArmor_Dark.blp
+12:54:49: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceCape_Blue.blp
+12:54:52: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceSkin_Dark.blp
+12:54:52: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceArmor_Dark.blp
+12:54:52: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceCape_Dark.blp
+12:54:54: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceSkin_Green.blp
+12:54:54: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceArmor_Green.blp
+12:54:54: Loading texture: Creature\Vampyrbloodprince\VampyrBloodPrinceCape_Green.blp
+12:54:57: Loading model: Creature\Valkierdark\valkierdark.m2
+
+12:54:57: Loading texture: WORLD\EXPANSION01\DOODADS\ZANGAR\MUSHROOM\GLOWBALL02.BLP
+12:54:57: Loading texture: CREATURE\VALKIERDARK\T_VFX_SWIRL_SMOKESMOOTH.BLP
+12:54:57: Loading texture: SPELLS\GENERICGLOW64.BLP
+12:54:57: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\SMOKE02B.BLP
+12:54:57: Loading texture: ITEM\OBJECTCOMPONENTS\HEAD\SMOOTHREFLECT.BLP
+12:54:57: Loading texture: WORLD\EXPANSION02\DOODADS\DALARAN\GLOWBALL.BLP
+12:54:58: Loading texture: Creature\Valkierdark\ValkierFemaleSkinBlack.blp
+12:54:58: Loading texture: Creature\Valkierdark\ValkierFemaleHairBlack.blp
+12:54:58: Loading texture: Creature\Valkierdark\ValkierWingBlack.blp
+12:56:21: Loading model: Creature\Valkier\valkier.m2
+
+12:56:21: Loading texture: WORLD\EXPANSION01\DOODADS\ZANGAR\MUSHROOM\GLOWBALL02.BLP
+12:56:21: Loading texture: CREATURE\VALKIERDARK\T_VFX_SWIRL_SMOKESMOOTH.BLP
+12:56:21: Loading texture: SPELLS\GENERICGLOW64.BLP
+12:56:21: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\SMOKE02B.BLP
+12:56:21: Loading texture: ITEM\OBJECTCOMPONENTS\HEAD\SMOOTHREFLECT.BLP
+12:56:21: Loading texture: WORLD\EXPANSION02\DOODADS\DALARAN\GLOWBALL.BLP
+12:56:22: Loading texture: Creature\Valkier\ValkierFemaleSkin.blp
+12:56:22: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+12:56:22: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+12:56:46: Loading texture: Creature\Valkier\ValkierFemaleSkinBlue.blp
+12:56:46: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+12:56:46: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+12:56:49: Loading texture: Creature\Valkier\ValkierFemaleSkin.blp
+12:56:49: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+12:56:49: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+12:57:29: Loading texture: Creature\Valkier\ValkierFemaleSkinBlue.blp
+12:57:29: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+12:57:29: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+13:30:41: Loading model: Item\ObjectComponents\Weapon\Mace_1H_AllianceCovenant_D_01.m2
+
+13:30:41: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+13:30:41: Loading texture: Item\ObjectComponents\Weapon\Mace_1H_AllianceCovenant_D_01_Purple.blp
+13:30:45: Loading model: Item\ObjectComponents\Weapon\Knife_1H_Naxxramas_D_01.m2
+
+13:30:45: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT4.BLP
+13:30:45: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\BUILDING_BASE1_ALPHA.BLP
+13:30:45: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_Naxxramas_D_01.blp
+13:30:46: Loading model: Item\ObjectComponents\Weapon\Knife_1H_Dagger_A_01.m2
+
+13:30:46: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+13:30:46: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_Dagger_A_01Green.blp
+13:30:47: Loading model: Item\ObjectComponents\Weapon\Mace_1H_Flanged_D_01.m2
+
+13:30:47: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+13:30:47: Loading texture: Item\ObjectComponents\Weapon\Mace_1H_Flanged_D_01Copper.blp
+13:30:49: Loading model: Item\ObjectComponents\Weapon\Axe_1H_Hatchet_B_03.m2
+
+13:30:49: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+13:30:49: Loading texture: Item\ObjectComponents\Weapon\Axe_1H_Hatchet_B_03Black.blp
+13:30:50: Loading model: Item\ObjectComponents\Weapon\Knife_1H_Dagger_B_03.m2
+
+13:30:50: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+13:30:50: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_Dagger_B_03Red.blp
+13:30:51: Loading model: Item\ObjectComponents\Weapon\Knife_1H_Dagger_A_01.m2
+
+13:30:51: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT3.BLP
+13:30:51: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_Dagger_A_01Copper.blp
+13:30:52: Loading model: Item\ObjectComponents\Weapon\Knife_1H_UlduarRaid_D_02.m2
+
+13:30:52: Loading texture: SPELLS\T_VFX_HERO_AURA_GLOB.BLP
+13:30:52: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_UlduarRaid_D_02Gold.blp
+13:30:52: Loading texture: CREATURE\PROTODRAGON\ORBREFLECT.BLP
+13:30:52: Loading texture: Item\ObjectComponents\Weapon\Knife_1H_UlduarRaid_D_02Blue.blp
+13:30:52: Loading model: Item\ObjectComponents\Weapon\Sword_1H_Draenei_A_02.m2
+
+13:30:53: Loading texture: Item\ObjectComponents\Weapon\Sword_1H_Draenei_A_02Yellow.blp
+13:30:53: Loading model: Item\ObjectComponents\Weapon\Sword_1H_Hyjal_D_01.m2
+
+13:30:53: Loading texture: ITEM\OBJECTCOMPONENTS\WEAPON\ARMORREFLECT4.BLP
+13:30:53: Loading texture: Item\ObjectComponents\Weapon\Sword_1H_Hyjal_D_01Black.blp
+13:30:54: Loading model: Item\ObjectComponents\Weapon\Sword_1H_Northrend_C_03.m2
+
+13:30:54: Loading texture: ITEM\OBJECTCOMPONENTS\SHIELD\ARMORREFLECT4.BLP
+13:30:54: Loading texture: Item\ObjectComponents\Weapon\Sword_1H_Northrend_C_03Black.blp
+13:32:53: Loading texture: Creature\Valkier\ValkierFemaleSkin.blp
+13:32:53: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+13:32:53: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+13:32:55: Loading texture: Creature\Valkier\ValkierFemaleSkinBlue.blp
+13:32:55: Loading texture: Creature\Valkier\ValkierFemaleHairWhite.blp
+13:32:55: Loading texture: Creature\Valkier\ValkierWingWhite.blp
+13:33:05: Loading model: Creature\Valkierdark\valkierdark.m2
+
+13:33:05: Loading texture: WORLD\EXPANSION01\DOODADS\ZANGAR\MUSHROOM\GLOWBALL02.BLP
+13:33:05: Loading texture: CREATURE\VALKIERDARK\T_VFX_SWIRL_SMOKESMOOTH.BLP
+13:33:05: Loading texture: SPELLS\GENERICGLOW64.BLP
+13:33:05: Loading texture: ITEM\OBJECTCOMPONENTS\SHOULDER\SMOKE02B.BLP
+13:33:05: Loading texture: ITEM\OBJECTCOMPONENTS\HEAD\SMOOTHREFLECT.BLP
+13:33:05: Loading texture: WORLD\EXPANSION02\DOODADS\DALARAN\GLOWBALL.BLP
+13:33:05: Loading texture: Creature\Valkierdark\ValkierFemaleSkinBlack.blp
+13:33:05: Loading texture: Creature\Valkierdark\ValkierFemaleHairBlack.blp
+13:33:05: Loading texture: Creature\Valkierdark\ValkierWingBlack.blp
+13:34:18: Shuting down the program...
+
+13:34:18: Info: GUI Layout was saved.

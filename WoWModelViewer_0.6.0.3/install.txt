@@ -1,0 +1,12 @@
+WoW Model Viewer doesn't need to be installed.
+
+1. Extract the downloaded file into a folder of your choice (i.e C:\Program Files\WoWModelViewer\).
+2. Run WoWModelViewer.exe
+
+If you encounter errors starting WoWModelViewer.exe (i.e. "this application has failed to start because the application configuration is incorrect")
+please download and install following component:
+
+Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)
+http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
+
+Run WoWModelViewer.exe after completion.

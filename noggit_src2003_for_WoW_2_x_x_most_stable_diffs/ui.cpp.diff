@@ -1,0 +1,40 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/ui (2).cpp	Do Jul 20 01:16:06 2006
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/ui.cpp	Fr Aug 22 02:53:26 2008
+@@ -632,7 +632,7 @@
+ }
+ 
+ 
+-void textUI::setText(const char *t)
++void textUI::setText(const char *t) ///const char *t
+ {
+ 	strcpy(text,t);
+ }
+@@ -1052,7 +1052,7 @@
+ 	y=yPos;
+ 	width=30;
+ 	height=30;
+-	checked=false;
++	checked=false;///
+ 
+ 	box=new textureUI(0,0,32,32,video.textures.add("Interface\\Buttons\\UI-CheckBox-Up.blp"));
+ 	addChild(box);
+@@ -1074,12 +1074,14 @@
+ 
+ void	checkboxUI::setState(bool c)
+ {
+-	checked=c;
++	checked=c;///
+ 
+-	if(checked)
+-		check->hidden=false;
+-	else
+-		check->hidden=true;
++	if(c){///
++		check->hidden=false;///
++	}
++	else{///
++		check->hidden=true;///
++	}
+ }
+ 
+ bool	checkboxUI::getState()

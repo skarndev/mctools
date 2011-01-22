@@ -1,0 +1,53 @@
+1:Zurück
+2:Intensität
+3:Laden
+4:Sichern
+5:Zu ladende ID:
+6:Neue ID:
+7:Bitte eine gültige ID angeben!
+8:ID wurde nicht gefunden!
+9:Neue Area hinzugefügt!
+10:Verfügbare Unterkommandos:
+11:Verwendung: lookup areaid <Teil des Namens>
+12:Name sollte mehr als 3 Zeichen haben.
+13:Suche...
+14:Mehr als 50 Resultate gefunden! Beende.
+15:Fertig...
+16:Verwendung: chunk areaid <neue area id>
+17:Areaid geändert!
+18:Verwendung: dbcArea add <areaid> <areaname>
+19:Diese ID existiert bereits.
+20:Verwendung: dbcArea change flags <areaid> <neue flag>
+21:Flags geändert!
+22:Verwendung: dbcArea change map <areaid> <neue Zone>
+23:Zone geändert!
+24:Verwendung: dbcArea change parent <areaid> <Oberarea>
+25:Diese Oberarea existiert nicht!
+26:Oberarea geändert!
+27:Kein Mapstück ausgewählt!
+28:Bodeneffekt:
+29:ID speichern
+30:ID: -1 Name: Kein Doodad gesetzt!
+31:ID existiert nicht in GroundEffectTexture.dbc
+32:Flach
+33:Weich
+34:Quadratisch
+35:Höhe ändern
+36:Glätten
+37:Verwischen
+38:Modus
+39:Zone eingeben:
+40:Letzte 50
+41:Suchmodus
+42:Zu Favoriten
+43:Zone nicht gefunden!
+44:Textur: (keine)
+45:Textur: 
+46:Intensität: 10.00
+47:Gradient: 0.50
+48:Schnellmodus gestartet!
+49:WDL generieren
+50:Texturieren
+51:Texturen
+52:Texturierungsmodus aktiv
+53:Freier Layer

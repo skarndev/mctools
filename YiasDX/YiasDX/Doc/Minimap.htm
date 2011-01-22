@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Minimap - Entry point</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=unicode">
+<META content=Cromon name=author>
+<META NAME="GENERATOR" CONTENT="AFSS HTML Designer 2.3 (http://www.afss.de)"></HEAD>
+<BODY text=#000000 vLink=#400040 aLink=#ff0000 link=#0000ff bgColor=#ffffff>
+<P><FONT size=6><U>Minimap - Selection of the entry point</U><FONT 
+size=4><BR><BR></FONT></FONT><FONT size=4>The screen that shows up after you 
+have pressed on one of the buttons indicating the different continents available 
+to edit allows you to select where you would like to start editing the world. 
+This screen will look similar to the following picture (depending on which 
+continent you choose):<BR><BR><IMG alt="" hspace=0 src="Images\01.JPG"  align=baseline border=0></FONT> </P>
+<P>&nbsp;</P>
+<P><FONT size=4>Actually its pretty simple. The map you see here was generated 
+from the WDL-file of the selected continent. These files contain information 
+about the height of the terrain and WoW uses those files to render the 
+background when you are far away from a specific point. I use it to get the 
+shape of the terrain ;). The black lines you see separate each ADT from the 
+other ones so you know where the border of the ADT are. In the top left you see 
+a little lable that shows you the X/Z - offset of the ADT that is currently 
+under the mouse-pointer. This refers to the name (like Kalimdor_40_29.adt). If 
+you would like to calculate the clientposition of that ADT just calculate X: x * 
+533.333 Y: Not set Z: z * 533.333. From there you get the coordinates of the 
+server by calculating X: (32 - x) * 533.333 Y: (32 - z) * 533 Z: Not 
+set.</FONT></P>
+<P><FONT size=4>As the text on the bottom shows you can move and zoom this map. 
+The mousewheel lets you zoom in and out and by holding the right mousebutton and 
+moving the mouse you can pan around when the map is zoomed in.</FONT></P>
+<P><FONT size=4>If you found the desired place just press the left mousebutton 
+and loading starts!</FONT></P><A href="Index.htm">Back!</A> 
+</BODY></HTML>

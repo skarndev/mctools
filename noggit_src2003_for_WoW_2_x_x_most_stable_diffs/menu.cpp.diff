@@ -1,0 +1,203 @@
+--- F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/menu (2).cpp	Mi Jan  3 04:34:24 2007
++++ F:/noggit_src2003_for_WoW_2_x_x_most_stable/noggit_src2003/menu.cpp	Mi Sep  2 01:55:32 2009
+@@ -10,7 +10,57 @@
+ Menu::Menu()
+ {	DBCFile f("DBFilesClient\\Map.dbc");
+ 	f.open();
++	int y=74;
++
++	
++	int x=5;
++	for(DBCFile::Iterator i=f.begin(); i!=f.end(); ++i) {
++		MapEntry e;
++
++		e.name = i->getString(1);
++		e.description = i->getString(3);
++
++		int size;
++		
++		e.x0 = x;
++		e.y0 = y;
++		if (e.name=="Azeroth" || e.name=="Kalimdor" || e.name=="Expansion01"|| e.name=="Northrend") 
++		{
++			size = 24;
++			e.font = f24;
++		
++            e.y1 = e.y0 + size;
++		    y += size;
++
++		    e.x1 = e.x0 + e.font->textwidth(e.name.c_str());
++		
++		    maps.push_back(e);
++		 }
++	}
++
++	sel = -1;
++	cmd = 0;
++	world = 0;
++
++	mt = 0;
++
++	refreshBookmarks();
++
++	setpos = true;
++	ah = -90.0f;
++	av = -30.0f;
++
++	bg = 0;
++	lastbg = -1;
++	randBackground();
++
++}
++/*Menu::Menu()//it is the old version of menu file (without my protection of hiding instance links rofl=))
++{	
++	DBCFile f("DBFilesClient\\Map.dbc");
++	f.open();
+ 	int y=0;
++	int x=5;
+ 	
+ 	for(DBCFile::Iterator i=f.begin(); i!=f.end(); ++i) {
+ 		MapEntry e;
+@@ -19,9 +69,9 @@
+ 		e.description = i->getString(3);
+ 
+ 		int size;
+-		e.x0 = 5;
++		e.x0 = x;
+ 		e.y0 = y;
+-		if (e.name=="Azeroth" || e.name=="Kalimdor") {
++		if (e.name=="Azeroth" || e.name=="Kalimdor" || e.name=="Expansion01") {
+ 			size = 24;
+ 			e.font = f24;
+ 		} else {
+@@ -32,6 +82,11 @@
+ 		e.y1 = e.y0 + size;
+ 		y += size;
+ 
++		if ((y+25) >= video.yres) {
++			x += 160;
++			y = 0;
++		}
++
+ 		e.x1 = e.x0 + e.font->textwidth(e.name.c_str());
+ 		
+ 		maps.push_back(e);
+@@ -54,7 +109,7 @@
+ 	lastbg = -1;
+ 	randBackground();
+ 
+-}
++}*/
+ 
+ 
+ Menu::~Menu()
+@@ -279,62 +334,66 @@
+ 			//f32->shprint(300,0,"World of Warcraft map viewer");
+ 			int w=freetype::width(morpheus40,"Nogg-It - A WoW Map Editer");
+ 			freetype::shprint(morpheus40,video.xres/2.0f-w/2.0f,1.0f," ");
+-			freetype::shprint(morpheus40,video.xres/2.0f-w/2.0f,1.0f,"Nogg-It - A WoW Map Editer");
++			freetype::shprint(morpheus40,video.xres/2.0f-w/2.0f,1.0f,"Nogg-It - A WoW Map Editor");
+ 			//f16->print(380,40,"reverse engineered and written by ufoz");
+-			w=freetype::width(arial16,"Based on WoWMapView 0.5");
+-			freetype::shprint(arial16,video.xres/2.0f-w/2.0f,44.0f,"Based on WoWMapView 0.5");
++			w=freetype::width(arial16,"Alpha workind with WoW 2.x.x (edited by BEKET)");
++			freetype::shprint(arial16,video.xres/2.0f-w/2.0f,44.0f,"Beta workind with WoW 2.x.x (recoded by BEKET)");
++			
+ 
+ 			f16->shprint(video.xres - 20 - f16->textwidth(APP_VERSION), 10, APP_VERSION);
+ 			
+-			f24->shprint(680, 74, "Controls");
+-			f16->shprint(620,110, "F1 - toggle models\n"
+-								"F2 - toggle doodads\n"
+-								"F3 - toggle terrain\n"
+-								"F4 - toggle stats\n"
+-								"Shift + F4 - toggle selecting\n"
+-								"F5 - save bookmark\n"
+-								"F6 - toggle map objects\n"
++			f24->shprint(video.xres-280, 74, "Controls");
++			f16->shprint(video.xres-280,110, "F1 - F4, F6, F8, F9 - toggles\n"
++				                "F5 - save bookmark\n"//it is too easy to understand =))
+ 								"F7 - toggle chunk lines\n"
+-								"F8 - toggle Detailed Info\n"
+-								"F9 - toggle Map Contour\n"
+-								"F10 - Reload Textures\n"
+-								"F11 - Reload Models\n"
+-								"F12 - Reload WMOs\n"
++								"Shift + F4 - advanced selecting\n"
++								"F10 - F12 - reload (blp,mdx,wmo)\n"
+ 								"H - disable highres terrain\n"
+ 								"I - toggle invert mouse\n"
+-								"J - Reload ADT Tile\n"
+-								"K - Save ADT Tile\n"
+-								"T - Changes Terrain Mode\n"
+-								"Y - Changes Brush Type\n"
++								"J - reload ADT tile\n"
++								"K - SAVE ADT tile\n"
++								"T - changes terrain mode\n"
++								"Y - changes brush type\n"
+ 								"M - minimap\n"
+ 								"U - new minimap\n"
+-								"Ctrl + Shift + P - Save Map to RAW\n"
++								//Ctrl + Shift + P - Save Map to RAW\n"
+ 								"Esc - back/exit\n"
+ 								"WASD - move\n"
+-								"R - quick 180 degree turn\n"
++								//"R - quick 180 degree turn\n"
+ 								"F - toggle fog\n"
+-								"G - toggle drawing of chunk flag info\n"
+-								"+,- - adjust fog distance\n"
++								//"G - toggle drawing of chunk flag info\n"
++								//"+,- - adjust fog distance\n"
+ 								"O,P - slower/faster movement\n"
+-								"B,N - slower/faster time\n"
++								//"B,N - slower/faster time\n"
+ 								"\n"
+-								"Terrain Mode - Raise/Lower\n"
+-								"  Left Click + Shift - Raise Terrain\n"
+-								"  Left Click + Alt - Lower Terrain\n"
+-								"Terrain Mode - Flatten/Blur\n"
+-								"  Left Click + Shift - Flatten Terrain\n"
+-								"  Left Click + Alt - Blur Terrain\n"
++								"Terrain mode - raise/lower\n"
++								"  Left Click + Shift - raise terrain\n"
++								"  Left Click + Alt - lower terrain\n"
++								"Terrain mode - flatten/blur\n"
++								"  Left Click + Shift - flatten terrain\n"
++								"  Left Click + Alt - blur terrain\n"
++                                "\n"
++								"Mouse1 - select object\n"
++								"Mouse3 - move selected object\n"
++								"Alt + Mouse3 - scale(model only)\n"
++								"Shift,Ctrl,Alt + Mouse2 - rotate\n"
++								"0-9 - change wmo doodads set\n"
++								"C - MapChunkSettings (passive)\n"
++								"Z - chunk texture replace"
+ 			);
+ 
+ #ifdef SFMPQAPI
+-			f16->shprint(300, video.yres - 40, "World of Warcraft is (C) Blizzard Entertainment\n"
++			f16->shprint(video.xres/2.0f-w/2.0f, video.yres - 40, "World of Warcraft is (C) Blizzard Entertainment\n"
+ 				"Uses SFmpqapi, (C) ShadowFlare Software"
+ 			);
+ #else
+-			f16->shprint(300, video.yres - 20, "World of Warcraft is (C) Blizzard Entertainment");
++			w=freetype::width(arial16,"Alpha workind with WoW 2.x.x (edited by BEKET)");
++			freetype::shprint(arial16,video.xres/2.0f-w/2.0f-5,video.yres - 40,"Copyright to Cryect (Thank you! You are GREAT man!)");
++			f16->shprint(video.xres/2.0f-w/2.0f, video.yres - 20, "World of Warcraft is (C) Blizzard Entertainment");
+ #endif
+ 
+-			f24->shprint(360, 74, "Bookmarks");
++			f24->shprint(video.xres/2.0f-130, 74, "Bookmarks");
++			refreshBookmarks();
+ 			for (unsigned int i=0; i<bookmarks.size(); i++) {
+ 				f16->shdrawtext(bookmarks[i].x0, bookmarks[i].y0, bookmarks[i].label.c_str());
+ 			}
+@@ -450,7 +509,7 @@
+ 		return;
+ 
+ 	int y = 110;
+-	const int x = 300;
++	const int x = video.xres/2.0f-130;
+ 
+ 	while (!f.eof()) {
+ 		Bookmark b;
